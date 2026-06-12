@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>扫码打开</title>
+<style>
+body { font-family: sans-serif; text-align: center; padding: 30px; background: #f8f9fb; }
+.card { background: white; border-radius: 16px; padding: 30px; max-width: 360px; margin: 0 auto; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+h2 { margin: 0 0 8px; color: #1a1a2e; }
+p { color: #6b7280; font-size: 14px; margin: 0 0 20px; }
+.qr { width: 200px; height: 200px; }
+.url { font-size: 12px; color: #6366f1; word-break: break-all; margin-top: 16px; padding: 10px; background: #f0f4ff; border-radius: 8px; }
+.help { font-size: 13px; color: #6b7280; margin-top: 20px; text-align: left; line-height: 1.8; }
+.step { display: flex; gap: 8px; align-items: baseline; }
+.num { background: #6366f1; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; }
+</style></head><body>
+<div class="card">
+<h2>宏观数据时间轴</h2>
+<p>Macro Timeline v1.01</p>
+<div id="qrcode"></div>
+<div class="url">https://7a4408dca95d4b97bdaa7785f0368aa7.app.codebuddy.work</div>
+<div class="help">
+<div class="step"><span class="num">1</span> 手机浏览器打开上方链接</div>
+<div class="step"><span class="num">2</span> 菜单 → 添加到主屏幕</div>
+<div class="step"><span class="num">3</span> 桌面出现 App 图标</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script>new QRCode(document.getElementById('qrcode'),{text:'https://7a4408dca95d4b97bdaa7785f0368aa7.app.codebuddy.work',width:200,height:200});</script>
+</body></html>
