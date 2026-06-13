@@ -21,13 +21,42 @@ jobs:
         with:
           python-version: '3.12'
       
-      - name: 运行数据更新
+      - name: 安装依赖
+        run: pip install requests
+
+      - name: 第1步-日历推算
         run: python scripts/run_daily.py
-      
+
+      - name: 第2步-在线抓取实际数据
+        run: |
+          echo "=== 中国数据 ==="
+          python scripts/collect_china.py 2>&1 || echo "[china] 抓取失败，日历已更新"
+          echo ""
+          echo "=== 国际数据 ==="
+          python scripts/collect_intl.py 2>&1 || echo "[intl] 抓取失败，日历已更新"
+          echo ""
+          echo "=== 重新合并(保留不覆盖) ==="
+          python scripts/run_daily.py 2>&1 || echo "[merge] 日历推算完成"
+
+      - name: 第3步-生成抓取日志
+        run: |
+          python -c "
+          import json
+          from datetime import datetime
+          with open('data/calendar.json','r',encoding='utf-8') as f:
+              data = json.load(f)
+          released = sum(1 for e in data['events'] if e.get('actual') is not None)
+          total = len(data['events'])
+          log = f'{datetime.now().strftime(\"%Y-%m-%d %H:%M\")} | 已发布 {released}/{total} | GitHub Actions 自动更新'
+          with open('data/update.log','a',encoding='utf-8') as f:
+              f.write(log + '\n')
+          print(log)
+          "
+
       - name: 提交更新
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/calendar.json data/calendar_data.js
-          git diff --staged --quiet || git commit -m "自动更新: $(date +'%Y-%m-%d')"
+          git add data/
+          git diff --staged --quiet || git commit -m "自动更新: $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
           git push

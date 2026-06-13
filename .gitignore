@@ -15,3 +15,13 @@ Thumbs.db
 # Build
 *.zip
 macro-timeline-v*/
+
+# Temporary files
+*_payload.json
+*_push.json
+*.png
+*.svg
+qr.html
+
+# WorkBuddy
+.workbuddy/
