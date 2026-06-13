@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-06-12 (fixed)",
-    "generated_by": "rebuild_all.py",
+    "generated_at": "2026-06-13 (fixed)",
+    "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 301,
-    "upcoming_events": 91,
+    "total_events": 302,
+    "upcoming_events": 87,
     "released_events": 100,
-    "pending_events": 163,
-    "upcoming_with_forecast": 17,
-    "historical_events": 210,
+    "pending_events": 122,
+    "upcoming_with_forecast": 12,
+    "historical_events": 215,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 131,
-      "美国": 113,
+      "美国": 114,
       "英国": 17,
       "日本": 16,
       "欧元区": 24
@@ -35,7 +35,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20251215",
@@ -52,7 +53,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20251215",
@@ -69,7 +71,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20251215",
@@ -86,7 +89,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20251215",
@@ -103,7 +107,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20251215",
@@ -120,7 +125,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20251216",
@@ -137,7 +143,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20251217",
@@ -154,7 +161,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20251219",
@@ -171,7 +179,8 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20251222",
@@ -188,7 +197,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20251222",
@@ -205,7 +215,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20251222",
@@ -222,7 +233,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20251223",
@@ -239,7 +251,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20251225",
@@ -256,7 +269,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20251226",
@@ -273,7 +287,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20251229",
@@ -290,7 +305,8 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20251229",
@@ -307,7 +323,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20251229",
@@ -324,7 +341,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20251229",
@@ -341,7 +359,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20251230",
@@ -358,7 +377,8 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260101",
@@ -375,7 +395,8 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_MFG_20260101",
@@ -392,7 +413,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260102",
@@ -409,10 +431,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "released",
       "actual": 22.8,
       "forecast": 20.0,
-      "previous": 21.2
+      "previous": 21.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_UNEMPLOYMENT_20260102",
@@ -429,10 +452,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 4.1,
       "forecast": 4.2,
-      "previous": 4.2
+      "previous": 4.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260105",
@@ -449,7 +473,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260106",
@@ -466,7 +491,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FX_RESERVES_20260107",
@@ -483,10 +509,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "released",
       "actual": 32170,
       "forecast": 32000,
-      "previous": 32230
+      "previous": 32230,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_CPI_20260109",
@@ -503,10 +530,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.1,
       "forecast": 0.1,
-      "previous": 0.2
+      "previous": 0.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PPI_20260109",
@@ -523,10 +551,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.2,
       "forecast": -2.0,
-      "previous": -2.5
+      "previous": -2.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_TRADE_20260112",
@@ -543,7 +572,8 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_M2_20260112",
@@ -560,7 +590,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260112",
@@ -577,7 +608,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260112",
@@ -594,7 +626,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260112",
@@ -611,7 +644,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260112",
@@ -628,7 +662,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20260113",
@@ -645,7 +680,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20260114",
@@ -662,7 +698,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260115",
@@ -679,7 +716,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260115",
@@ -696,7 +734,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260115",
@@ -713,7 +752,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20260115",
@@ -730,7 +770,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_GDP_20260116",
@@ -747,7 +788,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20260116",
@@ -764,10 +806,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.6,
       "forecast": 0.5,
-      "previous": 0.3
+      "previous": 0.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20260119",
@@ -784,7 +827,8 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260119",
@@ -801,7 +845,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260120",
@@ -818,10 +863,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20260120",
@@ -838,10 +884,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.6,
       "forecast": 3.6,
-      "previous": 3.6
+      "previous": 3.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20260121",
@@ -858,7 +905,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20260123",
@@ -875,7 +923,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20260126",
@@ -892,7 +941,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20260126",
@@ -909,7 +959,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260126",
@@ -926,7 +977,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260126",
@@ -943,7 +995,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20260127",
@@ -960,7 +1013,8 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-01-29",
@@ -977,11 +1031,11 @@
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 4.5,
       "forecast": 4.5,
-      "previous": 4.5
+      "previous": 4.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20260201",
@@ -998,7 +1052,8 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260201",
@@ -1015,7 +1070,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260202",
@@ -1032,10 +1088,11 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 50.3,
       "forecast": 50.1,
-      "previous": 50.1
+      "previous": 50.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_MFG_20260202",
@@ -1052,10 +1109,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 50.9,
       "forecast": 50.8,
-      "previous": 50.9
+      "previous": 50.9,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260203",
@@ -1072,10 +1130,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 53.2,
       "forecast": 53.0,
-      "previous": 52.5
+      "previous": 52.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260206",
@@ -1092,10 +1151,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "released",
       "actual": 14.3,
       "forecast": 17.0,
-      "previous": 22.8
+      "previous": 22.8,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_UNEMPLOYMENT_20260206",
@@ -1112,10 +1172,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 4.0,
       "forecast": 4.1,
-      "previous": 4.1
+      "previous": 4.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260206",
@@ -1132,7 +1193,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CPI_20260209",
@@ -1149,10 +1211,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -0.1,
       "forecast": 0.3,
-      "previous": 0.1
+      "previous": 0.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PPI_20260209",
@@ -1169,10 +1232,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.6,
       "forecast": -2.3,
-      "previous": -2.2
+      "previous": -2.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_FX_RESERVES_20260209",
@@ -1189,10 +1253,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "released",
       "actual": 32170,
       "forecast": 32000,
-      "previous": 32230
+      "previous": 32230,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_TRADE_20260210",
@@ -1209,10 +1274,11 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "released",
       "actual": 823.7,
       "forecast": 810.0,
-      "previous": 692.4
+      "previous": 692.4,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_M2_20260212",
@@ -1229,10 +1295,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 7.0,
       "forecast": 7.1,
-      "previous": 7.3
+      "previous": 7.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260212",
@@ -1249,10 +1316,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
       "actual": 52300,
       "forecast": 50000,
-      "previous": 25300
+      "previous": 25300,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260212",
@@ -1269,10 +1337,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
       "actual": 34800,
       "forecast": 33000,
-      "previous": 5800
+      "previous": 5800,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260212",
@@ -1289,10 +1358,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.6,
       "forecast": 2.7,
-      "previous": 2.8
+      "previous": 2.8,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260212",
@@ -1309,10 +1379,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.2,
-      "previous": 3.3
+      "previous": 3.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20260213",
@@ -1329,7 +1400,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260216",
@@ -1346,10 +1418,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 6.2,
       "forecast": 5.8,
-      "previous": 5.4
+      "previous": 5.4,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260216",
@@ -1366,10 +1439,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.8,
       "forecast": 3.5,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260216",
@@ -1386,7 +1460,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20260216",
@@ -1403,7 +1478,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20260216",
@@ -1420,10 +1496,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.2,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20260216",
@@ -1440,10 +1517,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.6,
       "forecast": 0.5,
-      "previous": 0.3
+      "previous": 0.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260217",
@@ -1460,10 +1538,11 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.8,
       "forecast": 2.6,
-      "previous": 2.5
+      "previous": 2.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20260219",
@@ -1480,10 +1559,11 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.2,
       "forecast": 3.0,
-      "previous": 2.9
+      "previous": 2.9,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260220",
@@ -1500,10 +1580,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20260220",
@@ -1520,10 +1601,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.6,
       "forecast": 3.6,
-      "previous": 3.6
+      "previous": 3.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20260223",
@@ -1540,7 +1622,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260223",
@@ -1557,10 +1640,11 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.3,
       "forecast": 2.3,
-      "previous": 2.2
+      "previous": 2.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20260223",
@@ -1577,7 +1661,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260223",
@@ -1594,7 +1679,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20260224",
@@ -1611,7 +1697,8 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20260225",
@@ -1628,7 +1715,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20260226",
@@ -1645,10 +1733,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.2,
       "forecast": -2.0,
-      "previous": -1.1
+      "previous": -1.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20260301",
@@ -1665,7 +1754,8 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260301",
@@ -1682,7 +1772,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260302",
@@ -1699,10 +1790,11 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 50.3,
       "forecast": 50.1,
-      "previous": 50.1
+      "previous": 50.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_MFG_20260302",
@@ -1719,10 +1811,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 50.3,
       "forecast": 50.5,
-      "previous": 50.9
+      "previous": 50.9,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260303",
@@ -1739,7 +1832,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260306",
@@ -1756,10 +1850,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "released",
       "actual": 15.1,
       "forecast": 16.0,
-      "previous": 14.3
+      "previous": 14.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_UNEMPLOYMENT_20260306",
@@ -1776,10 +1871,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 4.1,
       "forecast": 4.0,
-      "previous": 4.0
+      "previous": 4.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260306",
@@ -1796,7 +1892,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CPI_20260309",
@@ -1813,10 +1910,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.0,
       "forecast": 0.1,
-      "previous": -0.1
+      "previous": -0.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PPI_20260309",
@@ -1833,10 +1931,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.4,
       "forecast": -2.5,
-      "previous": -2.6
+      "previous": -2.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_FX_RESERVES_20260309",
@@ -1853,10 +1952,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "released",
       "actual": 32280,
       "forecast": 32150,
-      "previous": 32170
+      "previous": 32170,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_TRADE_20260310",
@@ -1873,7 +1973,8 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_M2_20260312",
@@ -1890,10 +1991,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 7.1,
       "forecast": 7.0,
-      "previous": 7.0
+      "previous": 7.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260312",
@@ -1910,10 +2012,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
       "actual": 38600,
       "forecast": 37000,
-      "previous": 18600
+      "previous": 18600,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260312",
@@ -1930,7 +2033,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260312",
@@ -1947,10 +2051,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.6,
       "forecast": 2.6,
-      "previous": 2.6
+      "previous": 2.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260312",
@@ -1967,10 +2072,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.0,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20260313",
@@ -1987,7 +2093,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260316",
@@ -2004,7 +2111,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260316",
@@ -2021,7 +2129,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260316",
@@ -2038,7 +2147,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20260316",
@@ -2055,7 +2165,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20260316",
@@ -2072,7 +2183,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20260316",
@@ -2089,10 +2201,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -0.8,
       "forecast": -0.5,
-      "previous": 0.6
+      "previous": 0.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260317",
@@ -2109,10 +2222,11 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.0,
       "forecast": 2.8,
-      "previous": 2.8
+      "previous": 2.8,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20260319",
@@ -2129,7 +2243,8 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-03-19",
@@ -2146,11 +2261,11 @@
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 4.5,
       "forecast": 4.5,
-      "previous": 4.5
+      "previous": 4.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260320",
@@ -2167,10 +2282,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20260320",
@@ -2187,7 +2303,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20260323",
@@ -2204,7 +2321,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20260323",
@@ -2221,7 +2339,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20260325",
@@ -2238,7 +2357,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20260326",
@@ -2255,7 +2375,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20260330",
@@ -2272,7 +2393,8 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260330",
@@ -2289,7 +2411,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260330",
@@ -2306,7 +2429,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260330",
@@ -2323,7 +2447,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20260331",
@@ -2340,10 +2465,11 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 102.2,
       "forecast": 103.5,
-      "previous": 104.1
+      "previous": 104.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260401",
@@ -2360,7 +2486,8 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_MFG_20260401",
@@ -2377,10 +2504,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 49.7,
       "forecast": 50.0,
-      "previous": 50.3
+      "previous": 50.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260403",
@@ -2397,7 +2525,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260403",
@@ -2414,10 +2543,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "released",
       "actual": 17.7,
       "forecast": 18.0,
-      "previous": 15.1
+      "previous": 15.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_UNEMPLOYMENT_20260403",
@@ -2434,10 +2564,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 4.2,
       "forecast": 4.1,
-      "previous": 4.1
+      "previous": 4.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260406",
@@ -2454,7 +2585,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FX_RESERVES_20260407",
@@ -2471,7 +2603,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CPI_20260409",
@@ -2488,10 +2621,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.0,
       "forecast": 0.1,
-      "previous": -0.1
+      "previous": -0.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PPI_20260409",
@@ -2508,10 +2642,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.4,
       "forecast": -2.5,
-      "previous": -2.6
+      "previous": -2.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_TRADE_20260410",
@@ -2528,7 +2663,8 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_M2_20260413",
@@ -2545,10 +2681,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 7.1,
       "forecast": 7.0,
-      "previous": 7.0
+      "previous": 7.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260413",
@@ -2565,10 +2702,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
       "actual": 38600,
       "forecast": 37000,
-      "previous": 18600
+      "previous": 18600,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260413",
@@ -2585,7 +2723,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260413",
@@ -2602,10 +2741,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.5,
       "forecast": 2.5,
-      "previous": 2.6
+      "previous": 2.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260413",
@@ -2622,10 +2762,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.0,
       "forecast": 3.0,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20260413",
@@ -2642,7 +2783,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20260414",
@@ -2659,7 +2801,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260415",
@@ -2676,7 +2819,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260415",
@@ -2693,7 +2837,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260415",
@@ -2710,7 +2855,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20260415",
@@ -2727,7 +2873,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_GDP_20260416",
@@ -2744,10 +2891,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 5.2,
       "forecast": 5.1,
-      "previous": 5.0
+      "previous": 5.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20260416",
@@ -2764,10 +2912,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.5,
       "forecast": 0.3,
-      "previous": -0.8
+      "previous": -0.8,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260417",
@@ -2784,10 +2933,11 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.9,
       "forecast": 2.9,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260420",
@@ -2804,10 +2954,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20260420",
@@ -2824,7 +2975,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20260420",
@@ -2841,10 +2993,11 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.0,
       "forecast": 3.1,
-      "previous": 3.2
+      "previous": 3.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20260421",
@@ -2861,7 +3014,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20260423",
@@ -2878,7 +3032,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20260427",
@@ -2895,7 +3050,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20260427",
@@ -2912,7 +3068,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260427",
@@ -2929,10 +3086,11 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.2,
       "forecast": 2.3,
-      "previous": 2.3
+      "previous": 2.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260427",
@@ -2949,7 +3107,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20260428",
@@ -2966,7 +3125,8 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20260501",
@@ -2983,10 +3143,11 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "released",
       "actual": 50.5,
       "forecast": 50.2,
-      "previous": 50.2
+      "previous": 50.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260501",
@@ -3003,7 +3164,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260501",
@@ -3020,7 +3182,8 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_MFG_20260501",
@@ -3037,10 +3200,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "released",
       "actual": 49.7,
       "forecast": 50.0,
-      "previous": 50.3
+      "previous": 50.3,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260501",
@@ -3057,10 +3221,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "released",
       "actual": 17.7,
       "forecast": 18.0,
-      "previous": 15.1
+      "previous": 15.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_UNEMPLOYMENT_20260501",
@@ -3077,10 +3242,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 4.2,
       "forecast": 4.1,
-      "previous": 4.1
+      "previous": 4.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260504",
@@ -3097,7 +3263,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260506",
@@ -3114,7 +3281,8 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FX_RESERVES_20260507",
@@ -3131,7 +3299,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-05-07",
@@ -3169,10 +3338,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.1,
       "forecast": 0.2,
-      "previous": 0.0
+      "previous": 0.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PPI_20260511",
@@ -3189,10 +3359,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": -2.5,
       "forecast": -2.4,
-      "previous": -2.4
+      "previous": -2.4,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_TRADE_20260511",
@@ -3209,7 +3380,8 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_M2_20260512",
@@ -3226,10 +3398,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 7.2,
       "forecast": 7.0,
-      "previous": 7.1
+      "previous": 7.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260512",
@@ -3246,10 +3419,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
       "actual": 49800,
       "forecast": 45000,
-      "previous": 38600
+      "previous": 38600,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260512",
@@ -3266,7 +3440,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260512",
@@ -3283,10 +3458,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.5,
       "forecast": 2.5,
-      "previous": 2.6
+      "previous": 2.6,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260512",
@@ -3303,10 +3479,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.0,
       "forecast": 3.0,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_GDP_20260513",
@@ -3323,7 +3500,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_PPI_20260514",
@@ -3340,7 +3518,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260515",
@@ -3357,7 +3536,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260515",
@@ -3374,7 +3554,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260515",
@@ -3391,7 +3572,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_UNEMPLOYMENT_20260515",
@@ -3408,7 +3590,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_RETAIL_20260518",
@@ -3425,10 +3608,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 0.3,
       "forecast": 0.4,
-      "previous": 0.5
+      "previous": 0.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260518",
@@ -3445,7 +3629,8 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20260519",
@@ -3462,10 +3647,11 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.0,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260520",
@@ -3482,10 +3668,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 3.1,
       "forecast": 3.1,
-      "previous": 3.1
+      "previous": 3.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20260520",
@@ -3502,7 +3689,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_EXISTING_HOME_20260521",
@@ -3519,7 +3707,8 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20260525",
@@ -3536,7 +3725,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260525",
@@ -3553,10 +3743,11 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "released",
       "actual": 2.1,
       "forecast": 2.1,
-      "previous": 2.2
+      "previous": 2.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_PMI_MFG_FLASH_20260525",
@@ -3573,7 +3764,8 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260525",
@@ -3590,7 +3782,8 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_DURABLE_GOODS_20260526",
@@ -3607,7 +3800,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_CONSUMER_CONF_20260526",
@@ -3624,7 +3818,8 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_PMI_MFG_20260601",
@@ -3641,10 +3836,11 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "released",
       "actual": 50.4,
       "forecast": 50.3,
-      "previous": 50.5
+      "previous": 50.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260601",
@@ -3661,7 +3857,8 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_PMI_20260601",
@@ -3882,11 +4079,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 7.2,
       "forecast": 7.1,
-      "previous": 7.2
+      "previous": 7.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260612",
@@ -3903,11 +4100,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
-      "notes": "",
       "actual": 51200,
       "forecast": 48000,
-      "previous": 49800
+      "previous": 49800,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260612",
@@ -3924,11 +4121,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
-      "notes": "",
       "actual": 14800,
       "forecast": 14000,
-      "previous": 13500
+      "previous": 13500,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260612",
@@ -3945,11 +4142,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 2.7,
       "forecast": 2.6,
-      "previous": 2.5
+      "previous": 2.5,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CORE_CPI_20260612",
@@ -3966,11 +4163,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 3.2,
       "forecast": 3.1,
-      "previous": 3.0
+      "previous": 3.0,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_INDUSTRIAL_20260615",
@@ -3987,10 +4184,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
-      "notes": "",
       "forecast": 5.9,
-      "previous": 6.0
+      "previous": 6.0,
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "CN_RETAIL_20260615",
@@ -4007,10 +4204,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
-      "notes": "",
       "forecast": 4.2,
-      "previous": 3.8
+      "previous": 3.8,
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "CN_FAI_20260615",
@@ -4099,10 +4296,10 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
-      "notes": "",
       "forecast": 0.3,
-      "previous": 0.2
+      "previous": 0.2,
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "UK_CPI_20260617",
@@ -4119,10 +4316,10 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
-      "notes": "",
       "forecast": 2.9,
-      "previous": 2.9
+      "previous": 2.9,
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-06-18",
@@ -4139,10 +4336,10 @@
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "unit": "%",
-      "status": "upcoming",
-      "notes": "",
       "forecast": 4.25,
-      "previous": 4.25
+      "previous": 4.25,
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_JOBLESS_CLAIMS_20260618",
@@ -4177,11 +4374,11 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
+      "actual": 3.0,
       "forecast": 2.9,
       "previous": 3.1,
-      "actual": 3.0
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_LPR_1Y_20260622",
@@ -4324,11 +4521,11 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "released",
-      "notes": "",
       "actual": 50.5,
       "forecast": 50.2,
-      "previous": 50.4
+      "previous": 50.4,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_PMI_NONMFG_20260629",
@@ -4345,11 +4542,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "released",
-      "notes": "",
       "actual": 51.2,
       "forecast": 51.0,
-      "previous": 51.1
+      "previous": 51.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "EU_CPI_FLASH_20260629",
@@ -4366,11 +4563,11 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 2.1,
       "forecast": 2.1,
-      "previous": 2.1
+      "previous": 2.1,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "JP_INDUSTRIAL_20260629",
@@ -4639,11 +4836,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "released",
-      "notes": "",
       "actual": 7.2,
       "forecast": 7.1,
-      "previous": 7.2
+      "previous": 7.2,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260713",
@@ -4660,11 +4857,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
-      "notes": "",
       "actual": 51200,
       "forecast": 48000,
-      "previous": 49800
+      "previous": 49800,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "CN_NEW_LOANS_20260713",
@@ -4681,11 +4878,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "released",
-      "notes": "",
       "actual": 14800,
       "forecast": 14000,
-      "previous": 13500
+      "previous": 13500,
+      "status": "released",
+      "notes": ""
     },
     {
       "id": "US_CPI_20260713",
@@ -5496,6 +5693,23 @@
       "unit": "万人",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "US_PPI_20260814",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "PPI 生产者物价指数（同比）",
+      "indicator_en": "PPI YoY",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-14",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-09-17",
