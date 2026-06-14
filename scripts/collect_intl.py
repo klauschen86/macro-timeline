@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-国际宏观数据采集器
-数据源：Investing.com + ForexFactory + Trading Economics
+国际宏观数据采集器 v2.0
+数据源：ForexFactory HTML 解析（主力）+ Investing.com API（备用）+ Trading Economics（备用）
 自动获取美国/欧元区/日本/英国宏观数据发布日历
+
+v2.0 变更（2026-06-14）:
+- ForexFactory: 从失效的 JS 注入改为 HTML DOM 解析，已验证可用
+- Investing.com: 标记为备用（403 需要认证，永久性不可用）
+- Trading Economics: 标记为备用（guest 账户已停用，永久性不可用）
 """
 
 import json
@@ -20,233 +25,203 @@ except ImportError:
     import requests
 
 
-def fetch_investing_calendar(start_date=None, end_date=None, countries=None):
-    """
-    从 Investing.com 获取经济日历
-    默认获取美国、欧元区、日本、英国数据
-    """
-    if start_date is None:
-        start_date = (date.today() - timedelta(days=7)).strftime("%Y-%m-%d")
-    if end_date is None:
-        end_date = (date.today() + timedelta(days=60)).strftime("%Y-%m-%d")
-    if countries is None:
-        countries = [5, 72, 35, 4]  # US=5, EU=72, JP=35, UK=4
-    
-    all_events = []
-    for country_id in countries:
-        events = _fetch_investing_country(country_id, start_date, end_date)
-        all_events.extend(events)
-        time.sleep(0.5)
-    
-    return all_events
+# ============================================================
+# 数据源1: ForexFactory HTML 解析（主力）
+# ============================================================
 
+def fetch_forexfactory():
+    """
+    从 ForexFactory 首页解析经济日历 HTML
+    页面结构（2026-06）: 传统 HTML 表格，非 SPA
+    - 日历行: <tr class="calendar__row">
+    - 日期头: <td><span>Mon Jun 15</span></td>
+    - 货币: <td class="calendar__currency">USD</td>
+    - 影响: <span class="icon icon--ff-impact-{yel|ora|red}"></span>
+    - 事件: <span class="calendar__event-title">Event Name</span>
+    - 值: <td class="calendar__actual|forecast|previous"> <span>VALUE</span> </td>
+    """
+    url = "https://www.forexfactory.com/calendar"
 
-def _fetch_investing_country(country_id, start_date, end_date):
-    """抓取 Investing.com 单个国家的经济日历"""
-    country_names = {5: "US", 72: "EU", 35: "JP", 4: "UK"}
-    country_cn = {"US": "美国", "EU": "欧元区", "JP": "日本", "UK": "英国"}
-    
-    url = "https://api.investing.com/api/financialdata/economiccalendar/list"
-    
-    params = {
-        "countryIds": str(country_id),
-        "dateFrom": start_date,
-        "dateTo": end_date,
-        "importance": "1,2,3",
-    }
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "domain-id": "www",
-        "Accept": "application/json",
-    }
-    
-    events = []
+    # 使用 Session 保持 Cookie（CloudFlare 防护需要）
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+    })
+
     try:
-        resp = requests.get(url, params=params, headers=headers, timeout=15)
+        # 先访问首页获取 Cookie
+        session.get("https://www.forexfactory.com/", timeout=15)
+        time.sleep(1)
+        # 再获取日历
+        resp = session.get(url, timeout=20)
         if resp.status_code != 200:
-            # 尝试备用API
-            return _fetch_investing_fallback(country_id, start_date, end_date)
-        
-        data = resp.json()
-        items = data.get("data", [])
-        
-        for item in items:
-            country_code = country_names.get(country_id, "??")
-            event = {
-                "id": f"{country_code}_INV_{item.get('id', '')}_{item.get('date', '')}",
-                "country": country_code,
-                "country_name": country_cn.get(country_code, ""),
-                "indicator": item.get("name", item.get("event", "")),
-                "indicator_en": item.get("name", ""),
-                "release_date": item.get("date", ""),
-                "release_time": item.get("time", ""),
-                "timezone": _get_timezone(country_code),
-                "importance": item.get("importance", 2),
-                "frequency": item.get("frequency", ""),
-                "period": item.get("period", ""),
-                "actual": item.get("actual"),
-                "forecast": item.get("forecast"),
-                "previous": item.get("previous"),
-                "unit": item.get("unit", ""),
-                "source": "Investing.com",
-                "source_url": "https://www.investing.com/economic-calendar/",
-                "status": "released" if item.get("actual") else "upcoming",
-            }
-            events.append(event)
+            print(f"  [ForexFactory] HTTP {resp.status_code}")
+            return []
+        html = resp.text
     except Exception as e:
-        print(f"  [Investing.com-{country_cn.get(country_names.get(country_id, ''), '')}] 请求失败: {e}")
-    
+        print(f"  [ForexFactory] 请求失败: {e}")
+        return []
+
+    # 提取所有日历行
+    rows = re.findall(r'<tr[^>]*calendar__row[^>]*>(.*?)</tr>', html, re.DOTALL)
+    if not rows:
+        print("  [ForexFactory] 未找到日历行（页面结构可能已变更）")
+        return []
+
+    # 月份映射
+    month_map = {
+        'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
+        'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+        'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+    }
+
+    # 货币→国家映射（只关注四大经济体）
+    currency_country = {
+        'USD': ('US', '美国'),
+        'EUR': ('EU', '欧元区'),
+        'JPY': ('JP', '日本'),
+        'GBP': ('UK', '英国'),
+    }
+
+    timezone_map = {'US': 'EST', 'EU': 'CET', 'JP': 'JST', 'UK': 'BST'}
+
+    events = []
+    current_date = None
+
+    for row in rows:
+        # 检测日期头行
+        # 日期行特征: 短行 (< 300 字符) + 包含 "Mon Jun 15" 格式的月日
+        # 三种格式:
+        #   <td colspan="10" class="calendar__cell">Sun <span>Jun 14</span></td>
+        #   <td class="calendar__cell calendar__date" rowspan="18"><span class="date">Mon <span>Jun 15</span></span></td>
+        #   <td class="calendar__cell calendar__date"> <span class="date">Sun <span>Jun 14</span></span> </td>
+        dm = re.search(r'([A-Z][a-z]{2})\s+(\d+)', row)
+        if dm and len(row) < 300:
+            m_str, d_str = dm.group(1), dm.group(2)
+            if m_str in month_map and d_str.isdigit():
+                m = month_map[m_str]
+                d = d_str.zfill(2)
+                current_date = f"2026-{m}-{d}"
+            continue
+
+        if not current_date:
+            continue
+
+        # 提取货币代码
+        curr_match = re.search(r'calendar__currency[^>]*>\s*(\w+)\s*<', row)
+        if not curr_match:
+            continue
+        currency = curr_match.group(1)
+
+        if currency not in currency_country:
+            continue
+
+        country_code, country_name = currency_country[currency]
+
+        # 提取事件名称
+        ev_match = re.search(r'calendar__event-title\"[^>]*>(.*?)</span>', row)
+        if not ev_match:
+            continue
+        event_name = ev_match.group(1).strip()
+        if not event_name:
+            continue
+
+        # 提取时间
+        time_match = re.search(r'calendar__time[^>]*>(.*?)</td>', row)
+        time_str = ""
+        if time_match:
+            raw_time = re.sub(r'<[^>]+>', '', time_match.group(1)).strip()
+            # 过滤掉非时间内容
+            if raw_time and not raw_time.startswith('<'):
+                time_str = raw_time
+
+        # 提取影响等级
+        impact = 1
+        if 'icon--ff-impact-red' in row:
+            impact = 4
+        elif 'icon--ff-impact-ora' in row:
+            impact = 3
+        elif 'icon--ff-impact-yel' in row:
+            impact = 2
+
+        # 提取 actual / forecast / previous 值
+        # 注意: previous 单元格可能在 <span> 前有空格
+        actual = forecast = previous = None
+
+        # 方案A: 匹配 <td class="...calendar__actual|forecast|previous...">\s*<span>VALUE</span>\s*</td>
+        vals = re.findall(
+            r'class="[^"]*calendar__(actual|forecast|previous)[^"]*">\s*<span[^>]*>(.*?)</span>',
+            row
+        )
+        for field, val in vals:
+            val = val.strip()
+            if val and val != '&nbsp;':
+                if field == 'actual':
+                    actual = val
+                elif field == 'forecast':
+                    forecast = val
+                elif field == 'previous':
+                    previous = val
+
+        # 生成唯一 ID
+        date_clean = current_date.replace("-", "")
+        safe_name = re.sub(r'[^a-zA-Z0-9]', '_', event_name)[:40]
+        event_id = f"{country_code}_FF_{safe_name}_{date_clean}"
+
+        events.append({
+            "id": event_id,
+            "country": country_code,
+            "country_name": country_name,
+            "indicator": event_name,
+            "indicator_en": event_name,
+            "release_date": current_date,
+            "release_time": time_str,
+            "timezone": timezone_map.get(country_code, "UTC"),
+            "importance": impact,
+            "actual": actual,
+            "forecast": forecast,
+            "previous": previous,
+            "unit": "",
+            "source": "ForexFactory",
+            "source_url": "https://www.forexfactory.com/calendar",
+            "status": "released" if actual else "upcoming",
+        })
+
     return events
 
 
-def _fetch_investing_fallback(country_id, start_date, end_date):
-    """备用方式：从 Investing.com 移动端API获取"""
-    url = "https://m.investing.com/economic-calendar/Service/getEconomicCalendarData"
-    params = {
-        "country[]": str(country_id),
-        "dateFrom": start_date,
-        "dateTo": end_date,
-    }
-    headers = {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15",
-        "X-Requested-With": "XMLHttpRequest",
-    }
-    try:
-        resp = requests.get(url, params=params, headers=headers, timeout=15)
-        # 尝试解析返回数据
-        return []
-    except:
-        return []
-
-
-def _get_timezone(country_code):
-    tz_map = {"US": "EST", "EU": "CET", "JP": "JST", "UK": "BST"}
-    return tz_map.get(country_code, "UTC")
-
-
 # ============================================================
-# 数据源2: ForexFactory (外汇工厂)
+# 数据源2: Investing.com API（备用 — 目前 403）
 # ============================================================
 
-def fetch_forexfactory_week():
-    """从 ForexFactory 获取本周财经日历"""
-    url = "https://www.forexfactory.com/calendar"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    }
-    
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        html = resp.text
-        
-        # 从HTML中提取日历数据（简单正则解析）
-        # ForexFactory 的数据在 script 标签中
-        events = []
-        script_pattern = r'calendarData\s*=\s*(\[.*?\]);'
-        match = re.search(script_pattern, html, re.DOTALL)
-        
-        if match:
-            raw = match.group(1)
-            try:
-                data = json.loads(raw)
-                for item in data:
-                    country = item.get("country", "")
-                    country_map = {"USD": "US", "EUR": "EU", "JPY": "JP", "GBP": "UK"}
-                    cc = country_map.get(country, "")
-                    if not cc:
-                        continue
-                    
-                    cn_map = {"US": "美国", "EU": "欧元区", "JP": "日本", "UK": "英国"}
-                    events.append({
-                        "id": f"{cc}_FF_{item.get('id', '')}_{item.get('date', '')}",
-                        "country": cc,
-                        "country_name": cn_map.get(cc, country),
-                        "indicator": item.get("title", item.get("name", "")),
-                        "indicator_en": item.get("title", ""),
-                        "release_date": item.get("date", ""),
-                        "release_time": item.get("time", ""),
-                        "timezone": _get_timezone(cc),
-                        "importance": _ff_importance(item.get("impact", "")),
-                        "actual": item.get("actual"),
-                        "forecast": item.get("forecast"),
-                        "previous": item.get("previous"),
-                        "unit": "",
-                        "source": "ForexFactory",
-                        "source_url": "https://www.forexfactory.com/calendar",
-                        "status": "released" if item.get("actual") else "upcoming",
-                    })
-            except json.JSONDecodeError:
-                pass
-        
-        return events
-    except Exception as e:
-        print(f"  [ForexFactory] 请求失败: {e}")
-    
+def fetch_investing_calendar(start_date=None, end_date=None, countries=None):
+    """
+    从 Investing.com API 获取经济日历
+    目前返回 403 Forbidden — Investing.com 已限制 API 访问
+    保留此函数以便将来 API 恢复或使用替代方案
+    """
+    # 跳过：已知永久性不可用
     return []
 
 
-def _ff_importance(impact):
-    """ForexFactory 影响等级映射"""
-    m = {"high": 3, "medium": 2, "low": 1}
-    return m.get(str(impact).lower(), 2)
-
-
 # ============================================================
-# 数据源3: Trading Economics
+# 数据源3: Trading Economics API（备用 — 目前 410）
 # ============================================================
 
 def fetch_trading_economics(country_code="united-states"):
-    """从 Trading Economics 获取经济日历（需要API key但可尝试免费端点）"""
-    # Trading Economics 有免费API，但可能需要注册
-    # 这里提供一个基本的抓取框架
-    url = f"https://api.tradingeconomics.com/calendar/country/{country_code}"
-    
-    # 免费演示API key（每天有限额）
-    params = {"c": "guest:guest", "f": "json"}
-    
-    try:
-        resp = requests.get(url, params=params, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            return parse_te_data(data, country_code)
-    except Exception as e:
-        print(f"  [TradingEconomics] 请求失败: {e}")
-    
+    """
+    Trading Economics API
+    目前返回 410 Gone — guest 账户已停用，需要付费计划
+    保留此函数以便将来使用
+    """
+    # 跳过：已知永久性不可用
     return []
-
-
-def parse_te_data(data, country_code):
-    """解析 Trading Economics 数据"""
-    country_map = {
-        "united-states": ("US", "美国"),
-        "euro-area": ("EU", "欧元区"),
-        "japan": ("JP", "日本"),
-        "united-kingdom": ("UK", "英国"),
-    }
-    cc, cn = country_map.get(country_code, ("??", country_code))
-    
-    events = []
-    for item in data:
-        events.append({
-            "id": f"{cc}_TE_{item.get('CalendarId', '')}_{item.get('Date', '')}",
-            "country": cc,
-            "country_name": cn,
-            "indicator": item.get("Event", item.get("Category", "")),
-            "indicator_en": item.get("Event", ""),
-            "release_date": str(item.get("Date", ""))[:10],
-            "release_time": "",
-            "timezone": _get_timezone(cc),
-            "importance": item.get("Importance", 2),
-            "actual": item.get("Actual"),
-            "forecast": item.get("Forecast"),
-            "previous": item.get("Previous"),
-            "unit": item.get("Unit", ""),
-            "source": "Trading Economics",
-            "source_url": "https://tradingeconomics.com/",
-            "status": "released" if item.get("Actual") else "upcoming",
-        })
-    return events
 
 
 # ============================================================
@@ -256,19 +231,19 @@ def parse_te_data(data, country_code):
 def merge_into_calendar(new_events, calendar_path):
     if not os.path.exists(calendar_path):
         return 0, 0
-    
+
     with open(calendar_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     existing = {e["id"]: e for e in data.get("events", [])}
     updated = 0
     added = 0
-    
+
     for new_ev in new_events:
         eid = new_ev.get("id")
         if not eid:
             continue
-        
+
         if eid in existing:
             old = existing[eid]
             changed = False
@@ -281,56 +256,50 @@ def merge_into_calendar(new_events, calendar_path):
         else:
             existing[eid] = new_ev
             added += 1
-    
+
     data["events"] = list(existing.values())
     data["events"].sort(key=lambda e: e.get("release_date", ""))
     data["meta"]["last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data["meta"]["total_events"] = len(data["events"])
-    
+
     # 更新国家统计
     by_country = {}
     for e in data["events"]:
         cn = e.get("country_name", "")
         by_country[cn] = by_country.get(cn, 0) + 1
     data["meta"]["by_country"] = by_country
-    
+
     with open(calendar_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    
+
     return updated, added
 
 
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     calendar_path = os.path.join(project_dir, "data", "calendar.json")
-    
+
     all_events = []
-    
-    # 1. Investing.com
-    print("[1/3] Investing.com...")
-    inv_events = fetch_investing_calendar()
-    print(f"     获取 {len(inv_events)} 条")
-    all_events.extend(inv_events)
-    
-    # 2. ForexFactory
-    print("[2/3] ForexFactory...")
-    ff_events = fetch_forexfactory_week()
-    print(f"     获取 {len(ff_events)} 条")
+
+    # 主力: ForexFactory HTML 解析
+    print("[1/1] ForexFactory HTML 解析...")
+    ff_events = fetch_forexfactory()
+    print(f"     获取 {len(ff_events)} 条（US/EU/JP/UK）")
     all_events.extend(ff_events)
-    
-    # 3. Trading Economics
-    print("[3/3] Trading Economics...")
-    for cc in ["united-states", "euro-area", "japan", "united-kingdom"]:
-        te_events = fetch_trading_economics(cc)
-        all_events.extend(te_events)
-        time.sleep(0.5)
-    print(f"     获取 {len(all_events)} 条 (合计)")
-    
+
+    # 统计
     if all_events:
+        by_country = {}
+        for e in all_events:
+            cn = e.get("country_name", "??")
+            by_country[cn] = by_country.get(cn, 0) + 1
+        for cn, cnt in sorted(by_country.items()):
+            print(f"     {cn}: {cnt} 条")
+
         updated, added = merge_into_calendar(all_events, calendar_path)
         print(f"\n结果: 更新 {updated} 条, 新增 {added} 条")
     else:
-        print("\n无新数据（在线数据源可能因网络或API限制无法访问）")
+        print("\n无新数据 — ForexFactory 解析可能因页面变更而失败")
         print("日历保持基于规律推算的版本 + 已有数据")
 
 

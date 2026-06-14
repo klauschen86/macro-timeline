@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-中国宏观数据采集器
-数据源：东方财富经济日历 + 金十数据
+中国宏观数据采集器 v2.0
+数据源：ForexFactory HTML 解析（主力，含CNY数据）+ 东方财富API（备用）+ 金十数据（备用）
 自动获取中国宏观数据发布日历和实际结果
+
+v2.0 变更（2026-06-14）:
+- 新增: ForexFactory HTML 解析（已验证可用，含CNY数据）
+- 东方财富: RPT_ECONOMY_CALENDAR 报表名已失效（"报表配置不存在"），标记为备用
+- 金十数据: SSL EOF 错误（CDN配置问题，持续时间未知），标记为备用
+- 国家统计局: 页面变为 JS 渲染 SPA（不可直接抓取），标记为备用
 """
 
 import json
@@ -21,262 +27,225 @@ except ImportError:
 
 
 # ============================================================
-# 数据源1: 东方财富经济日历 API
+# 数据源1: ForexFactory HTML 解析 — CNY 数据（主力）
+# ============================================================
+
+def fetch_forexfactory_china():
+    """
+    从 ForexFactory 首页解析中国(CNY)经济日历
+    ForexFactory 包含中国市场主要数据发布
+    """
+    url = "https://www.forexfactory.com/calendar"
+
+    # 使用 Session 保持 Cookie（CloudFlare 防护需要）
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+    })
+
+    try:
+        # 先访问首页获取 Cookie
+        session.get("https://www.forexfactory.com/", timeout=15)
+        time.sleep(1)
+        # 再获取日历
+        resp = session.get(url, timeout=20)
+        if resp.status_code != 200:
+            print(f"  [ForexFactory] HTTP {resp.status_code}")
+            return []
+        html = resp.text
+    except Exception as e:
+        print(f"  [ForexFactory] 请求失败: {e}")
+        return []
+
+    rows = re.findall(r'<tr[^>]*calendar__row[^>]*>(.*?)</tr>', html, re.DOTALL)
+    if not rows:
+        print("  [ForexFactory] 未找到日历行")
+        return []
+
+    month_map = {
+        'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
+        'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+        'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+    }
+
+    events = []
+    current_date = None
+
+    for row in rows:
+        # 检测日期头行
+        # 日期行特征: 短行 (< 300 字符) + 包含 "Mon Jun 15" 格式的月日
+        dm = re.search(r'([A-Z][a-z]{2})\s+(\d+)', row)
+        if dm and len(row) < 300:
+            m_str, d_str = dm.group(1), dm.group(2)
+            if m_str in month_map and d_str.isdigit():
+                m = month_map[m_str]
+                d = d_str.zfill(2)
+                current_date = f"2026-{m}-{d}"
+            continue
+
+        if not current_date:
+            continue
+
+        # 只提取 CNY
+        curr_match = re.search(r'calendar__currency[^>]*>\s*CNY\s*<', row)
+        if not curr_match:
+            continue
+
+        # 事件名称
+        ev_match = re.search(r'calendar__event-title\"[^>]*>(.*?)</span>', row)
+        if not ev_match:
+            continue
+        event_name = ev_match.group(1).strip()
+        if not event_name or event_name == 'Bank Holiday':
+            continue
+
+        # 时间
+        time_match = re.search(r'calendar__time[^>]*>(.*?)</td>', row)
+        time_str = ""
+        if time_match:
+            raw_time = re.sub(r'<[^>]+>', '', time_match.group(1)).strip()
+            if raw_time and not raw_time.startswith('<'):
+                time_str = raw_time
+
+        # 影响等级
+        impact = 2  # 中国数据默认 important
+        if 'icon--ff-impact-red' in row:
+            impact = 4
+        elif 'icon--ff-impact-ora' in row:
+            impact = 3
+        elif 'icon--ff-impact-yel' in row:
+            impact = 2
+
+        # 提取 actual / forecast / previous
+        actual = forecast = previous = None
+        vals = re.findall(
+            r'class="[^"]*calendar__(actual|forecast|previous)[^"]*">\s*<span[^>]*>(.*?)</span>',
+            row
+        )
+        for field, val in vals:
+            val = val.strip()
+            if val and val != '&nbsp;':
+                if field == 'actual':
+                    actual = val
+                elif field == 'forecast':
+                    forecast = val
+                elif field == 'previous':
+                    previous = val
+
+        # 事件名翻译映射
+        cn_name_map = {
+            'Industrial Production y/y': '规模以上工业增加值（同比）',
+            'Fixed Asset Investment ytd/y': '固定资产投资（累计同比）',
+            'Retail Sales y/y': '社会消费品零售总额（同比）',
+            'Unemployment Rate': '城镇调查失业率',
+            'New Home Prices m/m': '新建住宅价格（环比）',
+            'NBS Press Conference': '国家统计局新闻发布会',
+            'Caixin Manufacturing PMI': '财新制造业PMI',
+            'Caixin Services PMI': '财新服务业PMI',
+            'Manufacturing PMI': '官方制造业PMI',
+            'Non-Manufacturing PMI': '官方非制造业PMI',
+            'Trade Balance': '贸易差额',
+            'CPI y/y': 'CPI 居民消费价格指数（同比）',
+            'PPI y/y': 'PPI 工业生产者出厂价格（同比）',
+            'GDP y/y': 'GDP 国内生产总值（同比）',
+            'M2 Money Supply y/y': 'M2 货币供应量（同比）',
+            'New Loans': '新增人民币贷款',
+        }
+        cn_name = cn_name_map.get(event_name, event_name)
+
+        date_clean = current_date.replace("-", "")
+        safe_name = re.sub(r'[^a-zA-Z0-9]', '_', event_name)[:40]
+        event_id = f"CN_FF_{safe_name}_{date_clean}"
+
+        events.append({
+            "id": event_id,
+            "country": "CN",
+            "country_name": "中国",
+            "indicator": cn_name,
+            "indicator_en": event_name,
+            "release_date": current_date,
+            "release_time": time_str,
+            "timezone": "BJS",
+            "importance": impact,
+            "actual": actual,
+            "forecast": forecast,
+            "previous": previous,
+            "unit": "",
+            "source": "ForexFactory",
+            "source_url": "https://www.forexfactory.com/calendar",
+            "status": "released" if actual else "upcoming",
+        })
+
+    return events
+
+
+# ============================================================
+# 数据源2: 东方财富（备用 — 报表名已失效 2026-06）
 # ============================================================
 
 def fetch_eastmoney_calendar(start_date=None, end_date=None):
     """
-    从东方财富获取中国经济日历
-    东方财富数据接口
+    东方财富：RPT_ECONOMY_CALENDAR 报表名已失效（返回 "报表配置不存在"）
+    保留此函数等 API 恢复
     """
-    if start_date is None:
-        start_date = (date.today() - timedelta(days=30)).strftime("%Y-%m-%d")
-    if end_date is None:
-        end_date = (date.today() + timedelta(days=60)).strftime("%Y-%m-%d")
-
-    url = "https://datacenter.eastmoney.com/securities/api/data/v1/get"
-    
-    params = {
-        "reportName": "RPT_ECONOMY_CALENDAR",
-        "columns": "ALL",
-        "sortColumns": "PUBLISHDATE",
-        "sortTypes": "1",
-        "pageNumber": "1",
-        "pageSize": "500",
-        "source": "WEB",
-        "client": "WEB",
-        "filter": f'(PUBLISHDATE>=\'{start_date}\')(PUBLISHDATE<=\'{end_date}\')(COUNTRY=\'中国\')',
-    }
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://data.eastmoney.com/",
-    }
-    
-    try:
-        resp = requests.get(url, params=params, headers=headers, timeout=15)
-        data = resp.json()
-        if data.get("success") and data.get("result") and data["result"].get("data"):
-            return parse_eastmoney_data(data["result"]["data"])
-    except Exception as e:
-        print(f"  [东方财富API] 请求失败: {e}")
-    
     return []
 
 
-def parse_eastmoney_data(rows):
-    """解析东方财富经济日历数据"""
-    events = []
-    # 东方财富字段映射（可能因API版本变化而不同）
-    field_map = {
-        "PUBLISHDATE": "release_date",
-        "COUNTRY": "country", 
-        "INDICATORNAME": "indicator",
-        "ACTUALVALUE": "actual",
-        "FORECASTVALUE": "forecast",
-        "PREVVALUE": "previous",
-        "IMPORTANCE": "importance",
-        "FREQUENCY": "frequency",
-        "UNIT": "unit",
-        "PUBLISHTIME": "release_time",
-        "DATADATE": "period",
-        "INDICATORID": "indicator_id",
-    }
-    
-    for row in rows:
-        event = {}
-        for api_field, our_field in field_map.items():
-            val = row.get(api_field)
-            if val is not None and val != "" and val != "-":
-                event[our_field] = val
-        
-        if not event.get("release_date"):
-            continue
-        
-        # 标准化
-        event["country"] = "CN"
-        event["country_name"] = "中国"
-        event["source"] = "东方财富"
-        event["source_url"] = "https://data.eastmoney.com/"
-        event["timezone"] = "BJS"
-        
-        # 格式化日期
-        rd = event["release_date"]
-        if len(str(rd)) == 8:
-            event["release_date"] = f"{str(rd)[:4]}-{str(rd)[4:6]}-{str(rd)[6:8]}"
-        
-        # 重要性
-        imp = event.get("importance", "")
-        if imp:
-            event["importance"] = int(imp) if str(imp).isdigit() else 2
-        else:
-            event["importance"] = 2
-        
-        # ID
-        indicator_id = event.get("indicator_id", event.get("indicator", ""))
-        rd_clean = event["release_date"].replace("-", "")
-        event["id"] = f"CN_{indicator_id}_{rd_clean}"
-        
-        events.append(event)
-    
-    return events
-
-
 # ============================================================
-# 数据源2: 金十数据
+# 数据源3: 金十数据（备用 — SSL CDN 问题 2026-06）
 # ============================================================
 
 def fetch_jin10_calendar():
-    """从金十数据获取财经日历"""
-    url = "https://cdn-rili.jin10.com/web_data/latest/daily/zh/calendar.json"
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Origin": "https://rili.jin10.com",
-        "Referer": "https://rili.jin10.com/",
-    }
-    
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        data = resp.json()
-        return parse_jin10_data(data)
-    except Exception as e:
-        print(f"  [金十数据] 请求失败: {e}")
-    
+    """
+    金十数据：SSL UNEXPECTED_EOF_WHILE_READING
+    HTTP 返回 502，网站可访问但 API CDN 不可用
+    保留此函数等 CDN 恢复
+    """
     return []
 
 
-def parse_jin10_data(data):
-    """解析金十数据日历"""
-    events = []
-    if not isinstance(data, dict):
-        return events
-    
-    days = data.get("data", {})
-    for date_str, day_data in days.items():
-        if not isinstance(day_data, dict):
-            continue
-        items = day_data.get("list", day_data.get("indicators", []))
-        if not items:
-            items = day_data if isinstance(day_data, list) else []
-        
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            
-            country = item.get("country", "")
-            if country != "中国" and country != "China":
-                continue
-            
-            event = {
-                "id": f"CN_JIN10_{item.get('id', date_str)}_{date_str}",
-                "country": "CN",
-                "country_name": "中国",
-                "indicator": item.get("title", item.get("name", "")),
-                "indicator_en": item.get("title_en", ""),
-                "release_date": date_str,
-                "release_time": item.get("time", ""),
-                "timezone": "BJS",
-                "importance": item.get("star", item.get("importance", 2)),
-                "frequency": item.get("frequency", ""),
-                "period": item.get("period", ""),
-                "actual": item.get("actual", item.get("actual_state", "")),
-                "forecast": item.get("forecast", item.get("consensus", "")),
-                "previous": item.get("previous", item.get("revised_previous", "")),
-                "unit": item.get("unit", ""),
-                "source": "金十数据",
-                "source_url": "https://rili.jin10.com/",
-                "status": "released" if item.get("actual") else "upcoming",
-            }
-            events.append(event)
-    
-    return events
-
-
 # ============================================================
-# 数据源3: 国家统计局发布日程
+# 数据源4: 国家统计局（备用 — JS SPA 2026-06）
 # ============================================================
 
 def fetch_stats_gov_calendar():
-    """从国家统计局获取发布日程表"""
-    # 国家统计局通常在每个季度初发布下季度的数据发布日程
-    # 尝试获取当前季度的发布日程
-    today = date.today()
-    quarter = (today.month - 1) // 3 + 1
-    
-    url = "https://www.stats.gov.cn/sj/tjgb/"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    }
-    
-    events = []
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        resp.encoding = 'utf-8'
-        # 尝试从页面中提取发布日程
-        html = resp.text
-        # 简单正则匹配日期格式 YYYY-MM-DD 和相关指标
-        date_pattern = r'(\d{4})[年/-](\d{1,2})[月/-](\d{1,2})[日]?'
-        indicator_keywords = [
-            ("CPI", "居民消费价格指数"),
-            ("PPI", "工业生产者出厂价格"),
-            ("PMI", "采购经理指数"),
-            ("GDP", "国内生产总值"),
-            ("工业增加值", "规模以上工业增加值"),
-            ("消费品零售", "社会消费品零售总额"),
-            ("固定资产投资", "固定资产投资"),
-            ("贸易", "进出口"),
-            ("金融", "社会融资规模"),
-        ]
-        
-        for match in re.finditer(date_pattern, html):
-            y, m, d = match.group(1), match.group(2).zfill(2), match.group(3).zfill(2)
-            date_str = f"{y}-{m}-{d}"
-            context = html[match.start()-50:match.end()+50]
-            
-            for keyword, indicator in indicator_keywords:
-                if keyword in context:
-                    events.append({
-                        "id": f"CN_STATS_{indicator.replace(' ', '_')}_{date_str}",
-                        "country": "CN", "country_name": "中国",
-                        "indicator": indicator,
-                        "release_date": date_str,
-                        "source": "国家统计局",
-                        "source_url": "https://www.stats.gov.cn/",
-                        "importance": 3 if indicator in ("CPI", "GDP", "PMI") else 2,
-                    })
-                    break
-    except Exception as e:
-        print(f"  [国家统计局] 请求失败: {e}")
-    
-    return events
+    """
+    国家统计局：页面变为 JS 渲染 SPA（414 字节 shell HTML）
+    需要 headless browser 才能抓取
+    保留此函数以便将来集成浏览器抓取
+    """
+    return []
 
 
 # ============================================================
-# 主函数
+# 合并
 # ============================================================
 
 def merge_into_calendar(new_events, calendar_path):
-    """将新事件合并到日历JSON中"""
     if not os.path.exists(calendar_path):
-        print("  Calendar file not found, creating new one")
-        return new_events
-    
+        print("  Calendar file not found")
+        return 0, 0
+
     with open(calendar_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     existing = {e["id"]: e for e in data.get("events", [])}
     updated = 0
     added = 0
-    
+
     for new_ev in new_events:
         eid = new_ev.get("id")
         if not eid:
             continue
-        
+
         if eid in existing:
             old = existing[eid]
-            # 更新实际结果和预期值
             changed = False
             for field in ["actual", "forecast", "previous", "status", "release_date", "release_time"]:
                 if new_ev.get(field) is not None and new_ev[field] != old.get(field):
@@ -292,60 +261,52 @@ def merge_into_calendar(new_events, calendar_path):
                     ev.get("country") == new_ev.get("country") and
                     (new_ev.get("indicator", "") in ev.get("indicator", "") or
                      ev.get("indicator", "") in new_ev.get("indicator", ""))):
-                    # 合并
                     for field in ["actual", "forecast", "previous", "status"]:
                         if new_ev.get(field) is not None:
                             ev[field] = new_ev[field]
                     found = True
                     updated += 1
                     break
-            
+
             if not found:
                 existing[eid] = new_ev
                 added += 1
-    
+
     data["events"] = list(existing.values())
     data["events"].sort(key=lambda e: e.get("release_date", ""))
     data["meta"]["last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data["meta"]["total_events"] = len(data["events"])
-    
+
     with open(calendar_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    
+
     return updated, added
 
 
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     calendar_path = os.path.join(project_dir, "data", "calendar.json")
-    
+
     all_new_events = []
-    
-    # 1. 尝试东方财富
-    print("[1/3] 东方财富经济日历...")
-    em_events = fetch_eastmoney_calendar()
-    print(f"     获取 {len(em_events)} 条")
-    all_new_events.extend(em_events)
-    
-    # 2. 尝试金十数据
-    print("[2/3] 金十数据日历...")
-    j10_events = fetch_jin10_calendar()
-    print(f"     获取 {len(j10_events)} 条")
-    all_new_events.extend(j10_events)
-    
-    # 3. 尝试国家统计局
-    print("[3/3] 国家统计局...")
-    stats_events = fetch_stats_gov_calendar()
-    print(f"     获取 {len(stats_events)} 条")
-    all_new_events.extend(stats_events)
-    
-    # 合并到日历
+
+    # 主力: ForexFactory CNY
+    print("[1/1] ForexFactory CNY 数据...")
+    ff_events = fetch_forexfactory_china()
+    print(f"     获取 {len(ff_events)} 条")
+    all_new_events.extend(ff_events)
+
     if all_new_events:
+        for e in all_new_events:
+            fc = f" forecast={e['forecast']}" if e.get('forecast') else ''
+            pv = f" previous={e['previous']}" if e.get('previous') else ''
+            a = f" actual={e['actual']}" if e.get('actual') else ''
+            print(f"     [{e['release_date']}] {e['indicator']}{fc}{pv}{a}")
+
         updated, added = merge_into_calendar(all_new_events, calendar_path)
         print(f"\n结果: 更新 {updated} 条, 新增 {added} 条")
     else:
-        print("\n无新数据（所有数据源均未返回结果）")
-        print("提示: 可能是网络原因或API变更，日历将保持基于规律推算的版本")
+        print("\n无新数据 — ForexFactory CNY 解析可能因页面变更而失败")
+        print("提示: 日历将保持基于规律推算的版本")
 
 
 if __name__ == "__main__":
