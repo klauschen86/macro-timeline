@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-06-14 (fixed)",
+    "generated_at": "2026-06-14 13:10:09",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 372,
     "upcoming_events": 157,
-    "released_events": 100,
+    "released_events": 93,
     "pending_events": 122,
-    "upcoming_with_forecast": 61,
+    "upcoming_with_forecast": 54,
     "historical_events": 215,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
@@ -5490,10 +5490,7 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "actual": 3.0,
-      "forecast": 2.9,
-      "previous": 3.1,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -5781,10 +5778,7 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "actual": 50.5,
-      "forecast": 50.2,
-      "previous": 50.4,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -5802,10 +5796,7 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "actual": 51.2,
-      "forecast": 51.0,
-      "previous": 51.1,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -5823,10 +5814,7 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "actual": 2.1,
-      "forecast": 2.1,
-      "previous": 2.1,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -6096,10 +6084,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "actual": 7.2,
-      "forecast": 7.1,
-      "previous": 7.2,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -6117,10 +6102,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "actual": 51200,
-      "forecast": 48000,
-      "previous": 49800,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
@@ -6138,10 +6120,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "actual": 14800,
-      "forecast": 14000,
-      "previous": 13500,
-      "status": "released",
+      "status": "upcoming",
       "notes": ""
     },
     {
