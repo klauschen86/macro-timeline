@@ -91,6 +91,80 @@ def fetch_forexfactory():
 
     timezone_map = {'US': 'EST', 'EU': 'CET', 'JP': 'JST', 'UK': 'BST'}
 
+    # 英文→中文翻译表（覆盖 ForexFactory 所有常见指标）
+    indicator_cn = {
+        # === 美国 ===
+        'Empire State Manufacturing Index': '纽约联储制造业指数',
+        'Capacity Utilization Rate': '产能利用率',
+        'Industrial Production m/m': '工业产出（环比）',
+        'NAHB Housing Market Index': 'NAHB 房产市场指数',
+        'ADP Weekly Employment Change': 'ADP 就业人数变化',
+        'Building Permits': '营建许可',
+        'Housing Starts': '新屋开工',
+        'Import Prices m/m': '进口价格指数（环比）',
+        'API Weekly Statistical Bulletin': 'API 原油库存报告',
+        'Core Retail Sales m/m': '核心零售销售（环比）',
+        'Retail Sales m/m': '零售销售（环比）',
+        'Business Inventories m/m': '商业库存（环比）',
+        'Pending Home Sales m/m': '成屋签约销售（环比）',
+        'Crude Oil Inventories': '原油库存',
+        'Federal Funds Rate': '联邦基金利率',
+        'FOMC Economic Projections': 'FOMC 经济预测',
+        'FOMC Statement': 'FOMC 声明',
+        'FOMC Press Conference': 'FOMC 新闻发布会',
+        'Philly Fed Manufacturing Index': '费城联储制造业指数',
+        'Unemployment Claims': '初请失业金人数',
+        'CB Leading Index m/m': '谘商会领先指标（环比）',
+        'Natural Gas Storage': '天然气库存',
+        'TIC Long-Term Purchases': 'TIC 长期资本净流入',
+        'Bank Holiday': '银行假日',
+
+        # === 欧元区 ===
+        'German WPI m/m': '德国批发物价指数（环比）',
+        'German Buba President Nagel Speaks': '德国央行行长纳格尔讲话',
+        'ECB President Lagarde Speaks': '欧央行行长拉加德讲话',
+        'Italian Trade Balance': '意大利贸易帐',
+        'Trade Balance': '贸易帐',
+        'German ZEW Economic Sentiment': '德国 ZEW 经济景气指数',
+        'ZEW Economic Sentiment': '欧元区 ZEW 经济景气指数',
+        'Final Core CPI y/y': '核心 CPI 终值（同比）',
+        'Final CPI y/y': 'CPI 终值（同比）',
+        'Current Account': '经常帐',
+        'Spanish 10-y Bond Auction': '西班牙 10 年期国债拍卖',
+        'German Buba Monthly Report': '德国央行月度报告',
+        'German PPI m/m': '德国 PPI（环比）',
+
+        # === 英国 ===
+        'Rightmove HPI m/m': 'Rightmove 房价指数（环比）',
+        '10-y Bond Auction': '10 年期国债拍卖',
+        'CPI y/y': 'CPI（同比）',
+        'Core CPI y/y': '核心 CPI（同比）',
+        'PPI Input m/m': 'PPI 投入物价（环比）',
+        'PPI Output m/m': 'PPI 产出物价（环比）',
+        'RPI y/y': '零售物价指数（同比）',
+        'HPI y/y': '房价指数（同比）',
+        'Claimant Count Change': '失业金申请人数变化',
+        'Average Earnings Index 3m/y': '平均薪资指数（3个月/同比）',
+        'Unemployment Rate': '失业率',
+        'Monetary Policy Summary': '货币政策摘要',
+        'MPC Official Bank Rate Votes': 'MPC 利率投票结果',
+        'Official Bank Rate': '央行基准利率',
+        'GfK Consumer Confidence': 'GfK 消费者信心指数',
+        'Retail Sales m/m': '零售销售（环比）',
+        'Public Sector Net Borrowing': '公共部门净借款',
+        'GDP m/m': 'GDP（环比）',
+        'GDP q/q': 'GDP（环比）',
+
+        # === 日本 ===
+        'Tertiary Industry Activity m/m': '第三产业活动指数（环比）',
+        'BOJ Policy Rate': '日本央行政策利率',
+        'Monetary Policy Statement': '货币政策声明',
+        'BOJ Press Conference': '日本央行新闻发布会',
+        'Core Machinery Orders m/m': '核心机械订单（环比）',
+        'National Core CPI y/y': '全国核心 CPI（同比）',
+        'Monetary Policy Meeting Minutes': '货币政策会议纪要',
+    }
+
     events = []
     current_date = None
 
@@ -131,6 +205,9 @@ def fetch_forexfactory():
         event_name = ev_match.group(1).strip()
         if not event_name:
             continue
+
+        # 翻译为中文
+        cn_name = indicator_cn.get(event_name, event_name)
 
         # 提取时间
         time_match = re.search(r'calendar__time[^>]*>(.*?)</td>', row)
@@ -178,7 +255,7 @@ def fetch_forexfactory():
             "id": event_id,
             "country": country_code,
             "country_name": country_name,
-            "indicator": event_name,
+            "indicator": cn_name,
             "indicator_en": event_name,
             "release_date": current_date,
             "release_time": time_str,
@@ -254,8 +331,34 @@ def merge_into_calendar(new_events, calendar_path):
             if changed:
                 updated += 1
         else:
-            existing[eid] = new_ev
-            added += 1
+            # 模糊匹配：同日同国 + 相似指标名 → 更新值而非新增
+            found = False
+            new_ind = new_ev.get("indicator", "")
+            new_en = new_ev.get("indicator_en", "")
+            new_date = new_ev.get("release_date", "")
+            new_country = new_ev.get("country", "")
+            for _, ev in existing.items():
+                if ev.get("release_date") != new_date or ev.get("country") != new_country:
+                    continue
+                old_ind = ev.get("indicator", "")
+                old_en = ev.get("indicator_en", "")
+                # 中英文交叉匹配
+                if (new_ind and new_ind in old_ind) or (old_ind and old_ind in new_ind) or \
+                   (new_en and new_en in old_en) or (old_en and old_en in new_en) or \
+                   (new_en and old_ind and _indicator_similar(new_en, old_ind)):
+                    for field in ["actual", "forecast", "previous", "status"]:
+                        if new_ev.get(field) is not None:
+                            ev[field] = new_ev[field]
+                    # 如果现有事件是英文且有中文翻译，更新为中文
+                    if not re.search(r'[\u4e00-\u9fff]', ev.get("indicator", "")) and re.search(r'[\u4e00-\u9fff]', new_ind):
+                        ev["indicator"] = new_ind
+                    found = True
+                    updated += 1
+                    break
+
+            if not found:
+                existing[eid] = new_ev
+                added += 1
 
     data["events"] = list(existing.values())
     data["events"].sort(key=lambda e: e.get("release_date", ""))
@@ -273,6 +376,33 @@ def merge_into_calendar(new_events, calendar_path):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     return updated, added
+
+
+def _indicator_similar(en_name, cn_indicator):
+    """判断英文指标名是否与中文指标描述同一事件"""
+    pairs = [
+        ("CPI", "CPI"),
+        ("PPI", "PPI"),
+        ("GDP", "GDP"),
+        ("PMI", "PMI"),
+        ("Unemployment", "失业"),
+        ("Industrial Production", "工业"),
+        ("Retail Sales", "零售"),
+        ("Trade Balance", "贸易"),
+        ("FOMC", "FOMC"),
+        ("Federal Funds", "联邦基金"),
+        ("Housing Starts", "新屋开工"),
+        ("Building Permits", "营建许可"),
+        ("Consumer Confidence", "消费者信心"),
+        ("Current Account", "经常帐"),
+        ("Monetary Policy", "货币"),
+        ("M2", "M2"),
+        ("Money Supply", "货币供应"),
+    ]
+    for en_key, cn_key in pairs:
+        if en_key.lower() in en_name.lower() and cn_key in cn_indicator:
+            return True
+    return False
 
 
 def main():
