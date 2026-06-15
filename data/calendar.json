@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-06-14 13:10:09",
+    "generated_at": "2026-06-15 13:57:20",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 372,
-    "upcoming_events": 157,
-    "released_events": 93,
+    "total_events": 373,
+    "upcoming_events": 158,
+    "released_events": 95,
     "pending_events": 122,
     "upcoming_with_forecast": 54,
     "historical_events": 215,
@@ -13,7 +13,7 @@
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 137,
-      "美国": 138,
+      "美国": 139,
       "英国": 34,
       "日本": 24,
       "欧元区": 39
@@ -4291,13 +4291,13 @@
       "release_time": "7:01am",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.6%",
       "forecast": null,
       "previous": "1.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "JP_FF_Tertiary_Industry_Activity_m_m_20260615",
@@ -4309,13 +4309,13 @@
       "release_time": "12:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.3%",
       "forecast": "0.5%",
-      "previous": "-0.2%",
+      "previous": "-0.6%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_WPI_m_m_20260615",
@@ -5108,6 +5108,24 @@
       "actual": null,
       "forecast": null,
       "previous": "-7.2M",
+      "unit": "",
+      "source": "ForexFactory",
+      "source_url": "https://www.forexfactory.com/calendar",
+      "status": "upcoming"
+    },
+    {
+      "id": "US_FF_President_Trump_Speaks_20260617",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "President Trump Speaks",
+      "indicator_en": "President Trump Speaks",
+      "release_date": "2026-06-17",
+      "release_time": "9:30pm",
+      "timezone": "EST",
+      "importance": 3,
+      "actual": null,
+      "forecast": null,
+      "previous": null,
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
