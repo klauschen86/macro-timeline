@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-06-16 12:10:58",
+    "generated_at": "2026-06-17 06:33:04",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 380,
-    "upcoming_events": 147,
+    "upcoming_events": 130,
     "released_events": 109,
-    "pending_events": 130,
-    "upcoming_with_forecast": 43,
-    "historical_events": 233,
+    "pending_events": 141,
+    "upcoming_with_forecast": 32,
+    "historical_events": 250,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -4514,7 +4514,7 @@
       "unit": "%",
       "forecast": 0.3,
       "previous": 0.2,
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -4587,7 +4587,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_FF_Retail_Sales_y_y_20260616",
@@ -4659,7 +4659,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_BOJ_Press_Conference_20260616",
@@ -4677,7 +4677,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_ZEW_Economic_Sentiment_20260616",
@@ -4695,7 +4695,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_ZEW_Economic_Sentiment_20260616",
@@ -4713,7 +4713,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_10_y_Bond_Auction_20260616",
@@ -4731,7 +4731,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_ADP_Weekly_Employment_Change_20260616",
@@ -4749,7 +4749,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Building_Permits_20260616",
@@ -4767,7 +4767,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Housing_Starts_20260616",
@@ -4785,7 +4785,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Import_Prices_m_m_20260616",
@@ -4803,7 +4803,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_CPI_20260617",
