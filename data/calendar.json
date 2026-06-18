@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-06-18 09:34:48",
+    "generated_at": "2026-06-18 12:53:22",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 381,
     "upcoming_events": 112,
-    "released_events": 109,
-    "pending_events": 160,
-    "upcoming_with_forecast": 17,
+    "released_events": 132,
+    "pending_events": 138,
+    "upcoming_with_forecast": 18,
     "historical_events": 269,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
@@ -4689,13 +4689,13 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "10.5",
       "forecast": "-5.8",
       "previous": "-10.2",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_ZEW_Economic_Sentiment_20260616",
@@ -4707,13 +4707,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "9.5",
       "forecast": "-7.2",
       "previous": "-9.1",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_10_y_Bond_Auction_20260616",
@@ -4725,13 +4725,13 @@
       "release_time": "Tentative",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "4.86|3.5",
       "forecast": null,
       "previous": "4.98|3.6",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_ADP_Weekly_Employment_Change_20260616",
@@ -4743,13 +4743,13 @@
       "release_time": "8:15pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "25.5K",
       "forecast": null,
       "previous": "29.0K",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Building_Permits_20260616",
@@ -4761,13 +4761,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.41M",
       "forecast": "1.42M",
       "previous": "1.42M<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Housing_Starts_20260616",
@@ -4779,13 +4779,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.18M",
       "forecast": "1.43M",
-      "previous": "1.47M",
+      "previous": "1.39M<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Import_Prices_m_m_20260616",
@@ -4797,13 +4797,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.9%",
       "forecast": "0.9%",
-      "previous": "1.9%",
+      "previous": "2.0%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_CPI_20260617",
@@ -4853,13 +4853,13 @@
       "release_time": "7:50am",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
-      "forecast": "2.1%",
+      "actual": "8.7%",
+      "forecast": "1.2%",
       "previous": "-9.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "JP_FF_Trade_Balance_20260617",
@@ -4871,13 +4871,13 @@
       "release_time": "",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.09T",
       "forecast": "-0.21T",
-      "previous": "0.24T",
+      "previous": "0.20T<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_CPI_y_y_20260617",
@@ -4889,13 +4889,13 @@
       "release_time": "2:00pm",
       "timezone": "BST",
       "importance": 4,
-      "actual": null,
+      "actual": "2.8%",
       "forecast": "3.0%",
       "previous": "2.8%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_Core_CPI_y_y_20260617",
@@ -4907,13 +4907,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "2.7%",
       "previous": "2.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_PPI_Input_m_m_20260617",
@@ -4925,13 +4925,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.5%",
-      "previous": "2.4%",
+      "previous": "2.6%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_PPI_Output_m_m_20260617",
@@ -4943,13 +4943,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.5%",
-      "previous": "1.4%",
+      "previous": "1.5%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_RPI_y_y_20260617",
@@ -4961,13 +4961,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "3.3%",
       "previous": "3.0%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_HPI_y_y_20260617",
@@ -4979,13 +4979,13 @@
       "release_time": "4:30pm",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "2.8%",
       "previous": "0.0%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_Final_Core_CPI_y_y_20260617",
@@ -4997,13 +4997,13 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "2.5%",
       "previous": "2.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_Final_CPI_y_y_20260617",
@@ -5015,13 +5015,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "3.2%",
       "previous": "3.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Core_Retail_Sales_m_m_20260617",
@@ -5033,13 +5033,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": null,
+      "actual": "0.8%",
       "forecast": "0.6%",
       "previous": "0.7%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Retail_Sales_m_m_20260617",
@@ -5051,13 +5051,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.5%",
-      "previous": "0.5%",
+      "previous": "0.4%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Business_Inventories_m_m_20260617",
@@ -5069,13 +5069,13 @@
       "release_time": "10:00pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.5%",
-      "previous": "0.9%",
+      "previous": "1.0%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Pending_Home_Sales_m_m_20260617",
@@ -5087,13 +5087,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "0.8%",
-      "previous": "1.4%",
+      "previous": "0.3%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_Crude_Oil_Inventories_20260617",
@@ -5105,13 +5105,13 @@
       "release_time": "10:30pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
-      "forecast": null,
+      "actual": "-8.3M",
+      "forecast": "-3.6M",
       "previous": "-7.2M",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_President_Trump_Speaks_20260617",
@@ -5197,13 +5197,13 @@
       "release_time": "2:00am",
       "timezone": "EST",
       "importance": 4,
-      "actual": null,
+      "actual": "3.75%",
       "forecast": "3.75%",
       "previous": "3.75%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_FOMC_Economic_Projections_20260618",
@@ -5504,7 +5504,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": null,
+      "forecast": "82B",
       "previous": "108B",
       "unit": "",
       "source": "ForexFactory",
@@ -7110,7 +7110,8 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-09-17",
