@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-06-17 11:46:05",
+    "generated_at": "2026-06-18 09:34:48",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 380,
-    "upcoming_events": 130,
+    "total_events": 381,
+    "upcoming_events": 112,
     "released_events": 109,
-    "pending_events": 141,
-    "upcoming_with_forecast": 32,
-    "historical_events": 250,
+    "pending_events": 160,
+    "upcoming_with_forecast": 17,
+    "historical_events": 269,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 141,
       "美国": 140,
       "英国": 35,
-      "日本": 24,
+      "日本": 25,
       "欧元区": 40
     }
   },
@@ -4822,7 +4822,7 @@
       "unit": "%",
       "forecast": 2.9,
       "previous": 2.9,
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -4841,7 +4841,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Core_Machinery_Orders_m_m_20260617",
@@ -4859,7 +4859,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Trade_Balance_20260617",
@@ -4877,7 +4877,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_CPI_y_y_20260617",
@@ -4895,7 +4895,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Core_CPI_y_y_20260617",
@@ -4913,7 +4913,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_PPI_Input_m_m_20260617",
@@ -4931,7 +4931,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_PPI_Output_m_m_20260617",
@@ -4949,7 +4949,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_RPI_y_y_20260617",
@@ -4967,7 +4967,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_HPI_y_y_20260617",
@@ -4985,7 +4985,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_Final_Core_CPI_y_y_20260617",
@@ -5003,7 +5003,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_Final_CPI_y_y_20260617",
@@ -5021,7 +5021,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Core_Retail_Sales_m_m_20260617",
@@ -5039,7 +5039,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Retail_Sales_m_m_20260617",
@@ -5057,7 +5057,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Business_Inventories_m_m_20260617",
@@ -5075,7 +5075,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Pending_Home_Sales_m_m_20260617",
@@ -5093,7 +5093,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Crude_Oil_Inventories_20260617",
@@ -5111,7 +5111,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_President_Trump_Speaks_20260617",
@@ -5129,7 +5129,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_ECB_President_Lagarde_Speaks_20260617",
@@ -5147,7 +5147,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FOMC_2026-06-18",
@@ -7094,6 +7094,23 @@
       "unit": "%",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "JP_CPI_20260819",
+      "country": "JP",
+      "country_name": "日本",
+      "indicator": "CPI 全国（同比）",
+      "indicator_en": "National CPI YoY",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-19",
+      "release_time": "08:30",
+      "timezone": "JST",
+      "period": "2026-07",
+      "source": "Statistics Bureau of Japan",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-09-17",
