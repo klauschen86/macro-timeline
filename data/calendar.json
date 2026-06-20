@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-06-19 11:20:36",
+    "generated_at": "2026-06-20 05:50:03",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 384,
-    "upcoming_events": 95,
+    "total_events": 385,
+    "upcoming_events": 87,
     "released_events": 132,
-    "pending_events": 157,
-    "upcoming_with_forecast": 6,
-    "historical_events": 289,
+    "pending_events": 166,
+    "upcoming_with_forecast": 0,
+    "historical_events": 298,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 143,
-      "美国": 141,
+      "美国": 142,
       "英国": 35,
       "日本": 25,
       "欧元区": 40
@@ -5526,7 +5526,7 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -5545,7 +5545,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_GfK_Consumer_Confidence_20260619",
@@ -5563,7 +5563,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_National_Core_CPI_y_y_20260619",
@@ -5581,7 +5581,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Monetary_Policy_Meeting_Minutes_20260619",
@@ -5599,7 +5599,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_PPI_m_m_20260619",
@@ -5617,7 +5617,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Retail_Sales_m_m_20260619",
@@ -5635,7 +5635,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Public_Sector_Net_Borrowing_20260619",
@@ -5653,7 +5653,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Bank_Holiday_20260619",
@@ -5671,7 +5671,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_LPR_1Y_20260622",
@@ -7164,6 +7164,24 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_EXISTING_HOME_20260821",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "成屋销售（年化）",
+      "indicator_en": "Existing Home Sales",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-21",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "National Association of Realtors",
+      "source_url": "",
+      "unit": "万套",
       "status": "upcoming",
       "notes": ""
     },
