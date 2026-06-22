@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-22 06:54:02",
+    "generated_at": "2026-06-22 12:48:33",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 446,
@@ -5680,7 +5680,7 @@
       "indicator": "1-y Loan Prime Rate",
       "indicator_en": "1-y Loan Prime Rate",
       "release_date": "2026-06-21",
-      "release_time": "6:00pm",
+      "release_time": "7:00pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "3.00%",
@@ -6692,7 +6692,7 @@
       "indicator": "CB Leading Index m/m",
       "indicator_en": "CB Leading Index m/m",
       "release_date": "2026-06-25",
-      "release_time": "6:00am",
+      "release_time": "7:00am",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
