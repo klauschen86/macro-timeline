@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-06-23 10:35:53",
+    "generated_at": "2026-06-24 09:21:28",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 448,
-    "upcoming_events": 136,
-    "released_events": 145,
-    "pending_events": 172,
-    "upcoming_with_forecast": 29,
-    "historical_events": 312,
+    "total_events": 451,
+    "upcoming_events": 123,
+    "released_events": 149,
+    "pending_events": 180,
+    "upcoming_with_forecast": 21,
+    "historical_events": 328,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 150,
-      "美国": 165,
+      "美国": 168,
       "英国": 45,
       "日本": 35,
       "欧元区": 53
@@ -5878,7 +5878,7 @@
       "indicator": "Foreign Direct Investment ytd/y",
       "indicator_en": "Foreign Direct Investment ytd/y",
       "release_date": "2026-06-22",
-      "release_time": "4:06am",
+      "release_time": "5:06pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-8.6%",
@@ -6016,7 +6016,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_CBI_Industrial_Order_Expectations_20260623",
@@ -6046,13 +6046,13 @@
       "release_time": "8:15pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "30.8K",
       "forecast": null,
-      "previous": "25.5K",
+      "previous": "26.5K<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_MPC_Member_Taylor_Speaks_20260623",
@@ -6070,7 +6070,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Flash_Manufacturing_PMI_20260623",
@@ -6082,13 +6082,13 @@
       "release_time": "9:45pm",
       "timezone": "EST",
       "importance": 3,
-      "actual": null,
+      "actual": "51.3",
       "forecast": "51.1",
       "previous": "50.7<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Richmond_Manufacturing_Index_20260623",
@@ -6100,13 +6100,13 @@
       "release_time": "10:00pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "4",
       "forecast": "8",
       "previous": "13",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "CN_FF_Foreign_Direct_Investment_ytd_y_20260623",
@@ -6124,7 +6124,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_FOMC_Member_Goolsbee_Speaks_20260623",
@@ -6142,7 +6142,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_MPC_Member_Dhingra_Speaks_20260623",
@@ -6160,7 +6160,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_API_Weekly_Statistical_Bulletin_20260623",
@@ -6178,7 +6178,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_BOJ_Summary_of_Opinions_20260623",
@@ -6196,7 +6196,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_SPPI_y_y_20260623",
@@ -6214,7 +6214,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_MPC_Member_Dhingra_Speaks_20260624",
@@ -6245,7 +6245,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "-5.1M",
+      "forecast": "-3.9M",
       "previous": "-8.3M",
       "unit": "",
       "source": "ForexFactory",
@@ -6280,13 +6280,13 @@
       "release_time": "",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.3%",
       "forecast": "3.3%",
-      "previous": "3.0%",
+      "previous": "3.3%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_ifo_Business_Climate_20260624",
@@ -6371,7 +6371,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "-206B",
+      "forecast": "-212B",
       "previous": "-191B",
       "unit": "",
       "source": "ForexFactory",
@@ -6463,6 +6463,24 @@
       "actual": null,
       "forecast": "-27.8",
       "previous": "-29.8",
+      "unit": "",
+      "source": "ForexFactory",
+      "source_url": "https://www.forexfactory.com/calendar",
+      "status": "upcoming"
+    },
+    {
+      "id": "US_FF_President_Trump_Speaks_20260624",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "President Trump Speaks",
+      "indicator_en": "President Trump Speaks",
+      "release_date": "2026-06-24",
+      "release_time": "2:05am",
+      "timezone": "EST",
+      "importance": 3,
+      "actual": null,
+      "forecast": null,
+      "previous": null,
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -6711,7 +6729,7 @@
       "indicator": "CB Leading Index m/m",
       "indicator_en": "CB Leading Index m/m",
       "release_date": "2026-06-25",
-      "release_time": "8:00am",
+      "release_time": "9:00pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -8323,6 +8341,40 @@
       "unit": "",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "US_CONSUMER_CONF_20260825",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "谘商会消费者信心指数",
+      "indicator_en": "Consumer Confidence",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-25",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "Conference Board",
+      "source_url": "",
+      "unit": "",
+      "status": "upcoming"
+    },
+    {
+      "id": "US_NEW_HOME_SALES_20260825",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "新屋销售（年化）",
+      "indicator_en": "New Home Sales",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-25",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "Census Bureau",
+      "source_url": "",
+      "unit": "万套",
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-09-17",
