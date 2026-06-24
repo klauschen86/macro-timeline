@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-06-24 05:32:33",
+    "generated_at": "2026-06-24 10:21:41",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 452,
     "upcoming_events": 123,
-    "released_events": 150,
+    "released_events": 152,
     "pending_events": 180,
     "upcoming_with_forecast": 21,
     "historical_events": 329,
@@ -5680,7 +5680,7 @@
       "indicator": "1-y Loan Prime Rate",
       "indicator_en": "1-y Loan Prime Rate",
       "release_date": "2026-06-21",
-      "release_time": "6:00pm",
+      "release_time": "8:00pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "3.00%",
@@ -5878,7 +5878,7 @@
       "indicator": "Foreign Direct Investment ytd/y",
       "indicator_en": "Foreign Direct Investment ytd/y",
       "release_date": "2026-06-22",
-      "release_time": "2:06am",
+      "release_time": "4:06am",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-8.6%",
@@ -6316,13 +6316,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "85.6",
       "forecast": "85.6",
-      "previous": "84.9",
+      "previous": "85.0<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Buba_President_Nagel_Speaks_20260624",
@@ -6352,13 +6352,13 @@
       "release_time": "Tentative",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "2.96|1.7",
       "forecast": null,
       "previous": "3.06|1.7",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_MPC_Member_Breeden_Speaks_20260624",
@@ -6747,7 +6747,7 @@
       "indicator": "CB Leading Index m/m",
       "indicator_en": "CB Leading Index m/m",
       "release_date": "2026-06-25",
-      "release_time": "6:00am",
+      "release_time": "8:00am",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
