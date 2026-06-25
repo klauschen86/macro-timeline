@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-06-25 05:36:30",
+    "generated_at": "2026-06-25 10:14:48",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 454,
     "upcoming_events": 110,
-    "released_events": 156,
+    "released_events": 158,
     "pending_events": 188,
     "upcoming_with_forecast": 14,
     "historical_events": 344,
@@ -6588,13 +6588,13 @@
       "release_time": "2:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-29.2",
       "forecast": "-27.8",
-      "previous": "-29.8",
+      "previous": "-29.7<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_ECB_Economic_Bulletin_20260625",
@@ -6624,13 +6624,13 @@
       "release_time": "6:00pm",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "-54",
       "forecast": "-41",
       "previous": "-46",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Core_PCE_Price_Index_m_m_20260625",
