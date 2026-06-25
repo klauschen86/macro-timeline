@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-25 09:21:34",
+    "generated_at": "2026-06-25 05:36:30",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 454,
@@ -5878,7 +5878,7 @@
       "indicator": "Foreign Direct Investment ytd/y",
       "indicator_en": "Foreign Direct Investment ytd/y",
       "release_date": "2026-06-22",
-      "release_time": "5:06pm",
+      "release_time": "4:06am",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-8.6%",
@@ -6747,7 +6747,7 @@
       "indicator": "CB Leading Index m/m",
       "indicator_en": "CB Leading Index m/m",
       "release_date": "2026-06-25",
-      "release_time": "9:00pm",
+      "release_time": "8:00am",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -8429,7 +8429,8 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-09-17",
