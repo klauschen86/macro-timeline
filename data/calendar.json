@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-06-25 10:14:48",
+    "generated_at": "2026-06-26 09:22:11",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 454,
-    "upcoming_events": 110,
-    "released_events": 158,
-    "pending_events": 188,
-    "upcoming_with_forecast": 14,
-    "historical_events": 344,
+    "total_events": 455,
+    "upcoming_events": 94,
+    "released_events": 167,
+    "pending_events": 195,
+    "upcoming_with_forecast": 4,
+    "historical_events": 361,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 150,
-      "美国": 171,
+      "美国": 172,
       "英国": 45,
       "日本": 35,
       "欧元区": 53
@@ -5878,7 +5878,7 @@
       "indicator": "Foreign Direct Investment ytd/y",
       "indicator_en": "Foreign Direct Investment ytd/y",
       "release_date": "2026-06-22",
-      "release_time": "4:06am",
+      "release_time": "5:06pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-8.6%",
@@ -6519,7 +6519,7 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -6538,9 +6538,10 @@
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
       "forecast": "225K",
-      "previous": "226K",
-      "status": "upcoming",
-      "notes": ""
+      "previous": "227K<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
+      "status": "released",
+      "notes": "",
+      "actual": "215K"
     },
     {
       "id": "UK_FF_MPC_Member_Pill_Speaks_20260625",
@@ -6558,7 +6559,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Bank_Stress_Test_Results_20260625",
@@ -6576,7 +6577,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_GfK_Consumer_Climate_20260625",
@@ -6612,7 +6613,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_CBI_Realized_Sales_20260625",
@@ -6642,13 +6643,13 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
-      "previous": "0.2%",
+      "previous": "0.3%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Final_GDP_q_q_20260625",
@@ -6660,13 +6661,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 4,
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.5%",
       "previous": "3.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Core_Durable_Goods_Orders_m_m_20260625",
@@ -6678,13 +6679,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "-4.5%",
       "forecast": "-5.0%",
       "previous": "8.0%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Personal_Income_m_m_20260625",
@@ -6696,13 +6697,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.4%",
       "previous": "0.0%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Personal_Spending_m_m_20260625",
@@ -6714,13 +6715,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.6%",
-      "previous": "0.5%",
+      "previous": "0.4%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Natural_Gas_Storage_20260625",
@@ -6732,13 +6733,13 @@
       "release_time": "10:30pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "76B",
       "forecast": "67B",
       "previous": "73B",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "CN_FF_CB_Leading_Index_m_m_20260625",
@@ -6747,16 +6748,16 @@
       "indicator": "CB Leading Index m/m",
       "indicator_en": "CB Leading Index m/m",
       "release_date": "2026-06-25",
-      "release_time": "8:00am",
+      "release_time": "9:04pm",
       "timezone": "BJS",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.1%",
       "forecast": null,
-      "previous": "-0.8%",
+      "previous": "-0.9%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_FOMC_Member_Williams_Speaks_20260625",
@@ -6774,7 +6775,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Tokyo_Core_CPI_y_y_20260625",
@@ -6792,7 +6793,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_President_Trump_Speaks_20260625",
@@ -6810,7 +6811,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_DURABLE_GOODS_20260626",
@@ -6858,13 +6859,13 @@
       "release_time": "7:30am",
       "timezone": "JST",
       "importance": 3,
-      "actual": null,
+      "actual": "1.6%",
       "forecast": "1.6%",
       "previous": "1.3%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Buba_President_Nagel_Speaks_20260626",
@@ -6896,7 +6897,7 @@
       "importance": 2,
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.77|1.6",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -8431,6 +8432,23 @@
       "unit": "%",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "US_JOBLESS_CLAIMS_20260827",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "初请失业金人数",
+      "indicator_en": "Initial Jobless Claims",
+      "frequency": "周度",
+      "importance": 2,
+      "release_date": "2026-08-27",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-08-20",
+      "source": "Department of Labor",
+      "source_url": "https://www.dol.gov/",
+      "unit": "万人",
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-09-17",
