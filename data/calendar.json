@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-06-29 06:12:02",
+    "generated_at": "2026-06-29 11:57:23",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 553,
     "upcoming_events": 178,
-    "released_events": 176,
+    "released_events": 182,
     "pending_events": 200,
     "upcoming_with_forecast": 70,
     "historical_events": 375,
@@ -7120,9 +7120,10 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
+      "actual": "3.2%",
       "forecast": "3.2%",
       "previous": "3.2%",
-      "status": "upcoming",
+      "status": "released",
       "notes": ""
     },
     {
@@ -7191,13 +7192,13 @@
       "release_time": "3:00am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "2.7%",
       "previous": "2.7%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Private_Loans_y_y_20260629",
@@ -7209,13 +7210,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "2.9%",
       "previous": "3.0%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_M4_Money_Supply_m_m_20260629",
@@ -7227,13 +7228,13 @@
       "release_time": "3:30am",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.2%",
       "previous": "0.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_Mortgage_Approvals_20260629",
@@ -7245,13 +7246,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "56K",
       "forecast": "63K",
       "previous": "66K",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_Net_Lending_to_Individuals_m_m_20260629",
@@ -7263,13 +7264,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "4.6B",
       "forecast": "6.0B",
       "previous": "6.2B",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_ECB_President_Lagarde_Speaks_20260629",
@@ -7514,7 +7515,7 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "9:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -8436,7 +8437,7 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "9:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
