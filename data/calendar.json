@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-06-29 11:57:23",
+    "generated_at": "2026-06-30 09:21:49",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 553,
-    "upcoming_events": 178,
+    "total_events": 557,
+    "upcoming_events": 159,
     "released_events": 182,
-    "pending_events": 200,
-    "upcoming_with_forecast": 70,
-    "historical_events": 375,
+    "pending_events": 216,
+    "upcoming_with_forecast": 51,
+    "historical_events": 398,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
-      "中国": 156,
+      "中国": 158,
       "美国": 193,
       "英国": 68,
-      "日本": 54,
-      "欧元区": 82
+      "日本": 55,
+      "欧元区": 83
     }
   },
   "events": [
@@ -7082,7 +7082,7 @@
       "unit": "",
       "forecast": "50.2",
       "previous": "50.0",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7102,7 +7102,7 @@
       "unit": "",
       "forecast": "49.9",
       "previous": "50.1",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7143,7 +7143,7 @@
       "unit": "%",
       "forecast": "0.3%",
       "previous": "0.5%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7162,7 +7162,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_Italian_Bank_Holiday_20260629",
@@ -7180,7 +7180,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_M3_Money_Supply_y_y_20260629",
@@ -7288,7 +7288,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_BRC_Shop_Price_Index_y_y_20260629",
@@ -7306,7 +7306,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Unemployment_Rate_20260629",
@@ -7324,7 +7324,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Housing_Starts_y_y_20260629",
@@ -7342,7 +7342,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Import_Prices_m_m_20260629",
@@ -7360,7 +7360,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Retail_Sales_m_m_20260629",
@@ -7378,7 +7378,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Current_Account_20260629",
@@ -7396,7 +7396,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Final_GDP_q_q_20260629",
@@ -7414,7 +7414,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Revised_Business_Investment_q_q_20260629",
@@ -7432,7 +7432,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_French_Consumer_Spending_m_m_20260629",
@@ -7450,7 +7450,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_FOMC_Member_Barkin_Speaks_20260629",
@@ -7468,7 +7468,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Retail_Sales_y_y_20260629",
@@ -10229,6 +10229,74 @@
       "unit": "万人",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "CN_PMI_MFG_20260831",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "官方制造业PMI",
+      "indicator_en": "Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-31",
+      "release_time": "09:30",
+      "timezone": "BJS",
+      "period": "2026-07",
+      "source": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/",
+      "unit": "",
+      "status": "upcoming"
+    },
+    {
+      "id": "CN_PMI_NONMFG_20260831",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "官方非制造业PMI",
+      "indicator_en": "Non-Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-31",
+      "release_time": "09:30",
+      "timezone": "BJS",
+      "period": "2026-07",
+      "source": "国家统计局",
+      "source_url": "",
+      "unit": "",
+      "status": "upcoming"
+    },
+    {
+      "id": "EU_CPI_FLASH_20260831",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "CPI 初值（同比）",
+      "indicator_en": "CPI Flash Estimate YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-31",
+      "release_time": "11:00",
+      "timezone": "CET",
+      "period": "2026-07",
+      "source": "Eurostat",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming"
+    },
+    {
+      "id": "JP_INDUSTRIAL_20260831",
+      "country": "JP",
+      "country_name": "日本",
+      "indicator": "工业产出（环比初值）",
+      "indicator_en": "Industrial Production MoM Prelim",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-31",
+      "release_time": "08:50",
+      "timezone": "JST",
+      "period": "2026-07",
+      "source": "METI",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-09-17",
