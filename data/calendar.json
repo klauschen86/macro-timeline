@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-06-30 05:39:55",
+    "generated_at": "2026-06-30 10:30:16",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 557,
     "upcoming_events": 159,
-    "released_events": 188,
-    "pending_events": 211,
+    "released_events": 197,
+    "pending_events": 204,
     "upcoming_with_forecast": 55,
     "historical_events": 398,
     "data_from": "2025-12-15",
@@ -7122,9 +7122,9 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "actual": "3.2%",
-      "forecast": "3.2%",
-      "previous": "3.2%",
+      "actual": "-0.2%",
+      "forecast": "0.0%",
+      "previous": "0.1%",
       "status": "released",
       "notes": ""
     },
@@ -7339,13 +7339,13 @@
       "release_time": "10:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
-      "forecast": "32.1%",
+      "actual": "33.9%",
+      "forecast": "31.8%",
       "previous": "11.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Import_Prices_m_m_20260629",
@@ -7357,13 +7357,13 @@
       "release_time": "11:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
-      "forecast": "0.6%",
+      "actual": "0.7%",
+      "forecast": "0.4%",
       "previous": "1.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Retail_Sales_m_m_20260629",
@@ -7375,13 +7375,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "1.1%",
       "forecast": "0.0%",
-      "previous": "-0.3%",
+      "previous": "-0.4%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_Current_Account_20260629",
@@ -7393,13 +7393,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
-      "forecast": "-21.5B",
-      "previous": "-18.4B",
+      "actual": "-22.1B",
+      "forecast": "-22.2B",
+      "previous": "-27.2B<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_Final_GDP_q_q_20260629",
@@ -7411,13 +7411,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.6%",
       "previous": "0.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_Revised_Business_Investment_q_q_20260629",
@@ -7429,13 +7429,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.7%",
       "previous": "0.7%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_French_Consumer_Spending_m_m_20260629",
@@ -7447,13 +7447,13 @@
       "release_time": "11:45pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.2%",
       "previous": "-0.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "US_FF_FOMC_Member_Barkin_Speaks_20260629",
@@ -7518,7 +7518,7 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "8:45pm",
+      "release_time": "6:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -7647,13 +7647,13 @@
       "release_time": "All Day",
       "timezone": "CET",
       "importance": 3,
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.2%",
       "previous": "0.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_French_Consumer_Spending_m_m_20260630",
@@ -7683,13 +7683,13 @@
       "release_time": "2:55am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-1K",
       "forecast": "7K",
       "previous": "-12K",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_MPC_Member_Breeden_Speaks_20260630",
@@ -7864,7 +7864,7 @@
       "timezone": "JST",
       "importance": 2,
       "actual": null,
-      "forecast": "34.2",
+      "forecast": "34.1",
       "previous": "33.6",
       "unit": "",
       "source": "ForexFactory",
@@ -7882,7 +7882,7 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.0%",
+      "forecast": "0.1%",
       "previous": "-0.6%",
       "unit": "",
       "source": "ForexFactory",
@@ -8440,7 +8440,7 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "8:45pm",
+      "release_time": "6:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
