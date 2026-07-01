@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-06-30 10:30:16",
+    "generated_at": "2026-07-01 10:24:44",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 557,
-    "upcoming_events": 159,
-    "released_events": 197,
-    "pending_events": 204,
-    "upcoming_with_forecast": 55,
-    "historical_events": 398,
+    "total_events": 559,
+    "upcoming_events": 133,
+    "released_events": 182,
+    "pending_events": 244,
+    "upcoming_with_forecast": 28,
+    "historical_events": 426,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
-      "中国": 158,
-      "美国": 193,
+      "中国": 159,
+      "美国": 194,
       "英国": 68,
       "日本": 55,
       "欧元区": 83
@@ -7080,10 +7080,9 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "actual": "50.3",
-      "forecast": "50.1",
+      "forecast": "50.2",
       "previous": "50.0",
-      "status": "released",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7101,10 +7100,9 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "actual": "50.2",
       "forecast": "49.9",
       "previous": "50.1",
-      "status": "released",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7122,9 +7120,9 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "actual": "-0.2%",
-      "forecast": "0.0%",
-      "previous": "0.1%",
+      "actual": "3.2%",
+      "forecast": "3.2%",
+      "previous": "3.2%",
       "status": "released",
       "notes": ""
     },
@@ -7143,10 +7141,9 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "actual": "0.5%",
-      "forecast": "0.6%",
+      "forecast": "0.3%",
       "previous": "0.5%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
-      "status": "released",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7303,13 +7300,13 @@
       "release_time": "6:01pm",
       "timezone": "BST",
       "importance": 2,
-      "actual": "1.2%",
-      "forecast": "1.2%",
+      "actual": null,
+      "forecast": "1.3%",
       "previous": "1.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Unemployment_Rate_20260629",
@@ -7321,13 +7318,13 @@
       "release_time": "6:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": "2.5%",
+      "actual": null,
       "forecast": "2.5%",
       "previous": "2.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Housing_Starts_y_y_20260629",
@@ -7339,13 +7336,13 @@
       "release_time": "10:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": "33.9%",
-      "forecast": "31.8%",
+      "actual": null,
+      "forecast": "32.1%",
       "previous": "11.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Import_Prices_m_m_20260629",
@@ -7357,13 +7354,13 @@
       "release_time": "11:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": "0.7%",
-      "forecast": "0.4%",
+      "actual": null,
+      "forecast": "0.6%",
       "previous": "1.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Retail_Sales_m_m_20260629",
@@ -7375,13 +7372,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": "1.1%",
+      "actual": null,
       "forecast": "0.0%",
-      "previous": "-0.4%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
+      "previous": "-0.3%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Current_Account_20260629",
@@ -7393,13 +7390,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": "-22.1B",
-      "forecast": "-22.2B",
-      "previous": "-27.2B<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
+      "actual": null,
+      "forecast": "-21.5B",
+      "previous": "-18.4B",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Final_GDP_q_q_20260629",
@@ -7411,13 +7408,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": "0.6%",
+      "actual": null,
       "forecast": "0.6%",
       "previous": "0.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Revised_Business_Investment_q_q_20260629",
@@ -7429,13 +7426,13 @@
       "release_time": "",
       "timezone": "BST",
       "importance": 2,
-      "actual": "0.9%",
+      "actual": null,
       "forecast": "0.7%",
       "previous": "0.7%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "EU_FF_French_Consumer_Spending_m_m_20260629",
@@ -7447,13 +7444,13 @@
       "release_time": "11:45pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": "0.5%",
+      "actual": null,
       "forecast": "0.2%",
       "previous": "-0.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "US_FF_FOMC_Member_Barkin_Speaks_20260629",
@@ -7506,9 +7503,9 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "forecast": "94.4",
+      "forecast": "94.2",
       "previous": "93.1",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -7518,16 +7515,16 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "6:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
-      "forecast": "51.9",
+      "forecast": "52.0",
       "previous": "51.8",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Housing_Starts_y_y_20260630",
@@ -7539,13 +7536,13 @@
       "release_time": "12:00am",
       "timezone": "JST",
       "importance": 2,
-      "actual": "33.9%",
-      "forecast": "31.8%",
+      "actual": null,
+      "forecast": "32.1%",
       "previous": "11.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Import_Prices_m_m_20260630",
@@ -7558,12 +7555,12 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "0.4%",
+      "forecast": "0.6%",
       "previous": "1.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Retail_Sales_m_m_20260630",
@@ -7581,7 +7578,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Current_Account_20260630",
@@ -7594,12 +7591,12 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "-22.2B",
+      "forecast": "-21.5B",
       "previous": "-18.4B",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Final_GDP_q_q_20260630",
@@ -7617,7 +7614,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Revised_Business_Investment_q_q_20260630",
@@ -7635,7 +7632,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Prelim_CPI_m_m_20260630",
@@ -7647,13 +7644,13 @@
       "release_time": "All Day",
       "timezone": "CET",
       "importance": 3,
-      "actual": "0.0%",
-      "forecast": "0.2%",
+      "actual": null,
+      "forecast": "0.1%",
       "previous": "0.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "EU_FF_French_Consumer_Spending_m_m_20260630",
@@ -7671,7 +7668,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Unemployment_Change_20260630",
@@ -7683,13 +7680,13 @@
       "release_time": "2:55am",
       "timezone": "CET",
       "importance": 2,
-      "actual": "-1K",
-      "forecast": "7K",
+      "actual": null,
+      "forecast": "8K",
       "previous": "-12K",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "released"
+      "status": "pending"
     },
     {
       "id": "UK_FF_MPC_Member_Breeden_Speaks_20260630",
@@ -7707,7 +7704,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_HPI_m_m_20260630",
@@ -7720,12 +7717,12 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.2%",
+      "forecast": null,
       "previous": "0.1%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_S_amp_P_CS_Composite_20_HPI_y_y_20260630",
@@ -7738,12 +7735,12 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.9%",
+      "forecast": null,
       "previous": "0.8%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Chicago_PMI_20260630",
@@ -7756,12 +7753,12 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "55.7",
+      "forecast": "60.0",
       "previous": "62.7",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_JOLTS_Job_Openings_20260630",
@@ -7779,7 +7776,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_API_Weekly_Statistical_Bulletin_20260630",
@@ -7797,7 +7794,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Tankan_Manufacturing_Index_20260630",
@@ -7815,7 +7812,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Tankan_Non_Manufacturing_Index_20260630",
@@ -7833,7 +7830,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Final_Manufacturing_PMI_20260630",
@@ -7851,7 +7848,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Consumer_Confidence_20260630",
@@ -7864,12 +7861,12 @@
       "timezone": "JST",
       "importance": 2,
       "actual": null,
-      "forecast": "34.1",
+      "forecast": "34.2",
       "previous": "33.6",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Nationwide_HPI_m_m_20260630",
@@ -7882,12 +7879,12 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "-0.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_FF_Manufacturing_PMI_20260630",
@@ -7905,7 +7902,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_FF_Non_Manufacturing_PMI_20260630",
@@ -7923,7 +7920,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_ECB_President_Lagarde_Speaks_20260630",
@@ -7941,7 +7938,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_BRC_Shop_Price_Index_y_y_20260630",
@@ -7959,7 +7956,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Unemployment_Rate_20260630",
@@ -7977,7 +7974,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Prelim_Industrial_Production_m_m_20260630",
@@ -7995,7 +7992,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_CAIXIN_PMI_20260701",
@@ -8030,7 +8027,7 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "forecast": "53.8",
+      "forecast": "53.7",
       "previous": "54.0",
       "status": "upcoming",
       "notes": ""
@@ -8046,7 +8043,7 @@
       "timezone": "JST",
       "importance": 2,
       "actual": null,
-      "forecast": "34.1",
+      "forecast": "34.2",
       "previous": "33.6",
       "unit": "",
       "source": "ForexFactory",
@@ -8064,7 +8061,7 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "-0.6%",
       "unit": "",
       "source": "ForexFactory",
@@ -8226,7 +8223,7 @@
       "timezone": "EST",
       "importance": 3,
       "actual": null,
-      "forecast": "77.7",
+      "forecast": "79.0",
       "previous": "82.1",
       "unit": "",
       "source": "ForexFactory",
@@ -8244,7 +8241,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.1%",
+      "forecast": "0.3%",
       "previous": "0.4%",
       "unit": "",
       "source": "ForexFactory",
@@ -8262,7 +8259,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "16.1M",
+      "forecast": "16.0M",
       "previous": "16.1M",
       "unit": "",
       "source": "ForexFactory",
@@ -8280,7 +8277,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "-4.8M",
+      "forecast": null,
       "previous": "-6.1M",
       "unit": "",
       "source": "ForexFactory",
@@ -8428,7 +8425,7 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "219K",
+      "forecast": "220K",
       "previous": "215K",
       "status": "upcoming",
       "notes": ""
@@ -8440,11 +8437,11 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "6:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
-      "forecast": "53.0",
+      "forecast": "53.6",
       "previous": "54.4",
       "unit": "",
       "source": "ForexFactory",
@@ -8480,7 +8477,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "-40.8K",
+      "forecast": null,
       "previous": "-36.3K",
       "unit": "",
       "source": "ForexFactory",
@@ -8606,7 +8603,7 @@
       "timezone": "EST",
       "importance": 4,
       "actual": null,
-      "forecast": "110K",
+      "forecast": "114K",
       "previous": "172K",
       "unit": "",
       "source": "ForexFactory",
@@ -8624,7 +8621,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "-1.7%",
+      "forecast": "2.1%",
       "previous": "4.8%",
       "unit": "",
       "source": "ForexFactory",
@@ -8858,7 +8855,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "0.0%",
       "unit": "",
       "source": "ForexFactory",
@@ -8876,7 +8873,7 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "48.8",
+      "forecast": "48.7",
       "previous": "48.7",
       "unit": "",
       "source": "ForexFactory",
@@ -10302,6 +10299,42 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "CN_CAIXIN_PMI_20260901",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "财新制造业PMI",
+      "indicator_en": "Caixin Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-01",
+      "release_time": "09:45",
+      "timezone": "BJS",
+      "period": "2026-08",
+      "source": "财新/Markit",
+      "source_url": "",
+      "unit": "",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_ISM_MFG_20260901",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "ISM 制造业PMI",
+      "indicator_en": "ISM Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-09-01",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-08",
+      "source": "Institute for Supply Management",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
