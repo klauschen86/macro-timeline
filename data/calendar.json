@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-01 05:59:17",
+    "generated_at": "2026-07-01 10:40:01",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 560,
     "upcoming_events": 134,
-    "released_events": 206,
-    "pending_events": 221,
+    "released_events": 213,
+    "pending_events": 219,
     "upcoming_with_forecast": 31,
     "historical_events": 426,
     "data_from": "2025-12-15",
@@ -7339,13 +7339,13 @@
       "release_time": "10:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
-      "forecast": "32.1%",
+      "actual": "33.9%",
+      "forecast": "31.8%",
       "previous": "11.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Import_Prices_m_m_20260629",
@@ -7519,7 +7519,7 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "9:45pm",
+      "release_time": "7:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "51.7",
@@ -7864,13 +7864,13 @@
       "release_time": "10:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
-      "forecast": "34.2",
+      "actual": "33.8",
+      "forecast": "34.1",
       "previous": "33.6",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "UK_FF_Nationwide_HPI_m_m_20260630",
@@ -8064,13 +8064,13 @@
       "release_time": "1:00am",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.1%",
       "previous": "-0.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Spanish_Manufacturing_PMI_20260701",
@@ -8082,13 +8082,13 @@
       "release_time": "2:15am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "51.4",
       "forecast": "51.3",
       "previous": "51.3",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_Final_Manufacturing_PMI_20260701",
@@ -8100,13 +8100,13 @@
       "release_time": "3:30am",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "52.5",
       "forecast": "53.1",
       "previous": "53.1",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Core_CPI_Flash_Estimate_y_y_20260701",
@@ -8118,13 +8118,13 @@
       "release_time": "4:00am",
       "timezone": "CET",
       "importance": 3,
-      "actual": null,
+      "actual": "2.8%",
       "forecast": "3.0%",
       "previous": "3.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Challenger_Job_Cuts_y_y_20260701",
@@ -8136,13 +8136,13 @@
       "release_time": "4:30am",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "-4.5%",
       "forecast": null,
       "previous": "3.4%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_ADP_Non_Farm_Employment_Change_20260701",
@@ -8459,7 +8459,7 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "9:45pm",
+      "release_time": "7:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
