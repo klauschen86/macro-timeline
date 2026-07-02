@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-02 05:14:29",
+    "generated_at": "2026-07-02 10:08:47",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 561,
     "upcoming_events": 111,
-    "released_events": 238,
-    "pending_events": 213,
+    "released_events": 244,
+    "pending_events": 212,
     "upcoming_with_forecast": 15,
     "historical_events": 450,
     "data_from": "2025-12-15",
@@ -8335,13 +8335,13 @@
       "release_time": "11:45pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-93.3B",
       "forecast": null,
       "previous": "-69.6B",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "CN_FF_RatingDog_Manufacturing_PMI_20260701",
@@ -8499,13 +8499,13 @@
       "release_time": "2:00am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-28.7K",
       "forecast": "-40.8K",
       "previous": "-36.3K",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Italian_Monthly_Unemployment_Rate_20260702",
@@ -8517,13 +8517,13 @@
       "release_time": "3:00am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "6.2%",
       "forecast": "6.3%",
-      "previous": "6.3%",
+      "previous": "6.2%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_BOE_Credit_Conditions_Survey_20260702",
@@ -8553,13 +8553,13 @@
       "release_time": "Tentative",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "3.40|1.8",
       "forecast": null,
       "previous": "3.38|1.9",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_French_10_y_Bond_Auction_20260702",
@@ -8571,13 +8571,13 @@
       "release_time": "Tentative",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "3.68|3.3",
       "forecast": null,
       "previous": "3.80|2.4",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_10_y_Bond_Auction_20260702",
@@ -8589,13 +8589,13 @@
       "release_time": "Tentative",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "4.93|3.3",
       "forecast": null,
       "previous": "4.86|3.5",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Average_Hourly_Earnings_m_m_20260702",
