@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-03 09:30:44",
+    "generated_at": "2026-07-03 05:09:36",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 563,
     "upcoming_events": 94,
-    "released_events": 251,
-    "pending_events": 218,
+    "released_events": 252,
+    "pending_events": 217,
     "upcoming_with_forecast": 5,
     "historical_events": 469,
     "data_from": "2025-12-15",
@@ -7519,7 +7519,7 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "6:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "51.7",
@@ -8461,16 +8461,16 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "6:45pm",
+      "release_time": "8:45pm",
       "timezone": "BJS",
       "importance": 2,
-      "actual": null,
+      "actual": "54.1",
       "forecast": "53.0",
       "previous": "54.4",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_French_Gov_Budget_Balance_20260702",
@@ -10395,7 +10395,8 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_JOBLESS_CLAIMS_20260903",
@@ -10412,7 +10413,8 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-09-17",
