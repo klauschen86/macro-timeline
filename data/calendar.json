@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-07-03 05:09:36",
+    "generated_at": "2026-07-03 09:55:39",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 563,
     "upcoming_events": 94,
-    "released_events": 252,
+    "released_events": 256,
     "pending_events": 217,
     "upcoming_with_forecast": 5,
     "historical_events": 469,
@@ -7519,7 +7519,7 @@
       "indicator": "RatingDog Manufacturing PMI",
       "indicator_en": "RatingDog Manufacturing PMI",
       "release_date": "2026-06-30",
-      "release_time": "8:45pm",
+      "release_time": "7:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "51.7",
@@ -8461,7 +8461,7 @@
       "indicator": "RatingDog Services PMI",
       "indicator_en": "RatingDog Services PMI",
       "release_date": "2026-07-02",
-      "release_time": "8:45pm",
+      "release_time": "7:45pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "54.1",
@@ -8842,13 +8842,13 @@
       "release_time": "1:45am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.1%",
       "forecast": "-0.3%",
-      "previous": "0.1%",
+      "previous": "0.3%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Spanish_Services_PMI_20260703",
@@ -8860,13 +8860,13 @@
       "release_time": "2:15am",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "49.4",
       "forecast": "48.9",
       "previous": "48.9",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_ECB_President_Lagarde_Speaks_20260703",
@@ -8896,13 +8896,13 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.0%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "UK_FF_Final_Services_PMI_20260703",
@@ -8914,13 +8914,13 @@
       "release_time": "3:30am",
       "timezone": "BST",
       "importance": 2,
-      "actual": null,
+      "actual": "48.8",
       "forecast": "48.8",
       "previous": "48.7",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Bank_Holiday_20260703",
