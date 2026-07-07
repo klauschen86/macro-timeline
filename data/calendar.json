@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-07-06 11:26:01",
+    "generated_at": "2026-07-07 05:30:19",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 635,
-    "upcoming_events": 153,
-    "released_events": 257,
-    "pending_events": 230,
-    "upcoming_with_forecast": 47,
-    "historical_events": 482,
+    "total_events": 638,
+    "upcoming_events": 141,
+    "released_events": 263,
+    "pending_events": 235,
+    "upcoming_with_forecast": 34,
+    "historical_events": 497,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
-      "中国": 162,
-      "美国": 219,
+      "中国": 163,
+      "美国": 220,
       "英国": 78,
       "日本": 75,
-      "欧元区": 101
+      "欧元区": 102
     }
   },
   "events": [
@@ -9043,13 +9043,13 @@
       "release_time": "2:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "1.9%",
       "forecast": "1.1%",
-      "previous": "-3.8%",
+      "previous": "-3.2%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Sentix_Investor_Confidence_20260706",
@@ -9133,13 +9133,13 @@
       "release_time": "9:45pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "54.0",
       "forecast": "54.2",
       "previous": "54.5",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_FOMC_Member_Waller_Speaks_20260706",
@@ -9157,7 +9157,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "JP_FF_Average_Cash_Earnings_y_y_20260706",
@@ -9169,13 +9169,13 @@
       "release_time": "7:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "3.4%",
       "previous": "3.6%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "JP_FF_Household_Spending_y_y_20260706",
@@ -9187,13 +9187,13 @@
       "release_time": "",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
-      "forecast": "-2.2%",
+      "actual": "-0.4%",
+      "forecast": "-2.3%",
       "previous": "-0.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "JP_FF_30_y_Bond_Auction_20260706",
@@ -9205,13 +9205,13 @@
       "release_time": "11:35pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "3.99|4.6",
       "forecast": null,
       "previous": "3.86|2.9",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "JP_FF_Leading_Indicators_20260706",
@@ -9229,7 +9229,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_German_Industrial_Production_m_m_20260706",
@@ -9247,7 +9247,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "UK_FF_Halifax_HPI_m_m_20260706",
@@ -9265,7 +9265,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_French_Trade_Balance_20260706",
@@ -9283,7 +9283,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_FX_RESERVES_20260707",
@@ -9367,13 +9367,13 @@
       "release_time": "1:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "116.8%",
       "forecast": "116.9%",
       "previous": "116.1%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_Industrial_Production_m_m_20260707",
@@ -9386,7 +9386,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "0.4%",
+      "forecast": "0.1%",
       "previous": "0.4%",
       "unit": "",
       "source": "ForexFactory",
@@ -9404,7 +9404,7 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "-0.1%",
       "unit": "",
       "source": "ForexFactory",
@@ -9422,7 +9422,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "-5.2B",
+      "forecast": "-5.9B",
       "previous": "-5.6B",
       "unit": "",
       "source": "ForexFactory",
@@ -9530,7 +9530,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "-78.5B",
+      "forecast": "-78.3B",
       "previous": "-55.9B",
       "unit": "",
       "source": "ForexFactory",
@@ -9628,6 +9628,24 @@
       "status": "upcoming"
     },
     {
+      "id": "US_FF_FOMC_Member_Bowman_Speaks_20260707",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "FOMC Member Bowman Speaks",
+      "indicator_en": "FOMC Member Bowman Speaks",
+      "release_date": "2026-07-07",
+      "release_time": "7:00am",
+      "timezone": "EST",
+      "importance": 2,
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "unit": "",
+      "source": "ForexFactory",
+      "source_url": "https://www.forexfactory.com/calendar",
+      "status": "upcoming"
+    },
+    {
       "id": "US_FF_API_Weekly_Statistical_Bulletin_20260708",
       "country": "US",
       "country_name": "美国",
@@ -9692,7 +9710,7 @@
       "timezone": "JST",
       "importance": 2,
       "actual": null,
-      "forecast": "44.6",
+      "forecast": "44.3",
       "previous": "43.6",
       "unit": "",
       "source": "ForexFactory",
@@ -9760,7 +9778,7 @@
       "indicator": "CPI 居民消费价格指数（同比）",
       "indicator_en": "CPI y/y",
       "release_date": "2026-07-08",
-      "release_time": "6:30pm",
+      "release_time": "9:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -9782,7 +9800,7 @@
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
-      "forecast": "4.2%",
+      "forecast": "4.1%",
       "previous": "3.9%",
       "unit": "",
       "source": "ForexFactory",
@@ -9836,7 +9854,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "17.6B",
+      "forecast": "16.9B",
       "previous": "20.7B",
       "unit": "",
       "source": "ForexFactory",
@@ -9854,7 +9872,7 @@
       "timezone": "BST",
       "importance": 2,
       "actual": null,
-      "forecast": "-32%",
+      "forecast": "-31%",
       "previous": "-35%",
       "unit": "",
       "source": "ForexFactory",
@@ -10074,7 +10092,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "14.2B",
+      "forecast": "14.9B",
       "previous": "14.5B",
       "unit": "",
       "source": "ForexFactory",
@@ -10146,7 +10164,7 @@
       "timezone": "EST",
       "importance": 2,
       "actual": null,
-      "forecast": "4.20M",
+      "forecast": "4.19M",
       "previous": "4.17M",
       "unit": "",
       "source": "ForexFactory",
@@ -10326,7 +10344,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": null,
-      "forecast": "-0.2%",
+      "forecast": "-0.1%",
       "previous": "0.5%",
       "unit": "",
       "source": "ForexFactory",
@@ -11714,6 +11732,42 @@
       "timezone": "EST",
       "period": "2026-08",
       "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "CN_FX_RESERVES_20260907",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "外汇储备",
+      "indicator_en": "FX Reserves",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-07",
+      "release_time": "16:00",
+      "timezone": "BJS",
+      "period": "2026-08",
+      "source": "中国人民银行",
+      "source_url": "",
+      "unit": "亿美元",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "EU_RETAIL_20260907",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "零售销售（环比）",
+      "indicator_en": "Retail Sales MoM",
+      "frequency": "月度",
+      "importance": 1,
+      "release_date": "2026-09-07",
+      "release_time": "11:00",
+      "timezone": "CET",
+      "period": "2026-08",
+      "source": "Eurostat",
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
