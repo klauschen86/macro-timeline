@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-07-08 04:42:04",
+    "generated_at": "2026-07-08 09:24:22",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 632,
     "upcoming_events": 118,
-    "released_events": 277,
+    "released_events": 278,
     "pending_events": 239,
     "upcoming_with_forecast": 23,
     "historical_events": 514,
@@ -9655,13 +9655,13 @@
       "release_time": "1:00pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "44.0",
       "forecast": "44.3",
       "previous": "43.6",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_10_y_Bond_Auction_20260708",
@@ -9724,7 +9724,7 @@
       "indicator": "CPI 居民消费价格指数（同比）",
       "indicator_en": "CPI y/y",
       "release_date": "2026-07-08",
-      "release_time": "7:30pm",
+      "release_time": "9:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
