@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-09 05:32:35",
+    "generated_at": "2026-07-09 10:22:38",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 641,
     "upcoming_events": 107,
-    "released_events": 296,
-    "pending_events": 242,
+    "released_events": 298,
+    "pending_events": 240,
     "upcoming_with_forecast": 14,
     "historical_events": 534,
     "data_from": "2025-12-15",
@@ -9925,13 +9925,13 @@
       "release_time": "11:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "19.1B",
       "forecast": "14.9B",
-      "previous": "14.5B",
+      "previous": "14.7B<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "JP_FF_Prelim_Machine_Tool_Orders_y_y_20260708",
@@ -9943,13 +9943,13 @@
       "release_time": "",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "52.8%",
       "forecast": null,
       "previous": "37.5%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "CN_CPI_20260709",
