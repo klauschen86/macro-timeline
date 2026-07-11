@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-07-10 10:21:40",
+    "generated_at": "2026-07-11 04:38:04",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 643,
-    "upcoming_events": 91,
-    "released_events": 311,
-    "pending_events": 245,
-    "upcoming_with_forecast": 3,
-    "historical_events": 552,
+    "upcoming_events": 84,
+    "released_events": 312,
+    "pending_events": 247,
+    "upcoming_with_forecast": 0,
+    "historical_events": 559,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -9796,7 +9796,7 @@
       "indicator": "CPI 居民消费价格指数（同比）",
       "indicator_en": "CPI y/y",
       "release_date": "2026-07-08",
-      "release_time": "8:30pm",
+      "release_time": "6:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "1.0%",
@@ -10273,13 +10273,13 @@
       "release_time": "11:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.3%",
       "forecast": "-0.2%",
       "previous": "-0.2%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "CN_TRADE_20260710",
@@ -10296,7 +10296,7 @@
       "source": "海关总署",
       "source_url": "",
       "unit": "亿美元",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -10387,7 +10387,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Fed_Monetary_Policy_Report_20260710",
@@ -10405,7 +10405,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "CN_M2_20260713",
