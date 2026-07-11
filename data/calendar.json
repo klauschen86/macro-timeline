@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11 04:38:04",
+    "generated_at": "2026-07-11 08:44:49",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 643,
@@ -9796,7 +9796,7 @@
       "indicator": "CPI 居民消费价格指数（同比）",
       "indicator_en": "CPI y/y",
       "release_date": "2026-07-08",
-      "release_time": "6:30pm",
+      "release_time": "8:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "1.0%",
