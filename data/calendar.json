@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-07-14 04:23:47",
+    "generated_at": "2026-07-14 09:02:41",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 706,
     "upcoming_events": 158,
-    "released_events": 292,
+    "released_events": 294,
     "pending_events": 256,
     "upcoming_with_forecast": 50,
     "historical_events": 548,
@@ -10112,7 +10112,7 @@
       "indicator": "贸易差额",
       "indicator_en": "Trade Balance",
       "release_date": "2026-07-13",
-      "release_time": "9:31pm",
+      "release_time": "10:31pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "859B",
@@ -10349,13 +10349,13 @@
       "release_time": "12:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.5%",
       "previous": "0.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_WPI_m_m_20260714",
@@ -10367,13 +10367,13 @@
       "release_time": "2:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "-0.7%",
       "forecast": "0.5%",
       "previous": "-0.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_French_Bank_Holiday_20260714",
@@ -10544,7 +10544,7 @@
       "indicator": "新建住宅价格（环比）",
       "indicator_en": "New Home Prices m/m",
       "release_date": "2026-07-14",
-      "release_time": "8:30pm",
+      "release_time": "9:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
@@ -10562,7 +10562,7 @@
       "indicator": "固定资产投资（累计同比）",
       "indicator_en": "Fixed Asset Investment ytd/y",
       "release_date": "2026-07-14",
-      "release_time": "9:00pm",
+      "release_time": "10:00pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": null,
