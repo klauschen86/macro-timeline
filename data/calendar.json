@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-07-17 04:37:19",
+    "generated_at": "2026-07-17 09:06:46",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 713,
     "upcoming_events": 95,
-    "released_events": 329,
+    "released_events": 331,
     "pending_events": 289,
     "upcoming_with_forecast": 8,
     "historical_events": 618,
@@ -11551,13 +11551,13 @@
       "release_time": "4:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "25.1B",
       "forecast": "18.1B",
-      "previous": "15.7B",
+      "previous": "17.5B<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "EU_FF_Final_Core_CPI_y_y_20260717",
@@ -11569,13 +11569,13 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": null,
+      "actual": "2.8%",
       "forecast": "2.8%",
       "previous": "2.8%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Building_Permits_20260717",
