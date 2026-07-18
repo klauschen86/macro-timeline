@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-07-17 09:06:46",
+    "generated_at": "2026-07-18 04:21:33",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 713,
-    "upcoming_events": 95,
-    "released_events": 331,
-    "pending_events": 289,
-    "upcoming_with_forecast": 8,
-    "historical_events": 618,
+    "upcoming_events": 83,
+    "released_events": 340,
+    "pending_events": 290,
+    "upcoming_with_forecast": 0,
+    "historical_events": 630,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -10112,7 +10112,7 @@
       "indicator": "贸易差额",
       "indicator_en": "Trade Balance",
       "release_date": "2026-07-13",
-      "release_time": "9:31pm",
+      "release_time": "10:31pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "859B",
@@ -10349,13 +10349,13 @@
       "release_time": "12:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.5%",
       "previous": "0.5%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_German_WPI_m_m_20260714",
@@ -10508,7 +10508,7 @@
       "indicator": "新建住宅价格（环比）",
       "indicator_en": "New Home Prices m/m",
       "release_date": "2026-07-14",
-      "release_time": "8:30pm",
+      "release_time": "9:30pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-0.15%",
@@ -10526,7 +10526,7 @@
       "indicator": "固定资产投资（累计同比）",
       "indicator_en": "Fixed Asset Investment ytd/y",
       "release_date": "2026-07-14",
-      "release_time": "9:00pm",
+      "release_time": "10:00pm",
       "timezone": "BJS",
       "importance": 2,
       "actual": "-5.7%",
@@ -10933,13 +10933,13 @@
       "release_time": "12:30pm",
       "timezone": "JST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.1%",
       "forecast": "0.4%",
-      "previous": "1.3%",
+      "previous": "0.8%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "pending"
+      "status": "released"
     },
     {
       "id": "EU_FF_Industrial_Production_m_m_20260715",
@@ -11056,7 +11056,7 @@
       "indicator": "M2 货币供应量（同比）",
       "indicator_en": "M2 Money Supply y/y",
       "release_date": "2026-07-15",
-      "release_time": "2:00am",
+      "release_time": "3:00am",
       "timezone": "BJS",
       "importance": 2,
       "actual": "8.0%",
@@ -11074,7 +11074,7 @@
       "indicator": "新增人民币贷款",
       "indicator_en": "New Loans",
       "release_date": "2026-07-15",
-      "release_time": "2:01am",
+      "release_time": "3:01am",
       "timezone": "BJS",
       "importance": 2,
       "actual": "1610B",
@@ -11502,7 +11502,7 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11521,7 +11521,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "US_FF_Treasury_Currency_Report_20260717",
@@ -11539,7 +11539,7 @@
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "pending"
     },
     {
       "id": "EU_FF_Current_Account_20260717",
@@ -11587,13 +11587,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.37M",
       "forecast": "1.40M",
       "previous": "1.41M",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Housing_Starts_20260717",
@@ -11605,13 +11605,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "1.43M",
       "forecast": "1.31M",
-      "previous": "1.18M",
+      "previous": "1.20M<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Import_Prices_m_m_20260717",
@@ -11623,13 +11623,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "-0.7%",
-      "previous": "1.9%",
+      "previous": "1.7%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Capacity_Utilization_Rate_20260717",
@@ -11641,13 +11641,13 @@
       "release_time": "9:15pm",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "76.1%",
       "forecast": "76.2%",
-      "previous": "76.2%",
+      "previous": "76.1%<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Industrial_Production_m_m_20260717",
@@ -11659,13 +11659,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 2,
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.2%",
       "previous": "0.1%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Prelim_UoM_Consumer_Sentiment_20260717",
@@ -11677,13 +11677,13 @@
       "release_time": "10:00pm",
       "timezone": "EST",
       "importance": 3,
-      "actual": null,
+      "actual": "54.4",
       "forecast": "51.0",
       "previous": "49.5<img class=\"svg-img svg-img--calendar-revised\" width=\"5\" height=\"7\" src=\"resources/svg/images/calendar/revised.svg?f7361939\">",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "US_FF_Prelim_UoM_Inflation_Expectations_20260717",
@@ -11695,13 +11695,13 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": null,
+      "actual": "4.2%",
       "forecast": null,
       "previous": "4.6%",
       "unit": "",
       "source": "ForexFactory",
       "source_url": "https://www.forexfactory.com/calendar",
-      "status": "upcoming"
+      "status": "released"
     },
     {
       "id": "CN_LPR_1Y_20260720",
