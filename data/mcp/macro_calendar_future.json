@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "data": {
+    "macro_calendar_future": {
+      "date": "2026-07-21",
+      "items": [
+        {
+          "AreaName": "美国",
+          "Event": "CFTC公布周度持仓报告。",
+          "OccurDate": 20260725,
+          "OccurTime": "03:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "德国",
+          "Event": "欧洲央行首席经济学家连恩发表讲话。",
+          "OccurDate": 20260724,
+          "OccurTime": "23:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "中国",
+          "Event": "国新办就加快建设交通强国、完善现代化综合交通运输体系有关情况举行发布会。",
+          "OccurDate": 20260721,
+          "OccurTime": "10:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "德国",
+          "Event": "欧洲央行行长拉加德召开货币政策新闻发布会。",
+          "OccurDate": 20260723,
+          "OccurTime": "20:45",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "土耳其",
+          "Event": "土耳其央行公布利率决议。",
+          "OccurDate": 20260723,
+          "OccurTime": "19:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "德国",
+          "Event": "欧洲央行公布专业者预期调查报告。",
+          "OccurDate": 20260724,
+          "OccurTime": "16:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "俄罗斯",
+          "Event": "俄罗斯央行公布利率决议。",
+          "OccurDate": 20260724,
+          "OccurTime": "18:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "德国",
+          "Event": "欧洲央行公布银行贷款调查报告。",
+          "OccurDate": 20260721,
+          "OccurTime": "16:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "中国",
+          "Event": "国新办就以海关工作现代化助力十五五高质量开局起步有关情况举行新闻发布会。",
+          "OccurDate": 20260722,
+          "OccurTime": "10:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "比利时",
+          "Event": "欧盟-英国在布鲁塞尔举行峰会。",
+          "OccurDate": 20260722,
+          "OccurTime": "当天",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "德国",
+          "Event": "欧洲央行公布利率决议。",
+          "OccurDate": 20260723,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "印尼",
+          "Event": "印尼央行公布利率决议。",
+          "OccurDate": 20260722,
+          "OccurTime": "15:20",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "中国",
+          "Event": "有4000亿元1年期中期借贷便利（MLF）到期。",
+          "OccurDate": 20260727,
+          "OccurTime": "待定",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "俄罗斯",
+          "Event": "俄罗斯央行行长纳比乌琳娜召开货币政策新闻发布会。",
+          "OccurDate": 20260724,
+          "OccurTime": "20:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "美国",
+          "Event": "NYMEX纽约原油8月期货受移仓换月影响，7月22日2:30完成场内最后交易，凌晨5:00完成电子盘最后交易，请留意交易场所到期换月公告控制风险。此外，部分交易平台美油合约到期时间通常较NYMEX官方提前一天，请多加留意。",
+          "OccurDate": 20260722,
+          "OccurTime": "02:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "英国",
+          "Event": "三星Galaxy全球新品发布会。",
+          "OccurDate": 20260722,
+          "OccurTime": "21:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "比利时",
+          "Event": "欧盟-英国在布鲁塞尔举行峰会。",
+          "OccurDate": 20260722,
+          "OccurTime": "待定",
+          "code": "",
+          "name": ""
+        },
+        {
+          "AreaName": "南非",
+          "Event": "南非央行公布利率决议。",
+          "OccurDate": 20260723,
+          "OccurTime": "21:00",
+          "code": "",
+          "name": ""
+        }
+      ],
+      "listCode": "macro_calendar_future",
+      "listGroup": "宏观日历未来",
+      "listName": "宏观日历未来",
+      "totalItems": 18
+    }
+  }
+}

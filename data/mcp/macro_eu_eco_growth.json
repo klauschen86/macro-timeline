@@ -1,0 +1,254 @@
+{
+  "ok": true,
+  "data": {
+    "macro_eu_eco_growth": {
+      "date": "2026-07-21",
+      "items": [
+        {
+          "ActualValue": "1.3",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.5",
+          "IndicatorName": "欧元区第三季度季调后GDP年率初值(%)",
+          "OccurDate": 20251030,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.2",
+          "IndicatorName": "欧元区10月季调后工业产出月率(%)",
+          "OccurDate": 20251215,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.5",
+          "IndicatorName": "欧元区第二季度季调后GDP年率初值(%)",
+          "OccurDate": 20250730,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "欧元区3月季调后工业产出月率(%)",
+          "OccurDate": 20260513,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "1.4",
+          "FormerValue": "1.4",
+          "IndicatorName": "欧元区第三季度季调后GDP年率终值(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.1",
+          "IndicatorName": "欧元区6月季调后工业产出月率(%)",
+          "OccurDate": 20260715,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "1.4",
+          "FormerValue": "1.4",
+          "IndicatorName": "欧元区第二季度季调后GDP年率修正值(%)",
+          "OccurDate": 20250814,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "0.9",
+          "FormerValue": "1.2",
+          "IndicatorName": "欧元区第一季度季调后GDP年率初值(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.3",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.4",
+          "IndicatorName": "欧元区第四季度季调后GDP年率初值(%)",
+          "OccurDate": 20260130,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "-1.5",
+          "IndicatorName": "欧元区2月季调后工业产出月率(%)",
+          "OccurDate": 20260415,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "欧元区4月季调后工业产出月率(%)",
+          "OccurDate": 20260615,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.2",
+          "ForecastValue": "1.3",
+          "FormerValue": "1.3",
+          "IndicatorName": "欧元区第四季度季调后GDP年率终值(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.8",
+          "IndicatorName": "欧元区第一季度季调后GDP年率修正值(%)",
+          "OccurDate": 20260513,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "1.3",
+          "FormerValue": "1.3",
+          "IndicatorName": "欧元区第三季度季调后GDP年率修正值(%)",
+          "OccurDate": 20251114,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.4",
+          "FormerValue": "-1.3",
+          "IndicatorName": "欧元区7月季调后工业产出月率(%)",
+          "OccurDate": 20250916,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.2",
+          "ForecastValue": "-1.6",
+          "FormerValue": "0.3",
+          "IndicatorName": "欧元区8月季调后工业产出月率(%)",
+          "OccurDate": 20251015,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.8",
+          "IndicatorName": "欧元区11月季调后工业产出月率(%)",
+          "OccurDate": 20260115,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.4",
+          "ForecastValue": "-1.5",
+          "FormerValue": "0.7",
+          "IndicatorName": "欧元区12月季调后工业产出月率(%)",
+          "OccurDate": 20260216,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.3",
+          "ForecastValue": "-1",
+          "FormerValue": "1.7",
+          "IndicatorName": "欧元区6月季调后工业产出月率(%)",
+          "OccurDate": 20250814,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.5",
+          "ForecastValue": "0.6",
+          "FormerValue": "-1.4",
+          "IndicatorName": "欧元区1月季调后工业产出月率(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.5",
+          "ForecastValue": "1.4",
+          "FormerValue": "1.4",
+          "IndicatorName": "欧元区第二季度季调后GDP年率终值(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.7",
+          "FormerValue": "-1.2",
+          "IndicatorName": "欧元区9月季调后工业产出月率(%)",
+          "OccurDate": 20251113,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.8",
+          "IndicatorName": "欧元区第一季度季调后GDP年率终值(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.3",
+          "ForecastValue": "1.3",
+          "FormerValue": "1.3",
+          "IndicatorName": "欧元区第四季度季调后GDP年率修正值(%)",
+          "OccurDate": 20260213,
+          "OccurTime": "18:00",
+          "code": "",
+          "name": ""
+        }
+      ],
+      "listCode": "macro_eu_eco_growth",
+      "listGroup": "欧元区宏观(经济增长)",
+      "listName": "欧元区宏观(经济增长)",
+      "totalItems": 24
+    }
+  }
+}

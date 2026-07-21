@@ -1,1 +1,2522 @@
-{"ok": true, "data": {"macro_us_inflation": {"date": "2026-07-20", "items": [{"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国11月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20251121, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国6月克里夫兰联储CPI月率(%)", "OccurDate": 20260714, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.5", "IndicatorName": "美国5月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260508, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "3.6", "FormerValue": "3.6", "IndicatorName": "美国第一季度GDP价格指数季率修正值(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国2月核心CPI月率季调后(%)", "OccurDate": 20260311, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国7月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20250801, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国6月核心PCE物价指数月率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "", "FormerValue": "4.8", "IndicatorName": "美国6月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260612, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.4", "FormerValue": "0.3", "IndicatorName": "美国2月PCE物价指数月率(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.1", "ForecastValue": "", "FormerValue": "3", "IndicatorName": "美国7月纽约联储1年通胀预期(%)", "OccurDate": 20250811, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "4.7", "ForecastValue": "4.8", "FormerValue": "4.8", "IndicatorName": "美国9月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20250926, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "4.8", "ForecastValue": "4.3", "FormerValue": "3.8", "IndicatorName": "美国4月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260410, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.6", "IndicatorName": "美国8月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20250910, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "2.8", "FormerValue": "3.8", "IndicatorName": "美国第四季度GDP价格指数季率初值(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.4", "IndicatorName": "美国3月核心PCE物价指数月率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国12月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260130, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.4", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国第一季度核心PCE物价指数年化季率修正值(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国4月克里夫兰联储CPI月率(%)", "OccurDate": 20260512, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.9", "ForecastValue": "0.2", "FormerValue": "0", "IndicatorName": "美国7月PPI月率(%)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "", "FormerValue": "3.5", "IndicatorName": "美国6月纽约联储1年通胀预期(%)", "OccurDate": 20260713, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "-0.2", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国4月实际周薪年率(%)", "OccurDate": 20260512, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.9", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国3月实际周薪月率(%)", "OccurDate": 20260410, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.4", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国第一季度核心PCE物价指数年化季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国11月实际个人消费支出月率(%)", "OccurDate": 20260122, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "3.2", "FormerValue": "3.2", "IndicatorName": "美国12月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20251219, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.3", "ForecastValue": "3.4", "FormerValue": "3.4", "IndicatorName": "美国1月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260123, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "4.5", "FormerValue": "4.5", "IndicatorName": "美国第一季度PCE物价指数年化季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.02", "ForecastValue": "", "FormerValue": "0.25", "IndicatorName": "美国12月CPI月率未季调(%)", "OccurDate": 20260113, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.9", "ForecastValue": "", "FormerValue": "3.5", "IndicatorName": "美国9月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20250912, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "", "FormerValue": "3.8", "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后终值(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "0.2", "FormerValue": "-0.1", "IndicatorName": "美国9月核心PPI月率(%)", "OccurDate": 20251125, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国2月实际个人消费支出月率(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.5", "IndicatorName": "美国2月实际周薪月率(%)", "OccurDate": 20260311, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "", "FormerValue": "4", "IndicatorName": "美国2月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260206, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国12月纽约联储1年通胀预期(%)", "OccurDate": 20260109, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.4", "FormerValue": "0.2", "IndicatorName": "美国12月核心PCE物价指数月率(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.7", "ForecastValue": "4.8", "FormerValue": "3.8", "IndicatorName": "美国4月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260424, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "1.1", "ForecastValue": "0.7", "FormerValue": "1.4", "IndicatorName": "美国5月PPI月率(%)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国12月PCE物价指数月率(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4", "ForecastValue": "4.2", "FormerValue": "4.2", "IndicatorName": "美国1月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260123, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.8", "IndicatorName": "美国6月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260715, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国4月核心PCE物价指数月率(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国7月克里夫兰联储CPI月率(%)", "OccurDate": 20250812, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "", "FormerValue": "3.1", "IndicatorName": "美国8月纽约联储1年通胀预期(%)", "OccurDate": 20250908, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国2月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3", "ForecastValue": "3.1", "FormerValue": "2.9", "IndicatorName": "美国9月CPI月率未季调(%)", "OccurDate": 20251024, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "0.6", "IndicatorName": "美国5月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "0.7", "FormerValue": "0.4", "IndicatorName": "美国3月PCE物价指数月率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "-0.02", "IndicatorName": "美国1月CPI月率未季调(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "1.7", "IndicatorName": "美国3月实际周薪年率(%)", "OccurDate": 20260410, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国9月核心CPI月率未季调(%)", "OccurDate": 20251024, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "4.1", "FormerValue": "4.2", "IndicatorName": "美国1月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260109, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.15", "ForecastValue": "", "FormerValue": "0.34", "IndicatorName": "美国7月CPI月率未季调(%)", "OccurDate": 20250812, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3", "ForecastValue": "", "FormerValue": "3.1", "IndicatorName": "美国2月纽约联储1年通胀预期(%)", "OccurDate": 20260309, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国10月克里夫兰联储CPI月率(%)", "OccurDate": 20251219, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "3.7", "FormerValue": "3.4", "IndicatorName": "美国3月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260313, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.47", "ForecastValue": "", "FormerValue": "0.37", "IndicatorName": "美国2月CPI月率未季调(%)", "OccurDate": 20260311, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "-0.1", "IndicatorName": "美国9月PPI月率(%)", "OccurDate": 20251125, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "0.3", "FormerValue": "0.8", "IndicatorName": "美国2月核心PPI月率(%)", "OccurDate": 20260318, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.5", "IndicatorName": "美国3月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260414, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国11月PCE物价指数月率(%)", "OccurDate": 20260122, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国4月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260424, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "4.6", "FormerValue": "4.6", "IndicatorName": "美国6月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260626, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.4", "IndicatorName": "美国5月核心CPI月率季调后(%)", "OccurDate": 20260610, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国12月核心CPI月率季调后(%)", "OccurDate": 20260113, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国2月CPI月率季调后(%)", "OccurDate": 20260311, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.5", "FormerValue": "0.7", "IndicatorName": "美国4月PCE物价指数月率(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "", "FormerValue": "3.9", "IndicatorName": "美国8月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20250829, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国12月CPI月率季调后(%)", "OccurDate": 20260113, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.1", "ForecastValue": "2.9", "FormerValue": "3.7", "IndicatorName": "美国第二季度PCE物价指数年化季率初值(%)", "OccurDate": 20250730, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.37", "ForecastValue": "", "FormerValue": "-0.02", "IndicatorName": "美国1月CPI月率未季调(%)", "OccurDate": 20260213, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.4", "FormerValue": "0.4", "IndicatorName": "美国9月CPI月率季调后(%)", "OccurDate": 20251024, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "0.5", "FormerValue": "0.6", "IndicatorName": "美国5月CPI月率季调后(%)", "OccurDate": 20260610, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.9", "FormerValue": "3.9", "IndicatorName": "美国9月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20250926, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.7", "FormerValue": "3.7", "IndicatorName": "美国10月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20251010, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "1.4", "ForecastValue": "", "FormerValue": "0.7", "IndicatorName": "美国7月实际周薪年率(%)", "OccurDate": 20250812, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.7", "ForecastValue": "", "FormerValue": "4.6", "IndicatorName": "美国11月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20251107, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.3", "ForecastValue": "3.4", "FormerValue": "3.3", "IndicatorName": "美国2月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260220, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "-0.2", "ForecastValue": "", "FormerValue": "-0.9", "IndicatorName": "美国4月实际周薪月率(%)", "OccurDate": 20260512, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "2.7", "FormerValue": "2.1", "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后初值(%)", "OccurDate": 20251223, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.4", "IndicatorName": "美国1月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260227, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.5", "IndicatorName": "美国1月PPI月率(%)", "OccurDate": 20260227, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.8", "ForecastValue": "3.5", "FormerValue": "2.8", "IndicatorName": "美国第三季度PCE物价指数年化季率终值(%)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.8", "FormerValue": "3.7", "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后终值(%)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.6", "ForecastValue": "2.5", "FormerValue": "2.5", "IndicatorName": "美国第二季度核心PCE物价指数年化季率终值(%)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国第四季度GDP价格指数季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国8月核心PCE物价指数月率(%)", "OccurDate": 20250926, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国8月克里夫兰联储CPI月率(%)", "OccurDate": 20250911, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "2.9", "IndicatorName": "美国第三季度PCE物价指数年化季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.4", "IndicatorName": "美国1月PCE物价指数月率(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "4.6", "FormerValue": "4.6", "IndicatorName": "美国10月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20251024, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "2.9", "FormerValue": "2.9", "IndicatorName": "美国第三季度核心PCE物价指数年化季率终值(%)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.5", "ForecastValue": "", "FormerValue": "4.7", "IndicatorName": "美国11月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20251121, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "4.5", "ForecastValue": "", "FormerValue": "4.5", "IndicatorName": "美国第一季度PCE物价指数年化季率修正值(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.9", "ForecastValue": "3.7", "FormerValue": "3.7", "IndicatorName": "美国10月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20251024, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国12月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20251205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国5月纽约联储1年通胀预期(%)", "OccurDate": 20260608, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国7月核心PCE物价指数月率(%)", "OccurDate": 20250829, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "3.5", "FormerValue": "3.5", "IndicatorName": "美国第一季度GDP价格指数季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.5", "ForecastValue": "2.3", "FormerValue": "3.5", "IndicatorName": "美国第二季度核心PCE物价指数年化季率初值(%)", "OccurDate": 20250730, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "4.7", "FormerValue": "4.7", "IndicatorName": "美国10月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20251010, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "0.3", "FormerValue": "0.7", "IndicatorName": "美国1月核心PPI月率(%)", "OccurDate": 20260227, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国10月实际个人消费支出月率(%)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国9月纽约联储1年通胀预期(%)", "OccurDate": 20251007, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国8月CPI月率季调后(%)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "", "FormerValue": "1.4", "IndicatorName": "美国8月实际周薪年率(%)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国3月克里夫兰联储CPI月率(%)", "OccurDate": 20260410, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国10月纽约联储1年通胀预期(%)", "OccurDate": 20251111, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "4.8", "ForecastValue": "", "FormerValue": "4.8", "IndicatorName": "美国9月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20250912, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国11月核心PCE物价指数月率(%)", "OccurDate": 20260122, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "0.3", "FormerValue": "0.5", "IndicatorName": "美国2月PPI月率(%)", "OccurDate": 20260318, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.5", "ForecastValue": "3.8", "FormerValue": "2.9", "IndicatorName": "美国第一季度PCE物价指数年化季率初值(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国1月CPI月率季调后(%)", "OccurDate": 20260213, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.35", "ForecastValue": "", "FormerValue": "0.63", "IndicatorName": "美国6月CPI月率未季调(%)", "OccurDate": 20260714, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国1月核心CPI月率季调后(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.6", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国4月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260513, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.6", "ForecastValue": "0.6", "FormerValue": "0.9", "IndicatorName": "美国4月CPI月率季调后(%)", "OccurDate": 20260512, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.1", "IndicatorName": "美国11月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260114, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "3", "IndicatorName": "美国3月纽约联储1年通胀预期(%)", "OccurDate": 20260413, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "-0.4", "ForecastValue": "-0.1", "FormerValue": "0.5", "IndicatorName": "美国6月CPI月率季调后(%)", "OccurDate": 20260714, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.8", "ForecastValue": "2.8", "FormerValue": "2.1", "IndicatorName": "美国第三季度PCE物价指数年化季率初值(%)", "OccurDate": 20251223, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.8", "FormerValue": "3.8", "IndicatorName": "美国第四季度GDP价格指数季率终值(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0", "ForecastValue": "0.1", "FormerValue": "0.4", "IndicatorName": "美国9月实际个人消费支出月率(%)", "OccurDate": 20251205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "2", "ForecastValue": "2.1", "FormerValue": "3.8", "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后初值(%)", "OccurDate": 20250730, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.7", "ForecastValue": "", "FormerValue": "1.4", "IndicatorName": "美国2月实际周薪年率(%)", "OccurDate": 20260311, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.9", "ForecastValue": "3.4", "FormerValue": "3.4", "IndicatorName": "美国8月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20250815, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国4月纽约联储1年通胀预期(%)", "OccurDate": 20260511, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.3", "ForecastValue": "3.3", "FormerValue": "3.3", "IndicatorName": "美国7月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260717, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国10月核心PCE物价指数月率(%)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "3.7", "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国3月核心CPI月率季调后(%)", "OccurDate": 20260410, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.4", "IndicatorName": "美国5月克里夫兰联储CPI月率(%)", "OccurDate": 20260610, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国7月PCE物价指数月率(%)", "OccurDate": 20250829, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.3", "ForecastValue": "0", "FormerValue": "1.1", "IndicatorName": "美国6月PPI月率(%)", "OccurDate": 20260715, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国8月核心CPI月率未季调(%)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "", "FormerValue": "0.15", "IndicatorName": "美国8月CPI月率未季调(%)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.05", "ForecastValue": "", "FormerValue": "0.47", "IndicatorName": "美国3月CPI月率未季调(%)", "OccurDate": 20260410, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.8", "ForecastValue": "", "FormerValue": "4.9", "IndicatorName": "美国8月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20250829, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "-0.4", "ForecastValue": "", "FormerValue": "-0.2", "IndicatorName": "美国5月实际周薪年率(%)", "OccurDate": 20260610, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "", "FormerValue": "3.9", "IndicatorName": "美国11月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20251107, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "3.8", "FormerValue": "3.8", "IndicatorName": "美国第三季度GDP价格指数季率终值(%)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国7月核心CPI月率未季调(%)", "OccurDate": 20250812, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "", "FormerValue": "-0.4", "IndicatorName": "美国7月实际周薪月率(%)", "OccurDate": 20250812, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2", "ForecastValue": "", "FormerValue": "2.5", "IndicatorName": "美国第二季度GDP价格指数季率修正值(%)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.9", "ForecastValue": "3.4", "FormerValue": "3.4", "IndicatorName": "美国5月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260522, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "1.4", "ForecastValue": "0.5", "FormerValue": "0.5", "IndicatorName": "美国4月PPI月率(%)", "OccurDate": 20260513, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国9月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20251125, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2", "ForecastValue": "2", "FormerValue": "2", "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后修正值(%)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3", "IndicatorName": "美国3月纽约联储1年通胀预期(%)", "OccurDate": 20260407, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.6", "ForecastValue": "0.2", "FormerValue": "0", "IndicatorName": "美国7月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.4", "FormerValue": "0.4", "IndicatorName": "美国2月核心PCE物价指数月率(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.4", "FormerValue": "0.4", "IndicatorName": "美国6月核心PPI月率(%)", "OccurDate": 20260715, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "3.5", "FormerValue": "4", "IndicatorName": "美国2月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260220, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "2.1", "ForecastValue": "", "FormerValue": "2", "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后终值(%)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.5", "ForecastValue": "", "FormerValue": "4.4", "IndicatorName": "美国7月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20250801, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.63", "ForecastValue": "", "FormerValue": "0.85", "IndicatorName": "美国5月CPI月率未季调(%)", "OccurDate": 20260610, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "3.8", "FormerValue": "3.7", "IndicatorName": "美国第一季度GDP价格指数季率初值(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.5", "ForecastValue": "2.6", "FormerValue": "2.5", "IndicatorName": "美国第二季度核心PCE物价指数年化季率修正值(%)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.9", "ForecastValue": "0.2", "FormerValue": "0", "IndicatorName": "美国7月核心PPI月率(%)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0", "ForecastValue": "0.2", "FormerValue": "0.2", "IndicatorName": "美国6月核心CPI月率季调后(%)", "OccurDate": 20260714, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "-0.3", "IndicatorName": "美国6月实际个人消费支出月率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.1", "ForecastValue": "", "FormerValue": "4.5", "IndicatorName": "美国12月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20251205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.5", "FormerValue": "0.4", "IndicatorName": "美国5月PCE物价指数月率(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "3.5", "FormerValue": "3.5", "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.1", "ForecastValue": "0.3", "FormerValue": "0.9", "IndicatorName": "美国8月核心PPI月率(%)", "OccurDate": 20250910, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "-0.4", "IndicatorName": "美国6月实际周薪年率(%)", "OccurDate": 20260714, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国2月扣除食品能源和贸易的最终需求PPI月率(%)", "OccurDate": 20260318, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.7", "ForecastValue": "2.6", "FormerValue": "2.9", "IndicatorName": "美国第四季度核心PCE物价指数年化季率初值(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国1月实际周薪月率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "0", "FormerValue": "0.1", "IndicatorName": "美国1月实际个人消费支出月率(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.3", "ForecastValue": "3.3", "FormerValue": "3.4", "IndicatorName": "美国6月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260626, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国5月核心PCE物价指数月率(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国3月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260327, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.1", "IndicatorName": "美国6月PCE物价指数月率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国12月克里夫兰联储CPI月率(%)", "OccurDate": 20260114, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国8月PCE物价指数月率(%)", "OccurDate": 20250926, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "", "FormerValue": "4.1", "IndicatorName": "美国12月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20251219, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "0.5", "FormerValue": "0.5", "IndicatorName": "美国3月核心PPI月率(%)", "OccurDate": 20260414, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国第三季度GDP价格指数季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国1月CPI月率季调后(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.3", "IndicatorName": "美国2月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260206, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.1", "FormerValue": "2.7", "IndicatorName": "美国第一季度核心PCE物价指数年化季率初值(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "4.5", "FormerValue": "4.5", "IndicatorName": "美国第一季度终值PCE物价指数年化季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "2.7", "IndicatorName": "美国第三季度核心PCE物价指数年化季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.1", "ForecastValue": "", "FormerValue": "2", "IndicatorName": "美国第二季度PCE物价指数年化季率终值(%)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "3.4", "FormerValue": "3.3", "IndicatorName": "美国3月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260313, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国4月实际个人消费支出月率(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.5", "ForecastValue": "", "FormerValue": "3.5", "IndicatorName": "美国第二季度GDP价格指数季率初值(%)", "OccurDate": 20250730, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "0.2", "FormerValue": "0", "IndicatorName": "美国12月核心PPI月率(%)", "OccurDate": 20260130, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "4.6", "IndicatorName": "美国6月初值密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260626, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.2", "IndicatorName": "美国2月克里夫兰联储CPI月率(%)", "OccurDate": 20260311, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国1月核心CPI月率季调后(%)", "OccurDate": 20260213, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国7月CPI月率季调后(%)", "OccurDate": 20250812, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国5月实际个人消费支出月率(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "3.6", "FormerValue": "3.7", "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0", "ForecastValue": "0.2", "FormerValue": "", "IndicatorName": "美国11月核心PPI月率(%)", "OccurDate": 20260114, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国第一季度终值核心PCE物价指数年化季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "1.1", "FormerValue": "0.7", "IndicatorName": "美国3月PPI月率(%)", "OccurDate": 20260414, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.7", "ForecastValue": "2.7", "FormerValue": "2.7", "IndicatorName": "美国第四季度核心PCE物价指数年化季率终值(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国2月核心PPI月率(%)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.1", "ForecastValue": "2", "FormerValue": "2", "IndicatorName": "美国第二季度GDP价格指数季率终值(%)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "2.9", "FormerValue": "3.7", "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后初值(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "0.2", "FormerValue": "0.2", "IndicatorName": "美国12月PPI月率(%)", "OccurDate": 20260130, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "-0.2", "IndicatorName": "美国6月实际周薪月率(%)", "OccurDate": 20260714, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "3.9", "IndicatorName": "美国6月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260612, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "", "FormerValue": "2.9", "IndicatorName": "美国第四季度PCE物价指数年化季率终值(%)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.2", "FormerValue": "0.2", "IndicatorName": "美国9月核心PCE物价指数月率(%)", "OccurDate": 20251205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "0.4", "FormerValue": "0.3", "IndicatorName": "美国12月实际个人消费支出月率(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "", "FormerValue": "2.8", "IndicatorName": "美国第四季度PCE物价指数年化季率初值(%)", "OccurDate": 20260220, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.4", "FormerValue": "0.4", "IndicatorName": "美国1月核心PCE物价指数月率(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "", "FormerValue": "3.7", "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后初值(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国10月PCE物价指数月率(%)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.1", "ForecastValue": "", "FormerValue": "0.4", "IndicatorName": "美国8月实际周薪月率(%)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.1", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国1月纽约联储1年通胀预期(%)", "OccurDate": 20260210, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "3.5", "FormerValue": "3.2", "IndicatorName": "美国4月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260410, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "", "FormerValue": "0.1", "IndicatorName": "美国7月实际个人消费支出月率(%)", "OccurDate": 20250829, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "", "FormerValue": "3.6", "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后修正值(%)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.85", "ForecastValue": "", "FormerValue": "1.05", "IndicatorName": "美国4月CPI月率未季调(%)", "OccurDate": 20260512, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "2.9", "FormerValue": "2.6", "IndicatorName": "美国第三季度核心PCE物价指数年化季率初值(%)", "OccurDate": 20251223, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "2.9", "FormerValue": "2.9", "IndicatorName": "美国第四季度PCE物价指数年化季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1", "ForecastValue": "0.3", "FormerValue": "0.1", "IndicatorName": "美国4月核心PPI月率(%)", "OccurDate": 20260513, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.1", "ForecastValue": "0.3", "FormerValue": "0.9", "IndicatorName": "美国8月PPI月率(%)", "OccurDate": 20250910, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.5", "ForecastValue": "", "FormerValue": "4.7", "IndicatorName": "美国5月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260508, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "-0.2", "ForecastValue": "", "FormerValue": "-0.2", "IndicatorName": "美国5月实际周薪月率(%)", "OccurDate": 20260610, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2", "ForecastValue": "", "FormerValue": "2.1", "IndicatorName": "美国第二季度PCE物价指数年化季率修正值(%)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国9月PCE物价指数月率(%)", "OccurDate": 20251205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国3月密歇根大学5年期通胀率预期终值(%)", "OccurDate": 20260327, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "4.8", "ForecastValue": "", "FormerValue": "4.5", "IndicatorName": "美国5月密歇根大学1年期通胀率预期终值(%)", "OccurDate": 20260522, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "4.5", "FormerValue": "4.6", "IndicatorName": "美国7月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20260717, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "-0.1", "ForecastValue": "", "FormerValue": "-0.1", "IndicatorName": "美国9月实际周薪月率(%)", "OccurDate": 20251121, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.7", "ForecastValue": "2.7", "FormerValue": "2.7", "IndicatorName": "美国第四季度核心PCE物价指数年化季率修正值(%)", "OccurDate": 20260313, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国11月PPI月率(%)", "OccurDate": 20260114, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.5", "FormerValue": "1", "IndicatorName": "美国5月核心PPI月率(%)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国1月克里夫兰联储CPI月率(%)", "OccurDate": 20260214, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "3.2", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国11月纽约联储1年通胀预期(%)", "OccurDate": 20251209, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "0.9", "ForecastValue": "0.9", "FormerValue": "0.3", "IndicatorName": "美国3月CPI月率季调后(%)", "OccurDate": 20260410, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "3.5", "FormerValue": "3.5", "IndicatorName": "美国第一季度终值GDP价格指数季率终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国1月克里夫兰联储CPI月率(%)", "OccurDate": 20260213, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.2", "FormerValue": "0.3", "IndicatorName": "美国8月实际个人消费支出月率(%)", "OccurDate": 20250926, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国4月核心CPI月率季调后(%)", "OccurDate": 20260512, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.9", "ForecastValue": "4.4", "FormerValue": "4.5", "IndicatorName": "美国8月密歇根大学1年期通胀率预期初值(%)", "OccurDate": 20250815, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国1月实际周薪年率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "3.1", "IndicatorName": "美国2月纽约联储1年通胀预期(%)", "OccurDate": 20260310, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "3.3", "FormerValue": "3.2", "IndicatorName": "美国1月密歇根大学5年期通胀率预期初值(%)", "OccurDate": 20260109, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国2月PPI月率(%)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "0.3", "IndicatorName": "美国1月克里夫兰联储CPI月率(%)", "OccurDate": 20260212, "OccurTime": "00:00", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "", "FormerValue": "0.4", "IndicatorName": "美国9月实际周薪年率(%)", "OccurDate": 20251121, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "3.5", "FormerValue": "3.5", "IndicatorName": "美国第一季度终值GDP隐性平减指数季率-季调后终值(%)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "2.7", "FormerValue": "2.1", "IndicatorName": "美国第三季度GDP价格指数季率初值(%)", "OccurDate": 20251223, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.9", "FormerValue": "0.5", "IndicatorName": "美国3月实际个人消费支出月率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}], "listCode": "macro_us_inflation", "listGroup": "美股宏观(通胀)", "listName": "美股宏观(通胀)", "listSchema": {"ActualValue": "实际值", "ForecastValue": "预期值", "FormerValue": "前值", "IndicatorName": "指标名称", "OccurDate": "发布日期", "OccurTime": "发布时间"}, "totalItems": 250}}}
+{
+  "ok": true,
+  "data": {
+    "macro_us_inflation": {
+      "date": "2026-07-21",
+      "items": [
+        {
+          "ActualValue": "4.1",
+          "ForecastValue": "",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国12月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国8月核心PCE物价指数月率(%)",
+          "OccurDate": 20250926,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260213,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "1.7",
+          "IndicatorName": "美国3月实际周薪年率(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国10月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20251010,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.9",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国5月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260522,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "3",
+          "IndicatorName": "美国3月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260413,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "4.5",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国第一季度PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国第三季度GDP价格指数季率终值(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "",
+          "FormerValue": "-0.4",
+          "IndicatorName": "美国7月实际周薪月率(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国6月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260715,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.8",
+          "ForecastValue": "3.5",
+          "FormerValue": "2.8",
+          "IndicatorName": "美国第三季度PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国4月核心PPI月率(%)",
+          "OccurDate": 20260513,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.4",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国第一季度核心PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国12月核心PCE物价指数月率(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "-0.4",
+          "IndicatorName": "美国6月实际周薪年率(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.8",
+          "ForecastValue": "4.3",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国4月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.6",
+          "ForecastValue": "0.2",
+          "FormerValue": "0",
+          "IndicatorName": "美国7月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.5",
+          "ForecastValue": "",
+          "FormerValue": "4.7",
+          "IndicatorName": "美国11月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20251121,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国1月核心CPI月率季调后(%)",
+          "OccurDate": 20260213,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "",
+          "FormerValue": "3.9",
+          "IndicatorName": "美国11月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20251107,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0",
+          "ForecastValue": "0.2",
+          "FormerValue": "",
+          "IndicatorName": "美国11月核心PPI月率(%)",
+          "OccurDate": 20260114,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260212,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "",
+          "FormerValue": "4.1",
+          "IndicatorName": "美国12月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20251219,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国2月核心PPI月率(%)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.63",
+          "ForecastValue": "",
+          "FormerValue": "0.85",
+          "IndicatorName": "美国5月CPI月率未季调(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国5月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国12月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国10月核心PCE物价指数月率(%)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国12月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260130,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.9",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国8月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20250815,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.1",
+          "ForecastValue": "2",
+          "FormerValue": "2",
+          "IndicatorName": "美国第二季度GDP价格指数季率终值(%)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "",
+          "FormerValue": "1.4",
+          "IndicatorName": "美国8月实际周薪年率(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国10月实际个人消费支出月率(%)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国7月实际个人消费支出月率(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.6",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260513,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3",
+          "IndicatorName": "美国3月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260407,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国12月CPI月率季调后(%)",
+          "OccurDate": 20260113,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国5月PCE物价指数月率(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国4月PPI月率(%)",
+          "OccurDate": 20260513,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国12月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国1月核心CPI月率季调后(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国2月核心PPI月率(%)",
+          "OccurDate": 20260318,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国1月核心PCE物价指数月率(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.5",
+          "ForecastValue": "3.8",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第一季度PCE物价指数年化季率初值(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国7月实际周薪年率(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国3月核心CPI月率季调后(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国4月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260424,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.9",
+          "FormerValue": "3.9",
+          "IndicatorName": "美国9月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20250926,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国2月实际周薪月率(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.4",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国第一季度核心PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国9月PCE物价指数月率(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.1",
+          "FormerValue": "2.7",
+          "IndicatorName": "美国第一季度核心PCE物价指数年化季率初值(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.8",
+          "ForecastValue": "",
+          "FormerValue": "4.8",
+          "IndicatorName": "美国9月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20250912,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "-0.2",
+          "IndicatorName": "美国6月实际周薪月率(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国10月PCE物价指数月率(%)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "0.6",
+          "IndicatorName": "美国5月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "2.9",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第三季度核心PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.9",
+          "ForecastValue": "0.9",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国3月CPI月率季调后(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国11月核心PCE物价指数月率(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "",
+          "FormerValue": "4.8",
+          "IndicatorName": "美国6月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260612,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国6月核心PPI月率(%)",
+          "OccurDate": 20260715,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3",
+          "ForecastValue": "3.1",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国9月CPI月率未季调(%)",
+          "OccurDate": 20251024,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后修正值(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.9",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国8月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20250815,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.7",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.7",
+          "IndicatorName": "美国第四季度核心PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国第四季度GDP价格指数季率终值(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国5月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260608,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国7月CPI月率季调后(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.1",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国1月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260210,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.1",
+          "ForecastValue": "",
+          "FormerValue": "2",
+          "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后终值(%)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.1",
+          "IndicatorName": "美国第三季度GDP价格指数季率初值(%)",
+          "OccurDate": 20251223,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国1月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260227,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.85",
+          "ForecastValue": "",
+          "FormerValue": "1.05",
+          "IndicatorName": "美国4月CPI月率未季调(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国7月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国6月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国第一季度GDP价格指数季率修正值(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国3月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260327,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国8月实际周薪月率(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国11月实际个人消费支出月率(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2",
+          "ForecastValue": "2",
+          "FormerValue": "2",
+          "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后修正值(%)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "2.8",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国第四季度GDP价格指数季率初值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国2月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "-0.1",
+          "IndicatorName": "美国9月PPI月率(%)",
+          "OccurDate": 20251125,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "4.5",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国第一季度终值PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.1",
+          "ForecastValue": "",
+          "FormerValue": "-0.1",
+          "IndicatorName": "美国9月实际周薪月率(%)",
+          "OccurDate": 20251121,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "4.5",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国7月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260717,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.8",
+          "ForecastValue": "",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国5月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260522,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国5月实际个人消费支出月率(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.1",
+          "ForecastValue": "0.7",
+          "FormerValue": "1.4",
+          "IndicatorName": "美国5月PPI月率(%)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国7月核心CPI月率未季调(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "",
+          "FormerValue": "3.9",
+          "IndicatorName": "美国8月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国6月核心CPI月率季调后(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第一季度终值GDP隐性平减指数季率-季调后终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国2月核心CPI月率季调后(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国8月PCE物价指数月率(%)",
+          "OccurDate": 20250926,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.2",
+          "ForecastValue": "",
+          "FormerValue": "-0.9",
+          "IndicatorName": "美国4月实际周薪月率(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.5",
+          "ForecastValue": "",
+          "FormerValue": "4.7",
+          "IndicatorName": "美国5月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.9",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国10月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20251024,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.4",
+          "ForecastValue": "-0.1",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国6月CPI月率季调后(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2",
+          "ForecastValue": "2.1",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国第二季度GDP隐性平减指数季率-季调后初值(%)",
+          "OccurDate": 20250730,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国7月PCE物价指数月率(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国第四季度GDP价格指数季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第三季度PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第一季度终值GDP价格指数季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国9月核心PCE物价指数月率(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "",
+          "FormerValue": "4",
+          "IndicatorName": "美国2月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后初值(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国9月核心CPI月率未季调(%)",
+          "OccurDate": 20251024,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国4月PCE物价指数月率(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.3",
+          "ForecastValue": "3.3",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国7月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260717,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国第一季度终值核心PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国6月初值密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260626,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "",
+          "FormerValue": "0.15",
+          "IndicatorName": "美国8月CPI月率未季调(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0",
+          "ForecastValue": "0.1",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国9月实际个人消费支出月率(%)",
+          "OccurDate": 20251205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.6",
+          "IndicatorName": "美国5月CPI月率季调后(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月实际个人消费支出月率(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "2.7",
+          "IndicatorName": "美国第三季度核心PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国6月PCE物价指数月率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.47",
+          "ForecastValue": "",
+          "FormerValue": "0.37",
+          "IndicatorName": "美国2月CPI月率未季调(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国11月PPI月率(%)",
+          "OccurDate": 20260114,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0.2",
+          "FormerValue": "-0.1",
+          "IndicatorName": "美国9月核心PPI月率(%)",
+          "OccurDate": 20251125,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.1",
+          "ForecastValue": "2.9",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第二季度PCE物价指数年化季率初值(%)",
+          "OccurDate": 20250730,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.2",
+          "FormerValue": "0",
+          "IndicatorName": "美国12月核心PPI月率(%)",
+          "OccurDate": 20260130,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国2月PCE物价指数月率(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.05",
+          "ForecastValue": "",
+          "FormerValue": "0.47",
+          "IndicatorName": "美国3月CPI月率未季调(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.8",
+          "ForecastValue": "",
+          "FormerValue": "4.9",
+          "IndicatorName": "美国8月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国4月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第一季度GDP价格指数季率初值(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国8月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国5月核心CPI月率季调后(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.02",
+          "ForecastValue": "",
+          "FormerValue": "0.25",
+          "IndicatorName": "美国12月CPI月率未季调(%)",
+          "OccurDate": 20260113,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国9月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20251125,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.9",
+          "ForecastValue": "0.2",
+          "FormerValue": "0",
+          "IndicatorName": "美国7月PPI月率(%)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "2.9",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后初值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国3月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.5",
+          "IndicatorName": "美国第二季度核心PCE物价指数年化季率终值(%)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第二季度GDP价格指数季率初值(%)",
+          "OccurDate": 20250730,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月核心CPI月率季调后(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "4.7",
+          "FormerValue": "4.7",
+          "IndicatorName": "美国10月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20251010,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.1",
+          "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后初值(%)",
+          "OccurDate": 20251223,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.5",
+          "FormerValue": "1",
+          "IndicatorName": "美国5月核心PPI月率(%)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国第四季度GDP隐性平减指数季率-季调后终值(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国3月核心PPI月率(%)",
+          "OccurDate": 20260414,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国1月实际个人消费支出月率(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.35",
+          "ForecastValue": "",
+          "FormerValue": "0.63",
+          "IndicatorName": "美国6月CPI月率未季调(%)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "-0.3",
+          "IndicatorName": "美国6月实际个人消费支出月率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "4.1",
+          "FormerValue": "4.2",
+          "IndicatorName": "美国1月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.7",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.7",
+          "IndicatorName": "美国第四季度核心PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.9",
+          "ForecastValue": "",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国9月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20250912,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国8月实际个人消费支出月率(%)",
+          "OccurDate": 20250926,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2",
+          "ForecastValue": "",
+          "FormerValue": "2.1",
+          "IndicatorName": "美国第二季度PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国2月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.2",
+          "ForecastValue": "",
+          "FormerValue": "-0.2",
+          "IndicatorName": "美国5月实际周薪月率(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.9",
+          "ForecastValue": "0.2",
+          "FormerValue": "0",
+          "IndicatorName": "美国7月核心PPI月率(%)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国4月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260511,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.5",
+          "IndicatorName": "美国第二季度核心PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.3",
+          "ForecastValue": "0",
+          "FormerValue": "1.1",
+          "IndicatorName": "美国6月PPI月率(%)",
+          "OccurDate": 20260715,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国第三季度GDP价格指数季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国3月核心PCE物价指数月率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.3",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国2月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国9月CPI月率季调后(%)",
+          "OccurDate": 20251024,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.7",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第四季度核心PCE物价指数年化季率初值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国2月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.5",
+          "ForecastValue": "",
+          "FormerValue": "4.5",
+          "IndicatorName": "美国第一季度PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国10月纽约联储1年通胀预期(%)",
+          "OccurDate": 20251111,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "3.1",
+          "IndicatorName": "美国2月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260310,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国1月实际周薪月率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.8",
+          "ForecastValue": "2.8",
+          "FormerValue": "2.1",
+          "IndicatorName": "美国第三季度PCE物价指数年化季率初值(%)",
+          "OccurDate": 20251223,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.7",
+          "ForecastValue": "4.8",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国4月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260424,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国1月PPI月率(%)",
+          "OccurDate": 20260227,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4",
+          "ForecastValue": "4.2",
+          "FormerValue": "4.2",
+          "IndicatorName": "美国1月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260123,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.6",
+          "ForecastValue": "0.6",
+          "FormerValue": "0.9",
+          "IndicatorName": "美国4月CPI月率季调后(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.3",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国1月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260123,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国3月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260414,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "",
+          "FormerValue": "2.8",
+          "IndicatorName": "美国第四季度PCE物价指数年化季率初值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国12月核心CPI月率季调后(%)",
+          "OccurDate": 20260113,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国2月CPI月率季调后(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.9",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国3月实际周薪月率(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.3",
+          "ForecastValue": "3.3",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国6月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260626,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "4.6",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国10月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20251024,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "3.3",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国1月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.1",
+          "ForecastValue": "",
+          "FormerValue": "3",
+          "IndicatorName": "美国7月纽约联储1年通胀预期(%)",
+          "OccurDate": 20250811,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.1",
+          "ForecastValue": "",
+          "FormerValue": "2",
+          "IndicatorName": "美国第二季度PCE物价指数年化季率终值(%)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国11月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260114,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国10月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20251219,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国9月实际周薪年率(%)",
+          "OccurDate": 20251121,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国12月PCE物价指数月率(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国9月纽约联储1年通胀预期(%)",
+          "OccurDate": 20251007,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "2.9",
+          "FormerValue": "2.6",
+          "IndicatorName": "美国第三季度核心PCE物价指数年化季率初值(%)",
+          "OccurDate": 20251223,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.1",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.9",
+          "IndicatorName": "美国8月核心PPI月率(%)",
+          "OccurDate": 20250910,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国8月CPI月率季调后(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.4",
+          "ForecastValue": "",
+          "FormerValue": "-0.2",
+          "IndicatorName": "美国5月实际周薪年率(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260214,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国6月核心PCE物价指数月率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "4.6",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国6月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260626,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国2月实际个人消费支出月率(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国2月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20260318,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国2月核心PCE物价指数月率(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.37",
+          "ForecastValue": "",
+          "FormerValue": "-0.02",
+          "IndicatorName": "美国1月CPI月率未季调(%)",
+          "OccurDate": 20260213,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第一季度GDP价格指数季率终值(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国3月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20260327,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "1.1",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国3月PPI月率(%)",
+          "OccurDate": 20260414,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "2.3",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国第二季度核心PCE物价指数年化季率初值(%)",
+          "OccurDate": 20250730,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.15",
+          "ForecastValue": "",
+          "FormerValue": "0.34",
+          "IndicatorName": "美国7月CPI月率未季调(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国1月核心PPI月率(%)",
+          "OccurDate": 20260227,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "2.9",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第四季度PCE物价指数年化季率修正值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月CPI月率季调后(%)",
+          "OccurDate": 20260213,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国第四季度PCE物价指数年化季率终值(%)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国7月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20250812,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.9",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国3月实际个人消费支出月率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国12月PPI月率(%)",
+          "OccurDate": 20260130,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.1",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.9",
+          "IndicatorName": "美国8月PPI月率(%)",
+          "OccurDate": 20250910,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "3.5",
+          "FormerValue": "4",
+          "IndicatorName": "美国2月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月实际周薪年率(%)",
+          "OccurDate": 20260512,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "",
+          "FormerValue": "3.1",
+          "IndicatorName": "美国8月纽约联储1年通胀预期(%)",
+          "OccurDate": 20250908,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国11月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20251121,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月CPI月率季调后(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "3.9",
+          "IndicatorName": "美国6月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260612,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.7",
+          "ForecastValue": "",
+          "FormerValue": "1.4",
+          "IndicatorName": "美国2月实际周薪年率(%)",
+          "OccurDate": 20260311,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国12月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260114,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国5月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260610,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2",
+          "ForecastValue": "",
+          "FormerValue": "2.5",
+          "IndicatorName": "美国第二季度GDP价格指数季率修正值(%)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国2月PPI月率(%)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.7",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国3月PCE物价指数月率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.7",
+          "ForecastValue": "",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国11月密歇根大学1年期通胀率预期初值(%)",
+          "OccurDate": 20251107,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国1月实际周薪年率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "-0.02",
+          "IndicatorName": "美国1月CPI月率未季调(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国6月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260713,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国4月核心PCE物价指数月率(%)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国11月纽约联储1年通胀预期(%)",
+          "OccurDate": 20251209,
+          "OccurTime": "00:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国8月核心CPI月率未季调(%)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "",
+          "FormerValue": "0.6",
+          "IndicatorName": "美国8月扣除食品能源和贸易的最终需求PPI月率(%)",
+          "OccurDate": 20250910,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国3月克里夫兰联储CPI月率(%)",
+          "OccurDate": 20260410,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.2",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国11月PCE物价指数月率(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国3月密歇根大学5年期通胀率预期初值(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国7月核心PCE物价指数月率(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.7",
+          "ForecastValue": "4.8",
+          "FormerValue": "4.8",
+          "IndicatorName": "美国9月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20250926,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国1月PCE物价指数月率(%)",
+          "OccurDate": 20260313,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0.4",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国12月实际个人消费支出月率(%)",
+          "OccurDate": 20260220,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国5月核心PCE物价指数月率(%)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.5",
+          "ForecastValue": "",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国7月密歇根大学1年期通胀率预期终值(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.2",
+          "ForecastValue": "3.2",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国12月密歇根大学5年期通胀率预期终值(%)",
+          "OccurDate": 20251219,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国第三季度GDP隐性平减指数季率-季调后终值(%)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国2月PPI月率(%)",
+          "OccurDate": 20260318,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3",
+          "ForecastValue": "",
+          "FormerValue": "3.1",
+          "IndicatorName": "美国2月纽约联储1年通胀预期(%)",
+          "OccurDate": 20260309,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        }
+      ],
+      "listCode": "macro_us_inflation",
+      "listGroup": "美股宏观(通胀)",
+      "listName": "美股宏观(通胀)",
+      "listSchema": {
+        "ActualValue": "实际值",
+        "ForecastValue": "预期值",
+        "FormerValue": "前值",
+        "IndicatorName": "指标名称",
+        "OccurDate": "发布日期",
+        "OccurTime": "发布时间"
+      },
+      "totalItems": 250
+    }
+  }
+}

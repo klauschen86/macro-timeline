@@ -1,1 +1,374 @@
-{"ok": true, "data": {"macro_jp_employment": {"date": "2026-07-20", "items": [{"ActualValue": "1.9", "FormerValue": "1", "IndicatorName": "日本4月实际薪资收入年率(%)", "OccurDate": 20260605, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.5", "FormerValue": "2.6", "IndicatorName": "日本9月失业率(%)", "OccurDate": 20251031, "OccurTime": "07:30"}, {"ActualValue": "1.22", "ForecastValue": "1.25", "FormerValue": "1.24", "IndicatorName": "日本6月求才求职比", "OccurDate": 20250801, "OccurTime": "07:30"}, {"ActualValue": "-1.4", "FormerValue": "-1.4", "IndicatorName": "日本9月实际薪资收入年率(%)", "OccurDate": 20251106, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.6", "FormerValue": "2.6", "IndicatorName": "日本11月失业率(%)", "OccurDate": 20251226, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.6", "FormerValue": "2.6", "IndicatorName": "日本12月失业率(%)", "OccurDate": 20260130, "OccurTime": "07:30"}, {"ActualValue": "1.18", "ForecastValue": "1.18", "FormerValue": "1.19", "IndicatorName": "日本3月求才求职比", "OccurDate": 20260428, "OccurTime": "07:30"}, {"ActualValue": "1.18", "ForecastValue": "1.19", "FormerValue": "1.19", "IndicatorName": "日本1月求才求职比", "OccurDate": 20260303, "OccurTime": "07:30"}, {"ActualValue": "1.9", "FormerValue": "1.4", "IndicatorName": "日本2月实际薪资收入年率(%)", "OccurDate": 20260408, "OccurTime": "07:30"}, {"ActualValue": "2.5", "ForecastValue": "2.7", "FormerValue": "2.7", "IndicatorName": "日本4月失业率(%)", "OccurDate": 20260529, "OccurTime": "07:30"}, {"ActualValue": "0.5", "FormerValue": "-1.3", "IndicatorName": "日本7月实际薪资收入年率(%)", "OccurDate": 20250905, "OccurTime": "07:30"}, {"ActualValue": "-1.3", "FormerValue": "-2.9", "IndicatorName": "日本6月实际薪资收入年率(%)", "OccurDate": 20250806, "OccurTime": "07:30"}, {"ActualValue": "1.2", "ForecastValue": "1.22", "FormerValue": "1.22", "IndicatorName": "日本8月求才求职比", "OccurDate": 20251003, "OccurTime": "07:30"}, {"ActualValue": "2.3", "ForecastValue": "2.5", "FormerValue": "2.5", "IndicatorName": "日本7月失业率(%)", "OccurDate": 20250829, "OccurTime": "07:30"}, {"ActualValue": "1.18", "ForecastValue": "1.2", "FormerValue": "1.2", "IndicatorName": "日本10月求才求职比", "OccurDate": 20251128, "OccurTime": "07:30"}, {"ActualValue": "1.22", "ForecastValue": "1.23", "FormerValue": "1.22", "IndicatorName": "日本7月求才求职比", "OccurDate": 20250829, "OccurTime": "07:30"}, {"ActualValue": "1.18", "ForecastValue": "1.18", "FormerValue": "1.18", "IndicatorName": "日本11月求才求职比", "OccurDate": 20251226, "OccurTime": "07:30"}, {"ActualValue": "1.17", "ForecastValue": "1.18", "FormerValue": "1.18", "IndicatorName": "日本5月求才求职比", "OccurDate": 20260630, "OccurTime": "07:30"}, {"ActualValue": "-0.1", "FormerValue": "-2.8", "IndicatorName": "日本12月实际薪资收入年率(%)", "OccurDate": 20260209, "OccurTime": "07:30"}, {"ActualValue": "-1.4", "FormerValue": "0.5", "IndicatorName": "日本8月实际薪资收入年率(%)", "OccurDate": 20251008, "OccurTime": "07:30"}, {"ActualValue": "1.4", "FormerValue": "1.9", "IndicatorName": "日本5月实际薪资收入年率(%)", "OccurDate": 20260707, "OccurTime": "07:30"}, {"ActualValue": "1.18", "ForecastValue": "1.18", "FormerValue": "1.18", "IndicatorName": "日本4月求才求职比", "OccurDate": 20260529, "OccurTime": "07:30"}, {"ActualValue": "2.7", "ForecastValue": "2.6", "FormerValue": "2.6", "IndicatorName": "日本3月失业率(%)", "OccurDate": 20260428, "OccurTime": "07:30"}, {"ActualValue": "1", "FormerValue": "1.9", "IndicatorName": "日本3月实际薪资收入年率(%)", "OccurDate": 20260508, "OccurTime": "07:30"}, {"ActualValue": "-0.7", "FormerValue": "-1.4", "IndicatorName": "日本10月实际薪资收入年率(%)", "OccurDate": 20251208, "OccurTime": "07:30"}, {"ActualValue": "1.19", "ForecastValue": "1.18", "FormerValue": "1.18", "IndicatorName": "日本2月求才求职比", "OccurDate": 20260331, "OccurTime": "07:30"}, {"ActualValue": "2.5", "ForecastValue": "2.5", "FormerValue": "2.5", "IndicatorName": "日本5月失业率(%)", "OccurDate": 20260630, "OccurTime": "07:30"}, {"ActualValue": "-2.8", "FormerValue": "-0.7", "IndicatorName": "日本11月实际薪资收入年率(%)", "OccurDate": 20260108, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.7", "FormerValue": "2.7", "IndicatorName": "日本2月失业率(%)", "OccurDate": 20260331, "OccurTime": "07:30"}, {"ActualValue": "1.2", "ForecastValue": "1.2", "FormerValue": "1.2", "IndicatorName": "日本9月求才求职比", "OccurDate": 20251031, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.5", "FormerValue": "2.6", "IndicatorName": "日本10月失业率(%)", "OccurDate": 20251128, "OccurTime": "07:30"}, {"ActualValue": "1.19", "ForecastValue": "1.18", "FormerValue": "1.18", "IndicatorName": "日本12月求才求职比", "OccurDate": 20260130, "OccurTime": "07:30"}, {"ActualValue": "2.6", "ForecastValue": "2.4", "FormerValue": "2.3", "IndicatorName": "日本8月失业率(%)", "OccurDate": 20251003, "OccurTime": "07:30"}, {"ActualValue": "2.7", "ForecastValue": "2.6", "FormerValue": "2.6", "IndicatorName": "日本1月失业率(%)", "OccurDate": 20260303, "OccurTime": "07:30"}, {"ActualValue": "1.4", "FormerValue": "-0.1", "IndicatorName": "日本1月实际薪资收入年率(%)", "OccurDate": 20260309, "OccurTime": "07:30"}, {"ActualValue": "2.5", "ForecastValue": "2.5", "FormerValue": "2.5", "IndicatorName": "日本6月失业率(%)", "OccurDate": 20250801, "OccurTime": "07:30"}], "totalItems": 36}}}
+{
+  "ok": true,
+  "data": {
+    "macro_jp_employment": {
+      "date": "2026-07-21",
+      "items": [
+        {
+          "ActualValue": "1.19",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.18",
+          "IndicatorName": "日本2月求才求职比",
+          "OccurDate": 20260331,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.18",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.19",
+          "IndicatorName": "日本3月求才求职比",
+          "OccurDate": 20260428,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.2",
+          "ForecastValue": "1.22",
+          "FormerValue": "1.22",
+          "IndicatorName": "日本8月求才求职比",
+          "OccurDate": 20251003,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "",
+          "FormerValue": "-0.1",
+          "IndicatorName": "日本1月实际薪资收入年率(%)",
+          "OccurDate": 20260309,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.22",
+          "ForecastValue": "1.25",
+          "FormerValue": "1.24",
+          "IndicatorName": "日本6月求才求职比",
+          "OccurDate": 20250801,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.18",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.2",
+          "IndicatorName": "日本10月求才求职比",
+          "OccurDate": 20251128,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本10月失业率(%)",
+          "OccurDate": 20251128,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "",
+          "FormerValue": "-1.3",
+          "IndicatorName": "日本7月实际薪资收入年率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.18",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.18",
+          "IndicatorName": "日本11月求才求职比",
+          "OccurDate": 20251226,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.19",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.18",
+          "IndicatorName": "日本12月求才求职比",
+          "OccurDate": 20260130,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.7",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本3月失业率(%)",
+          "OccurDate": 20260428,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.4",
+          "ForecastValue": "",
+          "FormerValue": "-1.4",
+          "IndicatorName": "日本9月实际薪资收入年率(%)",
+          "OccurDate": 20251106,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.22",
+          "ForecastValue": "1.23",
+          "FormerValue": "1.22",
+          "IndicatorName": "日本7月求才求职比",
+          "OccurDate": 20250829,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.3",
+          "ForecastValue": "",
+          "FormerValue": "-2.9",
+          "IndicatorName": "日本6月实际薪资收入年率(%)",
+          "OccurDate": 20250806,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.18",
+          "ForecastValue": "1.19",
+          "FormerValue": "1.19",
+          "IndicatorName": "日本1月求才求职比",
+          "OccurDate": 20260303,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.4",
+          "ForecastValue": "",
+          "FormerValue": "0.5",
+          "IndicatorName": "日本8月实际薪资收入年率(%)",
+          "OccurDate": 20251008,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本9月失业率(%)",
+          "OccurDate": 20251031,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.5",
+          "IndicatorName": "日本6月失业率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.17",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.18",
+          "IndicatorName": "日本5月求才求职比",
+          "OccurDate": 20260630,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.1",
+          "ForecastValue": "",
+          "FormerValue": "-2.8",
+          "IndicatorName": "日本12月实际薪资收入年率(%)",
+          "OccurDate": 20260209,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.5",
+          "IndicatorName": "日本5月失业率(%)",
+          "OccurDate": 20260630,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.4",
+          "ForecastValue": "",
+          "FormerValue": "1.9",
+          "IndicatorName": "日本5月实际薪资收入年率(%)",
+          "OccurDate": 20260707,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.2",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.2",
+          "IndicatorName": "日本9月求才求职比",
+          "OccurDate": 20251031,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.4",
+          "FormerValue": "2.3",
+          "IndicatorName": "日本8月失业率(%)",
+          "OccurDate": 20251003,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.18",
+          "ForecastValue": "1.18",
+          "FormerValue": "1.18",
+          "IndicatorName": "日本4月求才求职比",
+          "OccurDate": 20260529,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.5",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.7",
+          "IndicatorName": "日本4月失业率(%)",
+          "OccurDate": 20260529,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.9",
+          "ForecastValue": "",
+          "FormerValue": "1.4",
+          "IndicatorName": "日本2月实际薪资收入年率(%)",
+          "OccurDate": 20260408,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本12月失业率(%)",
+          "OccurDate": 20260130,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.7",
+          "IndicatorName": "日本2月失业率(%)",
+          "OccurDate": 20260331,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.6",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本11月失业率(%)",
+          "OccurDate": 20251226,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.3",
+          "ForecastValue": "2.5",
+          "FormerValue": "2.5",
+          "IndicatorName": "日本7月失业率(%)",
+          "OccurDate": 20250829,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.9",
+          "ForecastValue": "",
+          "FormerValue": "1",
+          "IndicatorName": "日本4月实际薪资收入年率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.7",
+          "ForecastValue": "",
+          "FormerValue": "-1.4",
+          "IndicatorName": "日本10月实际薪资收入年率(%)",
+          "OccurDate": 20251208,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1",
+          "ForecastValue": "",
+          "FormerValue": "1.9",
+          "IndicatorName": "日本3月实际薪资收入年率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-2.8",
+          "ForecastValue": "",
+          "FormerValue": "-0.7",
+          "IndicatorName": "日本11月实际薪资收入年率(%)",
+          "OccurDate": 20260108,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.7",
+          "ForecastValue": "2.6",
+          "FormerValue": "2.6",
+          "IndicatorName": "日本1月失业率(%)",
+          "OccurDate": 20260303,
+          "OccurTime": "07:30",
+          "code": "",
+          "name": ""
+        }
+      ],
+      "listCode": "macro_jp_employment",
+      "listGroup": "日本宏观(就业)",
+      "listName": "日本宏观(就业)",
+      "totalItems": 36
+    }
+  }
+}

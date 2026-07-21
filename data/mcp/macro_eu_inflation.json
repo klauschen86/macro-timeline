@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "data": {
+    "macro_eu_inflation": {
+      "date": "2026-07-21",
+      "items": [],
+      "listCode": "macro_eu_inflation",
+      "listGroup": "欧元区宏观(通胀)",
+      "listName": "欧元区宏观(通胀)",
+      "totalItems": 0
+    }
+  }
+}

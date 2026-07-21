@@ -1,1 +1,3962 @@
-{"ok": true, "data": {"macro_us_employment": {"date": "2026-07-20", "items": [{"ActualValue": "694.6", "ForecastValue": "670", "FormerValue": "654.2", "IndicatorName": "美国1月JOLTs职位空缺(万)", "OccurDate": 20260313, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "1.6", "ForecastValue": "1", "FormerValue": "1", "IndicatorName": "美国第三季度非农单位劳动力成本初值(%)", "OccurDate": 20251106, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "8.34", "ForecastValue": "", "FormerValue": "6.06", "IndicatorName": "美国4月挑战者企业裁员人数(万)", "OccurDate": 20260507, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "16", "ForecastValue": "", "FormerValue": "38", "IndicatorName": "美国5月挑战者企业裁员月率(%)", "OccurDate": 20260604, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国6月平均每周工时(小时)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "722.7", "ForecastValue": "718.5", "FormerValue": "718.1", "IndicatorName": "美国8月JOLTs职位空缺(万)", "OccurDate": 20250930, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "62.4", "ForecastValue": "62.3", "FormerValue": "62.3", "IndicatorName": "美国9月劳动参与率(%)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "22.9", "ForecastValue": "23", "FormerValue": "23.5", "IndicatorName": "美国截至8月23日当周初请失业金人数(万)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.57", "ForecastValue": "", "FormerValue": "22.03", "IndicatorName": "美国截至2月28日当周初请失业金人数四周均值(万)", "OccurDate": 20260305, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "2.55", "ForecastValue": "", "FormerValue": "2.9", "IndicatorName": "美国截至5月30日当周ADP就业周度发布变动(万人)", "OccurDate": 20260616, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "5.41", "ForecastValue": "", "FormerValue": "8.6", "IndicatorName": "美国9月挑战者企业裁员人数(万)", "OccurDate": 20251002, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "22.6", "ForecastValue": "22.5", "FormerValue": "22.9", "IndicatorName": "美国截至6月13日当周初请失业金人数(万)", "OccurDate": 20260618, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-4.5", "ForecastValue": "", "FormerValue": "3.4", "IndicatorName": "美国6月挑战者企业裁员年率(%)", "OccurDate": 20260701, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "186", "FormerValue": "184.9", "IndicatorName": "美国截至1月24日当周续请失业金人数(万)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "62.4", "IndicatorName": "美国1月劳动参与率(%)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "22.85", "ForecastValue": "", "FormerValue": "22.63", "IndicatorName": "美国截至8月23日当周初请失业金人数四周均值(万)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.75", "ForecastValue": "", "FormerValue": "24", "IndicatorName": "美国截至9月20日当周初请失业金人数四周均值(万)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "8.34", "IndicatorName": "美国5月挑战者企业裁员人数(万)", "OccurDate": 20260604, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "22.33", "ForecastValue": "", "FormerValue": "21.9", "IndicatorName": "美国截至6月13日当周初请失业金人数四周均值(万)", "OccurDate": 20260618, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.68", "ForecastValue": "", "FormerValue": "21.48", "IndicatorName": "美国截至12月6日当周初请失业金人数四周均值(万)", "OccurDate": 20251211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.6", "FormerValue": "3.8", "IndicatorName": "美国1月平均每小时工资年率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "38", "IndicatorName": "美国5月挑战者企业裁员月率(%)", "OccurDate": 20260604, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "61.5", "ForecastValue": "61.8", "FormerValue": "61.8", "IndicatorName": "美国6月劳动参与率(%)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "1", "FormerValue": "1.8", "IndicatorName": "美国第一季度非农生产率季率初值(%)", "OccurDate": 20260507, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-71.9", "ForecastValue": "", "FormerValue": "117.8", "IndicatorName": "美国2月挑战者企业裁员年率(%)", "OccurDate": 20260305, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "181.8", "ForecastValue": "181", "FormerValue": "179.4", "IndicatorName": "美国截至4月4日当周续请失业金人数(万)", "OccurDate": 20260416, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.95", "ForecastValue": "", "FormerValue": "20.78", "IndicatorName": "美国截至4月4日当周初请失业金人数四周均值(万)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.9", "ForecastValue": "21", "FormerValue": "21.1", "IndicatorName": "美国截至5月16日当周初请失业金人数(万)", "OccurDate": 20260521, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.3", "ForecastValue": "21.5", "FormerValue": "21.2", "IndicatorName": "美国截至2月28日当周初请失业金人数(万)", "OccurDate": 20260305, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "177.7", "ForecastValue": "178", "FormerValue": "178.6", "IndicatorName": "美国截至5月23日当周续请失业金人数(万)", "OccurDate": 20260604, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-50.15", "ForecastValue": "", "FormerValue": "-53.4", "IndicatorName": "美国12月挑战者企业裁员月率(%)", "OccurDate": 20260108, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "61.8", "ForecastValue": "", "FormerValue": "61.8", "IndicatorName": "美国5月劳动参与率(%)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.2", "ForecastValue": "", "FormerValue": "-1.6", "IndicatorName": "美国9月政府部门岗位变动(万人)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.3", "FormerValue": "4.2", "IndicatorName": "美国8月失业率(%)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "1.3", "IndicatorName": "美国1月政府部门岗位变动(万人)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "22.5", "ForecastValue": "21.3", "FormerValue": "21.5", "IndicatorName": "美国截至5月30日当周初请失业金人数(万)", "OccurDate": 20260604, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.2", "ForecastValue": "4.8", "FormerValue": "4.1", "IndicatorName": "美国1月ADP就业人数变动(万)", "OccurDate": 20260204, "OccurTime": "21:15", "code": "", "name": ""}, {"ActualValue": "6.9", "ForecastValue": "4.5", "FormerValue": "9.7", "IndicatorName": "美国10-11月私营企业非农就业人数变动(万)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "182.1", "ForecastValue": "182", "FormerValue": "181.8", "IndicatorName": "美国截至4月11日当周续请失业金人数(万)", "OccurDate": 20260423, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国7月平均每小时工资月率(%)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "182.1", "IndicatorName": "美国截至4月25日当周续请失业金人数(万)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.58", "ForecastValue": "", "FormerValue": "9.7", "IndicatorName": "美国6月挑战者企业裁员人数(万)", "OccurDate": 20260701, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "8.2", "ForecastValue": "", "FormerValue": "8", "IndicatorName": "美国4月U6失业率(%)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "61.8", "ForecastValue": "62", "FormerValue": "61.9", "IndicatorName": "美国4月劳动参与率(%)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.75", "ForecastValue": "", "FormerValue": "21.08", "IndicatorName": "美国截至4月25日当周初请失业金人数四周均值(万)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "", "FormerValue": "1.2", "IndicatorName": "美国第二季度劳工就业福利季率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.48", "ForecastValue": "", "FormerValue": "22.38", "IndicatorName": "美国截至11月29日当周初请失业金人数四周均值(万)", "OccurDate": 20251204, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.6", "ForecastValue": "", "FormerValue": "-4.2", "IndicatorName": "美国2月政府部门岗位变动(万人)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.68", "ForecastValue": "", "FormerValue": "21.75", "IndicatorName": "美国截至12月20日当周初请失业金人数四周均值(万)", "OccurDate": 20251224, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "6.21", "ForecastValue": "", "FormerValue": "4.8", "IndicatorName": "美国7月挑战者企业裁员人数(万)", "OccurDate": 20250731, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "117.8", "IndicatorName": "美国2月挑战者企业裁员年率(%)", "OccurDate": 20260305, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "3.6", "FormerValue": "3.8", "IndicatorName": "美国1月平均每小时工资年率(%)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国1月平均每周工时(小时)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "3.2", "IndicatorName": "美国6月政府部门岗位变动(万人)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.15", "ForecastValue": "", "FormerValue": "20.5", "IndicatorName": "美国截至1月12日初请失业金人数四周均值(万)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "1", "ForecastValue": "", "FormerValue": "0.8", "IndicatorName": "美国第二季度劳工就业薪资季率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.5", "ForecastValue": "21.5", "FormerValue": "21.3", "IndicatorName": "美国截至3月14日当周初请失业金人数(万)", "OccurDate": 20260319, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.7", "ForecastValue": "22.2", "FormerValue": "23.1", "IndicatorName": "美国截至2月7日当周初请失业金人数(万)", "OccurDate": 20260212, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国8月平均每小时工资月率(%)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.9", "ForecastValue": "21.9", "FormerValue": "22.5", "IndicatorName": "美国截至6月6日当周初请失业金人数(万)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "194.6", "ForecastValue": "195.5", "FormerValue": "195.5", "IndicatorName": "美国截至7月19日当周续请失业金人数(万)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "195.7", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至10月18日当周续请失业金人数(万)", "OccurDate": 20251118, "OccurTime": "16:25", "code": "", "name": ""}, {"ActualValue": "185.7", "ForecastValue": "185", "FormerValue": "185", "IndicatorName": "美国截至3月7日当周续请失业金人数(万)", "OccurDate": 20260319, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.4", "ForecastValue": "22.5", "FormerValue": "23.6", "IndicatorName": "美国截至12月13日当周初请失业金人数(万)", "OccurDate": 20251218, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-1", "ForecastValue": "", "FormerValue": "7.3", "IndicatorName": "美国7月政府部门岗位变动(万人)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "5.7", "ForecastValue": "11", "FormerValue": "12.9", "IndicatorName": "美国6月非农就业人口变动季调后(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "195.5", "ForecastValue": "196", "FormerValue": "195.6", "IndicatorName": "美国截至7月19日当周续请失业金人数(万)", "OccurDate": 20250724, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.1", "ForecastValue": "", "FormerValue": "22.45", "IndicatorName": "美国截至7月26日当周初请失业金人数四周均值(万)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国1月平均每周工时(小时)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.4", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国2月失业率(%)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.95", "ForecastValue": "", "FormerValue": "21.23", "IndicatorName": "美国截至2月7日当周初请失业金人数四周均值(万)", "OccurDate": 20260212, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "19.1", "ForecastValue": "22", "FormerValue": "21.6", "IndicatorName": "美国截至11月29日当周初请失业金人数(万)", "OccurDate": 20251204, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国5月平均每周工时(小时)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "38", "ForecastValue": "", "FormerValue": "25.49", "IndicatorName": "美国4月挑战者企业裁员月率(%)", "OccurDate": 20260507, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "195.3", "ForecastValue": "196.4", "FormerValue": "197.4", "IndicatorName": "美国截至8月2日当周续请失业金人数(万)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "3.6", "FormerValue": "3.8", "IndicatorName": "美国10-11月平均每小时工资年率(%)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.8", "ForecastValue": "", "FormerValue": "-0.6", "IndicatorName": "美国3月政府部门岗位变动(万人)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "184.9", "ForecastValue": "190", "FormerValue": "188.4", "IndicatorName": "美国截至1月5日续请失业金人数(万)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国6月失业率(%)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "34.2", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国9月平均每周工时(小时)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "0.2", "FormerValue": "-0.2", "IndicatorName": "美国5月制造业就业人口变动季调后(万)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-4.2", "ForecastValue": "", "FormerValue": "1.3", "IndicatorName": "美国1月政府部门岗位变动(万人)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "179.4", "ForecastValue": "184", "FormerValue": "184.1", "IndicatorName": "美国截至3月29日当周续请失业金人数(万)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "8", "ForecastValue": "", "FormerValue": "8.1", "IndicatorName": "美国9月U6失业率(%)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.9", "ForecastValue": "21", "FormerValue": "20.2", "IndicatorName": "美国截至4月4日当周初请失业金人数(万)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "175.3", "ForecastValue": "", "FormerValue": "-25.8", "IndicatorName": "美国10月挑战者企业裁员年率(%)", "OccurDate": 20251106, "OccurTime": "17:00", "code": "", "name": ""}, {"ActualValue": "8.6", "ForecastValue": "", "FormerValue": "6.21", "IndicatorName": "美国8月挑战者企业裁员人数(万)", "OccurDate": 20250904, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "21.4", "ForecastValue": "22.4", "FormerValue": "22.4", "IndicatorName": "美国截至12月20日当周初请失业金人数(万)", "OccurDate": 20251224, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "21.88", "IndicatorName": "美国截至7月6日当周初请失业金人数四周均值(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "2.8", "IndicatorName": "美国第四季度非农生产率季率修正值(%)", "OccurDate": 20260324, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.5", "ForecastValue": "-0.5", "FormerValue": "-0.6", "IndicatorName": "美国10-11月制造业就业人口变动季调后(万)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "3.7", "FormerValue": "3.9", "IndicatorName": "美国8月平均每小时工资年率(%)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "7", "FormerValue": "3.7", "IndicatorName": "美国1月私营企业非农就业人数变动(万)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "759.4", "ForecastValue": "730", "FormerValue": "761.8", "IndicatorName": "美国5月JOLTs职位空缺(万)", "OccurDate": 20260630, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "22.43", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至11月15日当周初请失业金人数四周均值(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至2月28日当周续请失业金人数(万)", "OccurDate": 20260305, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "185.7", "IndicatorName": "美国截至3月21日当周续请失业金人数(万)", "OccurDate": 20260326, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.1", "IndicatorName": "美国12月平均每小时工资月率(%)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20", "ForecastValue": "21", "FormerValue": "19.8", "IndicatorName": "美国截至1月12日初请失业金人数(万)", "OccurDate": 20260122, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "21.7", "FormerValue": "21.5", "IndicatorName": "美国截至7月6日当周初请失业金人数(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.4", "ForecastValue": "2", "FormerValue": "-1.5", "IndicatorName": "美国第二季度非农生产率初值(%)", "OccurDate": 20250807, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "6.4", "FormerValue": "5", "IndicatorName": "美国1月非农就业人口变动季调后(万)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "34.2", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国3月平均每周工时(小时)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.4", "ForecastValue": "22.8", "FormerValue": "22.6", "IndicatorName": "美国截至8月9日当周初请失业金人数(万)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.5", "ForecastValue": "-0.5", "FormerValue": "-1.2", "IndicatorName": "美国3月制造业就业人口变动季调后(万)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "181.9", "ForecastValue": "185.1", "FormerValue": "185.7", "IndicatorName": "美国截至3月14日当周续请失业金人数(万)", "OccurDate": 20260326, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "203.77", "ForecastValue": "", "FormerValue": "-50.15", "IndicatorName": "美国1月挑战者企业裁员月率(%)", "OccurDate": 20260205, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国4月平均每周工时(小时)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "10.9", "ForecastValue": "9.9", "FormerValue": "6.2", "IndicatorName": "美国4月ADP就业人数变动(万)", "OccurDate": 20260506, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "186.6", "ForecastValue": "", "FormerValue": "192.3", "IndicatorName": "美国截至12月22日当周续请失业金人数(万)", "OccurDate": 20251231, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "743.7", "ForecastValue": "750", "FormerValue": "776.9", "IndicatorName": "美国6月JOLTs职位空缺(万)", "OccurDate": 20250729, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "8.4", "ForecastValue": "", "FormerValue": "8.7", "IndicatorName": "美国12月U6失业率(%)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "8", "ForecastValue": "7.9", "FormerValue": "7.9", "IndicatorName": "美国3月U6失业率(%)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.9", "ForecastValue": "", "FormerValue": "21.95", "IndicatorName": "美国截至2月14日当周初请失业金人数四周均值(万)", "OccurDate": 20260219, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.8", "ForecastValue": "23.5", "FormerValue": "23.1", "IndicatorName": "美国截至9月20日当周初请失业金人数(万)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.6", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国10-11月失业率(%)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "10.4", "ForecastValue": "7.5", "FormerValue": "-3.3", "IndicatorName": "美国7月ADP就业人数变动(万)", "OccurDate": 20250730, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "0.7", "IndicatorName": "美国第一季度劳工就业福利季率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.5", "ForecastValue": "21.1", "FormerValue": "20.9", "IndicatorName": "美国截至5月18日当周初请失业金人数(万)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.8", "ForecastValue": "2", "FormerValue": "2.8", "IndicatorName": "美国第四季度非农生产率季率修正值(%)", "OccurDate": 20260324, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.1", "ForecastValue": "24", "FormerValue": "26.3", "IndicatorName": "美国截至9月13日当周初请失业金人数(万)", "OccurDate": 20250918, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "1.3", "IndicatorName": "美国1月政府部门岗位变动(万人)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "62", "ForecastValue": "62.5", "FormerValue": "62.5", "IndicatorName": "美国2月劳动参与率(%)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.2", "ForecastValue": "0.5", "FormerValue": "1.5", "IndicatorName": "美国4月制造业就业人口变动季调后(万)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.08", "ForecastValue": "", "FormerValue": "21.2", "IndicatorName": "美国截至3月14日当周初请失业金人数四周均值(万)", "OccurDate": 20260319, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.5", "ForecastValue": "", "FormerValue": "175.3", "IndicatorName": "美国11月挑战者企业裁员年率(%)", "OccurDate": 20251204, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "767", "ForecastValue": "715", "FormerValue": "722.7", "IndicatorName": "美国10月JOLTs职位空缺(万)", "OccurDate": 20251209, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "21.08", "ForecastValue": "", "FormerValue": "20.98", "IndicatorName": "美国截至4月18日当周初请失业金人数四周均值(万)", "OccurDate": 20260423, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "11.5", "ForecastValue": "6.2", "FormerValue": "17.8", "IndicatorName": "美国4月非农就业人口变动季调后(万)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.9", "ForecastValue": "0.8", "FormerValue": "0.7", "IndicatorName": "美国第一季度劳工就业成本季率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-25.8", "ForecastValue": "", "FormerValue": "13.3", "IndicatorName": "美国9月挑战者企业裁员年率(%)", "OccurDate": 20251002, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "22.6", "ForecastValue": "22.1", "FormerValue": "21.8", "IndicatorName": "美国截至8月2日当周初请失业金人数(万)", "OccurDate": 20250807, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "176.6", "IndicatorName": "美国截至5月9日当周续请失业金人数(万)", "OccurDate": 20260514, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "184.4", "IndicatorName": "美国截至2月7日当周续请失业金人数(万)", "OccurDate": 20260212, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国2月平均每周工时(小时)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "178.2", "ForecastValue": "178.5", "FormerValue": "178.2", "IndicatorName": "美国截至5月9日当周续请失业金人数(万)", "OccurDate": 20260521, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "26.3", "ForecastValue": "23.5", "FormerValue": "23.7", "IndicatorName": "美国截至9月6日当周初请失业金人数(万)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "8.1", "ForecastValue": "", "FormerValue": "8.2", "IndicatorName": "美国5月U6失业率(%)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "761.8", "IndicatorName": "美国 5月JOLTs职位空缺(万)", "OccurDate": 20260630, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "194", "ForecastValue": "196.2", "FormerValue": "195.4", "IndicatorName": "美国截至8月23日当周续请失业金人数(万)", "OccurDate": 20250904, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.2", "ForecastValue": "0.8", "FormerValue": "0.7", "IndicatorName": "美国第一季度劳工就业薪资季率(%)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-3.2", "ForecastValue": "5", "FormerValue": "5.4", "IndicatorName": "美国9月ADP就业人数变动(万)", "OccurDate": 20251001, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "3.7", "FormerValue": "3.7", "IndicatorName": "美国2月平均每小时工资年率(%)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.4", "ForecastValue": "4.5", "FormerValue": "4.6", "IndicatorName": "美国12月失业率(%)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20.63", "ForecastValue": "", "FormerValue": "20.15", "IndicatorName": "美国截至1月24日当周初请失业金人数四周均值(万)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20.8", "ForecastValue": "21", "FormerValue": "19.9", "IndicatorName": "美国截至1月3日当周初请失业金人数(万)", "OccurDate": 20260108, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "23.1", "ForecastValue": "21.2", "FormerValue": "20.9", "IndicatorName": "美国截至1月31日当周初请失业金人数(万)", "OccurDate": 20260205, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.5", "ForecastValue": "21.8", "FormerValue": "21.5", "IndicatorName": "美国截至7月4日当周初请失业金人数(万)", "OccurDate": 20260709, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "10.84", "IndicatorName": "美国2月挑战者企业裁员人数(万)", "OccurDate": 20260305, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "4.4", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国9月失业率(%)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "22.43", "ForecastValue": "", "FormerValue": "22.33", "IndicatorName": "美国截至6月20日当周初请失业金人数四周均值(万)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "761.8", "ForecastValue": "", "FormerValue": "686.6", "IndicatorName": "美国4月JOLTs职位空缺(万)", "OccurDate": 20260602, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "20.78", "ForecastValue": "", "FormerValue": "21.05", "IndicatorName": "美国截至3月28日当周初请失业金人数四周均值(万)", "OccurDate": 20260402, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.98", "ForecastValue": "", "FormerValue": "20.95", "IndicatorName": "美国截至4月11日当周初请失业金人数四周均值(万)", "OccurDate": 20260416, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "139.8", "ForecastValue": "", "FormerValue": "-1.6", "IndicatorName": "美国7月挑战者企业裁员年率(%)", "OccurDate": 20250731, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "21.2", "ForecastValue": "21.5", "FormerValue": "20.6", "IndicatorName": "美国截至2月21日当周初请失业金人数(万)", "OccurDate": 20260226, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.4", "IndicatorName": "美国3月平均每小时工资月率(%)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.4", "IndicatorName": "美国2月平均每小时工资月率(%)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.3", "ForecastValue": "21.5", "FormerValue": "21.3", "IndicatorName": "美国截至3月7日当周初请失业金人数(万)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.1", "ForecastValue": "", "FormerValue": "3.08", "IndicatorName": "美国截至6月20日当周ADP就业周度发布变动(万人)", "OccurDate": 20260707, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "-78", "ForecastValue": "", "FormerValue": "-71.9", "IndicatorName": "美国3月挑战者企业裁员年率(%)", "OccurDate": 20260402, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "3.6", "FormerValue": "3.8", "IndicatorName": "美国1月平均每小时工资年率(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20.7", "ForecastValue": "21.5", "FormerValue": "21.9", "IndicatorName": "美国截至4月11日当周初请失业金人数(万)", "OccurDate": 20260416, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "8.4", "IndicatorName": "美国1月U6失业率(%)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "184.4", "ForecastValue": "184.7", "FormerValue": "182.7", "IndicatorName": "美国截至1月24日当周续请失业金人数(万)", "OccurDate": 20260205, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "191.4", "ForecastValue": "190", "FormerValue": "186.6", "IndicatorName": "美国截至12月27日当周续请失业金人数(万)", "OccurDate": 20260108, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "34.2", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国8月平均每周工时(小时)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "18.6", "ForecastValue": "7", "FormerValue": "-8.6", "IndicatorName": "美国3月私营企业非农就业人数变动(万)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.5", "ForecastValue": "22.5", "FormerValue": "22.6", "IndicatorName": "美国截至6月20日当周初请失业金人数(万)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "185", "ForecastValue": "185", "FormerValue": "186.8", "IndicatorName": "美国截至2月28日当周续请失业金人数(万)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-55.45", "ForecastValue": "", "FormerValue": "203.77", "IndicatorName": "美国2月挑战者企业裁员月率(%)", "OccurDate": 20260305, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.9", "ForecastValue": "3", "FormerValue": "3.3", "IndicatorName": "美国第三季度非农生产率季率初值(%)", "OccurDate": 20260108, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "6.3", "ForecastValue": "5", "FormerValue": "2.2", "IndicatorName": "美国2月ADP就业人数变动(万)", "OccurDate": 20260304, "OccurTime": "21:15", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "3.6", "FormerValue": "3.5", "IndicatorName": "美国12月平均每小时工资年率(%)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国4月平均每小时工资月率(%)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "13", "ForecastValue": "7", "FormerValue": "5", "IndicatorName": "美国1月非农就业人口变动季调后(万)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "1.98", "ForecastValue": "", "FormerValue": "2.1", "IndicatorName": "美国截至6月27日当周ADP就业周度发布变动(万人)", "OccurDate": 20260714, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "-8", "ForecastValue": "", "FormerValue": "23.5", "IndicatorName": "美国12月挑战者企业裁员年率(%)", "OccurDate": 20260108, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.2", "ForecastValue": "7.5", "FormerValue": "7.3", "IndicatorName": "美国8月非农就业人口变动季调后(万)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.9", "ForecastValue": "4.9", "FormerValue": "4.9", "IndicatorName": "美国第三季度非农生产率季率修正值(%)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "181.9", "IndicatorName": "美国截至3月28日当周续请失业金人数(万)", "OccurDate": 20260402, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "188.4", "ForecastValue": "189.3", "FormerValue": "191.4", "IndicatorName": "美国截至1月3日当周续请失业金人数(万)", "OccurDate": 20260115, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-0.6", "ForecastValue": "-0.8", "FormerValue": "-1.2", "IndicatorName": "美国9月制造业就业人口变动季调后(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "17.2", "ForecastValue": "7", "FormerValue": "3.7", "IndicatorName": "美国1月私营企业非农就业人数变动(万)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "0.7", "IndicatorName": "美国第三季度劳工就业福利季率(%)", "OccurDate": 20251210, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.1", "ForecastValue": "4.7", "FormerValue": "-3.2", "IndicatorName": "美国12月ADP就业人数变动(万)", "OccurDate": 20260107, "OccurTime": "21:15", "code": "", "name": ""}, {"ActualValue": "21.8", "ForecastValue": "22.4", "FormerValue": "21.7", "IndicatorName": "美国截至7月26日当周初请失业金人数(万)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.3", "ForecastValue": "", "FormerValue": "-0.5", "IndicatorName": "美国12月政府部门岗位变动(万人)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "17.2", "ForecastValue": "8.5", "FormerValue": "11.5", "IndicatorName": "美国5月非农就业人口变动季调后(万)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "5.2", "ForecastValue": "", "FormerValue": "-0.8", "IndicatorName": "美国5月政府部门岗位变动(万人)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.9", "ForecastValue": "11", "FormerValue": "9.7", "IndicatorName": "美国6月私营企业非农就业人数变动(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "24", "ForecastValue": "", "FormerValue": "24.05", "IndicatorName": "美国截至9月13日当周初请失业金人数四周均值(万)", "OccurDate": 20250918, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-9.2", "ForecastValue": "5.9", "FormerValue": "13", "IndicatorName": "美国2月非农就业人口变动季调后(万)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20.6", "ForecastValue": "22.5", "FormerValue": "22.7", "IndicatorName": "美国截至2月14日当周初请失业金人数(万)", "OccurDate": 20260219, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "12", "ForecastValue": "8.5", "FormerValue": "12.3", "IndicatorName": "美国5月私营企业非农就业人数变动(万)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "12.2", "ForecastValue": "11.7", "FormerValue": "10.9", "IndicatorName": "美国5月ADP就业人数变动(万)", "OccurDate": 20260603, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "183.8", "ForecastValue": "194.7", "FormerValue": "193.9", "IndicatorName": "美国截至11月30日当周续请失业金人数(万)", "OccurDate": 20251211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "0.8", "FormerValue": "0.8", "IndicatorName": "美国第四季度劳工就业成本季率(%)", "OccurDate": 20260210, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "6.2", "ForecastValue": "4", "FormerValue": "6.3", "IndicatorName": "美国3月ADP就业人数变动(万)", "OccurDate": 20260401, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "62.3", "ForecastValue": "62.2", "FormerValue": "62.2", "IndicatorName": "美国8月劳动参与率(%)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "12.3", "ForecastValue": "7.5", "FormerValue": "18.6", "IndicatorName": "美国4月私营企业非农就业人数变动(万)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.18", "ForecastValue": "", "FormerValue": "21.88", "IndicatorName": "美国截至1月3日当周初请失业金人数四周均值(万)", "OccurDate": 20260108, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "8.7", "ForecastValue": "", "FormerValue": "8", "IndicatorName": "美国10-11月U6失业率(%)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "182.7", "IndicatorName": "美国截至1月31日当周续请失业金人数(万)", "OccurDate": 20260205, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "4.2", "FormerValue": "4.1", "IndicatorName": "美国7月失业率(%)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.56", "ForecastValue": "", "FormerValue": "7.13", "IndicatorName": "美国12月挑战者企业裁员人数(万)", "OccurDate": 20260108, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "186.9", "IndicatorName": "美国截至2月21日当周续请失业金人数(万)", "OccurDate": 20260226, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "178.5", "ForecastValue": "181.5", "FormerValue": "182.1", "IndicatorName": "美国截至4月18日当周续请失业金人数(万)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.2", "ForecastValue": "21.2", "FormerValue": "21", "IndicatorName": "美国截至3月28日当周初请失业金人数(万)", "OccurDate": 20260402, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "", "FormerValue": "0.8", "IndicatorName": "美国第四季度劳工就业薪资季率(%)", "OccurDate": 20260210, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "-0.5", "FormerValue": "-0.8", "IndicatorName": "美国1月制造业就业人口变动季调后(万)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "181.4", "ForecastValue": "181.5", "FormerValue": "181.4", "IndicatorName": "美国截至6月27日当周续请失业金人数(万)", "OccurDate": 20260709, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.9", "ForecastValue": "", "FormerValue": "20.25", "IndicatorName": "美国截至5月18日当周初请失业金人数四周均值(万)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至6月20日当周续请失业金人数(万)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.8", "ForecastValue": "-0.5", "FormerValue": "-0.5", "IndicatorName": "美国12月制造业就业人口变动季调后(万)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-3.2", "ForecastValue": "1", "FormerValue": "4.2", "IndicatorName": "美国11月ADP就业人数变动(万)", "OccurDate": 20251203, "OccurTime": "21:15", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "720", "FormerValue": "714.6", "IndicatorName": "美国12月JOLTs职位空缺(万)", "OccurDate": 20260203, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "22", "ForecastValue": "23", "FormerValue": "23.2", "IndicatorName": "美国截至11月10日当周初请失业金人数(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国7月平均每周工时(小时)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "6.06", "ForecastValue": "", "FormerValue": "4.83", "IndicatorName": "美国3月挑战者企业裁员人数(万)", "OccurDate": 20260402, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "193.9", "ForecastValue": "196.1", "FormerValue": "196", "IndicatorName": "美国截至11月22日当周续请失业金人数(万)", "OccurDate": 20251204, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.22", "ForecastValue": "", "FormerValue": "3.3", "IndicatorName": "美国截至5月2日当周ADP就业周度发布变动(万人)", "OccurDate": 20260519, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "1", "ForecastValue": "1.2", "FormerValue": "1.6", "IndicatorName": "美国第二季度非农单位劳动力成本终值(%)", "OccurDate": 20250904, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.6", "ForecastValue": "3.8", "FormerValue": "3.5", "IndicatorName": "美国4月平均每小时工资年率(%)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "178.2", "IndicatorName": "美国截至5月16日当周续请失业金人数(万)", "OccurDate": 20260521, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "193.9", "ForecastValue": "195.1", "FormerValue": "194", "IndicatorName": "美国截至8月31日当周续请失业金人数(万)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.5", "ForecastValue": "22.5", "FormerValue": "22.4", "IndicatorName": "美国截至8月16日当周初请失业金人数(万)", "OccurDate": 20250821, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "17.8", "ForecastValue": "6", "FormerValue": "-9.2", "IndicatorName": "美国3月非农就业人口变动季调后(万)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "117.8", "ForecastValue": "", "FormerValue": "-8", "IndicatorName": "美国1月挑战者企业裁员年率(%)", "OccurDate": 20260205, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "18.9", "ForecastValue": "21.5", "FormerValue": "21.4", "IndicatorName": "美国截至4月25日当周初请失业金人数(万)", "OccurDate": 20260430, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.5", "ForecastValue": "", "FormerValue": "2.2", "IndicatorName": "美国10-11月政府部门岗位变动(万人)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国4月失业率(%)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "", "FormerValue": "-20.9", "IndicatorName": "美国5月挑战者企业裁员年率(%)", "OccurDate": 20260604, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "183", "ForecastValue": "", "FormerValue": "-37.11", "IndicatorName": "美国10月挑战者企业裁员月率(%)", "OccurDate": 20251106, "OccurTime": "17:00", "code": "", "name": ""}, {"ActualValue": "20.32", "ForecastValue": "", "FormerValue": "20.75", "IndicatorName": "美国截至5月2日当周初请失业金人数四周均值(万)", "OccurDate": 20260507, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.2", "ForecastValue": "", "FormerValue": "22.45", "IndicatorName": "美国截至6月27日当周初请失业金人数四周均值(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "184.1", "ForecastValue": "183.9", "FormerValue": "181.9", "IndicatorName": "美国截至3月21日当周续请失业金人数(万)", "OccurDate": 20260402, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "3.7", "FormerValue": "3.7", "IndicatorName": "美国9月平均每小时工资年率(%)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "186.9", "ForecastValue": "186", "FormerValue": "186.2", "IndicatorName": "美国截至2月7日当周续请失业金人数(万)", "OccurDate": 20260219, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.3", "ForecastValue": "2.7", "FormerValue": "2.4", "IndicatorName": "美国第二季度非农生产率终值(%)", "OccurDate": 20250904, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "61.9", "ForecastValue": "62.1", "FormerValue": "62", "IndicatorName": "美国3月劳动参与率(%)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.8", "ForecastValue": "", "FormerValue": "-0.8", "IndicatorName": "美国4月政府部门岗位变动(万人)", "OccurDate": 20260508, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-0.52", "ForecastValue": "", "FormerValue": "16", "IndicatorName": "美国6月挑战者企业裁员月率(%)", "OccurDate": 20260701, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "5.4", "ForecastValue": "6.5", "FormerValue": "10.4", "IndicatorName": "美国8月ADP就业人数变动(万)", "OccurDate": 20250904, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "0.5", "ForecastValue": "-0.5", "FormerValue": "-0.8", "IndicatorName": "美国1月制造业就业人口变动季调后(万)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20.8", "ForecastValue": "21.7", "FormerValue": "21.5", "IndicatorName": "美国截至7月11日当周初请失业金人数(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.7", "ForecastValue": "23", "FormerValue": "22.9", "IndicatorName": "美国截至8月30日当周初请失业金人数(万)", "OccurDate": 20250904, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "7.3", "ForecastValue": "11", "FormerValue": "14.7", "IndicatorName": "美国7月非农就业人口变动季调后(万)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "184.1", "IndicatorName": "美国截至4月4日当周续请失业金人数(万)", "OccurDate": 20260409, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.2", "ForecastValue": "", "FormerValue": "21.57", "IndicatorName": "美国截至3月7日当周初请失业金人数四周均值(万)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至3月7日当周续请失业金人数(万)", "OccurDate": 20260312, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.25", "ForecastValue": "", "FormerValue": "20.38", "IndicatorName": "美国截至5月16日当周初请失业金人数四周均值(万)", "OccurDate": 20260521, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.2", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国9月平均每小时工资月率(%)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.4", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国1月平均每小时工资月率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.4", "ForecastValue": "3.4", "FormerValue": "3.6", "IndicatorName": "美国5月平均每小时工资年率(%)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "29.33", "ForecastValue": "", "FormerValue": "-48.84", "IndicatorName": "美国7月挑战者企业裁员月率(%)", "OccurDate": 20250731, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "180.5", "ForecastValue": "181.5", "FormerValue": "181.4", "IndicatorName": "美国截至7月4日当周续请失业金人数(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "7.9", "ForecastValue": "", "FormerValue": "8", "IndicatorName": "美国2月U6失业率(%)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "22.03", "ForecastValue": "", "FormerValue": "21.9", "IndicatorName": "美国截至2月21日当周初请失业金人数四周均值(万)", "OccurDate": 20260226, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "714.6", "ForecastValue": "760", "FormerValue": "767", "IndicatorName": "美国11月JOLTs职位空缺(万)", "OccurDate": 20260107, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "6.4", "ForecastValue": "5", "FormerValue": "11.9", "IndicatorName": "美国10-11月非农就业人口变动季调后(万)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "8", "ForecastValue": "", "FormerValue": "8.4", "IndicatorName": "美国1月U6失业率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "197.4", "ForecastValue": "195.1", "FormerValue": "195.7", "IndicatorName": "美国截至11月3日当周续请失业金人数(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "196", "ForecastValue": "196.9", "FormerValue": "197.4", "IndicatorName": "美国截至11月22日当周续请失业金人数(万)", "OccurDate": 20251126, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至7月4日当周续请失业金人数(万)", "OccurDate": 20260709, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "-20.9", "IndicatorName": "美国5月挑战者企业裁员年率(%)", "OccurDate": 20260604, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "-53.4", "ForecastValue": "", "FormerValue": "183", "IndicatorName": "美国11月挑战者企业裁员月率(%)", "OccurDate": 20251204, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "654.2", "IndicatorName": "美国1月JOLTs职位空缺(万)", "OccurDate": 20260323, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "9.7", "ForecastValue": "6.2", "FormerValue": "3.8", "IndicatorName": "美国9月私营企业非农就业人数变动(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "186.8", "ForecastValue": "185", "FormerValue": "183.3", "IndicatorName": "美国截至2月21日当周续请失业金人数(万)", "OccurDate": 20260305, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "192.3", "ForecastValue": "190", "FormerValue": "189.7", "IndicatorName": "美国截至12月13日当周续请失业金人数(万)", "OccurDate": 20251224, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.4", "ForecastValue": "21", "FormerValue": "20.7", "IndicatorName": "美国截至4月18日当周初请失业金人数(万)", "OccurDate": 20260423, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.2", "ForecastValue": "", "FormerValue": "", "IndicatorName": "美国截至10月18日当周初请失业金人数(万)", "OccurDate": 20251118, "OccurTime": "16:25", "code": "", "name": ""}, {"ActualValue": "22.38", "ForecastValue": "", "FormerValue": "22.43", "IndicatorName": "美国截至11月22日当周初请失业金人数四周均值(万)", "OccurDate": 20251126, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "178.2", "IndicatorName": "美国截至5月18日当周续请失业金人数(万)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "177.7", "IndicatorName": "美国截至6月6日当周续请失业金人数(万)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国1月平均每小时工资月率(%)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "3.7", "ForecastValue": "6.4", "FormerValue": "6.9", "IndicatorName": "美国12月私营企业非农就业人数变动(万)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "192.6", "ForecastValue": "193.5", "FormerValue": "192", "IndicatorName": "美国截至9月13日当周续请失业金人数(万)", "OccurDate": 20250925, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "10.84", "ForecastValue": "", "FormerValue": "3.56", "IndicatorName": "美国1月挑战者企业裁员人数(万)", "OccurDate": 20260205, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.8", "ForecastValue": "1.9", "FormerValue": "4.9", "IndicatorName": "美国第四季度非农生产率季率初值(%)", "OccurDate": 20260305, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "20", "ForecastValue": "20.5", "FormerValue": "18.9", "IndicatorName": "美国截至5月2日当周初请失业金人数(万)", "OccurDate": 20260507, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.05", "ForecastValue": "", "FormerValue": "21.08", "IndicatorName": "美国截至3月21日当周初请失业金人数四周均值(万)", "OccurDate": 20260326, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "23.1", "ForecastValue": "", "FormerValue": "22.85", "IndicatorName": "美国截至8月30日当周初请失业金人数四周均值(万)", "OccurDate": 20250904, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "15.31", "ForecastValue": "", "FormerValue": "5.41", "IndicatorName": "美国10月挑战者企业裁员人数(万)", "OccurDate": 20251106, "OccurTime": "17:00", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国1月失业率(%)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "23.6", "ForecastValue": "22", "FormerValue": "19.1", "IndicatorName": "美国截至12月6日当周初请失业金人数(万)", "OccurDate": 20251211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.9", "ForecastValue": "0.8", "FormerValue": "0.9", "IndicatorName": "美国第二季度劳工就业成本季率(%)", "OccurDate": 20250731, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "182.7", "ForecastValue": "186", "FormerValue": "184.9", "IndicatorName": "美国截至1月17日当周续请失业金人数(万)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.5", "ForecastValue": "22", "FormerValue": "21.6", "IndicatorName": "美国截至6月27日当周初请失业金人数(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.45", "ForecastValue": "", "FormerValue": "22.95", "IndicatorName": "美国截至7月19日当周初请失业金人数四周均值(万)", "OccurDate": 20250724, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.1", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国10-11月平均每小时工资月率(%)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-1.2", "ForecastValue": "0.3", "FormerValue": "0.5", "IndicatorName": "美国2月制造业就业人口变动季调后(万)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.88", "ForecastValue": "", "FormerValue": "22.2", "IndicatorName": "美国截至7月4日当周初请失业金人数四周均值(万)", "OccurDate": 20260709, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "7.8", "FormerValue": "3.7", "IndicatorName": "美国1月私营企业非农就业人数变动(万)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国1月平均每小时工资月率(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.75", "ForecastValue": "", "FormerValue": "21.68", "IndicatorName": "美国截至12月13日当周初请失业金人数四周均值(万)", "OccurDate": 20251218, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "654.2", "ForecastValue": "720", "FormerValue": "714.6", "IndicatorName": "美国12月JOLTs职位空缺(万)", "OccurDate": 20260205, "OccurTime": "23:00", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "3.7", "FormerValue": "3.8", "IndicatorName": "美国3月平均每小时工资年率(%)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "178.6", "ForecastValue": "178", "FormerValue": "178.2", "IndicatorName": "美国截至5月11日当周续请失业金人数(万)", "OccurDate": 20260528, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "19.8", "ForecastValue": "21.5", "FormerValue": "20.8", "IndicatorName": "美国截至1月10日当周初请失业金人数(万)", "OccurDate": 20260115, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.23", "ForecastValue": "", "FormerValue": "20.63", "IndicatorName": "美国截至1月31日当周初请失业金人数四周均值(万)", "OccurDate": 20260205, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "62.2", "ForecastValue": "", "FormerValue": "62.3", "IndicatorName": "美国7月劳动参与率(%)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.5", "ForecastValue": "3.5", "FormerValue": "3.4", "IndicatorName": "美国6月平均每小时工资年率(%)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.3", "IndicatorName": "美国6月平均每小时工资月率(%)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "20.9", "ForecastValue": "20.5", "FormerValue": "20", "IndicatorName": "美国截至1月24日当周初请失业金人数(万)", "OccurDate": 20260129, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "4.22", "IndicatorName": "美国截至5月9日当周ADP就业周度发布变动(万人)", "OccurDate": 20260526, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "718.1", "ForecastValue": "737.7", "FormerValue": "743.7", "IndicatorName": "美国7月JOLTs职位空缺(万)", "OccurDate": 20250903, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "22.63", "ForecastValue": "", "FormerValue": "22.18", "IndicatorName": "美国截至8月16日当周初请失业金人数四周均值(万)", "OccurDate": 20250821, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "195.4", "ForecastValue": "197", "FormerValue": "197.2", "IndicatorName": "美国截至8月16日当周续请失业金人数(万)", "OccurDate": 20250828, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.9", "ForecastValue": "3.8", "FormerValue": "3.7", "IndicatorName": "美国7月平均每小时工资年率(%)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "183.3", "ForecastValue": "185.8", "FormerValue": "186.9", "IndicatorName": "美国截至2月14日当周续请失业金人数(万)", "OccurDate": 20260226, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "182.1", "ForecastValue": "180", "FormerValue": "181", "IndicatorName": "美国截至6月13日当周续请失业金人数(万)", "OccurDate": 20260625, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "192", "ForecastValue": "195", "FormerValue": "193.9", "IndicatorName": "美国截至9月13日当周续请失业金人数(万)", "OccurDate": 20250918, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "7.9", "ForecastValue": "", "FormerValue": "7.7", "IndicatorName": "美国7月U6失业率(%)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国3月失业率(%)", "OccurDate": 20260403, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21", "ForecastValue": "21", "FormerValue": "20.5", "IndicatorName": "美国截至3月21日当周初请失业金人数(万)", "OccurDate": 20260326, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "182", "FormerValue": "181.8", "IndicatorName": "美国截至4月18日当周续请失业金人数(万)", "OccurDate": 20260423, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.7", "ForecastValue": "22.6", "FormerValue": "22.1", "IndicatorName": "美国截至7月19日当周初请失业金人数(万)", "OccurDate": 20250724, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "62.5", "ForecastValue": "62.4", "FormerValue": "62.4", "IndicatorName": "美国1月劳动参与率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "19.9", "ForecastValue": "22", "FormerValue": "21.4", "IndicatorName": "美国截至12月22日当周初请失业金人数(万)", "OccurDate": 20251231, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "181", "ForecastValue": "179.5", "FormerValue": "179.5", "IndicatorName": "美国截至6月6日当周续请失业金人数(万)", "OccurDate": 20260618, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "0.2", "IndicatorName": "美国5月平均每小时工资月率(%)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "181.4", "ForecastValue": "181", "FormerValue": "181.2", "IndicatorName": "美国截至6月21日当周续请失业金人数(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "1.6", "ForecastValue": "1.5", "FormerValue": "6.6", "IndicatorName": "美国第二季度非农单位劳动力成本初值(%)", "OccurDate": 20250807, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国1月失业率(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "186.2", "ForecastValue": "185", "FormerValue": "184.4", "IndicatorName": "美国截至1月31日当周续请失业金人数(万)", "OccurDate": 20260212, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.88", "ForecastValue": "", "FormerValue": "21.68", "IndicatorName": "美国截至12月22日当周初请失业金人数四周均值(万)", "OccurDate": 20251231, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "9.7", "ForecastValue": "", "FormerValue": "8.34", "IndicatorName": "美国5月挑战者企业裁员人数(万)", "OccurDate": 20260604, "OccurTime": "17:30", "code": "", "name": ""}, {"ActualValue": "20.38", "ForecastValue": "", "FormerValue": "20.32", "IndicatorName": "美国截至5月9日当周初请失业金人数四周均值(万)", "OccurDate": 20260514, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.58", "ForecastValue": "", "FormerValue": "4.22", "IndicatorName": "美国截至5月9日当周ADP就业周度发布变动(万人)", "OccurDate": 20260527, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "21.6", "ForecastValue": "22.5", "FormerValue": "22", "IndicatorName": "美国截至11月22日当周初请失业金人数(万)", "OccurDate": 20251126, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "688.2", "ForecastValue": "691.8", "FormerValue": "694.6", "IndicatorName": "美国2月JOLTs职位空缺(万)", "OccurDate": 20260331, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "34.3", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国10-11月平均每周工时(小时)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "34.2", "FormerValue": "34.2", "IndicatorName": "美国1月平均每周工时(小时)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.3", "FormerValue": "4.3", "IndicatorName": "美国5月失业率(%)", "OccurDate": 20260605, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "-0.5", "FormerValue": "-0.8", "IndicatorName": "美国1月制造业就业人口变动季调后(万)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "179.5", "ForecastValue": "178", "FormerValue": "177.7", "IndicatorName": "美国截至5月31日当周续请失业金人数(万)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "186.9", "ForecastValue": "186", "FormerValue": "186.2", "IndicatorName": "美国截至2月14日当周续请失业金人数(万)", "OccurDate": 20260219, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "7", "FormerValue": "5", "IndicatorName": "美国1月非农就业人口变动季调后(万)(2/6-2/13)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "8.1", "ForecastValue": "", "FormerValue": "7.9", "IndicatorName": "美国8月U6失业率(%)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "9.8", "ForecastValue": "11.8", "FormerValue": "12.2", "IndicatorName": "美国6月ADP就业人数变动(万)", "OccurDate": 20260701, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "-8.6", "ForecastValue": "6.5", "FormerValue": "17.2", "IndicatorName": "美国2月私营企业非农就业人数变动(万)", "OccurDate": 20260306, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "21.43", "ForecastValue": "", "FormerValue": "21.88", "IndicatorName": "美国截至7月11日当周初请失业金人数四周均值(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "24.05", "ForecastValue": "", "FormerValue": "23.1", "IndicatorName": "美国截至9月6日当周初请失业金人数四周均值(万)", "OccurDate": 20250911, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.8", "ForecastValue": "7.5", "FormerValue": "8.3", "IndicatorName": "美国8月私营企业非农就业人数变动(万)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.3", "FormerValue": "-0.2", "IndicatorName": "美国6月制造业就业人口变动季调后(万)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "181.5", "FormerValue": "181.4", "IndicatorName": "美国截至6月29日当周续请失业金人数(万)", "OccurDate": 20260716, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "-1.2", "ForecastValue": "-0.5", "FormerValue": "-1.1", "IndicatorName": "美国8月制造业就业人口变动季调后(万)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "34.2", "ForecastValue": "34.3", "FormerValue": "34.3", "IndicatorName": "美国12月平均每周工时(小时)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-37.11", "ForecastValue": "", "FormerValue": "38.5", "IndicatorName": "美国9月挑战者企业裁员月率(%)", "OccurDate": 20251002, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "5", "ForecastValue": "6", "FormerValue": "6.4", "IndicatorName": "美国12月非农就业人口变动季调后(万)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "203.77", "IndicatorName": "美国2月挑战者企业裁员月率(%)", "OccurDate": 20260305, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "7.9", "ForecastValue": "", "FormerValue": "8.1", "IndicatorName": "美国6月U6失业率(%)", "OccurDate": 20260702, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.4", "ForecastValue": "3", "FormerValue": "3.3", "IndicatorName": "美国第三季度非农生产率初值(%)", "OccurDate": 20251106, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "189.7", "ForecastValue": "193", "FormerValue": "183.8", "IndicatorName": "美国截至12月6日当周续请失业金人数(万)", "OccurDate": 20251218, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "25.49", "ForecastValue": "", "FormerValue": "-55.45", "IndicatorName": "美国3月挑战者企业裁员月率(%)", "OccurDate": 20260402, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "0.7", "ForecastValue": "", "FormerValue": "0.8", "IndicatorName": "美国第四季度劳工就业福利季率(%)", "OccurDate": 20260210, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "0.8", "ForecastValue": "", "FormerValue": "1", "IndicatorName": "美国第三季度劳工就业薪资季率(%)", "OccurDate": 20251210, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-1.6", "ForecastValue": "", "FormerValue": "-1", "IndicatorName": "美国8月政府部门岗位变动(万人)", "OccurDate": 20250905, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "2.9", "ForecastValue": "", "FormerValue": "3.58", "IndicatorName": "美国截至5月23日当周ADP就业周度发布变动(万人)", "OccurDate": 20260609, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "185", "IndicatorName": "美国截至3月14日当周续请失业金人数(万)", "OccurDate": 20260319, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "8.3", "ForecastValue": "10", "FormerValue": "7.4", "IndicatorName": "美国7月私营企业非农就业人数变动(万)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "11.9", "ForecastValue": "5", "FormerValue": "2.2", "IndicatorName": "美国9月非农就业人口变动季调后(万)", "OccurDate": 20251120, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "4.83", "ForecastValue": "", "FormerValue": "10.84", "IndicatorName": "美国2月挑战者企业裁员人数(万)", "OccurDate": 20260305, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.3", "ForecastValue": "4.4", "FormerValue": "4.4", "IndicatorName": "美国1月失业率(%)", "OccurDate": 20260211, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "179.5", "IndicatorName": "美国截至6月13日当周续请失业金人数(万)", "OccurDate": 20260618, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "0.3", "ForecastValue": "0.5", "FormerValue": "0.8", "IndicatorName": "美国第一季度非农生产率季率修正值(%)", "OccurDate": 20260604, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.18", "ForecastValue": "", "FormerValue": "22.08", "IndicatorName": "美国截至8月9日当周初请失业金人数四周均值(万)", "OccurDate": 20250814, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "38.5", "ForecastValue": "", "FormerValue": "29.33", "IndicatorName": "美国8月挑战者企业裁员月率(%)", "OccurDate": 20250904, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "178.6", "IndicatorName": "美国截至5月30日当周续请失业金人数(万)", "OccurDate": 20260604, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "178.2", "ForecastValue": "179", "FormerValue": "176.6", "IndicatorName": "美国截至5月2日当周续请失业金人数(万)", "OccurDate": 20260514, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "4.2", "ForecastValue": "2.5", "FormerValue": "-2.9", "IndicatorName": "美国10月ADP就业人数变动(万)", "OccurDate": 20251105, "OccurTime": "21:15", "code": "", "name": ""}, {"ActualValue": "13.3", "ForecastValue": "", "FormerValue": "139.8", "IndicatorName": "美国8月挑战者企业裁员年率(%)", "OccurDate": 20250904, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "62.5", "ForecastValue": "", "FormerValue": "62.4", "IndicatorName": "美国10-11月劳动参与率(%)", "OccurDate": 20251216, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "197.4", "ForecastValue": "195", "FormerValue": "194.6", "IndicatorName": "美国截至8月2日当周续请失业金人数(万)", "OccurDate": 20250807, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "7.13", "ForecastValue": "", "FormerValue": "15.31", "IndicatorName": "美国11月挑战者企业裁员人数(万)", "OccurDate": 20251204, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.1", "ForecastValue": "20.5", "FormerValue": "20", "IndicatorName": "美国截至5月9日当周初请失业金人数(万)", "OccurDate": 20260514, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.9", "ForecastValue": "", "FormerValue": "21.48", "IndicatorName": "美国截至6月6日当周初请失业金人数四周均值(万)", "OccurDate": 20260611, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "4.9", "IndicatorName": "美国第四季度非农生产率季率初值(%)", "OccurDate": 20260205, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "686.6", "ForecastValue": "683.5", "FormerValue": "688.2", "IndicatorName": "美国3月JOLTs职位空缺(万)", "OccurDate": 20260505, "OccurTime": "22:00", "code": "", "name": ""}, {"ActualValue": "-1.1", "ForecastValue": "-0.3", "FormerValue": "-0.7", "IndicatorName": "美国7月制造业就业人口变动季调后(万)", "OccurDate": 20250801, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "176.6", "ForecastValue": "180", "FormerValue": "178.5", "IndicatorName": "美国截至5月2日当周续请失业金人数(万)", "OccurDate": 20260507, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "22.08", "ForecastValue": "", "FormerValue": "22.1", "IndicatorName": "美国截至8月2日当周初请失业金人数四周均值(万)", "OccurDate": 20250807, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "3.08", "ForecastValue": "", "FormerValue": "2.55", "IndicatorName": "美国截至6月6日当周ADP就业周度发布变动(万人)", "OccurDate": 20260623, "OccurTime": "20:15", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "4.9", "IndicatorName": "美国第四季度非农生产率季率初值(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "197.2", "ForecastValue": "196", "FormerValue": "195.3", "IndicatorName": "美国截至8月9日当周续请失业金人数(万)", "OccurDate": 20250821, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "62.4", "IndicatorName": "美国1月劳动参与率(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "-20.9", "ForecastValue": "", "FormerValue": "-78", "IndicatorName": "美国4月挑战者企业裁员年率(%)", "OccurDate": 20260507, "OccurTime": "19:30", "code": "", "name": ""}, {"ActualValue": "20.5", "ForecastValue": "", "FormerValue": "21.18", "IndicatorName": "美国截至1月10日当周初请失业金人数四周均值(万)", "OccurDate": 20260115, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "179.4", "IndicatorName": "美国截至4月11日当周续请失业金人数(万)", "OccurDate": 20260416, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "21.48", "ForecastValue": "", "FormerValue": "20.9", "IndicatorName": "美国截至5月30日当周初请失业金人数四周均值(万)", "OccurDate": 20260604, "OccurTime": "20:30", "code": "", "name": ""}, {"ActualValue": "62.4", "ForecastValue": "62.4", "FormerValue": "62.5", "IndicatorName": "美国12月劳动参与率(%)", "OccurDate": 20260109, "OccurTime": "21:30", "code": "", "name": ""}, {"ActualValue": "未公布", "ForecastValue": "", "FormerValue": "8.4", "IndicatorName": "美国1月U6失业率(%)", "OccurDate": 20260206, "OccurTime": "21:30", "code": "", "name": ""}], "listCode": "macro_us_employment", "listGroup": "美股宏观(就业)", "listName": "美股宏观(就业)", "listSchema": {"ActualValue": "实际值", "ForecastValue": "预期值", "FormerValue": "前值", "IndicatorName": "指标名称", "OccurDate": "发布日期", "OccurTime": "发布时间"}, "totalItems": 394}}}
+{
+  "ok": true,
+  "data": {
+    "macro_us_employment": {
+      "date": "2026-07-21",
+      "items": [
+        {
+          "ActualValue": "-1.6",
+          "ForecastValue": "",
+          "FormerValue": "-1",
+          "IndicatorName": "美国8月政府部门岗位变动(万人)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.9",
+          "ForecastValue": "",
+          "FormerValue": "21.48",
+          "IndicatorName": "美国截至6月6日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-8.6",
+          "ForecastValue": "6.5",
+          "FormerValue": "17.2",
+          "IndicatorName": "美国2月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "7.8",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国1月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20",
+          "ForecastValue": "21",
+          "FormerValue": "19.8",
+          "IndicatorName": "美国截至1月12日初请失业金人数(万)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.45",
+          "ForecastValue": "",
+          "FormerValue": "22.95",
+          "IndicatorName": "美国截至7月19日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250724,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.43",
+          "ForecastValue": "",
+          "FormerValue": "22.33",
+          "IndicatorName": "美国截至6月20日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.2",
+          "ForecastValue": "21.5",
+          "FormerValue": "20.6",
+          "IndicatorName": "美国截至2月21日当周初请失业金人数(万)",
+          "OccurDate": 20260226,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "694.6",
+          "ForecastValue": "670",
+          "FormerValue": "654.2",
+          "IndicatorName": "美国1月JOLTs职位空缺(万)",
+          "OccurDate": 20260313,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "25.49",
+          "ForecastValue": "",
+          "FormerValue": "-55.45",
+          "IndicatorName": "美国3月挑战者企业裁员月率(%)",
+          "OccurDate": 20260402,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国1月失业率(%)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.5",
+          "IndicatorName": "美国2月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.2",
+          "ForecastValue": "0.5",
+          "FormerValue": "1.5",
+          "IndicatorName": "美国4月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国3月平均每小时工资年率(%)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国6月平均每小时工资月率(%)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "185.7",
+          "IndicatorName": "美国截至3月21日当周续请失业金人数(万)",
+          "OccurDate": 20260326,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.5",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-1.2",
+          "IndicatorName": "美国3月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.5",
+          "ForecastValue": "22",
+          "FormerValue": "21.6",
+          "IndicatorName": "美国截至6月27日当周初请失业金人数(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "117.8",
+          "ForecastValue": "",
+          "FormerValue": "-8",
+          "IndicatorName": "美国1月挑战者企业裁员年率(%)",
+          "OccurDate": 20260205,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "186.8",
+          "ForecastValue": "185",
+          "FormerValue": "183.3",
+          "IndicatorName": "美国截至2月21日当周续请失业金人数(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "178.2",
+          "IndicatorName": "美国截至5月18日当周续请失业金人数(万)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.6",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国10-11月失业率(%)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "197.4",
+          "ForecastValue": "195.1",
+          "FormerValue": "195.7",
+          "IndicatorName": "美国截至11月3日当周续请失业金人数(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "194",
+          "ForecastValue": "196.2",
+          "FormerValue": "195.4",
+          "IndicatorName": "美国截至8月23日当周续请失业金人数(万)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "38",
+          "IndicatorName": "美国5月挑战者企业裁员月率(%)",
+          "OccurDate": 20260604,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.4",
+          "ForecastValue": "3",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国第三季度非农生产率初值(%)",
+          "OccurDate": 20251106,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "11.9",
+          "ForecastValue": "5",
+          "FormerValue": "2.2",
+          "IndicatorName": "美国9月非农就业人口变动季调后(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.8",
+          "ForecastValue": "22.4",
+          "FormerValue": "21.7",
+          "IndicatorName": "美国截至7月26日当周初请失业金人数(万)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "181.4",
+          "ForecastValue": "181",
+          "FormerValue": "181.2",
+          "IndicatorName": "美国截至6月21日当周续请失业金人数(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国8月平均每小时工资月率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "38",
+          "ForecastValue": "",
+          "FormerValue": "25.49",
+          "IndicatorName": "美国4月挑战者企业裁员月率(%)",
+          "OccurDate": 20260507,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-25.8",
+          "ForecastValue": "",
+          "FormerValue": "13.3",
+          "IndicatorName": "美国9月挑战者企业裁员年率(%)",
+          "OccurDate": 20251002,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "6.4",
+          "FormerValue": "6.9",
+          "IndicatorName": "美国12月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "21.7",
+          "FormerValue": "21.5",
+          "IndicatorName": "美国截至7月6日当周初请失业金人数(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国第三季度劳工就业福利季率(%)",
+          "OccurDate": 20251210,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "761.8",
+          "IndicatorName": "美国 5月JOLTs职位空缺(万)",
+          "OccurDate": 20260630,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "720",
+          "FormerValue": "714.6",
+          "IndicatorName": "美国12月JOLTs职位空缺(万)",
+          "OccurDate": 20260203,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.6",
+          "ForecastValue": "1.5",
+          "FormerValue": "6.6",
+          "IndicatorName": "美国第二季度非农单位劳动力成本初值(%)",
+          "OccurDate": 20250807,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-50.15",
+          "ForecastValue": "",
+          "FormerValue": "-53.4",
+          "IndicatorName": "美国12月挑战者企业裁员月率(%)",
+          "OccurDate": 20260108,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1",
+          "ForecastValue": "1.2",
+          "FormerValue": "1.6",
+          "IndicatorName": "美国第二季度非农单位劳动力成本终值(%)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "178.6",
+          "IndicatorName": "美国截至5月30日当周续请失业金人数(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "7.9",
+          "ForecastValue": "",
+          "FormerValue": "8.1",
+          "IndicatorName": "美国6月U6失业率(%)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至2月28日当周续请失业金人数(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "186.9",
+          "ForecastValue": "186",
+          "FormerValue": "186.2",
+          "IndicatorName": "美国截至2月7日当周续请失业金人数(万)",
+          "OccurDate": 20260219,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-53.4",
+          "ForecastValue": "",
+          "FormerValue": "183",
+          "IndicatorName": "美国11月挑战者企业裁员月率(%)",
+          "OccurDate": 20251204,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-37.11",
+          "ForecastValue": "",
+          "FormerValue": "38.5",
+          "IndicatorName": "美国9月挑战者企业裁员月率(%)",
+          "OccurDate": 20251002,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至7月4日当周续请失业金人数(万)",
+          "OccurDate": 20260709,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "62.4",
+          "IndicatorName": "美国1月劳动参与率(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国10-11月平均每小时工资年率(%)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.9",
+          "ForecastValue": "4.5",
+          "FormerValue": "9.7",
+          "IndicatorName": "美国10-11月私营企业非农就业人数变动(万)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "179.4",
+          "ForecastValue": "184",
+          "FormerValue": "184.1",
+          "IndicatorName": "美国截至3月29日当周续请失业金人数(万)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.32",
+          "ForecastValue": "",
+          "FormerValue": "20.75",
+          "IndicatorName": "美国截至5月2日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260507,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.52",
+          "ForecastValue": "",
+          "FormerValue": "16",
+          "IndicatorName": "美国6月挑战者企业裁员月率(%)",
+          "OccurDate": 20260701,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.2",
+          "ForecastValue": "",
+          "FormerValue": "21.57",
+          "IndicatorName": "美国截至3月7日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-4.5",
+          "ForecastValue": "",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国6月挑战者企业裁员年率(%)",
+          "OccurDate": 20260701,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "759.4",
+          "ForecastValue": "730",
+          "FormerValue": "761.8",
+          "IndicatorName": "美国5月JOLTs职位空缺(万)",
+          "OccurDate": 20260630,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.4",
+          "ForecastValue": "4.5",
+          "FormerValue": "4.6",
+          "IndicatorName": "美国12月失业率(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国7月平均每小时工资月率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "185",
+          "ForecastValue": "185",
+          "FormerValue": "186.8",
+          "IndicatorName": "美国截至2月28日当周续请失业金人数(万)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "183.3",
+          "ForecastValue": "185.8",
+          "FormerValue": "186.9",
+          "IndicatorName": "美国截至2月14日当周续请失业金人数(万)",
+          "OccurDate": 20260226,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国5月失业率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "195.7",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至10月18日当周续请失业金人数(万)",
+          "OccurDate": 20251118,
+          "OccurTime": "16:25",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62",
+          "ForecastValue": "62.5",
+          "FormerValue": "62.5",
+          "IndicatorName": "美国2月劳动参与率(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-0.8",
+          "IndicatorName": "美国1月制造业就业人口变动季调后(万)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.9",
+          "ForecastValue": "",
+          "FormerValue": "3.58",
+          "IndicatorName": "美国截至5月23日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260609,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "761.8",
+          "ForecastValue": "",
+          "FormerValue": "686.6",
+          "IndicatorName": "美国4月JOLTs职位空缺(万)",
+          "OccurDate": 20260602,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.4",
+          "ForecastValue": "22.8",
+          "FormerValue": "22.6",
+          "IndicatorName": "美国截至8月9日当周初请失业金人数(万)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8",
+          "ForecastValue": "",
+          "FormerValue": "8.4",
+          "IndicatorName": "美国1月U6失业率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "7.13",
+          "ForecastValue": "",
+          "FormerValue": "15.31",
+          "IndicatorName": "美国11月挑战者企业裁员人数(万)",
+          "OccurDate": 20251204,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国第四季度劳工就业薪资季率(%)",
+          "OccurDate": 20260210,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.9",
+          "ForecastValue": "",
+          "FormerValue": "20.25",
+          "IndicatorName": "美国截至5月18日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22",
+          "ForecastValue": "23",
+          "FormerValue": "23.2",
+          "IndicatorName": "美国截至11月10日当周初请失业金人数(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.43",
+          "ForecastValue": "",
+          "FormerValue": "21.88",
+          "IndicatorName": "美国截至7月11日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "186.9",
+          "IndicatorName": "美国截至2月21日当周续请失业金人数(万)",
+          "OccurDate": 20260226,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国9月平均每小时工资年率(%)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.4",
+          "ForecastValue": "22.5",
+          "FormerValue": "23.6",
+          "IndicatorName": "美国截至12月13日当周初请失业金人数(万)",
+          "OccurDate": 20251218,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.25",
+          "ForecastValue": "",
+          "FormerValue": "20.38",
+          "IndicatorName": "美国截至5月16日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260521,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "15.31",
+          "ForecastValue": "",
+          "FormerValue": "5.41",
+          "IndicatorName": "美国10月挑战者企业裁员人数(万)",
+          "OccurDate": 20251106,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.63",
+          "ForecastValue": "",
+          "FormerValue": "22.18",
+          "IndicatorName": "美国截至8月16日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250821,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-3.2",
+          "ForecastValue": "5",
+          "FormerValue": "5.4",
+          "IndicatorName": "美国9月ADP就业人数变动(万)",
+          "OccurDate": 20251001,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21",
+          "ForecastValue": "21",
+          "FormerValue": "20.5",
+          "IndicatorName": "美国截至3月21日当周初请失业金人数(万)",
+          "OccurDate": 20260326,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "178.6",
+          "ForecastValue": "178",
+          "FormerValue": "178.2",
+          "IndicatorName": "美国截至5月11日当周续请失业金人数(万)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国1月平均每周工时(小时)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "195.3",
+          "ForecastValue": "196.4",
+          "FormerValue": "197.4",
+          "IndicatorName": "美国截至8月2日当周续请失业金人数(万)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国1月私营企业非农就业人数变动(万)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.6",
+          "ForecastValue": "22",
+          "FormerValue": "19.1",
+          "IndicatorName": "美国截至12月6日当周初请失业金人数(万)",
+          "OccurDate": 20251211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.6",
+          "ForecastValue": "22.1",
+          "FormerValue": "21.8",
+          "IndicatorName": "美国截至8月2日当周初请失业金人数(万)",
+          "OccurDate": 20250807,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "12.3",
+          "ForecastValue": "7.5",
+          "FormerValue": "18.6",
+          "IndicatorName": "美国4月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "62.4",
+          "IndicatorName": "美国1月劳动参与率(%)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "7.5",
+          "FormerValue": "8.3",
+          "IndicatorName": "美国8月私营企业非农就业人数变动(万)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "8.4",
+          "IndicatorName": "美国1月U6失业率(%)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1",
+          "ForecastValue": "",
+          "FormerValue": "7.3",
+          "IndicatorName": "美国7月政府部门岗位变动(万人)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.4",
+          "ForecastValue": "62.3",
+          "FormerValue": "62.3",
+          "IndicatorName": "美国9月劳动参与率(%)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.58",
+          "ForecastValue": "",
+          "FormerValue": "9.7",
+          "IndicatorName": "美国6月挑战者企业裁员人数(万)",
+          "OccurDate": 20260701,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "193.9",
+          "ForecastValue": "195.1",
+          "FormerValue": "194",
+          "IndicatorName": "美国截至8月31日当周续请失业金人数(万)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.34",
+          "ForecastValue": "",
+          "FormerValue": "6.06",
+          "IndicatorName": "美国4月挑战者企业裁员人数(万)",
+          "OccurDate": 20260507,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "192",
+          "ForecastValue": "195",
+          "FormerValue": "193.9",
+          "IndicatorName": "美国截至9月13日当周续请失业金人数(万)",
+          "OccurDate": 20250918,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "8.4",
+          "IndicatorName": "美国1月U6失业率(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.5",
+          "ForecastValue": "",
+          "FormerValue": "62.4",
+          "IndicatorName": "美国10-11月劳动参与率(%)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "7.9",
+          "ForecastValue": "",
+          "FormerValue": "7.7",
+          "IndicatorName": "美国7月U6失业率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "7",
+          "FormerValue": "5",
+          "IndicatorName": "美国1月非农就业人口变动季调后(万)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.06",
+          "ForecastValue": "",
+          "FormerValue": "4.83",
+          "IndicatorName": "美国3月挑战者企业裁员人数(万)",
+          "OccurDate": 20260402,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.88",
+          "ForecastValue": "",
+          "FormerValue": "22.2",
+          "IndicatorName": "美国截至7月4日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260709,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.7",
+          "ForecastValue": "23",
+          "FormerValue": "22.9",
+          "IndicatorName": "美国截至8月30日当周初请失业金人数(万)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "185",
+          "IndicatorName": "美国截至3月14日当周续请失业金人数(万)",
+          "OccurDate": 20260319,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "12",
+          "ForecastValue": "8.5",
+          "FormerValue": "12.3",
+          "IndicatorName": "美国5月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1",
+          "ForecastValue": "",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国第二季度劳工就业薪资季率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.2",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国第一季度劳工就业薪资季率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "19.9",
+          "ForecastValue": "22",
+          "FormerValue": "21.4",
+          "IndicatorName": "美国截至12月22日当周初请失业金人数(万)",
+          "OccurDate": 20251231,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.5",
+          "ForecastValue": "",
+          "FormerValue": "21.18",
+          "IndicatorName": "美国截至1月10日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260115,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "1.3",
+          "IndicatorName": "美国1月政府部门岗位变动(万人)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.2",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国8月平均每周工时(小时)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.6",
+          "ForecastValue": "22.5",
+          "FormerValue": "22.9",
+          "IndicatorName": "美国截至6月13日当周初请失业金人数(万)",
+          "OccurDate": 20260618,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.9",
+          "ForecastValue": "23",
+          "FormerValue": "23.5",
+          "IndicatorName": "美国截至8月23日当周初请失业金人数(万)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.4",
+          "ForecastValue": "21",
+          "FormerValue": "20.7",
+          "IndicatorName": "美国截至4月18日当周初请失业金人数(万)",
+          "OccurDate": 20260423,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "188.4",
+          "ForecastValue": "189.3",
+          "FormerValue": "191.4",
+          "IndicatorName": "美国截至1月3日当周续请失业金人数(万)",
+          "OccurDate": 20260115,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.6",
+          "ForecastValue": "",
+          "FormerValue": "-4.2",
+          "IndicatorName": "美国2月政府部门岗位变动(万人)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "26.3",
+          "ForecastValue": "23.5",
+          "FormerValue": "23.7",
+          "IndicatorName": "美国截至9月6日当周初请失业金人数(万)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "19.8",
+          "ForecastValue": "21.5",
+          "FormerValue": "20.8",
+          "IndicatorName": "美国截至1月10日当周初请失业金人数(万)",
+          "OccurDate": 20260115,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "180.5",
+          "ForecastValue": "181.5",
+          "FormerValue": "181.4",
+          "IndicatorName": "美国截至7月4日当周续请失业金人数(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-9.2",
+          "ForecastValue": "5.9",
+          "FormerValue": "13",
+          "IndicatorName": "美国2月非农就业人口变动季调后(万)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "181",
+          "ForecastValue": "179.5",
+          "FormerValue": "179.5",
+          "IndicatorName": "美国截至6月6日当周续请失业金人数(万)",
+          "OccurDate": 20260618,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国4月失业率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国12月平均每小时工资年率(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "24",
+          "ForecastValue": "",
+          "FormerValue": "24.05",
+          "IndicatorName": "美国截至9月13日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250918,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.95",
+          "ForecastValue": "",
+          "FormerValue": "20.78",
+          "IndicatorName": "美国截至4月4日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.4",
+          "ForecastValue": "5",
+          "FormerValue": "11.9",
+          "IndicatorName": "美国10-11月非农就业人口变动季调后(万)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "117.8",
+          "IndicatorName": "美国2月挑战者企业裁员年率(%)",
+          "OccurDate": 20260305,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "179.5",
+          "ForecastValue": "178",
+          "FormerValue": "177.7",
+          "IndicatorName": "美国截至5月31日当周续请失业金人数(万)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "10.84",
+          "ForecastValue": "",
+          "FormerValue": "3.56",
+          "IndicatorName": "美国1月挑战者企业裁员人数(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.18",
+          "ForecastValue": "",
+          "FormerValue": "21.88",
+          "IndicatorName": "美国截至1月3日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260108,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "767",
+          "ForecastValue": "715",
+          "FormerValue": "722.7",
+          "IndicatorName": "美国10月JOLTs职位空缺(万)",
+          "OccurDate": 20251209,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "3.2",
+          "IndicatorName": "美国6月政府部门岗位变动(万人)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.1",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国10-11月平均每小时工资月率(%)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "203.77",
+          "ForecastValue": "",
+          "FormerValue": "-50.15",
+          "IndicatorName": "美国1月挑战者企业裁员月率(%)",
+          "OccurDate": 20260205,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "175.3",
+          "ForecastValue": "",
+          "FormerValue": "-25.8",
+          "IndicatorName": "美国10月挑战者企业裁员年率(%)",
+          "OccurDate": 20251106,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.9",
+          "ForecastValue": "21.9",
+          "FormerValue": "22.5",
+          "IndicatorName": "美国截至6月6日当周初请失业金人数(万)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.03",
+          "ForecastValue": "",
+          "FormerValue": "21.9",
+          "IndicatorName": "美国截至2月21日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260226,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "195.5",
+          "ForecastValue": "196",
+          "FormerValue": "195.6",
+          "IndicatorName": "美国截至7月19日当周续请失业金人数(万)",
+          "OccurDate": 20250724,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.4",
+          "ForecastValue": "22.4",
+          "FormerValue": "22.4",
+          "IndicatorName": "美国截至12月20日当周初请失业金人数(万)",
+          "OccurDate": 20251224,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-4.2",
+          "ForecastValue": "",
+          "FormerValue": "1.3",
+          "IndicatorName": "美国1月政府部门岗位变动(万人)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "718.1",
+          "ForecastValue": "737.7",
+          "FormerValue": "743.7",
+          "IndicatorName": "美国7月JOLTs职位空缺(万)",
+          "OccurDate": 20250903,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.2",
+          "ForecastValue": "",
+          "FormerValue": "22.45",
+          "IndicatorName": "美国截至6月27日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.8",
+          "ForecastValue": "21.7",
+          "FormerValue": "21.5",
+          "IndicatorName": "美国截至7月11日当周初请失业金人数(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.5",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国第一季度非农生产率季率修正值(%)",
+          "OccurDate": 20260604,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.5",
+          "ForecastValue": "21.5",
+          "FormerValue": "21.3",
+          "IndicatorName": "美国截至3月14日当周初请失业金人数(万)",
+          "OccurDate": 20260319,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.9",
+          "ForecastValue": "21",
+          "FormerValue": "20.2",
+          "IndicatorName": "美国截至4月4日当周初请失业金人数(万)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.4",
+          "ForecastValue": "2",
+          "FormerValue": "-1.5",
+          "IndicatorName": "美国第二季度非农生产率初值(%)",
+          "OccurDate": 20250807,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "714.6",
+          "ForecastValue": "760",
+          "FormerValue": "767",
+          "IndicatorName": "美国11月JOLTs职位空缺(万)",
+          "OccurDate": 20260107,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国4月平均每小时工资月率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.1",
+          "ForecastValue": "-0.3",
+          "FormerValue": "-0.7",
+          "IndicatorName": "美国7月制造业就业人口变动季调后(万)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.58",
+          "ForecastValue": "",
+          "FormerValue": "4.22",
+          "IndicatorName": "美国截至5月9日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260527,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.7",
+          "ForecastValue": "21.5",
+          "FormerValue": "21.9",
+          "IndicatorName": "美国截至4月11日当周初请失业金人数(万)",
+          "OccurDate": 20260416,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "179.4",
+          "IndicatorName": "美国截至4月11日当周续请失业金人数(万)",
+          "OccurDate": 20260416,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "177.7",
+          "IndicatorName": "美国截至6月6日当周续请失业金人数(万)",
+          "OccurDate": 20260611,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国1月平均每小时工资年率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.5",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-0.6",
+          "IndicatorName": "美国10-11月制造业就业人口变动季调后(万)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "195.4",
+          "ForecastValue": "197",
+          "FormerValue": "197.2",
+          "IndicatorName": "美国截至8月16日当周续请失业金人数(万)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "1",
+          "FormerValue": "1.8",
+          "IndicatorName": "美国第一季度非农生产率季率初值(%)",
+          "OccurDate": 20260507,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "61.8",
+          "ForecastValue": "62",
+          "FormerValue": "61.9",
+          "IndicatorName": "美国4月劳动参与率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.38",
+          "ForecastValue": "",
+          "FormerValue": "22.43",
+          "IndicatorName": "美国截至11月22日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251126,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.3",
+          "ForecastValue": "",
+          "FormerValue": "-0.5",
+          "IndicatorName": "美国12月政府部门岗位变动(万人)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.6",
+          "ForecastValue": "22.5",
+          "FormerValue": "22",
+          "IndicatorName": "美国截至11月22日当周初请失业金人数(万)",
+          "OccurDate": 20251126,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "186.2",
+          "ForecastValue": "185",
+          "FormerValue": "184.4",
+          "IndicatorName": "美国截至1月31日当周续请失业金人数(万)",
+          "OccurDate": 20260212,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "",
+          "FormerValue": "-20.9",
+          "IndicatorName": "美国5月挑战者企业裁员年率(%)",
+          "OccurDate": 20260604,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.2",
+          "FormerValue": "-0.2",
+          "IndicatorName": "美国5月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国第四季度劳工就业成本季率(%)",
+          "OccurDate": 20260210,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.7",
+          "ForecastValue": "",
+          "FormerValue": "8",
+          "IndicatorName": "美国10-11月U6失业率(%)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "181.4",
+          "ForecastValue": "181.5",
+          "FormerValue": "181.4",
+          "IndicatorName": "美国截至6月27日当周续请失业金人数(万)",
+          "OccurDate": 20260709,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.8",
+          "ForecastValue": "",
+          "FormerValue": "-0.6",
+          "IndicatorName": "美国3月政府部门岗位变动(万人)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.5",
+          "ForecastValue": "21.8",
+          "FormerValue": "21.5",
+          "IndicatorName": "美国截至7月4日当周初请失业金人数(万)",
+          "OccurDate": 20260709,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "197.2",
+          "ForecastValue": "196",
+          "FormerValue": "195.3",
+          "IndicatorName": "美国截至8月9日当周续请失业金人数(万)",
+          "OccurDate": 20250821,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.38",
+          "ForecastValue": "",
+          "FormerValue": "20.32",
+          "IndicatorName": "美国截至5月9日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260514,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国1月平均每小时工资年率(%)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "-20.9",
+          "IndicatorName": "美国5月挑战者企业裁员年率(%)",
+          "OccurDate": 20260604,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.08",
+          "ForecastValue": "",
+          "FormerValue": "20.98",
+          "IndicatorName": "美国截至4月18日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260423,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.48",
+          "ForecastValue": "",
+          "FormerValue": "20.9",
+          "IndicatorName": "美国截至5月30日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国10-11月平均每周工时(小时)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.33",
+          "ForecastValue": "",
+          "FormerValue": "21.9",
+          "IndicatorName": "美国截至6月13日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260618,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "11.5",
+          "ForecastValue": "6.2",
+          "FormerValue": "17.8",
+          "IndicatorName": "美国4月非农就业人口变动季调后(万)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.6",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.5",
+          "IndicatorName": "美国4月平均每小时工资年率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.4",
+          "ForecastValue": "",
+          "FormerValue": "8.7",
+          "IndicatorName": "美国12月U6失业率(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.6",
+          "ForecastValue": "",
+          "FormerValue": "6.21",
+          "IndicatorName": "美国8月挑战者企业裁员人数(万)",
+          "OccurDate": 20250904,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.55",
+          "ForecastValue": "",
+          "FormerValue": "2.9",
+          "IndicatorName": "美国截至5月30日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260616,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "186",
+          "FormerValue": "184.9",
+          "IndicatorName": "美国截至1月24日当周续请失业金人数(万)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "184.1",
+          "ForecastValue": "183.9",
+          "FormerValue": "181.9",
+          "IndicatorName": "美国截至3月21日当周续请失业金人数(万)",
+          "OccurDate": 20260402,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.83",
+          "ForecastValue": "",
+          "FormerValue": "10.84",
+          "IndicatorName": "美国2月挑战者企业裁员人数(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.98",
+          "ForecastValue": "",
+          "FormerValue": "20.95",
+          "IndicatorName": "美国截至4月11日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260416,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.56",
+          "ForecastValue": "",
+          "FormerValue": "7.13",
+          "IndicatorName": "美国12月挑战者企业裁员人数(万)",
+          "OccurDate": 20260108,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-71.9",
+          "ForecastValue": "",
+          "FormerValue": "117.8",
+          "IndicatorName": "美国2月挑战者企业裁员年率(%)",
+          "OccurDate": 20260305,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.1",
+          "ForecastValue": "",
+          "FormerValue": "8.2",
+          "IndicatorName": "美国5月U6失业率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.8",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国2月平均每小时工资年率(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.3",
+          "ForecastValue": "21.5",
+          "FormerValue": "21.3",
+          "IndicatorName": "美国截至3月7日当周初请失业金人数(万)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.1",
+          "IndicatorName": "美国12月平均每小时工资月率(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.2",
+          "ForecastValue": "4.8",
+          "FormerValue": "4.1",
+          "IndicatorName": "美国1月ADP就业人数变动(万)",
+          "OccurDate": 20260204,
+          "OccurTime": "21:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "17.8",
+          "ForecastValue": "6",
+          "FormerValue": "-9.2",
+          "IndicatorName": "美国3月非农就业人口变动季调后(万)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.1",
+          "ForecastValue": "",
+          "FormerValue": "22.85",
+          "IndicatorName": "美国截至8月30日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.08",
+          "ForecastValue": "",
+          "FormerValue": "2.55",
+          "IndicatorName": "美国截至6月6日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260623,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "184.1",
+          "IndicatorName": "美国截至4月4日当周续请失业金人数(万)",
+          "OccurDate": 20260409,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国1月平均每周工时(小时)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "182.7",
+          "IndicatorName": "美国截至1月31日当周续请失业金人数(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "186.6",
+          "ForecastValue": "",
+          "FormerValue": "192.3",
+          "IndicatorName": "美国截至12月22日当周续请失业金人数(万)",
+          "OccurDate": 20251231,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.5",
+          "ForecastValue": "21.3",
+          "FormerValue": "21.5",
+          "IndicatorName": "美国截至5月30日当周初请失业金人数(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "184.4",
+          "ForecastValue": "184.7",
+          "FormerValue": "182.7",
+          "IndicatorName": "美国截至1月24日当周续请失业金人数(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.75",
+          "ForecastValue": "",
+          "FormerValue": "24",
+          "IndicatorName": "美国截至9月20日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "7.3",
+          "ForecastValue": "11",
+          "FormerValue": "14.7",
+          "IndicatorName": "美国7月非农就业人口变动季调后(万)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.5",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-0.8",
+          "IndicatorName": "美国1月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.1",
+          "ForecastValue": "24",
+          "FormerValue": "26.3",
+          "IndicatorName": "美国截至9月13日当周初请失业金人数(万)",
+          "OccurDate": 20250918,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "181.9",
+          "IndicatorName": "美国截至3月28日当周续请失业金人数(万)",
+          "OccurDate": 20260402,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "5.4",
+          "ForecastValue": "6.5",
+          "FormerValue": "10.4",
+          "IndicatorName": "美国8月ADP就业人数变动(万)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.8",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-0.5",
+          "IndicatorName": "美国12月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月平均每小时工资月率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.9",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国第一季度劳工就业成本季率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "7.9",
+          "ForecastValue": "",
+          "FormerValue": "8",
+          "IndicatorName": "美国2月U6失业率(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-20.9",
+          "ForecastValue": "",
+          "FormerValue": "-78",
+          "IndicatorName": "美国4月挑战者企业裁员年率(%)",
+          "OccurDate": 20260507,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.2",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国12月平均每周工时(小时)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国1月失业率(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "10.84",
+          "IndicatorName": "美国2月挑战者企业裁员人数(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "61.8",
+          "ForecastValue": "",
+          "FormerValue": "61.8",
+          "IndicatorName": "美国5月劳动参与率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国7月平均每周工时(小时)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "12.2",
+          "ForecastValue": "11.7",
+          "FormerValue": "10.9",
+          "IndicatorName": "美国5月ADP就业人数变动(万)",
+          "OccurDate": 20260603,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.4",
+          "ForecastValue": "62.4",
+          "FormerValue": "62.5",
+          "IndicatorName": "美国12月劳动参与率(%)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "1",
+          "IndicatorName": "美国第三季度劳工就业薪资季率(%)",
+          "OccurDate": 20251210,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "184.9",
+          "ForecastValue": "190",
+          "FormerValue": "188.4",
+          "IndicatorName": "美国截至1月5日续请失业金人数(万)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "4.9",
+          "IndicatorName": "美国第四季度非农生产率季率初值(%)",
+          "OccurDate": 20260205,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国5月平均每周工时(小时)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "182.7",
+          "ForecastValue": "186",
+          "FormerValue": "184.9",
+          "IndicatorName": "美国截至1月17日当周续请失业金人数(万)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "4.2",
+          "FormerValue": "4.1",
+          "IndicatorName": "美国7月失业率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "192.6",
+          "ForecastValue": "193.5",
+          "FormerValue": "192",
+          "IndicatorName": "美国截至9月13日当周续请失业金人数(万)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "4.9",
+          "IndicatorName": "美国第四季度非农生产率季率初值(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "17.2",
+          "ForecastValue": "8.5",
+          "FormerValue": "11.5",
+          "IndicatorName": "美国5月非农就业人口变动季调后(万)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.4",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国2月平均每小时工资月率(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.98",
+          "ForecastValue": "",
+          "FormerValue": "2.1",
+          "IndicatorName": "美国截至6月27日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260714,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "6.4",
+          "FormerValue": "5",
+          "IndicatorName": "美国1月非农就业人口变动季调后(万)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.2",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国3月平均每周工时(小时)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "",
+          "FormerValue": "0.8",
+          "IndicatorName": "美国第四季度劳工就业福利季率(%)",
+          "OccurDate": 20260210,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "177.7",
+          "ForecastValue": "178",
+          "FormerValue": "178.6",
+          "IndicatorName": "美国截至5月23日当周续请失业金人数(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国2月平均每周工时(小时)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8",
+          "ForecastValue": "",
+          "FormerValue": "8.1",
+          "IndicatorName": "美国9月U6失业率(%)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "194.6",
+          "ForecastValue": "195.5",
+          "FormerValue": "195.5",
+          "IndicatorName": "美国截至7月19日当周续请失业金人数(万)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "186.9",
+          "ForecastValue": "186",
+          "FormerValue": "186.2",
+          "IndicatorName": "美国截至2月14日当周续请失业金人数(万)",
+          "OccurDate": 20260219,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "18.6",
+          "ForecastValue": "7",
+          "FormerValue": "-8.6",
+          "IndicatorName": "美国3月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "184.4",
+          "IndicatorName": "美国截至2月7日当周续请失业金人数(万)",
+          "OccurDate": 20260212,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.4",
+          "IndicatorName": "美国3月平均每小时工资月率(%)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月平均每小时工资月率(%)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.1",
+          "ForecastValue": "4.7",
+          "FormerValue": "-3.2",
+          "IndicatorName": "美国12月ADP就业人数变动(万)",
+          "OccurDate": 20260107,
+          "OccurTime": "21:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "183.8",
+          "ForecastValue": "194.7",
+          "FormerValue": "193.9",
+          "IndicatorName": "美国截至11月30日当周续请失业金人数(万)",
+          "OccurDate": 20251211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "5.41",
+          "ForecastValue": "",
+          "FormerValue": "8.6",
+          "IndicatorName": "美国9月挑战者企业裁员人数(万)",
+          "OccurDate": 20251002,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.1",
+          "ForecastValue": "",
+          "FormerValue": "22.45",
+          "IndicatorName": "美国截至7月26日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.48",
+          "ForecastValue": "",
+          "FormerValue": "22.38",
+          "IndicatorName": "美国截至11月29日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251204,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "5",
+          "ForecastValue": "6",
+          "FormerValue": "6.4",
+          "IndicatorName": "美国12月非农就业人口变动季调后(万)",
+          "OccurDate": 20260109,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.1",
+          "ForecastValue": "20.5",
+          "FormerValue": "20",
+          "IndicatorName": "美国截至5月9日当周初请失业金人数(万)",
+          "OccurDate": 20260514,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "196",
+          "ForecastValue": "196.9",
+          "FormerValue": "197.4",
+          "IndicatorName": "美国截至11月22日当周续请失业金人数(万)",
+          "OccurDate": 20251126,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "2.8",
+          "IndicatorName": "美国第四季度非农生产率季率修正值(%)",
+          "OccurDate": 20260324,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.3",
+          "FormerValue": "34.3",
+          "IndicatorName": "美国6月平均每周工时(小时)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "178.5",
+          "ForecastValue": "181.5",
+          "FormerValue": "182.1",
+          "IndicatorName": "美国截至4月18日当周续请失业金人数(万)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国1月平均每小时工资月率(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.7",
+          "ForecastValue": "22.6",
+          "FormerValue": "22.1",
+          "IndicatorName": "美国截至7月19日当周初请失业金人数(万)",
+          "OccurDate": 20250724,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "17.2",
+          "ForecastValue": "7",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国1月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.3",
+          "ForecastValue": "10",
+          "FormerValue": "7.4",
+          "IndicatorName": "美国7月私营企业非农就业人数变动(万)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "722.7",
+          "ForecastValue": "718.5",
+          "FormerValue": "718.1",
+          "IndicatorName": "美国8月JOLTs职位空缺(万)",
+          "OccurDate": 20250930,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "29.33",
+          "ForecastValue": "",
+          "FormerValue": "-48.84",
+          "IndicatorName": "美国7月挑战者企业裁员月率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.2",
+          "ForecastValue": "",
+          "FormerValue": "62.3",
+          "IndicatorName": "美国7月劳动参与率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.9",
+          "ForecastValue": "4.9",
+          "FormerValue": "4.9",
+          "IndicatorName": "美国第三季度非农生产率季率修正值(%)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.8",
+          "ForecastValue": "23.5",
+          "FormerValue": "23.1",
+          "IndicatorName": "美国截至9月20日当周初请失业金人数(万)",
+          "OccurDate": 20250925,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "191.4",
+          "ForecastValue": "190",
+          "FormerValue": "186.6",
+          "IndicatorName": "美国截至12月27日当周续请失业金人数(万)",
+          "OccurDate": 20260108,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.5",
+          "ForecastValue": "62.4",
+          "FormerValue": "62.4",
+          "IndicatorName": "美国1月劳动参与率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-0.8",
+          "IndicatorName": "美国1月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.2",
+          "IndicatorName": "美国8月失业率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.9",
+          "ForecastValue": "20.5",
+          "FormerValue": "20",
+          "IndicatorName": "美国截至1月24日当周初请失业金人数(万)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.5",
+          "ForecastValue": "",
+          "FormerValue": "2.2",
+          "IndicatorName": "美国10-11月政府部门岗位变动(万人)",
+          "OccurDate": 20251216,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "192.3",
+          "ForecastValue": "190",
+          "FormerValue": "189.7",
+          "IndicatorName": "美国截至12月13日当周续请失业金人数(万)",
+          "OccurDate": 20251224,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.2",
+          "ForecastValue": "7.5",
+          "FormerValue": "7.3",
+          "IndicatorName": "美国8月非农就业人口变动季调后(万)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "179.5",
+          "IndicatorName": "美国截至6月13日当周续请失业金人数(万)",
+          "OccurDate": 20260618,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.9",
+          "ForecastValue": "0.8",
+          "FormerValue": "0.9",
+          "IndicatorName": "美国第二季度劳工就业成本季率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "139.8",
+          "ForecastValue": "",
+          "FormerValue": "-1.6",
+          "IndicatorName": "美国7月挑战者企业裁员年率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.57",
+          "ForecastValue": "",
+          "FormerValue": "22.03",
+          "IndicatorName": "美国截至2月28日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.6",
+          "ForecastValue": "-0.8",
+          "FormerValue": "-1.2",
+          "IndicatorName": "美国9月制造业就业人口变动季调后(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国3月失业率(%)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-1.2",
+          "ForecastValue": "-0.5",
+          "FormerValue": "-1.1",
+          "IndicatorName": "美国8月制造业就业人口变动季调后(万)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.5",
+          "ForecastValue": "",
+          "FormerValue": "175.3",
+          "IndicatorName": "美国11月挑战者企业裁员年率(%)",
+          "OccurDate": 20251204,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.2",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至10月18日当周初请失业金人数(万)",
+          "OccurDate": 20251118,
+          "OccurTime": "16:25",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.9",
+          "ForecastValue": "11",
+          "FormerValue": "9.7",
+          "IndicatorName": "美国6月私营企业非农就业人数变动(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-0.8",
+          "ForecastValue": "",
+          "FormerValue": "-0.8",
+          "IndicatorName": "美国4月政府部门岗位变动(万人)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "1.3",
+          "IndicatorName": "美国1月政府部门岗位变动(万人)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20",
+          "ForecastValue": "20.5",
+          "FormerValue": "18.9",
+          "IndicatorName": "美国截至5月2日当周初请失业金人数(万)",
+          "OccurDate": 20260507,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至6月20日当周续请失业金人数(万)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.08",
+          "ForecastValue": "",
+          "FormerValue": "21.2",
+          "IndicatorName": "美国截至3月14日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260319,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "181.9",
+          "ForecastValue": "185.1",
+          "FormerValue": "185.7",
+          "IndicatorName": "美国截至3月14日当周续请失业金人数(万)",
+          "OccurDate": 20260326,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.2",
+          "ForecastValue": "",
+          "FormerValue": "8",
+          "IndicatorName": "美国4月U6失业率(%)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.8",
+          "ForecastValue": "2",
+          "FormerValue": "2.8",
+          "IndicatorName": "美国第四季度非农生产率季率修正值(%)",
+          "OccurDate": 20260324,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "9.8",
+          "ForecastValue": "11.8",
+          "FormerValue": "12.2",
+          "IndicatorName": "美国6月ADP就业人数变动(万)",
+          "OccurDate": 20260701,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.2",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.3",
+          "IndicatorName": "美国9月平均每小时工资月率(%)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "181.8",
+          "ForecastValue": "181",
+          "FormerValue": "179.4",
+          "IndicatorName": "美国截至4月4日当周续请失业金人数(万)",
+          "OccurDate": 20260416,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "4.22",
+          "IndicatorName": "美国截至5月9日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260526,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "193.9",
+          "ForecastValue": "196.1",
+          "FormerValue": "196",
+          "IndicatorName": "美国截至11月22日当周续请失业金人数(万)",
+          "OccurDate": 20251204,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "-0.2",
+          "IndicatorName": "美国6月制造业就业人口变动季调后(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-78",
+          "ForecastValue": "",
+          "FormerValue": "-71.9",
+          "IndicatorName": "美国3月挑战者企业裁员年率(%)",
+          "OccurDate": 20260402,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.22",
+          "ForecastValue": "",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国截至5月2日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260519,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "21.88",
+          "IndicatorName": "美国截至7月6日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.8",
+          "ForecastValue": "",
+          "FormerValue": "0.7",
+          "IndicatorName": "美国第一季度劳工就业福利季率(%)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "61.9",
+          "ForecastValue": "62.1",
+          "FormerValue": "62",
+          "IndicatorName": "美国3月劳动参与率(%)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "203.77",
+          "IndicatorName": "美国2月挑战者企业裁员月率(%)",
+          "OccurDate": 20260305,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8",
+          "ForecastValue": "7.9",
+          "FormerValue": "7.9",
+          "IndicatorName": "美国3月U6失业率(%)",
+          "OccurDate": 20260403,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.23",
+          "ForecastValue": "",
+          "FormerValue": "20.63",
+          "IndicatorName": "美国截至1月31日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.3",
+          "ForecastValue": "21.5",
+          "FormerValue": "21.2",
+          "IndicatorName": "美国截至2月28日当周初请失业金人数(万)",
+          "OccurDate": 20260305,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.6",
+          "ForecastValue": "22.5",
+          "FormerValue": "22.7",
+          "IndicatorName": "美国截至2月14日当周初请失业金人数(万)",
+          "OccurDate": 20260219,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.43",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至11月15日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "178.2",
+          "ForecastValue": "178.5",
+          "FormerValue": "178.2",
+          "IndicatorName": "美国截至5月9日当周续请失业金人数(万)",
+          "OccurDate": 20260521,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.5",
+          "ForecastValue": "22.5",
+          "FormerValue": "22.6",
+          "IndicatorName": "美国截至6月20日当周初请失业金人数(万)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.7",
+          "ForecastValue": "",
+          "FormerValue": "1.2",
+          "IndicatorName": "美国第二季度劳工就业福利季率(%)",
+          "OccurDate": 20250731,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "1.6",
+          "ForecastValue": "1",
+          "FormerValue": "1",
+          "IndicatorName": "美国第三季度非农单位劳动力成本初值(%)",
+          "OccurDate": 20251106,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "5.2",
+          "ForecastValue": "",
+          "FormerValue": "-0.8",
+          "IndicatorName": "美国5月政府部门岗位变动(万人)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.3",
+          "ForecastValue": "2.7",
+          "FormerValue": "2.4",
+          "IndicatorName": "美国第二季度非农生产率终值(%)",
+          "OccurDate": 20250904,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-3.2",
+          "ForecastValue": "1",
+          "FormerValue": "4.2",
+          "IndicatorName": "美国11月ADP就业人数变动(万)",
+          "OccurDate": 20251203,
+          "OccurTime": "21:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.18",
+          "ForecastValue": "",
+          "FormerValue": "22.08",
+          "IndicatorName": "美国截至8月9日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250814,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.63",
+          "ForecastValue": "",
+          "FormerValue": "20.15",
+          "IndicatorName": "美国截至1月24日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260129,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.15",
+          "ForecastValue": "",
+          "FormerValue": "20.5",
+          "IndicatorName": "美国截至1月12日初请失业金人数四周均值(万)",
+          "OccurDate": 20260122,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.78",
+          "ForecastValue": "",
+          "FormerValue": "21.05",
+          "IndicatorName": "美国截至3月28日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260402,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "182.1",
+          "ForecastValue": "182",
+          "FormerValue": "181.8",
+          "IndicatorName": "美国截至4月11日当周续请失业金人数(万)",
+          "OccurDate": 20260423,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "688.2",
+          "ForecastValue": "691.8",
+          "FormerValue": "694.6",
+          "IndicatorName": "美国2月JOLTs职位空缺(万)",
+          "OccurDate": 20260331,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "3.6",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国1月平均每小时工资年率(%)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "197.4",
+          "ForecastValue": "195",
+          "FormerValue": "194.6",
+          "IndicatorName": "美国截至8月2日当周续请失业金人数(万)",
+          "OccurDate": 20250807,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.75",
+          "ForecastValue": "",
+          "FormerValue": "21.08",
+          "IndicatorName": "美国截至4月25日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "9.7",
+          "ForecastValue": "",
+          "FormerValue": "8.34",
+          "IndicatorName": "美国5月挑战者企业裁员人数(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "8.1",
+          "ForecastValue": "",
+          "FormerValue": "7.9",
+          "IndicatorName": "美国8月U6失业率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.7",
+          "ForecastValue": "3.7",
+          "FormerValue": "3.9",
+          "IndicatorName": "美国8月平均每小时工资年率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "654.2",
+          "IndicatorName": "美国1月JOLTs职位空缺(万)",
+          "OccurDate": 20260323,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.4",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国9月失业率(%)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "5.7",
+          "ForecastValue": "11",
+          "FormerValue": "12.9",
+          "IndicatorName": "美国6月非农就业人口变动季调后(万)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.95",
+          "ForecastValue": "",
+          "FormerValue": "21.23",
+          "IndicatorName": "美国截至2月7日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260212,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.9",
+          "ForecastValue": "3",
+          "FormerValue": "3.3",
+          "IndicatorName": "美国第三季度非农生产率季率初值(%)",
+          "OccurDate": 20260108,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.4",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国2月失业率(%)",
+          "OccurDate": 20260306,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "182",
+          "FormerValue": "181.8",
+          "IndicatorName": "美国截至4月18日当周续请失业金人数(万)",
+          "OccurDate": 20260423,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "62.3",
+          "ForecastValue": "62.2",
+          "FormerValue": "62.2",
+          "IndicatorName": "美国8月劳动参与率(%)",
+          "OccurDate": 20250905,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.68",
+          "ForecastValue": "",
+          "FormerValue": "21.48",
+          "IndicatorName": "美国截至12月6日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.75",
+          "ForecastValue": "",
+          "FormerValue": "21.68",
+          "IndicatorName": "美国截至12月13日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251218,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-8",
+          "ForecastValue": "",
+          "FormerValue": "23.5",
+          "IndicatorName": "美国12月挑战者企业裁员年率(%)",
+          "OccurDate": 20260108,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "10.4",
+          "ForecastValue": "7.5",
+          "FormerValue": "-3.3",
+          "IndicatorName": "美国7月ADP就业人数变动(万)",
+          "OccurDate": 20250730,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.7",
+          "ForecastValue": "22.2",
+          "FormerValue": "23.1",
+          "IndicatorName": "美国截至2月7日当周初请失业金人数(万)",
+          "OccurDate": 20260212,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.3",
+          "ForecastValue": "5",
+          "FormerValue": "2.2",
+          "IndicatorName": "美国2月ADP就业人数变动(万)",
+          "OccurDate": 20260304,
+          "OccurTime": "21:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.1",
+          "ForecastValue": "21.2",
+          "FormerValue": "20.9",
+          "IndicatorName": "美国截至1月31日当周初请失业金人数(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.2",
+          "ForecastValue": "",
+          "FormerValue": "-1.6",
+          "IndicatorName": "美国9月政府部门岗位变动(万人)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "182.1",
+          "ForecastValue": "180",
+          "FormerValue": "181",
+          "IndicatorName": "美国截至6月13日当周续请失业金人数(万)",
+          "OccurDate": 20260625,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.9",
+          "ForecastValue": "",
+          "FormerValue": "21.95",
+          "IndicatorName": "美国截至2月14日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260219,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.5",
+          "ForecastValue": "3.5",
+          "FormerValue": "3.4",
+          "IndicatorName": "美国6月平均每小时工资年率(%)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "686.6",
+          "ForecastValue": "683.5",
+          "FormerValue": "688.2",
+          "IndicatorName": "美国3月JOLTs职位空缺(万)",
+          "OccurDate": 20260505,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.3",
+          "ForecastValue": "4.4",
+          "FormerValue": "4.4",
+          "IndicatorName": "美国1月失业率(%)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "18.9",
+          "ForecastValue": "21.5",
+          "FormerValue": "21.4",
+          "IndicatorName": "美国截至4月25日当周初请失业金人数(万)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "-55.45",
+          "ForecastValue": "",
+          "FormerValue": "203.77",
+          "IndicatorName": "美国2月挑战者企业裁员月率(%)",
+          "OccurDate": 20260305,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "23.5",
+          "ForecastValue": "22.5",
+          "FormerValue": "22.4",
+          "IndicatorName": "美国截至8月16日当周初请失业金人数(万)",
+          "OccurDate": 20250821,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "0.3",
+          "ForecastValue": "0.3",
+          "FormerValue": "0.2",
+          "IndicatorName": "美国5月平均每小时工资月率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "654.2",
+          "ForecastValue": "720",
+          "FormerValue": "714.6",
+          "IndicatorName": "美国12月JOLTs职位空缺(万)",
+          "OccurDate": 20260205,
+          "OccurTime": "23:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "4.3",
+          "FormerValue": "4.3",
+          "IndicatorName": "美国6月失业率(%)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "743.7",
+          "ForecastValue": "750",
+          "FormerValue": "776.9",
+          "IndicatorName": "美国6月JOLTs职位空缺(万)",
+          "OccurDate": 20250729,
+          "OccurTime": "22:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "16",
+          "ForecastValue": "",
+          "FormerValue": "38",
+          "IndicatorName": "美国5月挑战者企业裁员月率(%)",
+          "OccurDate": 20260604,
+          "OccurTime": "17:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国1月平均每周工时(小时)(2/6-2/13)",
+          "OccurDate": 20260206,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "",
+          "IndicatorName": "美国截至3月7日当周续请失业金人数(万)",
+          "OccurDate": 20260312,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "176.6",
+          "IndicatorName": "美国截至5月9日当周续请失业金人数(万)",
+          "OccurDate": 20260514,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.2",
+          "ForecastValue": "21.2",
+          "FormerValue": "21",
+          "IndicatorName": "美国截至3月28日当周初请失业金人数(万)",
+          "OccurDate": 20260402,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "13.3",
+          "ForecastValue": "",
+          "FormerValue": "139.8",
+          "IndicatorName": "美国8月挑战者企业裁员年率(%)",
+          "OccurDate": 20250904,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "183",
+          "ForecastValue": "",
+          "FormerValue": "-37.11",
+          "IndicatorName": "美国10月挑战者企业裁员月率(%)",
+          "OccurDate": 20251106,
+          "OccurTime": "17:00",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.85",
+          "ForecastValue": "",
+          "FormerValue": "22.63",
+          "IndicatorName": "美国截至8月23日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250828,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "4.2",
+          "ForecastValue": "2.5",
+          "FormerValue": "-2.9",
+          "IndicatorName": "美国10月ADP就业人数变动(万)",
+          "OccurDate": 20251105,
+          "OccurTime": "21:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "13",
+          "ForecastValue": "7",
+          "FormerValue": "5",
+          "IndicatorName": "美国1月非农就业人口变动季调后(万)",
+          "OccurDate": 20260211,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.5",
+          "ForecastValue": "21.1",
+          "FormerValue": "20.9",
+          "IndicatorName": "美国截至5月18日当周初请失业金人数(万)",
+          "OccurDate": 20260528,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.21",
+          "ForecastValue": "",
+          "FormerValue": "4.8",
+          "IndicatorName": "美国7月挑战者企业裁员人数(万)",
+          "OccurDate": 20250731,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.68",
+          "ForecastValue": "",
+          "FormerValue": "21.75",
+          "IndicatorName": "美国截至12月20日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251224,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "61.5",
+          "ForecastValue": "61.8",
+          "FormerValue": "61.8",
+          "IndicatorName": "美国6月劳动参与率(%)",
+          "OccurDate": 20260702,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "176.6",
+          "ForecastValue": "180",
+          "FormerValue": "178.5",
+          "IndicatorName": "美国截至5月2日当周续请失业金人数(万)",
+          "OccurDate": 20260507,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "19.1",
+          "ForecastValue": "22",
+          "FormerValue": "21.6",
+          "IndicatorName": "美国截至11月29日当周初请失业金人数(万)",
+          "OccurDate": 20251204,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "8.34",
+          "IndicatorName": "美国5月挑战者企业裁员人数(万)",
+          "OccurDate": 20260604,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "178.2",
+          "IndicatorName": "美国截至5月16日当周续请失业金人数(万)",
+          "OccurDate": 20260521,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.9",
+          "ForecastValue": "3.8",
+          "FormerValue": "3.7",
+          "IndicatorName": "美国7月平均每小时工资年率(%)",
+          "OccurDate": 20250801,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "6.2",
+          "ForecastValue": "4",
+          "FormerValue": "6.3",
+          "IndicatorName": "美国3月ADP就业人数变动(万)",
+          "OccurDate": 20260401,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.8",
+          "ForecastValue": "21",
+          "FormerValue": "19.9",
+          "IndicatorName": "美国截至1月3日当周初请失业金人数(万)",
+          "OccurDate": 20260108,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "20.9",
+          "ForecastValue": "21",
+          "FormerValue": "21.1",
+          "IndicatorName": "美国截至5月16日当周初请失业金人数(万)",
+          "OccurDate": 20260521,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "178.2",
+          "ForecastValue": "179",
+          "FormerValue": "176.6",
+          "IndicatorName": "美国截至5月2日当周续请失业金人数(万)",
+          "OccurDate": 20260514,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.1",
+          "ForecastValue": "",
+          "FormerValue": "3.08",
+          "IndicatorName": "美国截至6月20日当周ADP就业周度发布变动(万人)",
+          "OccurDate": 20260707,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "2.8",
+          "ForecastValue": "1.9",
+          "FormerValue": "4.9",
+          "IndicatorName": "美国第四季度非农生产率季率初值(%)",
+          "OccurDate": 20260305,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.3",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国4月平均每周工时(小时)",
+          "OccurDate": 20260508,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "34.2",
+          "ForecastValue": "34.2",
+          "FormerValue": "34.2",
+          "IndicatorName": "美国9月平均每周工时(小时)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.05",
+          "ForecastValue": "",
+          "FormerValue": "21.08",
+          "IndicatorName": "美国截至3月21日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20260326,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "24.05",
+          "ForecastValue": "",
+          "FormerValue": "23.1",
+          "IndicatorName": "美国截至9月6日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250911,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "9.7",
+          "ForecastValue": "6.2",
+          "FormerValue": "3.8",
+          "IndicatorName": "美国9月私营企业非农就业人数变动(万)",
+          "OccurDate": 20251120,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "185.7",
+          "ForecastValue": "185",
+          "FormerValue": "185",
+          "IndicatorName": "美国截至3月7日当周续请失业金人数(万)",
+          "OccurDate": 20260319,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "21.88",
+          "ForecastValue": "",
+          "FormerValue": "21.68",
+          "IndicatorName": "美国截至12月22日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20251231,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "10.9",
+          "ForecastValue": "9.9",
+          "FormerValue": "6.2",
+          "IndicatorName": "美国4月ADP就业人数变动(万)",
+          "OccurDate": 20260506,
+          "OccurTime": "20:15",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "181.5",
+          "FormerValue": "181.4",
+          "IndicatorName": "美国截至6月29日当周续请失业金人数(万)",
+          "OccurDate": 20260716,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "189.7",
+          "ForecastValue": "193",
+          "FormerValue": "183.8",
+          "IndicatorName": "美国截至12月6日当周续请失业金人数(万)",
+          "OccurDate": 20251218,
+          "OccurTime": "21:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "3.4",
+          "ForecastValue": "3.4",
+          "FormerValue": "3.6",
+          "IndicatorName": "美国5月平均每小时工资年率(%)",
+          "OccurDate": 20260605,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "22.08",
+          "ForecastValue": "",
+          "FormerValue": "22.1",
+          "IndicatorName": "美国截至8月2日当周初请失业金人数四周均值(万)",
+          "OccurDate": 20250807,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "38.5",
+          "ForecastValue": "",
+          "FormerValue": "29.33",
+          "IndicatorName": "美国8月挑战者企业裁员月率(%)",
+          "OccurDate": 20250904,
+          "OccurTime": "19:30",
+          "code": "",
+          "name": ""
+        },
+        {
+          "ActualValue": "未公布",
+          "ForecastValue": "",
+          "FormerValue": "182.1",
+          "IndicatorName": "美国截至4月25日当周续请失业金人数(万)",
+          "OccurDate": 20260430,
+          "OccurTime": "20:30",
+          "code": "",
+          "name": ""
+        }
+      ],
+      "listCode": "macro_us_employment",
+      "listGroup": "美股宏观(就业)",
+      "listName": "美股宏观(就业)",
+      "listSchema": {
+        "ActualValue": "实际值",
+        "ForecastValue": "预期值",
+        "FormerValue": "前值",
+        "IndicatorName": "指标名称",
+        "OccurDate": "发布日期",
+        "OccurTime": "发布时间"
+      },
+      "totalItems": 394
+    }
+  }
+}
