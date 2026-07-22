@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-07-21 (fixed)",
+    "generated_at": "2026-07-22 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 695,
-    "upcoming_events": 84,
+    "upcoming_events": 83,
     "released_events": 300,
-    "pending_events": 311,
+    "pending_events": 312,
     "upcoming_with_forecast": 0,
-    "historical_events": 611,
+    "historical_events": 612,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -11383,7 +11383,7 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
