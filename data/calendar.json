@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-07-22 (fixed)",
+    "generated_at": "2026-07-23 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 695,
-    "upcoming_events": 83,
+    "total_events": 696,
+    "upcoming_events": 84,
     "released_events": 300,
     "pending_events": 312,
     "upcoming_with_forecast": 0,
@@ -16,7 +16,7 @@
       "美国": 251,
       "英国": 92,
       "日本": 69,
-      "欧元区": 105
+      "欧元区": 106
     }
   },
   "events": [
@@ -1853,9 +1853,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "-8.6",
-      "forecast": "6.5",
-      "previous": "17.2",
+      "actual": "-9.2",
+      "forecast": "5.9",
+      "previous": "13",
       "status": "released",
       "notes": ""
     },
@@ -3463,8 +3463,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -3483,8 +3483,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -5188,9 +5188,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "22.6",
-      "forecast": "22.5",
-      "previous": "22.9"
+      "actual": "22.33",
+      "forecast": "",
+      "previous": "21.9"
     },
     {
       "id": "US_FF_Federal_Funds_Rate_20260618",
@@ -5472,9 +5472,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": "22.6",
-      "forecast": "22.5",
-      "previous": "22.9",
+      "actual": "22.33",
+      "forecast": "",
+      "previous": "21.9",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -8456,11 +8456,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "22",
-      "previous": "21.6",
+      "forecast": "",
+      "previous": "22.45",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "22.2"
     },
     {
       "id": "CN_FF_RatingDog_Services_PMI_20260702",
@@ -9635,11 +9635,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.2",
+      "forecast": "21.8",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
-      "actual": "21.88"
+      "actual": "21.5"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -10357,9 +10357,9 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0.2",
+      "actual": "-0.35",
       "forecast": "",
-      "previous": "0.3",
+      "previous": "0.63",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10707,9 +10707,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0.1",
-      "forecast": "",
-      "previous": "0.8",
+      "actual": "0.2",
+      "forecast": "0.4",
+      "previous": "0.4",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10804,8 +10804,8 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "21.7",
-      "previous": "21.5",
+      "forecast": "",
+      "previous": "21.88",
       "status": "released",
       "notes": "",
       "actual": "21.43"
@@ -12841,6 +12841,24 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "EU_PMI_MFG_FLASH_20260923",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "制造业PMI 初值",
+      "indicator_en": "Manufacturing PMI Flash",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-23",
+      "release_time": "10:00",
+      "timezone": "CET",
+      "period": "2026-08",
+      "source": "S&P Global / HCOB",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
