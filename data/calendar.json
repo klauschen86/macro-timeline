@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-07-23 (fixed)",
+    "generated_at": "2026-07-24 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 696,
-    "upcoming_events": 84,
+    "total_events": 697,
+    "upcoming_events": 83,
     "released_events": 300,
-    "pending_events": 312,
+    "pending_events": 314,
     "upcoming_with_forecast": 0,
-    "historical_events": 612,
+    "historical_events": 614,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 178,
-      "美国": 251,
+      "美国": 252,
       "英国": 92,
       "日本": 69,
       "欧元区": 106
@@ -11401,7 +11401,7 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11419,7 +11419,7 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -12859,6 +12859,24 @@
       "source": "S&P Global / HCOB",
       "source_url": "",
       "unit": "",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_JOBLESS_CLAIMS_20260924",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "初请失业金人数",
+      "indicator_en": "Initial Jobless Claims",
+      "frequency": "周度",
+      "importance": 2,
+      "release_date": "2026-09-24",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-09-17",
+      "source": "Department of Labor",
+      "source_url": "https://www.dol.gov/",
+      "unit": "万人",
       "status": "upcoming",
       "notes": ""
     },
