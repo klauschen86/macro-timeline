@@ -1,1 +1,191 @@
-{"date":"2026-07-27","items":[{"AreaName":"日本","Event":"日本央行行长植田和男召开货币政策新闻发布会。","OccurDate":20260731,"OccurTime":"14:30","code":"","name":""},{"AreaName":"美国","Event":"美联储FOMC公布利率决议。","OccurDate":20260730,"OccurTime":"02:00","code":"","name":""},{"AreaName":"澳大利亚","Event":"澳洲联储主席布洛克发表讲话。","OccurDate":20260728,"OccurTime":"11:05","code":"","name":""},{"AreaName":"英国","Event":"英国央行公布利率决议、会议纪要和货币政策报告。","OccurDate":20260730,"OccurTime":"19:00","code":"","name":""},{"AreaName":"加拿大","Event":"加拿大央行公布货币政策会议纪要。","OccurDate":20260730,"OccurTime":"01:30","code":"","name":""},{"AreaName":"韩国","Event":"SK海力士公布Q2财报。","OccurDate":20260729,"OccurTime":"08:00","code":"","name":""},{"AreaName":"中国","Event":"国内成品油将开启新一轮调价窗口。","OccurDate":20260731,"OccurTime":"当天","code":"","name":""},{"AreaName":"乌克兰","Event":"乌克兰央行公布利率决议。","OccurDate":20260730,"OccurTime":"19:00","code":"","name":""},{"AreaName":"英国","Event":"英国央行行长贝利召开货币政策新闻发布会。","OccurDate":20260730,"OccurTime":"19:30","code":"","name":""},{"AreaName":"美国","Event":"美联储主席召开货币政策新闻发布会。","OccurDate":20260730,"OccurTime":"02:30","code":"","name":""},{"AreaName":"澳大利亚","Event":"澳洲联储助理主席亨特发表讲话。","OccurDate":20260730,"OccurTime":"06:40","code":"","name":""},{"AreaName":"中国","Event":"有4000亿元1年期中期借贷便利（MLF）到期。","OccurDate":20260727,"OccurTime":"待定","code":"","name":""},{"AreaName":"澳大利亚","Event":"召开货币政策会议，发布货币政策声明","OccurDate":20260825,"OccurTime":"08:30","code":"","name":""},{"AreaName":"日本","Event":"日本央行公布利率决议和经济前景展望报告。","OccurDate":20260731,"OccurTime":"当天","code":"","name":""},{"AreaName":"美国","Event":"CFTC公布周度持仓报告。","OccurDate":20260801,"OccurTime":"03:30","code":"","name":""}],"listCode":"macro_calendar_future","listGroup":"宏观日历未来","listName":"宏观日历未来","totalItems":15}
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "AreaName": "日本",
+      "Event": "日本央行行长植田和男召开货币政策新闻发布会。",
+      "OccurDate": 20260731,
+      "OccurTime": "14:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "中国",
+      "Event": "小米汽车澎程系列技术发布会。",
+      "OccurDate": 20260730,
+      "OccurTime": "19:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "美联储FOMC公布利率决议。",
+      "OccurDate": 20260730,
+      "OccurTime": "02:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "中国",
+      "Event": "国新办就“十五五”时期税收改革发展有关情况举行新闻发布会。",
+      "OccurDate": 20260728,
+      "OccurTime": "10:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "中国",
+      "Event": "国务院台湾事务办公室举行新闻发布会。",
+      "OccurDate": 20260729,
+      "OccurTime": "10:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "Meta、微软、高通、ARM于7月29日美股盘后公布2026年Q2财报。",
+      "OccurDate": 20260730,
+      "OccurTime": "04:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "亚马逊、苹果于7月30日美股盘后公布财报。",
+      "OccurDate": 20260731,
+      "OccurTime": "04:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "澳大利亚",
+      "Event": "澳洲联储主席布洛克发表讲话。",
+      "OccurDate": 20260728,
+      "OccurTime": "11:05",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "英国",
+      "Event": "英国央行公布利率决议、会议纪要和货币政策报告。",
+      "OccurDate": 20260730,
+      "OccurTime": "19:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "加拿大",
+      "Event": "加拿大央行公布货币政策会议纪要。",
+      "OccurDate": 20260730,
+      "OccurTime": "01:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "韩国",
+      "Event": "SK海力士公布Q2财报。",
+      "OccurDate": 20260729,
+      "OccurTime": "08:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "中国",
+      "Event": "国内成品油将开启新一轮调价窗口。",
+      "OccurDate": 20260731,
+      "OccurTime": "当天",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "乌克兰",
+      "Event": "乌克兰央行公布利率决议。",
+      "OccurDate": 20260730,
+      "OccurTime": "19:00",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "英国",
+      "Event": "英国央行行长贝利召开货币政策新闻发布会。",
+      "OccurDate": 20260730,
+      "OccurTime": "19:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "美联储主席召开货币政策新闻发布会。",
+      "OccurDate": 20260730,
+      "OccurTime": "02:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "智利",
+      "Event": "韩国总统李在明对智利进行正式访问。",
+      "OccurDate": 20260729,
+      "OccurTime": "当天",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "以色列总理内塔尼亚胡与美国总统特朗普会晤。",
+      "OccurDate": 20260728,
+      "OccurTime": "当天",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "澳大利亚",
+      "Event": "澳洲联储助理主席亨特发表讲话。",
+      "OccurDate": 20260730,
+      "OccurTime": "06:40",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "澳大利亚",
+      "Event": "召开货币政策会议，发布货币政策声明",
+      "OccurDate": 20260825,
+      "OccurTime": "08:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "日本",
+      "Event": "日本央行公布利率决议和经济前景展望报告。",
+      "OccurDate": 20260731,
+      "OccurTime": "当天",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "美国",
+      "Event": "CFTC公布周度持仓报告。",
+      "OccurDate": 20260801,
+      "OccurTime": "03:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "AreaName": "阿根廷",
+      "Event": "韩国总统李在明与阿根廷总统米莱举行会晤。",
+      "OccurDate": 20260731,
+      "OccurTime": "当天",
+      "code": "",
+      "name": ""
+    }
+  ],
+  "listCode": "macro_calendar_future",
+  "listGroup": "宏观日历未来",
+  "listName": "宏观日历未来",
+  "listSchema": {
+    "AreaName": "所属地区",
+    "Event": "事件内容",
+    "OccurDate": "发生日期",
+    "OccurTime": "发生时间"
+  },
+  "totalItems": 22
+}
