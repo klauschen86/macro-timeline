@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-07-28 (fixed)",
+    "generated_at": "2026-07-29 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 703,
+    "total_events": 704,
     "upcoming_events": 85,
     "released_events": 302,
-    "pending_events": 316,
+    "pending_events": 317,
     "upcoming_with_forecast": 0,
-    "historical_events": 618,
+    "historical_events": 619,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 180,
-      "美国": 254,
+      "美国": 255,
       "英国": 92,
       "日本": 70,
       "欧元区": 107
@@ -11514,7 +11514,7 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -12990,6 +12990,24 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_CONSUMER_CONF_20260929",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "谘商会消费者信心指数",
+      "indicator_en": "Consumer Confidence",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-29",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-08",
+      "source": "Conference Board",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
