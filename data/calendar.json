@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-01 (fixed)",
+    "generated_at": "2026-08-02 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 709,
-    "upcoming_events": 88,
+    "upcoming_events": 86,
     "released_events": 302,
-    "pending_events": 319,
+    "pending_events": 321,
     "upcoming_with_forecast": 0,
-    "historical_events": 621,
+    "historical_events": 623,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -11565,7 +11565,7 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11583,7 +11583,7 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
