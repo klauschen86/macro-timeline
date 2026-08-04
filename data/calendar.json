@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-08-03 (fixed)",
+    "generated_at": "2026-08-04 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 709,
-    "upcoming_events": 86,
+    "total_events": 710,
+    "upcoming_events": 84,
     "released_events": 302,
-    "pending_events": 321,
+    "pending_events": 324,
     "upcoming_with_forecast": 0,
-    "historical_events": 623,
+    "historical_events": 626,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 181,
-      "美国": 259,
+      "美国": 260,
       "英国": 92,
       "日本": 70,
       "欧元区": 107
@@ -11601,7 +11601,7 @@
       "source": "财新/Markit",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11619,7 +11619,7 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11637,7 +11637,7 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -13095,6 +13095,24 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_ISM_SERVICES_20261005",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "ISM 非制造业PMI",
+      "indicator_en": "ISM Services PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-10-05",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-09",
+      "source": "Institute for Supply Management",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
