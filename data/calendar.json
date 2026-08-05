@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-08-04 (fixed)",
+    "generated_at": "2026-08-05 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 710,
-    "upcoming_events": 84,
+    "total_events": 711,
+    "upcoming_events": 85,
     "released_events": 302,
     "pending_events": 324,
     "upcoming_with_forecast": 0,
@@ -16,7 +16,7 @@
       "美国": 260,
       "英国": 92,
       "日本": 70,
-      "欧元区": 107
+      "欧元区": 108
     }
   },
   "events": [
@@ -13113,6 +13113,24 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "EU_RETAIL_20261006",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "零售销售（环比）",
+      "indicator_en": "Retail Sales MoM",
+      "frequency": "月度",
+      "importance": 1,
+      "release_date": "2026-10-06",
+      "release_time": "11:00",
+      "timezone": "CET",
+      "period": "2026-09",
+      "source": "Eurostat",
+      "source_url": "",
+      "unit": "%",
       "status": "upcoming",
       "notes": ""
     },
