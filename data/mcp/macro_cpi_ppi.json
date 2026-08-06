@@ -7,33 +7,145 @@
         {
           "CPI_END_DATE": 20260531,
           "CPI_INFO_DATE": 20260610,
-          "PPIRM_MOM_AGRICULTURE": 0.3,
-          "PPIRM_MOM_BLACK_METAL": 0.6,
-          "PPIRM_MOM_CHEMICAL_METAL": 4.2,
-          "PPIRM_MOM_NONFERROUS_METAL": 0.3,
-          "PPIRM_PPIRM_MOM": 1.3,
-          "PPIRM_PPIRM_MOM_BUILDING": -0.5,
-          "PPIRM_PPIRM_MOM_FUEL": 2.7,
-          "PPIRM_PPIRM_MOM_INDUSTRIAL": 0.5,
-          "PPIRM_PPIRM_MOM_TEXTILE": 1,
-          "PPIRM_PPIRM_MOM_TIMBER": -0.1,
-          "PPIRM_PPIRM_YOY": 5.8,
-          "PPIRM_PPIRM_YOY_BUILDING": -5.5,
-          "PPIRM_PPIRM_YOY_FUEL": 10,
-          "PPIRM_PPIRM_YOY_INDUSTRIAL": 1.1,
-          "PPIRM_PPIRM_YOY_TEXTILE": 2.5,
-          "PPIRM_PPIRM_YOY_TIMBER": -1.6,
-          "PPIRM_YOY_AGRICULTURE": -1.6,
-          "PPIRM_YOY_BLACK_METAL": 0.3,
-          "PPIRM_YOY_CHEMICAL_METAL": 11.8,
-          "PPIRM_YOY_NONFERROUS_METAL": 22,
-          "code": "",
-          "name": ""
+          "CPI_CPI_YOY": 1.2,
+          "CPI_CPI_YOY_CORE": 1.1,
+          "CPI_CPI_YOY_FOOD": -1.7,
+          "PPI_PPI_YOY": 3.9
+        },
+        {
+          "CPI_END_DATE": 20260630,
+          "CPI_INFO_DATE": 20260709,
+          "CPI_CPI_YOY": 1,
+          "CPI_CPI_YOY_CORE": 1,
+          "CPI_CPI_YOY_FOOD": -1.6,
+          "PPI_PPI_YOY": 4.1
+        },
+        {
+          "CPI_END_DATE": 20260430,
+          "CPI_INFO_DATE": 20260511,
+          "CPI_CPI_YOY": 1.2,
+          "CPI_CPI_YOY_CORE": 1.2,
+          "CPI_CPI_YOY_FOOD": -1.6,
+          "PPI_PPI_YOY": 2.8
+        },
+        {
+          "CPI_END_DATE": 20260331,
+          "CPI_INFO_DATE": 20260410,
+          "CPI_CPI_YOY": 1,
+          "CPI_CPI_YOY_CORE": 1.1,
+          "CPI_CPI_YOY_FOOD": 0.3,
+          "PPI_PPI_YOY": 0.5
+        },
+        {
+          "CPI_END_DATE": 20260228,
+          "CPI_INFO_DATE": 20260309,
+          "CPI_CPI_YOY": 1.3,
+          "CPI_CPI_YOY_CORE": 1.8,
+          "CPI_CPI_YOY_FOOD": 1.7,
+          "PPI_PPI_YOY": -0.9
+        },
+        {
+          "CPI_END_DATE": 20260131,
+          "CPI_INFO_DATE": 20260211,
+          "CPI_CPI_YOY": 0.2,
+          "CPI_CPI_YOY_CORE": 0.8,
+          "CPI_CPI_YOY_FOOD": -0.7,
+          "PPI_PPI_YOY": -1.4
         }
       ],
       "listCode": "macro_cpi_ppi",
-      "listGroup": "GDP价格指标",
-      "listName": "GDP价格指标",
+      "totalItems": 6
+    },
+    "macro_pmi": {
+      "date": "2026-01-01",
+      "items": [
+        {
+          "PMI_END_DATE": 20260531,
+          "PMI_INFO_DATE": 20260531,
+          "PMI_PMI_MANU": 50,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 45,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 50.5
+        },
+        {
+          "PMI_END_DATE": 20260630,
+          "PMI_INFO_DATE": 20260630,
+          "PMI_PMI_MANU": 50.3,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 48,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 50.6
+        },
+        {
+          "PMI_END_DATE": 20260731,
+          "PMI_INFO_DATE": 20260731,
+          "PMI_PMI_MANU": 49.2,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 44.4,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 49.3
+        },
+        {
+          "PMI_END_DATE": 20260430,
+          "PMI_INFO_DATE": 20260430,
+          "PMI_PMI_MANU": 50.3,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 44.3,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 50.1
+        },
+        {
+          "PMI_END_DATE": 20260331,
+          "PMI_INFO_DATE": 20260331,
+          "PMI_PMI_MANU": 50.4,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 45,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 50.5
+        },
+        {
+          "PMI_END_DATE": 20260228,
+          "PMI_INFO_DATE": 20260304,
+          "PMI_PMI_MANU": 49,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 45.2,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 49.5
+        },
+        {
+          "PMI_END_DATE": 20260131,
+          "PMI_INFO_DATE": 20260131,
+          "PMI_PMI_MANU": 49.3,
+          "PMI_PMI_NON_MANU_ORDER_NEW": 46.1,
+          "PMI_PMI_COMPREHENSIVE_CCZS": 49.8
+        }
+      ],
+      "listCode": "macro_pmi",
+      "totalItems": 7
+    },
+    "macro_gdp": {
+      "date": "2026-01-01",
+      "items": [
+        {
+          "GDP_END_DATE": 20260630,
+          "GDP_INFO_DATE": 20260715,
+          "GDP_REAL_GDP_CUM_YOY": 4.7,
+          "GDP_REAL_GDP_CUR_YOY": 4.3,
+          "GDP_NOMINAL_GDP_CUM": 695704
+        },
+        {
+          "GDP_END_DATE": 20260331,
+          "GDP_INFO_DATE": 20260416,
+          "GDP_REAL_GDP_CUM_YOY": 5,
+          "GDP_REAL_GDP_CUR_YOY": 5,
+          "GDP_NOMINAL_GDP_CUM": 334193
+        }
+      ],
+      "listCode": "macro_gdp",
+      "totalItems": 2
+    },
+    "macro_forecast": {
+      "date": "2026-01-01",
+      "items": [
+        {
+          "FORECAST_END_DATE": 20261231,
+          "FORECAST_INFO_DATE": 20251121,
+          "FORECAST_GDP_FC_YOY": 4.76,
+          "FORECAST_CPI_FC_YOY": 1.2,
+          "FORECAST_PMI_FC": 50.67,
+          "FORECAST_USDCNY_FC": 6.68
+        }
+      ],
+      "listCode": "macro_forecast",
       "totalItems": 1
     }
   }
