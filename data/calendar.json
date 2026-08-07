@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-08-06 (fixed)",
+    "generated_at": "2026-08-07 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 712,
-    "upcoming_events": 86,
-    "released_events": 303,
-    "pending_events": 323,
+    "total_events": 713,
+    "upcoming_events": 85,
+    "released_events": 304,
+    "pending_events": 324,
     "upcoming_with_forecast": 0,
-    "historical_events": 626,
+    "historical_events": 628,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 182,
-      "美国": 260,
+      "美国": 261,
       "英国": 92,
       "日本": 70,
       "欧元区": 108
@@ -703,9 +703,9 @@
       "unit": "%",
       "status": "released",
       "notes": "",
-      "actual": "0",
-      "forecast": "0.2",
-      "previous": ""
+      "actual": "0.2",
+      "forecast": "0.3",
+      "previous": "0.3"
     },
     {
       "id": "CN_INDUSTRIAL_20260115",
@@ -1154,12 +1154,12 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-01",
-      "source": "Bureau of Labor Statistics",
+      "source": "WeStock-MCP",
       "source_url": "",
       "unit": "万人",
       "actual": 14.3,
       "forecast": "7",
-      "previous": "3.7",
+      "previous": "5",
       "status": "released",
       "notes": ""
     },
@@ -2804,8 +2804,7 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.1",
-      "forecast": "0.5",
+      "actual": "0.2",
       "previous": "0.5",
       "status": "released",
       "notes": ""
@@ -3464,8 +3463,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "forecast": "0.3",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -3484,8 +3484,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "forecast": "0.3",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -5189,9 +5190,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "22.33",
-      "forecast": "",
-      "previous": "21.9"
+      "actual": "22.6",
+      "forecast": "22.5",
+      "previous": "22.9"
     },
     {
       "id": "US_FF_Federal_Funds_Rate_20260618",
@@ -5473,9 +5474,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": "22.33",
-      "forecast": "",
-      "previous": "21.9",
+      "actual": "22.6",
+      "forecast": "22.5",
+      "previous": "22.9",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -7784,7 +7785,7 @@
       "timezone": "EST",
       "importance": 3,
       "actual": "759.4",
-      "forecast": "730",
+      "forecast": "",
       "previous": "761.8",
       "unit": "",
       "source": "WeStock-MCP",
@@ -8457,11 +8458,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "22",
-      "previous": "21.6",
+      "forecast": "",
+      "previous": "22.45",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "22.2"
     },
     {
       "id": "CN_FF_RatingDog_Services_PMI_20260702",
@@ -9636,11 +9637,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "21.8",
-      "previous": "21.5",
+      "forecast": "",
+      "previous": "22.2",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "21.88"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -10358,9 +10359,9 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": "-0.4",
-      "forecast": "-0.1",
-      "previous": "0.5",
+      "actual": "0",
+      "forecast": "0.2",
+      "previous": "0.2",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10805,8 +10806,8 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "21.88",
+      "forecast": "21.7",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
       "actual": "20.8"
@@ -11551,9 +11552,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.27",
-      "forecast": "",
-      "previous": "20.75"
+      "actual": "19.7",
+      "forecast": "20",
+      "previous": "18.7"
     },
     {
       "id": "CN_PMI_MFG_20260801",
@@ -11660,7 +11661,7 @@
       "source": "Eurostat",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11675,11 +11676,14 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-07-30",
-      "source": "Department of Labor",
+      "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming",
-      "notes": ""
+      "status": "released",
+      "notes": "",
+      "actual": "19.9",
+      "forecast": "20.2",
+      "previous": "19.7"
     },
     {
       "id": "CN_FX_RESERVES_20260807",
@@ -13154,6 +13158,24 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_JOBLESS_CLAIMS_20261008",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "初请失业金人数",
+      "indicator_en": "Initial Jobless Claims",
+      "frequency": "周度",
+      "importance": 2,
+      "release_date": "2026-10-08",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-10-01",
+      "source": "Department of Labor",
+      "source_url": "https://www.dol.gov/",
+      "unit": "万人",
       "status": "upcoming",
       "notes": ""
     },
