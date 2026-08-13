@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-08-12 (fixed)",
+    "generated_at": "2026-08-13 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 722,
-    "upcoming_events": 88,
-    "released_events": 304,
-    "pending_events": 330,
+    "total_events": 723,
+    "upcoming_events": 84,
+    "released_events": 308,
+    "pending_events": 331,
     "upcoming_with_forecast": 0,
-    "historical_events": 634,
+    "historical_events": 639,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 188,
-      "美国": 263,
+      "美国": 264,
       "英国": 93,
       "日本": 70,
       "欧元区": 108
@@ -704,8 +704,8 @@
       "status": "released",
       "notes": "",
       "actual": "0.2",
-      "forecast": "0.3",
-      "previous": "0.3"
+      "forecast": "0.2",
+      "previous": "0.1"
     },
     {
       "id": "CN_INDUSTRIAL_20260115",
@@ -1159,7 +1159,7 @@
       "unit": "万人",
       "actual": 14.3,
       "forecast": "7",
-      "previous": "5",
+      "previous": "3.7",
       "status": "released",
       "notes": ""
     },
@@ -1361,13 +1361,14 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-01",
-      "source": "Bureau of Labor Statistics",
+      "source": "WeStock-MCP",
       "source_url": "",
       "unit": "%",
       "actual": 2.6,
       "previous": "0.3",
       "status": "released",
-      "notes": ""
+      "notes": "",
+      "forecast": ""
     },
     {
       "id": "US_CORE_CPI_20260212",
@@ -1381,13 +1382,14 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-01",
-      "source": "Bureau of Labor Statistics",
+      "source": "WeStock-MCP",
       "source_url": "",
       "unit": "%",
       "actual": 3.1,
       "previous": "0.3",
       "status": "released",
-      "notes": ""
+      "notes": "",
+      "forecast": ""
     },
     {
       "id": "UK_GDP_20260213",
@@ -1854,9 +1856,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "-9.2",
-      "forecast": "5.9",
-      "previous": "13",
+      "actual": "-8.6",
+      "forecast": "6.5",
+      "previous": "17.2",
       "status": "released",
       "notes": ""
     },
@@ -3464,7 +3466,6 @@
       "source_url": "",
       "unit": "%",
       "actual": "0.4",
-      "forecast": "0.3",
       "previous": "0.2",
       "status": "released",
       "notes": ""
@@ -3485,7 +3486,6 @@
       "source_url": "",
       "unit": "%",
       "actual": "0.4",
-      "forecast": "0.3",
       "previous": "0.2",
       "status": "released",
       "notes": ""
@@ -5001,9 +5001,9 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": "3.1",
-      "forecast": "",
-      "previous": "3",
+      "actual": "2.3",
+      "forecast": "2.3",
+      "previous": "2.3",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -5019,9 +5019,9 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": "3.1",
-      "forecast": "",
-      "previous": "3",
+      "actual": "2.3",
+      "forecast": "2.3",
+      "previous": "2.3",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -8129,9 +8129,9 @@
       "release_time": "4:00am",
       "timezone": "CET",
       "importance": 3,
-      "actual": "2.8",
-      "forecast": "3",
-      "previous": "3.2",
+      "actual": "2.4",
+      "forecast": "2.5",
+      "previous": "2.6",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -9108,7 +9108,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": "5.9",
-      "forecast": "5.7",
+      "forecast": "",
       "previous": "4.9",
       "unit": "",
       "source": "WeStock-MCP",
@@ -9637,11 +9637,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.2",
+      "forecast": "21.8",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
-      "actual": "21.88"
+      "actual": "21.5"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -10359,9 +10359,9 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0",
-      "forecast": "0.2",
-      "previous": "0.2",
+      "actual": "-0.4",
+      "forecast": "-0.1",
+      "previous": "0.5",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10709,9 +10709,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0.2",
-      "forecast": "0.4",
-      "previous": "0.4",
+      "actual": "-0.3",
+      "forecast": "0",
+      "previous": "1.1",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -11423,9 +11423,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "18.7",
-      "forecast": "21.2",
-      "previous": "20.8"
+      "actual": "20.75",
+      "forecast": "",
+      "previous": "21.43"
     },
     {
       "id": "US_DURABLE_GOODS_20260727",
@@ -11681,9 +11681,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "19.9",
-      "forecast": "20.2",
-      "previous": "19.7"
+      "actual": "19.88",
+      "forecast": "",
+      "previous": "20.27"
     },
     {
       "id": "CN_FX_RESERVES_20260807",
@@ -11718,7 +11718,10 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "pending",
+      "actual": "-2.3",
+      "forecast": "8",
+      "previous": "2.0",
+      "status": "released",
       "notes": ""
     },
     {
@@ -11736,7 +11739,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
+      "actual": "7.9",
+      "previous": "7.9",
+      "status": "released",
       "notes": ""
     },
     {
@@ -11808,7 +11813,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11826,7 +11831,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11844,7 +11849,7 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -11862,7 +11867,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "actual": "-0.01",
+      "previous": "-0.35",
+      "status": "released",
       "notes": ""
     },
     {
@@ -11880,7 +11887,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
+      "actual": "-0.01",
+      "previous": "-0.35",
+      "status": "released",
       "notes": ""
     },
     {
@@ -13336,6 +13345,24 @@
       "timezone": "BST",
       "period": "2026-09",
       "source": "Office for National Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_PPI_20261014",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "PPI 生产者物价指数（同比）",
+      "indicator_en": "PPI YoY",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-10-14",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-09",
+      "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
