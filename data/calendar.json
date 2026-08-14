@@ -5,8 +5,8 @@
     "timezone": "BJS (UTC+8)",
     "total_events": 728,
     "upcoming_events": 87,
-    "released_events": 308,
-    "pending_events": 333,
+    "released_events": 309,
+    "pending_events": 332,
     "upcoming_with_forecast": 0,
     "historical_events": 641,
     "data_from": "2025-12-15",
@@ -11922,11 +11922,14 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-08-06",
-      "source": "Department of Labor",
+      "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "pending",
-      "notes": ""
+      "status": "released",
+      "notes": "",
+      "actual": "20.9",
+      "forecast": "20.2",
+      "previous": "19.9"
     },
     {
       "id": "US_PPI_20260814",
