@@ -54,6 +54,16 @@ def around_day(year, month, day, max_adjust=2):
     return d
 
 
+def friday_after_day(year, month, day):
+    """返回某月第day天（含）之后的首个周五（日本CPI等发布日规律）"""
+    last = monthrange(year, month)[1]
+    actual_day = min(day, last)
+    d = date(year, month, actual_day)
+    while d.weekday() != 4:  # 4=Friday
+        d += timedelta(days=1)
+    return d
+
+
 # ============================================================
 # 指标定义
 # ============================================================
@@ -406,7 +416,8 @@ INDICATORS = {
         "release_time": "08:30", "timezone": "JST",
         "source": "Statistics Bureau of Japan",
         "unit": "%",
-        "calc": lambda y, m: around_day(y, m, 19, 3)
+        # 日本 CPI 发布规律：每月19日之后的首个周五（实测 2026-01-23/03-20/04-24/05-22/08-21 均为周五）
+        "calc": lambda y, m: friday_after_day(y, m, 19)
     },
     "JP_BOJ": {
         "country": "JP", "country_name": "日本",
