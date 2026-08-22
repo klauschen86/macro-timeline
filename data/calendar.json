@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-21 (fixed)",
+    "generated_at": "2026-08-22 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 736,
-    "upcoming_events": 85,
+    "total_events": 737,
+    "upcoming_events": 84,
     "released_events": 315,
-    "pending_events": 337,
-    "upcoming_with_forecast": 1,
-    "historical_events": 651,
+    "pending_events": 338,
+    "upcoming_with_forecast": 0,
+    "historical_events": 653,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -16,7 +16,7 @@
       "美国": 268,
       "英国": 94,
       "日本": 71,
-      "欧元区": 108
+      "欧元区": 109
     }
   },
   "events": [
@@ -12139,7 +12139,7 @@
       "source": "National Association of Realtors",
       "source_url": "",
       "unit": "万套",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -13599,6 +13599,24 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "EU_PMI_MFG_FLASH_20261023",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "制造业PMI 初值",
+      "indicator_en": "Manufacturing PMI Flash",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-10-23",
+      "release_time": "10:00",
+      "timezone": "CET",
+      "period": "2026-09",
+      "source": "S&P Global / HCOB",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
