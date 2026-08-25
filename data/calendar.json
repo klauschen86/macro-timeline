@@ -1161,7 +1161,7 @@
       "source_url": "",
       "unit": "万人",
       "actual": 14.3,
-      "forecast": "7",
+      "forecast": "7.8",
       "previous": "3.7",
       "status": "released",
       "notes": ""
@@ -1859,9 +1859,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "-8.6",
-      "forecast": "6.5",
-      "previous": "17.2",
+      "actual": "-9.2",
+      "forecast": "5.9",
+      "previous": "13",
       "status": "released",
       "notes": ""
     },
@@ -6551,11 +6551,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "22.5",
-      "previous": "22.6",
+      "forecast": "",
+      "previous": "22.33",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "22.43"
     },
     {
       "id": "UK_FF_MPC_Member_Pill_Speaks_20260625",
@@ -7789,7 +7789,7 @@
       "timezone": "EST",
       "importance": 3,
       "actual": "759.4",
-      "forecast": "",
+      "forecast": "730",
       "previous": "761.8",
       "unit": "",
       "source": "WeStock-MCP",
@@ -8135,7 +8135,7 @@
       "importance": 3,
       "actual": "2.4",
       "forecast": "",
-      "previous": "3.2",
+      "previous": "2.6",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10363,9 +10363,9 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": "-0.4",
-      "forecast": "-0.1",
-      "previous": "0.5",
+      "actual": "0",
+      "forecast": "0.2",
+      "previous": "0.2",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -11409,9 +11409,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "18.7",
-      "forecast": "21.2",
-      "previous": "20.8"
+      "actual": "20.75",
+      "forecast": "",
+      "previous": "21.43"
     },
     {
       "id": "JP_CPI_20260724",
@@ -11559,9 +11559,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.27",
-      "forecast": "",
-      "previous": "20.75"
+      "actual": "19.7",
+      "forecast": "20",
+      "previous": "18.7"
     },
     {
       "id": "CN_PMI_MFG_20260801",
@@ -11874,9 +11874,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.1",
-      "forecast": "0.1",
-      "previous": "-0.4",
+      "actual": "-0.01",
+      "previous": "-0.35",
       "status": "released",
       "notes": ""
     },
@@ -11895,9 +11894,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.1",
-      "forecast": "0.1",
-      "previous": "-0.4",
+      "actual": "-0.01",
+      "previous": "-0.35",
       "status": "released",
       "notes": ""
     },
@@ -11936,9 +11934,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.9",
-      "forecast": "20.2",
-      "previous": "19.9"
+      "actual": "19.9",
+      "forecast": "",
+      "previous": "19.88"
     },
     {
       "id": "US_PPI_20260814",
