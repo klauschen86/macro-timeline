@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-08-25 (fixed)",
+    "generated_at": "2026-08-26 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 741,
-    "upcoming_events": 87,
+    "total_events": 742,
+    "upcoming_events": 86,
     "released_events": 315,
-    "pending_events": 339,
+    "pending_events": 341,
     "upcoming_with_forecast": 0,
-    "historical_events": 654,
+    "historical_events": 656,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 195,
-      "美国": 270,
+      "美国": 271,
       "英国": 94,
       "日本": 72,
       "欧元区": 110
@@ -1161,8 +1161,8 @@
       "source_url": "",
       "unit": "万人",
       "actual": 14.3,
-      "forecast": "7.8",
-      "previous": "3.7",
+      "forecast": "6.4",
+      "previous": "5",
       "status": "released",
       "notes": ""
     },
@@ -2551,9 +2551,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "17.8",
-      "forecast": "6",
-      "previous": "-9.2",
+      "actual": "18.6",
+      "forecast": "7",
+      "previous": "-8.6",
       "status": "released",
       "notes": ""
     },
@@ -5194,9 +5194,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "22.33",
-      "forecast": "",
-      "previous": "21.9"
+      "actual": "22.6",
+      "forecast": "22.5",
+      "previous": "22.9"
     },
     {
       "id": "US_FF_Federal_Funds_Rate_20260618",
@@ -5478,9 +5478,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 3,
-      "actual": "22.33",
-      "forecast": "",
-      "previous": "21.9",
+      "actual": "22.6",
+      "forecast": "22.5",
+      "previous": "22.9",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10810,8 +10810,8 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "21.7",
-      "previous": "21.5",
+      "forecast": "",
+      "previous": "21.88",
       "status": "released",
       "notes": "",
       "actual": "20.8"
@@ -11559,9 +11559,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "19.7",
-      "forecast": "20",
-      "previous": "18.7"
+      "actual": "20.27",
+      "forecast": "",
+      "previous": "20.75"
     },
     {
       "id": "CN_PMI_MFG_20260801",
@@ -12199,7 +12199,7 @@
       "source": "Conference Board",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -12217,7 +12217,7 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "万套",
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -12235,8 +12235,9 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
+      "previous": "0.3",
       "status": "upcoming",
-      "notes": ""
+      "notes": "7月数据北京时间8/26 20:30发布；前值6月环比0.3%（妙想Choice，2026-06季调环比）"
     },
     {
       "id": "US_JOBLESS_CLAIMS_20260827",
@@ -13711,6 +13712,24 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_CONSUMER_CONF_20261027",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "谘商会消费者信心指数",
+      "indicator_en": "Consumer Confidence",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-10-27",
+      "release_time": "10:00",
+      "timezone": "EST",
+      "period": "2026-09",
+      "source": "Conference Board",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },
