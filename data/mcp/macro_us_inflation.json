@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "items": [
     {
-      "ActualValue": "4.2",
-      "ForecastValue": "4.1",
-      "FormerValue": "4.2",
-      "IndicatorName": "美国1月密歇根大学1年期通胀率预期初值(%)",
-      "OccurDate": 20260109,
-      "OccurTime": "23:00",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "3.4",
-      "ForecastValue": "3.7",
-      "FormerValue": "3.4",
-      "IndicatorName": "美国3月密歇根大学1年期通胀率预期初值(%)",
-      "OccurDate": 20260313,
-      "OccurTime": "22:00",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "4.1",
+      "ActualValue": "3.6",
       "ForecastValue": "",
-      "FormerValue": "4.5",
-      "IndicatorName": "美国12月密歇根大学1年期通胀率预期初值(%)",
-      "OccurDate": 20251205,
-      "OccurTime": "23:00",
+      "FormerValue": "3.7",
+      "IndicatorName": "美国第一季度GDP隐性平减指数季率-季调后初值(%)",
+      "OccurDate": 20260430,
+      "OccurTime": "20:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "ActualValue": "未公布",
+      "ForecastValue": "0.3",
+      "FormerValue": "0.3",
+      "IndicatorName": "美国1月CPI月率季调后(%)",
+      "OccurDate": 20260211,
+      "OccurTime": "21:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "ActualValue": "0.4",
+      "ForecastValue": "0.3",
+      "FormerValue": "0.2",
+      "IndicatorName": "美国8月CPI月率季调后(%)",
+      "OccurDate": 20250911,
+      "OccurTime": "20:30",
       "code": "",
       "name": ""
     }

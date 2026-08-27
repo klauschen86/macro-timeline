@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "items": [
     {
-      "ActualValue": "1.3",
-      "ForecastValue": "1.5",
-      "FormerValue": "1.5",
-      "IndicatorName": "日本5月东京核心CPI年率(%)",
-      "OccurDate": 20260529,
+      "ActualValue": "2.7",
+      "ForecastValue": "2.5",
+      "FormerValue": "2.7",
+      "IndicatorName": "日本10月PPI年率(%)",
+      "OccurDate": 20251113,
+      "OccurTime": "07:50",
+      "code": "",
+      "name": ""
+    },
+    {
+      "ActualValue": "2.3",
+      "ForecastValue": "2.5",
+      "FormerValue": "2.8",
+      "IndicatorName": "日本12月东京核心CPI年率(%)",
+      "OccurDate": 20251226,
       "OccurTime": "07:30",
       "code": "",
       "name": ""
     },
     {
-      "ActualValue": "2.4",
-      "ForecastValue": "2.4",
-      "FormerValue": "2.7",
-      "IndicatorName": "日本12月PPI年率(%)",
-      "OccurDate": 20260115,
-      "OccurTime": "07:50",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "4.9",
-      "ForecastValue": "3",
-      "FormerValue": "2.6",
-      "IndicatorName": "日本4月PPI年率(%)",
-      "OccurDate": 20260515,
-      "OccurTime": "07:50",
+      "ActualValue": "1.9",
+      "ForecastValue": "1.7",
+      "FormerValue": "1.6",
+      "IndicatorName": "日本7月东京核心CPI年率(%)",
+      "OccurDate": 20260731,
+      "OccurTime": "07:30",
       "code": "",
       "name": ""
     }

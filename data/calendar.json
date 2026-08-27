@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-26 (fixed)",
+    "generated_at": "2026-08-27 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 742,
-    "upcoming_events": 86,
+    "upcoming_events": 85,
     "released_events": 315,
-    "pending_events": 341,
+    "pending_events": 342,
     "upcoming_with_forecast": 0,
-    "historical_events": 656,
+    "historical_events": 657,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -12236,7 +12236,7 @@
       "source_url": "",
       "unit": "%",
       "previous": "0.3",
-      "status": "upcoming",
+      "status": "pending",
       "notes": "7月数据北京时间8/26 20:30发布；前值6月环比0.3%（妙想Choice，2026-06季调环比）"
     },
     {
@@ -12254,8 +12254,9 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "previous": "20.6",
       "status": "upcoming",
-      "notes": ""
+      "notes": "前值=截至8/15当周20.6万（妙想Choice双源验证）；8/27晚20:30发布截至8/22当周数据"
     },
     {
       "id": "CN_PMI_MFG_20260831",

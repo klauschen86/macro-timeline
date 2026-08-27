@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "items": [
     {
-      "ActualValue": "22.6",
-      "ForecastValue": "22.5",
-      "FormerValue": "22.9",
-      "IndicatorName": "美国截至6月13日当周初请失业金人数(万)",
-      "OccurDate": 20260618,
+      "ActualValue": "未公布",
+      "ForecastValue": "",
+      "FormerValue": "4.22",
+      "IndicatorName": "美国截至5月9日当周ADP就业周度发布变动(万人)",
+      "OccurDate": 20260526,
+      "OccurTime": "20:15",
+      "code": "",
+      "name": ""
+    },
+    {
+      "ActualValue": "未公布",
+      "ForecastValue": "",
+      "FormerValue": "185",
+      "IndicatorName": "美国截至3月14日当周续请失业金人数(万)",
+      "OccurDate": 20260319,
       "OccurTime": "20:30",
       "code": "",
       "name": ""
     },
     {
-      "ActualValue": "10.84",
-      "ForecastValue": "",
-      "FormerValue": "3.56",
-      "IndicatorName": "美国1月挑战者企业裁员人数(万)",
-      "OccurDate": 20260205,
+      "ActualValue": "62.3",
+      "ForecastValue": "62.2",
+      "FormerValue": "62.2",
+      "IndicatorName": "美国8月劳动参与率(%)",
+      "OccurDate": 20250905,
       "OccurTime": "20:30",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "175.3",
-      "ForecastValue": "",
-      "FormerValue": "-25.8",
-      "IndicatorName": "美国10月挑战者企业裁员年率(%)",
-      "OccurDate": 20251106,
-      "OccurTime": "17:00",
       "code": "",
       "name": ""
     }
