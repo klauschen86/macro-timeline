@@ -3,17 +3,17 @@
     "generated_at": "2026-08-30 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 743,
+    "total_events": 745,
     "upcoming_events": 85,
-    "released_events": 315,
-    "pending_events": 343,
+    "released_events": 323,
+    "pending_events": 337,
     "upcoming_with_forecast": 0,
-    "historical_events": 658,
+    "historical_events": 660,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 195,
-      "美国": 272,
+      "美国": 274,
       "英国": 94,
       "日本": 72,
       "欧元区": 110
@@ -9641,11 +9641,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.2",
+      "forecast": "21.8",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
-      "actual": "21.88"
+      "actual": "21.5"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -11971,8 +11971,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "4.5",
+      "previous": "5.3",
+      "status": "released",
+      "notes": "7月当月同比4.5%（国家统计局8/17发布）；累计同比5.3%（westock macro_valueadded 一致）✅"
     },
     {
       "id": "CN_RETAIL_20260817",
@@ -11989,8 +11991,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "0.6",
+      "previous": "1.0",
+      "status": "released",
+      "notes": "7月当月同比0.6%（westock macro_consumption CUR_YOY）；累计同比1.2%（统计局一致）✅"
     },
     {
       "id": "CN_FAI_20260817",
@@ -12007,8 +12011,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "-6.7",
+      "previous": "-5.0",
+      "status": "released",
+      "notes": "1-7月固定资产投资(不含农户)累计同比-6.7%（妙想Choice/国家统计局）；分项基建-3.6%/制造-1.7%/地产-19.2% ✅"
     },
     {
       "id": "CN_UNEMPLOYMENT_20260817",
@@ -12025,8 +12031,10 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "5.2",
+      "previous": "5.0",
+      "status": "released",
+      "notes": "7月全国城镇调查失业率5.2%（国家统计局8/17发布，环比+0.2pct，同比持平）✅"
     },
     {
       "id": "US_RETAIL_20260817",
@@ -12043,8 +12051,10 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "-0.6",
+      "previous": "0.2",
+      "status": "released",
+      "notes": "7月零售销售环比-0.6%（Census Bureau 8/14发布，预期+0.1% miss；同比+5.0%）；日历日期8/17为生成器推算，实际发布8/14"
     },
     {
       "id": "UK_CPI_20260817",
@@ -12061,8 +12071,10 @@
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "2.9",
+      "previous": "2.6",
+      "status": "released",
+      "notes": "7月CPI同比2.9%（ONS 8/19发布，前值2.6%）；日历日期8/17为生成器推算，实际发布8/19"
     },
     {
       "id": "CN_LPR_1Y_20260820",
@@ -12238,6 +12250,46 @@
       "previous": "0.3",
       "status": "pending",
       "notes": "7月数据北京时间8/26 20:30发布；前值6月环比0.3%（妙想Choice，2026-06季调环比）"
+    },
+    {
+      "id": "US_PCE_20260826",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "PCE物价指数（同比）",
+      "indicator_en": "PCE Price Index YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-26",
+      "release_time": "20:30",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "BEA",
+      "source_url": "https://www.bea.gov/",
+      "unit": "%",
+      "actual": "3.7",
+      "previous": "3.7",
+      "status": "released",
+      "notes": "7月PCE同比3.7%（妙想Choice/BEA 8/26发布，前值6月3.7%持平）；8/25期货日报前瞻预期3.6%"
+    },
+    {
+      "id": "US_PCE_CORE_20260826",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "核心PCE物价指数（同比）",
+      "indicator_en": "Core PCE Price Index YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-26",
+      "release_time": "20:30",
+      "timezone": "EST",
+      "period": "2026-07",
+      "source": "BEA",
+      "source_url": "https://www.bea.gov/",
+      "unit": "%",
+      "actual": "3.3",
+      "previous": "3.3",
+      "status": "released",
+      "notes": "7月核心PCE同比3.3%（妙想Choice/BEA 8/26发布，前值6月3.3%持平）"
     },
     {
       "id": "US_JOBLESS_CLAIMS_20260827",
@@ -13749,8 +13801,7 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming",
-      "notes": ""
+      "status": "upcoming"
     },
     {
       "id": "US_FOMC_2026-11-05",

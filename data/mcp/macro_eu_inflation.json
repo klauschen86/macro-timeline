@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-30",
   "items": [
     {
-      "ActualValue": "2.3",
-      "ForecastValue": "2.4",
-      "FormerValue": "2.4",
-      "IndicatorName": "欧元区12月核心调和CPI年率-未季调初值(%)",
-      "OccurDate": 20260107,
-      "OccurTime": "18:00",
+      "ActualValue": "2.9",
+      "ForecastValue": "2.9",
+      "FormerValue": "2.8",
+      "IndicatorName": "欧元区7月调和CPI年率-未季调初值(%)",
+      "OccurDate": 20260731,
+      "OccurTime": "17:00",
       "code": "",
       "name": ""
     },
     {
-      "ActualValue": "0.2",
-      "ForecastValue": "",
-      "FormerValue": "0.2",
-      "IndicatorName": "欧元区10月核心调和CPI月率终值(%)",
-      "OccurDate": 20251119,
-      "OccurTime": "18:00",
+      "ActualValue": "2.1",
+      "ForecastValue": "2.1",
+      "FormerValue": "2.1",
+      "IndicatorName": "欧元区4月核心调和CPI年率-未季调终值(%)",
+      "OccurDate": 20260520,
+      "OccurTime": "17:00",
       "code": "",
       "name": ""
     },
     {
-      "ActualValue": "2.3",
-      "ForecastValue": "2.4",
-      "FormerValue": "2.4",
-      "IndicatorName": "欧元区12月扣除食品能源烟酒的调和CPI年率初值(%)",
-      "OccurDate": 20260107,
-      "OccurTime": "18:00",
+      "ActualValue": "2.1",
+      "ForecastValue": "2",
+      "FormerValue": "2",
+      "IndicatorName": "欧元区8月调和CPI年率-未季调初值(%)",
+      "OccurDate": 20250902,
+      "OccurTime": "17:00",
       "code": "",
       "name": ""
     }
