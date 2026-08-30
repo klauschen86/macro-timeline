@@ -13801,7 +13801,8 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-11-05",
