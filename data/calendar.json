@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-08-30 (fixed)",
+    "generated_at": "2026-08-31 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 745,
-    "upcoming_events": 85,
-    "released_events": 323,
+    "total_events": 747,
+    "upcoming_events": 87,
+    "released_events": 326,
     "pending_events": 337,
-    "upcoming_with_forecast": 0,
+    "upcoming_with_forecast": 3,
     "historical_events": 660,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
-      "中国": 195,
+      "中国": 197,
       "美国": 274,
       "英国": 94,
       "日本": 72,
@@ -9641,11 +9641,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "21.8",
-      "previous": "21.5",
+      "forecast": "",
+      "previous": "22.2",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "21.88"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -12325,8 +12325,11 @@
       "source": "国家统计局",
       "source_url": "https://www.stats.gov.cn/",
       "unit": "",
-      "status": "upcoming",
-      "notes": ""
+      "actual": 49.8,
+      "forecast": 49.6,
+      "previous": 49.2,
+      "status": "released",
+      "notes": "8月官方制造业PMI 49.8%（统计局8/31 9:30发布，较7月+0.6pct，预期49.6超预期；前值49.2=westock 7/31 49.2 双源✅；8号元素公众号误报49.4%与统计局官网冲突已排除）"
     },
     {
       "id": "CN_PMI_NONMFG_20260831",
@@ -12343,8 +12346,11 @@
       "source": "国家统计局",
       "source_url": "",
       "unit": "",
-      "status": "upcoming",
-      "notes": ""
+      "actual": 49.0,
+      "forecast": 49.9,
+      "previous": 49.0,
+      "status": "released",
+      "notes": "8月非制造业商务活动指数49.0%（统计局8/31 9:30发布，与7月持平，预期49.9低于预期；前值49.0=westock 7/31 49.0 双源✅）"
     },
     {
       "id": "EU_CPI_FLASH_20260831",
@@ -12379,8 +12385,11 @@
       "source": "METI",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming",
-      "notes": ""
+      "actual": 0.1,
+      "forecast": -0.6,
+      "previous": 1.9,
+      "status": "released",
+      "notes": "7月工业产出环比初值+0.1%（METI 8/31 07:50发布，预期-0.6%（Reuters poll -0.7%）超预期；同比+4.1%较6月4.9%放缓；制造商预计8月+6.4%、9月-4.2%"
     },
     {
       "id": "CN_CAIXIN_PMI_20260901",
@@ -13801,6 +13810,42 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "CN_PMI_MFG_20261101",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "官方制造业PMI",
+      "indicator_en": "Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-11-01",
+      "release_time": "09:30",
+      "timezone": "BJS",
+      "period": "2026-09",
+      "source": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/",
+      "unit": "",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "CN_PMI_NONMFG_20261101",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "官方非制造业PMI",
+      "indicator_en": "Non-Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-11-01",
+      "release_time": "09:30",
+      "timezone": "BJS",
+      "period": "2026-09",
+      "source": "国家统计局",
+      "source_url": "",
+      "unit": "",
       "status": "upcoming",
       "notes": ""
     },

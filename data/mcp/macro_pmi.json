@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-01-01",
   "items": [
     {
       "PMI_COMPREHENSIVE_CCZS_MOM": 0.798403,
@@ -77,5 +77,27 @@
   "listCode": "macro_pmi",
   "listGroup": "GDP供给指标(PMI)",
   "listName": "GDP供给指标(PMI)",
+  "listSchema": {
+    "PMI_COMPREHENSIVE_CCZS_MOM": "综合PMI:产出指数:季调:环比:月(%)",
+    "PMI_END_DATE": "PMI:截止日期",
+    "PMI_INFO_DATE": "PMI:发布日期",
+    "PMI_MANU_PRODUCT_INVENTORY": "制造业PMI:产成品库存:季调:月(%)",
+    "PMI_MANU_RAW_INVTRY": "制造业PMI:原材料库存:季调:月(%)",
+    "PMI_MANU_RAW_PURCH": "制造业PMI:主要原材料购进价格:季调:月(%)",
+    "PMI_NON_MANU_BIZ_ACT": "非制造业PMI:商务活动:季调:月(%)",
+    "PMI_NON_MANU_MAT_PRC": "非制造业PMI:投入品价格:季调:月(%)",
+    "PMI_NON_MANU_ORDER_EXPORT": "非制造业PMI:新出口订单:季调:月(%)",
+    "PMI_PMI_COMPREHENSIVE_CCZS": "综合PMI:产出指数:季调:月(%)",
+    "PMI_PMI_MANU": "制造业PMI:季调:月(%)",
+    "PMI_PMI_MANU_CUR_YOY": "制造业PMI:季调:环比:月(%)",
+    "PMI_PMI_MANU_IMPORT": "制造业PMI:进口:季调:月(%)",
+    "PMI_PMI_MANU_MOM": "制造业PMI:当期同比:月(%)",
+    "PMI_PMI_MANU_ORDER_EXPORT": "制造业PMI:新出口订单:季调:月(%)",
+    "PMI_PMI_MANU_ORDER_INHAND": "制造业PMI:在手订单:季调:月(%)",
+    "PMI_PMI_MANU_ORDER_NEW": "制造业PMI:新订单:季调:月(%)",
+    "PMI_PMI_MANU_PRODUCE": "制造业PMI:生产:季调:月(%)",
+    "PMI_PMI_MANU_PURCHASE": "制造业PMI:采购量:季调:月(%)",
+    "PMI_PMI_NON_MANU_ORDER_NEW": "非制造业PMI:新订单:季调:月(%)"
+  },
   "totalItems": 3
 }

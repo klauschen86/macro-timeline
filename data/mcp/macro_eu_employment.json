@@ -1,6 +1,16 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "items": [
+    {
+      "ActualValue": "6.3",
+      "ForecastValue": "6.2",
+      "FormerValue": "6.2",
+      "IndicatorName": "欧元区6月失业率(%)",
+      "OccurDate": 20260730,
+      "OccurTime": "17:00",
+      "code": "",
+      "name": ""
+    },
     {
       "ActualValue": "6.3",
       "ForecastValue": "6.3",
@@ -12,22 +22,12 @@
       "name": ""
     },
     {
-      "ActualValue": "6.3",
-      "ForecastValue": "6.4",
-      "FormerValue": "6.4",
-      "IndicatorName": "欧元区11月失业率(%)",
-      "OccurDate": 20260108,
-      "OccurTime": "18:00",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "6.4",
-      "ForecastValue": "6.3",
-      "FormerValue": "6.3",
-      "IndicatorName": "欧元区10月失业率(%)",
-      "OccurDate": 20251202,
-      "OccurTime": "18:00",
+      "ActualValue": "6.2",
+      "ForecastValue": "6.2",
+      "FormerValue": "6.2",
+      "IndicatorName": "欧元区3月失业率(%)",
+      "OccurDate": 20260430,
+      "OccurTime": "17:00",
       "code": "",
       "name": ""
     }

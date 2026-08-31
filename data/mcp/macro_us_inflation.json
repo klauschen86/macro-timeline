@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "items": [
     {
-      "ActualValue": "3.2",
-      "ForecastValue": "3.2",
-      "FormerValue": "3.2",
-      "IndicatorName": "美国12月密歇根大学5年期通胀率预期终值(%)",
-      "OccurDate": 20251219,
-      "OccurTime": "23:00",
-      "code": "",
-      "name": ""
-    },
-    {
-      "ActualValue": "未公布",
+      "ActualValue": "0.7",
       "ForecastValue": "",
-      "FormerValue": "0.3",
-      "IndicatorName": "美国1月克里夫兰联储CPI月率(%)",
-      "OccurDate": 20260212,
-      "OccurTime": "00:00",
+      "FormerValue": "0.4",
+      "IndicatorName": "美国9月实际周薪年率(%)",
+      "OccurDate": 20251121,
+      "OccurTime": "21:30",
       "code": "",
       "name": ""
     },
     {
-      "ActualValue": "2.9",
-      "ForecastValue": "2.9",
-      "FormerValue": "2.9",
-      "IndicatorName": "美国第四季度PCE物价指数年化季率修正值(%)",
-      "OccurDate": 20260313,
-      "OccurTime": "20:30",
+      "ActualValue": "2.8",
+      "ForecastValue": "2.8",
+      "FormerValue": "2.1",
+      "IndicatorName": "美国第三季度PCE物价指数年化季率初值(%)",
+      "OccurDate": 20251223,
+      "OccurTime": "21:30",
+      "code": "",
+      "name": ""
+    },
+    {
+      "ActualValue": "4.6",
+      "ForecastValue": "4.7",
+      "FormerValue": "4.7",
+      "IndicatorName": "美国10月密歇根大学1年期通胀率预期初值(%)",
+      "OccurDate": 20251010,
+      "OccurTime": "22:00",
       "code": "",
       "name": ""
     }

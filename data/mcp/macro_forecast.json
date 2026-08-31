@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-01-01",
   "items": [
     {
       "FORECAST_CPI_FC_YOY": 1.2,
@@ -58,5 +58,30 @@
   "listCode": "macro_forecast",
   "listGroup": "宏观预测",
   "listName": "宏观预测",
+  "listSchema": {
+    "FORECAST_CPI_FC_YOY": "CPI:预测值:当期同比:月(%)",
+    "FORECAST_END_DATE": "预测值:截止日期",
+    "FORECAST_EXPORT_FC_YOY": "出口金额:预测值:当期同比:月(%)",
+    "FORECAST_FAI_FC_YTD_YOY": "固定资产投资:预测值:累计同比:月(%)",
+    "FORECAST_FX_RSV_FC": "官方储备资产:外汇储备:预测值:月(亿美元)",
+    "FORECAST_FX_RSV_FC_YOY": "官方储备资产:外汇储备:预测值:同比:月(%)",
+    "FORECAST_GDP_FC_YOY": "GDP:预测值:当期同比:季(%)",
+    "FORECAST_IMPORT_FC_YOY": "进口金额:预测值:当期同比:月(%)",
+    "FORECAST_IND_VA_FC_YOY": "工业增加值:预测值:当期同比:月(%)",
+    "FORECAST_INFO_DATE": "预测值:发布日期",
+    "FORECAST_LOAN_FC_YOY": "人民币贷款:预测值:当期同比:月(%)",
+    "FORECAST_M1_FC_YOY": "M1:预测值:当期同比:月(%)",
+    "FORECAST_M2_FC_YOY": "M2:预测值:当期同比:月(%)",
+    "FORECAST_NEW_LOAN_FC": "新增人民币贷款:预测值:当期值:月(元)",
+    "FORECAST_PMI_FC": "制造业采购经理指数PMI:预测值:当期值:月(%)",
+    "FORECAST_PPI_FC_YOY": "生产者价格指数PPI:预测值:当期同比:月(%)",
+    "FORECAST_RETAIL_FC_YOY": "社会消费品零售总额:预测值:当期同比:月(%)",
+    "FORECAST_RRR_LG_FC": "存款准备金率:大型金融机构:预测值:月(%)",
+    "FORECAST_RRR_LG_FC_YOY": "存款准备金率:大型金融机构:预测值:同比:月(%)",
+    "FORECAST_TRADE_SUR_FC": "贸易顺差:亿美元:预测值:当期值:月(美元)",
+    "FORECAST_TRADE_SUR_FC_YOY": "贸易顺差:亿美元:预测值:同比:月(%)",
+    "FORECAST_TSF_FC": "社会融资规模:预测值:当期值:月(亿元)",
+    "FORECAST_USDCNY_FC": "美元兑人民币汇率:预测值:月(美元/人民币)"
+  },
   "totalItems": 3
 }
