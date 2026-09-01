@@ -1,0 +1,2 @@
+// Auto-generated 2026-08-12 09:42:11
+window.CALENDAR_DATA = {"meta": {"generated_at": "2026-08-12 (fixed)", "generated_by": "run_daily.py", "timezone": "BJS (UTC+8)", "total_events": 722, "upcoming_events": 88, "released_events": 306, "pending_events": 328, "upcoming_with_forecast": 0, "historical_events": 634, "data_from": "2025-12-15", "data_to": "2026-12-17", "by_country": {"中国": 188, "美国": 263, "英国": 93, "日本": 70, "欧元区": 108}}, "events": [{"id": "CN_INDUSTRIAL_20251215", "country": "CN", "c
