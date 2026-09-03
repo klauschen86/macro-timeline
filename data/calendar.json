@@ -2547,7 +2547,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "CN_CAIXIN_SERVICES_PMI_20260403",
@@ -2564,7 +2565,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260403",
@@ -3344,7 +3346,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ADP_20260506",
@@ -3361,7 +3364,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260506",
@@ -4015,7 +4019,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260603",
@@ -4053,7 +4058,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_NFP_20260605",
@@ -8189,7 +8195,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "JP_FF_Consumer_Confidence_20260701",
@@ -8947,7 +8954,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20260703",
@@ -11834,7 +11842,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "US_ADP_20260805",
@@ -11851,7 +11860,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending"
+      "status": "pending",
+      "notes": ""
     },
     {
       "id": "EU_RETAIL_20260806",
@@ -13602,7 +13612,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_ISM_SERVICES_20261005",
@@ -13673,7 +13684,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_JOBLESS_CLAIMS_20261008",
@@ -14338,7 +14350,8 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_ADP_20261104",
@@ -14355,7 +14368,8 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-11-05",
