@@ -41,6 +41,20 @@ def first_business_day(year, month):
     return d
 
 
+def nth_business_day(year, month, n):
+    """返回 year/month 的第n个工作日（跳过周末；2026-09-03 新增，财新服务业PMI用）"""
+    d = date(year, month, 1)
+    count = 0
+    last = monthrange(year, month)[1]
+    while d.day <= last:
+        if d.weekday() < 5:
+            count += 1
+            if count == n:
+                return d
+        d += timedelta(days=1)
+    return None
+
+
 def around_day(year, month, day, max_adjust=2):
     """返回某月大致第day天，自动调整到工作日"""
     last = monthrange(year, month)[1]
@@ -96,6 +110,16 @@ INDICATORS = {
         "source": "财新/Markit",
         "unit": "",
         "calc": lambda y, m: around_day(y, m, 1, 2)
+    },
+    "CN_CAIXIN_SERVICES_PMI": {
+        "country": "CN", "country_name": "中国",
+        "indicator": "财新服务业PMI", "indicator_en": "Caixin Services PMI",
+        "frequency": "月度", "importance": 2,
+        "release_time": "09:45", "timezone": "BJS",
+        "source": "财新/S&P Global",
+        "unit": "",
+        # 2026-09-03 新增：实测发布日=数据月次月第3个工作日（8月数据9/3发、7月数据8/5发；制造业后1-2个工作日）
+        "calc": lambda y, m: nth_business_day(y, m, 3)
     },
     "CN_CPI": {
         "country": "CN", "country_name": "中国",
@@ -242,6 +266,16 @@ INDICATORS = {
         "source": "Institute for Supply Management",
         "unit": "",
         "calc": lambda y, m: around_day(y, m, 3, 2)
+    },
+    "US_ADP": {
+        "country": "US", "country_name": "美国",
+        "indicator": "ADP 就业人数", "indicator_en": "ADP Employment Change",
+        "frequency": "月度", "importance": 3,
+        "release_time": "20:15", "timezone": "BJS",
+        "source": "ADP", "source_url": "https://adpemploymentreport.com/",
+        "unit": "万",
+        # 2026-09-03 新增：实测每月首个周三发布（9/2 发布8月、8/5 发布7月），BJS 20:15
+        "calc": lambda y, m: nth_weekday(y, m, 2, 1)
     },
     "US_NFP": {
         "country": "US", "country_name": "美国",
