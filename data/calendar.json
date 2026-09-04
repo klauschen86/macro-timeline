@@ -1192,10 +1192,10 @@
       "source_url": "",
       "unit": "%",
       "actual": 4.0,
-      "previous": "8.4",
+      "previous": "4.4",
       "status": "released",
       "notes": "",
-      "forecast": ""
+      "forecast": "4.4"
     },
     {
       "id": "EU_RETAIL_20260206",
@@ -1872,9 +1872,9 @@
       "source": "WeStock-MCP",
       "source_url": "",
       "unit": "万人",
-      "actual": "-8.6",
-      "forecast": "6.5",
-      "previous": "17.2",
+      "actual": "-9.2",
+      "forecast": "5.9",
+      "previous": "13",
       "status": "released",
       "notes": ""
     },
@@ -1893,11 +1893,11 @@
       "source": "WeStock-MCP",
       "source_url": "",
       "unit": "%",
-      "actual": "7.9",
-      "previous": "8",
+      "actual": "4.4",
+      "previous": "4.3",
       "status": "released",
       "notes": "",
-      "forecast": ""
+      "forecast": "4.3"
     },
     {
       "id": "EU_RETAIL_20260306",
@@ -2626,9 +2626,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "8",
-      "forecast": "7.9",
-      "previous": "7.9",
+      "actual": "4.3",
+      "forecast": "4.4",
+      "previous": "4.4",
       "status": "released",
       "notes": ""
     },
@@ -4087,9 +4087,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "12",
+      "actual": "17.2",
       "forecast": "8.5",
-      "previous": "12.3",
+      "previous": "11.5",
       "status": "released",
       "notes": ""
     },
@@ -4108,8 +4108,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "8.1",
-      "previous": "8.2",
+      "actual": "4.3",
+      "forecast": "4.3",
+      "previous": "4.3",
       "status": "released",
       "notes": ""
     },
@@ -6691,11 +6692,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.33",
+      "forecast": "22.5",
+      "previous": "22.6",
       "status": "released",
       "notes": "",
-      "actual": "22.43"
+      "actual": "21.5"
     },
     {
       "id": "UK_FF_MPC_Member_Pill_Speaks_20260625",
@@ -8623,11 +8624,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.45",
+      "forecast": "22",
+      "previous": "21.6",
       "status": "released",
       "notes": "",
-      "actual": "22.2"
+      "actual": "21.5"
     },
     {
       "id": "CN_FF_RatingDog_Services_PMI_20260702",
@@ -9820,11 +9821,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "22.2",
+      "forecast": "21.8",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
-      "actual": "21.88"
+      "actual": "21.5"
     },
     {
       "id": "US_FF_10_y_Bond_Auction_20260709",
@@ -10989,8 +10990,8 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "21.88",
+      "forecast": "21.7",
+      "previous": "21.5",
       "status": "released",
       "notes": "",
       "actual": "21.43"
@@ -11588,9 +11589,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.75",
-      "forecast": "",
-      "previous": "21.43"
+      "actual": "18.7",
+      "forecast": "21.2",
+      "previous": "20.8"
     },
     {
       "id": "JP_CPI_20260724",
@@ -11741,9 +11742,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.27",
-      "forecast": "",
-      "previous": "20.75"
+      "actual": "19.7",
+      "forecast": "20",
+      "previous": "18.7"
     },
     {
       "id": "CN_PMI_MFG_20260801",
@@ -12202,9 +12203,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "19.9",
-      "forecast": "",
-      "previous": "19.88"
+      "actual": "20.9",
+      "forecast": "20.2",
+      "previous": "19.9"
     },
     {
       "id": "US_PPI_20260814",
@@ -12912,11 +12913,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "",
-      "previous": "20.55",
+      "forecast": "20.5",
+      "previous": "20.3",
       "status": "released",
       "notes": "截至8/29当周初请失业金 预期20.5万/前值20.3万（金十+TradeVae双源一致；9/3 20:30 BJS发布）",
-      "actual": "20.73"
+      "actual": "20.6"
     },
     {
       "id": "US_NFP_20260904",

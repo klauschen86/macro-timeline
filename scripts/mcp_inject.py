@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """
-MCP 数据注入器 v1.0 — 替代 ForexFactory 的数据采集方案
+MCP 数据注入器 v1.1 — 替代 ForexFactory 的数据采集方案
+
+v1.1 (2026-09-04): 修复指标口径错配 bug
+- 根因: 同日期同国家多个候选 item 按 score 选优，变体指标因多出公共词
+  (如"私营企业非农就业人数"多"人数"、"U6失业率") 反超整体指标，
+  导致 US_NFP 被注入私营非农(3万)、失业率被注入U6(7.9)。
+- 修复: 新增 EXCLUDE_TOKENS 排除词(私营/U6/四周均值/续请/挑战者/初请)，
+  MCP 指标名含排除词且 calendar 指标名不含该词时 score 直接降为负分淘汰。
+- 影响: 就业系列(非农/失业率/初请) 与衍生变体指标的注入准确性。
 
 从 westock MCP data_macro 获取的 JSON 文件中提取 actual/forecast/previous 值，
 注入到 calendar.json 的对应事件中。
@@ -186,6 +194,10 @@ def extract_indicator_values(items):
 
 def inject_values(calendar_events, mcp_values):
     """将 MCP 指标值注入到 calendar 事件中"""
+    # 变体/衍生指标排除词（v1.1 修复口径错配）:
+    # MCP 指标名含这些词且 calendar 指标名不含时，直接淘汰，防止
+    # "私营企业非农"(多"人数"词)顶替整体非农、"U6失业率"顶替整体失业率等。
+    EXCLUDE_TOKENS = ("私营", "U6", "四周均值", "续请", "挑战者", "初请")
     updated = 0
 
     for ev in calendar_events:
@@ -206,6 +218,11 @@ def inject_values(calendar_events, mcp_values):
             score = 0
             if match_indicators(ev_indicator, mv["indicator_name"]):
                 score += 5
+            # 变体排除: 命中排除词且事件指标名不含该词 → 淘汰
+            for tok in EXCLUDE_TOKENS:
+                if tok in mv["indicator_name"] and tok not in ev_indicator:
+                    score = -100
+                    break
             # 字符串相似度加分
             ev_words = set(re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z]+', ev_indicator.lower()))
             mv_words = set(re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z]+', mv["indicator_name"].lower()))
