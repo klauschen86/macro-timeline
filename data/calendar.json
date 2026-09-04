@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-09-03 (fixed)",
+    "generated_at": "2026-09-04 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 772,
-    "upcoming_events": 89,
-    "released_events": 343,
-    "pending_events": 341,
-    "upcoming_with_forecast": 3,
-    "historical_events": 683,
+    "total_events": 773,
+    "upcoming_events": 87,
+    "released_events": 349,
+    "pending_events": 337,
+    "upcoming_with_forecast": 2,
+    "historical_events": 686,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 206,
-      "美国": 286,
+      "美国": 287,
       "英国": 94,
       "日本": 72,
       "欧元区": 110,
@@ -711,8 +711,8 @@
       "status": "released",
       "notes": "",
       "actual": "0.2",
-      "forecast": "0.3",
-      "previous": "0.3"
+      "forecast": "0.2",
+      "previous": "0.1"
     },
     {
       "id": "CN_INDUSTRIAL_20260115",
@@ -1171,8 +1171,8 @@
       "source_url": "",
       "unit": "万人",
       "actual": 14.3,
-      "forecast": "7.8",
-      "previous": "3.7",
+      "forecast": "7",
+      "previous": "5",
       "status": "released",
       "notes": ""
     },
@@ -1869,12 +1869,12 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-02",
-      "source": "Bureau of Labor Statistics",
+      "source": "WeStock-MCP",
       "source_url": "",
       "unit": "万人",
-      "actual": "-9.2",
-      "forecast": "5.9",
-      "previous": "13",
+      "actual": "-8.6",
+      "forecast": "6.5",
+      "previous": "17.2",
       "status": "released",
       "notes": ""
     },
@@ -2547,7 +2547,10 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending",
+      "actual": "6.2",
+      "forecast": "4",
+      "previous": "6.3",
+      "status": "released",
       "notes": ""
     },
     {
@@ -3364,7 +3367,10 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending",
+      "actual": "10.9",
+      "forecast": "9.9",
+      "previous": "6.2",
+      "status": "released",
       "notes": ""
     },
     {
@@ -3559,8 +3565,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "forecast": "0.3",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -3579,8 +3586,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.85",
-      "previous": "1.05",
+      "actual": "0.4",
+      "forecast": "0.3",
+      "previous": "0.2",
       "status": "released",
       "notes": ""
     },
@@ -4058,7 +4066,10 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending",
+      "actual": "12.2",
+      "forecast": "11.7",
+      "previous": "10.9",
+      "status": "released",
       "notes": ""
     },
     {
@@ -4076,9 +4087,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "17.2",
+      "actual": "12",
       "forecast": "8.5",
-      "previous": "11.5",
+      "previous": "12.3",
       "status": "released",
       "notes": ""
     },
@@ -5134,9 +5145,9 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": "2.3",
-      "forecast": "2.3",
-      "previous": "2.3",
+      "actual": "2.6",
+      "forecast": "2.5",
+      "previous": "2.5",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -5152,9 +5163,9 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": "2.3",
-      "forecast": "2.3",
-      "previous": "2.3",
+      "actual": "2.6",
+      "forecast": "2.5",
+      "previous": "2.5",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -6680,11 +6691,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "22.5",
-      "previous": "22.6",
+      "forecast": "",
+      "previous": "22.33",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "22.43"
     },
     {
       "id": "UK_FF_MPC_Member_Pill_Speaks_20260625",
@@ -7918,7 +7929,7 @@
       "timezone": "EST",
       "importance": 3,
       "actual": "759.4",
-      "forecast": "",
+      "forecast": "730",
       "previous": "761.8",
       "unit": "",
       "source": "WeStock-MCP",
@@ -8195,7 +8206,10 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending",
+      "actual": "9.8",
+      "forecast": "11.8",
+      "previous": "12.2",
+      "status": "released",
       "notes": ""
     },
     {
@@ -8282,7 +8296,7 @@
       "importance": 3,
       "actual": "0.2",
       "forecast": "",
-      "previous": "0.3",
+      "previous": "2.3",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -8609,11 +8623,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "22",
-      "previous": "21.6",
+      "forecast": "",
+      "previous": "22.45",
       "status": "released",
       "notes": "",
-      "actual": "21.5"
+      "actual": "22.2"
     },
     {
       "id": "CN_FF_RatingDog_Services_PMI_20260702",
@@ -9277,7 +9291,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": "5.9",
-      "forecast": "5.7",
+      "forecast": "",
       "previous": "4.9",
       "unit": "",
       "source": "WeStock-MCP",
@@ -10528,9 +10542,9 @@
       "release_time": "8:30pm",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0.2",
-      "forecast": "",
-      "previous": "0.3",
+      "actual": "0",
+      "forecast": "0.2",
+      "previous": "0.2",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -10975,11 +10989,11 @@
       "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": "21.7",
-      "previous": "21.5",
+      "forecast": "",
+      "previous": "21.88",
       "status": "released",
       "notes": "",
-      "actual": "20.8"
+      "actual": "21.43"
     },
     {
       "id": "EU_FF_German_Buba_President_Nagel_Speaks_20260716",
@@ -11574,9 +11588,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "18.7",
-      "forecast": "21.2",
-      "previous": "20.8"
+      "actual": "20.75",
+      "forecast": "",
+      "previous": "21.43"
     },
     {
       "id": "JP_CPI_20260724",
@@ -11727,9 +11741,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "19.7",
-      "forecast": "20",
-      "previous": "18.7"
+      "actual": "20.27",
+      "forecast": "",
+      "previous": "20.75"
     },
     {
       "id": "CN_PMI_MFG_20260801",
@@ -11860,7 +11874,10 @@
       "source": "ADP",
       "source_url": "https://adpemploymentreport.com/",
       "unit": "万",
-      "status": "pending",
+      "actual": "4.4",
+      "forecast": "7",
+      "previous": "9.8",
+      "status": "released",
       "notes": ""
     },
     {
@@ -11898,9 +11915,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "19.88",
-      "forecast": "",
-      "previous": "20.27"
+      "actual": "19.9",
+      "forecast": "20.2",
+      "previous": "19.7"
     },
     {
       "id": "CN_FX_RESERVES_20260807",
@@ -11935,11 +11952,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "3",
-      "forecast": "7.8",
-      "previous": "3",
+      "actual": "-2.3",
+      "forecast": "8",
+      "previous": "2.0",
       "status": "released",
-      "notes": ""
+      "notes": "修正: 原存私营非农3万, 应为整体非农-2.3万(季调后); previous=6月修正值2.0万 (westock CLI 8/7发布 双源✅)"
     },
     {
       "id": "US_UNEMPLOYMENT_20260807",
@@ -11956,10 +11973,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "7.9",
-      "previous": "7.9",
+      "actual": "4.1",
+      "forecast": "4.2",
+      "previous": "4.2",
       "status": "released",
-      "notes": ""
+      "notes": "修正: 原存U6失业率7.9, 应为整体失业率4.1% (westock CLI 8/7发布, 与Morningstar一致✅)"
     },
     {
       "id": "CN_CPI_20260810",
@@ -12084,8 +12102,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.3",
-      "previous": "0.2",
+      "actual": "-0.01",
+      "previous": "-0.35",
       "status": "released",
       "notes": ""
     },
@@ -12104,8 +12122,8 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.3",
-      "previous": "0.2",
+      "actual": "-0.01",
+      "previous": "-0.35",
       "status": "released",
       "notes": ""
     },
@@ -12144,9 +12162,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.9",
-      "forecast": "20.2",
-      "previous": "19.9"
+      "actual": "19.9",
+      "forecast": "",
+      "previous": "19.88"
     },
     {
       "id": "US_PPI_20260814",
@@ -12343,9 +12361,9 @@
       "unit": "万人",
       "status": "released",
       "notes": "",
-      "actual": "20.4",
-      "forecast": "",
-      "previous": "19.9"
+      "actual": "20.6",
+      "forecast": "21",
+      "previous": "20.9"
     },
     {
       "id": "US_EXISTING_HOME_20260821",
@@ -12836,7 +12854,7 @@
       "unit": "",
       "forecast": 54.2,
       "previous": 54.1,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "8月ISM非制造业PMI 预期54.2/前值54.1（共识区间53.8~54.9，连续25个月扩张；9/3 22:00 BJS发布，非农前重头戏）"
     },
     {
@@ -12851,13 +12869,14 @@
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-08-27",
-      "source": "Department of Labor",
+      "source": "WeStock-MCP",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "forecast": 20.5,
-      "previous": 20.3,
-      "status": "upcoming",
-      "notes": "截至8/29当周初请失业金 预期20.5万/前值20.3万（金十+TradeVae双源一致；9/3 20:30 BJS发布）"
+      "forecast": "",
+      "previous": "20.55",
+      "status": "released",
+      "notes": "截至8/29当周初请失业金 预期20.5万/前值20.3万（金十+TradeVae双源一致；9/3 20:30 BJS发布）",
+      "actual": "20.73"
     },
     {
       "id": "US_NFP_20260904",
@@ -12874,8 +12893,10 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
+      "forecast": "5.8",
+      "previous": "-2.3",
       "status": "upcoming",
-      "notes": ""
+      "notes": "consensus +5.8万(Newsquawk)/5.3万(道琼斯)/5.6万(每经) 双源✅; 前值7月-2.3万; 今晚20:30发布"
     },
     {
       "id": "US_UNEMPLOYMENT_20260904",
@@ -12892,8 +12913,10 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
+      "forecast": "4.1",
+      "previous": "4.1",
       "status": "upcoming",
-      "notes": ""
+      "notes": "consensus 4.1% 维持(多数); FactSet/Continuum偏4.2%; 前值7月4.1%"
     },
     {
       "id": "CN_FX_RESERVES_20260907",
@@ -14386,6 +14409,24 @@
       "source": "Federal Reserve",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_JOBLESS_CLAIMS_20261105",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "初请失业金人数",
+      "indicator_en": "Initial Jobless Claims",
+      "frequency": "周度",
+      "importance": 2,
+      "release_date": "2026-11-05",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-10-29",
+      "source": "Department of Labor",
+      "source_url": "https://www.dol.gov/",
+      "unit": "万人",
       "status": "upcoming",
       "notes": ""
     },
