@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-09-04 (fixed)",
+    "generated_at": "2026-09-05 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 779,
-    "upcoming_events": 91,
-    "released_events": 351,
-    "pending_events": 337,
-    "upcoming_with_forecast": 4,
-    "historical_events": 688,
+    "total_events": 782,
+    "upcoming_events": 88,
+    "released_events": 360,
+    "pending_events": 334,
+    "upcoming_with_forecast": 0,
+    "historical_events": 694,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 206,
-      "美国": 291,
+      "美国": 293,
       "英国": 94,
       "日本": 72,
-      "欧元区": 110,
+      "欧元区": 111,
       "澳大利亚": 1,
       "新西兰": 1,
       "韩国": 1,
@@ -9005,8 +9005,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "status": "pending",
-      "notes": ""
+      "actual": "3.1",
+      "status": "released",
+      "notes": "6月非农初值+2.0万, 9/4随8月报告上修至+3.1万 (两月合计+5.5万, 劳工部)"
     },
     {
       "id": "US_UNEMPLOYMENT_20260703",
@@ -9023,8 +9024,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": "4.2",
+      "status": "released",
+      "notes": "6月失业率 4.2% (由8/7发布7月报告 prev=4.2 佐证, 未上修)"
     },
     {
       "id": "EU_FF_French_Industrial_Production_m_m_20260703",
@@ -11953,11 +11955,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
-      "actual": "-2.3",
+      "actual": "2.1",
       "forecast": "8",
-      "previous": "2.0",
+      "previous": "3.1",
       "status": "released",
-      "notes": "修正: 原存私营非农3万, 应为整体非农-2.3万(季调后); previous=6月修正值2.0万 (westock CLI 8/7发布 双源✅)"
+      "notes": "7月非农初值-2.3万, 9/4随8月报告上修至+2.1万 (劳工部)"
     },
     {
       "id": "US_UNEMPLOYMENT_20260807",
@@ -12893,10 +12895,11 @@
       "source": "Institute for Supply Management",
       "source_url": "",
       "unit": "",
+      "actual": "55.4",
       "forecast": 54.2,
       "previous": 54.1,
-      "status": "pending",
-      "notes": "8月ISM非制造业PMI 预期54.2/前值54.1（共识区间53.8~54.9，连续25个月扩张；9/3 22:00 BJS发布，非农前重头戏）"
+      "status": "released",
+      "notes": "8月ISM非制造业PMI 55.4 (预期54.2, 前值54.1; 9/3晚发布; 中行/玉山/新浪 多源✅)"
     },
     {
       "id": "US_JOBLESS_CLAIMS_20260903",
@@ -12934,10 +12937,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "万人",
+      "actual": "16.2",
       "forecast": "5.8",
-      "previous": "-2.3",
-      "status": "upcoming",
-      "notes": "consensus +5.8万(Newsquawk)/5.3万(道琼斯)/5.6万(每经) 双源✅; 前值7月-2.3万; 今晚20:30发布"
+      "previous": "2.1",
+      "status": "released",
+      "notes": "8月非农 +16.2万 远超预期+5.6万 (9/4晚发布; 中新社/光明网/每经/网易/Yonhap 多源✅); 7月修正+2.1万"
     },
     {
       "id": "US_UNEMPLOYMENT_20260904",
@@ -12954,10 +12958,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
+      "actual": "4.1",
       "forecast": "4.1",
       "previous": "4.1",
-      "status": "upcoming",
-      "notes": "consensus 4.1% 维持(多数); FactSet/Continuum偏4.2%; 前值7月4.1%"
+      "status": "released",
+      "notes": "8月失业率 4.1% 持平前值 (9/4发布; 多源✅)"
     },
     {
       "id": "US_FF_Average_Hourly_Earnings_m_m_20260904",
@@ -12969,15 +12974,15 @@
       "release_time": "8:30am",
       "timezone": "EST",
       "importance": 4,
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.1%",
       "unit": "",
-      "status": "upcoming",
+      "status": "released",
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "period": "2026-08",
-      "notes": "8月时薪月率 consensus +0.3%(Newsquawk/FactSet/Morningstar 双源✅), 前值7月0.1%; 今晚20:30随非农发布"
+      "notes": "8月时薪 m/m +0.3% (9/4发布; 每经/搜狐 多源✅)"
     },
     {
       "id": "US_FF_Average_Hourly_Earnings_y_y_20260904",
@@ -12989,15 +12994,15 @@
       "release_time": "8:30am",
       "timezone": "EST",
       "importance": 4,
-      "actual": null,
+      "actual": "3.1%",
       "forecast": null,
       "previous": "3.2%",
       "unit": "",
-      "status": "upcoming",
+      "status": "released",
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "period": "2026-08",
-      "notes": "8月时薪年率 前值7月3.2%; y/y consensus分歧(Continuum预测降至2.9%)故forecast留空"
+      "notes": "8月时薪 y/y +3.1% (9/4发布; 每经/搜狐 多源✅)"
     },
     {
       "id": "CA_EMPLOYMENT_20260904",
@@ -13009,15 +13014,15 @@
       "release_time": "20:30",
       "timezone": "BJS",
       "importance": 3,
-      "actual": null,
+      "actual": "-4.17",
       "forecast": null,
       "previous": "7.51",
       "unit": "万人",
-      "status": "upcoming",
+      "status": "released",
       "source": "加拿大统计局",
       "source_url": "",
       "period": "2026-08",
-      "notes": "8月就业人数变动, 前值7月+7.51万(tradingcharts 75.1K 一致✅); 今晚20:30发布; fc共识未成形留空"
+      "notes": "8月就业 -4.17万 (Reuters 41.7K, 预期+1.5万; Xinhua/新华财经/格隆汇 多源✅); 前值7月+7.51万"
     },
     {
       "id": "CA_UNEMPLOYMENT_20260904",
@@ -13029,15 +13034,15 @@
       "release_time": "20:30",
       "timezone": "BJS",
       "importance": 3,
-      "actual": null,
+      "actual": "6.4",
       "forecast": "6.4",
       "previous": "6.4",
       "unit": "%",
-      "status": "upcoming",
+      "status": "released",
       "source": "加拿大统计局",
       "source_url": "",
       "period": "2026-08",
-      "notes": "8月失业率 forecast/前值 6.4%(tradingcharts 单源⚠️)"
+      "notes": "8月失业率 6.4% 持平 (9/4发布; Xinhua/新华财经 多源✅)"
     },
     {
       "id": "CN_FX_RESERVES_20260907",
@@ -14548,6 +14553,60 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_NFP_20261106",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "非农就业人数",
+      "indicator_en": "Non-Farm Payrolls",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-11-06",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-10",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_UNEMPLOYMENT_20261106",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "失业率",
+      "indicator_en": "Unemployment Rate",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-11-06",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-10",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "EU_RETAIL_20261106",
+      "country": "EU",
+      "country_name": "欧元区",
+      "indicator": "零售销售（环比）",
+      "indicator_en": "Retail Sales MoM",
+      "frequency": "月度",
+      "importance": 1,
+      "release_date": "2026-11-06",
+      "release_time": "11:00",
+      "timezone": "CET",
+      "period": "2026-10",
+      "source": "Eurostat",
+      "source_url": "",
+      "unit": "%",
       "status": "upcoming",
       "notes": ""
     },
