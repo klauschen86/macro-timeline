@@ -238,6 +238,16 @@ INDICATORS = {
         "unit": "亿美元",
         "calc": lambda y, m: around_day(y, m, 7, 2)
     },
+    "CN_GOLD_RESERVES": {
+        "country": "CN", "country_name": "中国",
+        "indicator": "黄金储备（万盎司）", "indicator_en": "Gold Reserves",
+        "frequency": "月度", "importance": 2,
+        "release_time": "16:00", "timezone": "BJS",
+        "source": "中国人民银行",
+        "unit": "万盎司",
+        # 2026-09-07 新增：与外汇储备同日发布（每月7日左右，遇周末顺延），实测 8/7 发布 7 月末 7608 万盎司
+        "calc": lambda y, m: around_day(y, m, 7, 2)
+    },
     "CN_UNEMPLOYMENT": {
         "country": "CN", "country_name": "中国",
         "indicator": "城镇调查失业率", "indicator_en": "Surveyed Unemployment Rate",
