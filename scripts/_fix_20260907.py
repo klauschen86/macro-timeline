@@ -125,6 +125,22 @@ if "EU_GDP_20260907" not in events:
     }
     changes.append("  [NEW] EU_GDP_20260907 新增（环比终值 fc=0.4/prev=0.4，upcoming）")
 
+# ---------- 3b. 新增欧央行利率决议事件（9/6 联网核实：9/10 决议+拉加德记者会，加息25bp预期） ----------
+if "EU_ECB_20260910" not in events:
+    events["EU_ECB_20260910"] = {
+        "id": "EU_ECB_20260910",
+        "country": "EU", "country_name": "欧元区",
+        "indicator": "欧央行利率决议", "indicator_en": "ECB Interest Rate Decision",
+        "frequency": "月度（不定期）", "importance": 3,
+        "release_date": "2026-09-10", "release_time": "20:15", "timezone": "BJS",
+        "period": "2026-09", "unit": "%",
+        "source": "欧洲央行 ECB", "source_url": "",
+        "forecast": None, "previous": None, "actual": None,
+        "status": "upcoming",
+        "notes": "9/6核实：9/10决议(20:15 BJS)+拉加德记者会(20:45 BJS)，市场加息25bp预期；利率水平待发布核实",
+    }
+    changes.append("  [NEW] EU_ECB_20260910 新增（欧央行利率决议，upcoming）")
+
 cal["events"] = list(events.values())
 
 with open(CAL, "w", encoding="utf-8") as f:
