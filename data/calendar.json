@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-09-09 (fixed)",
+    "generated_at": "2026-09-10 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 808,
-    "upcoming_events": 93,
-    "released_events": 385,
-    "pending_events": 332,
+    "upcoming_events": 91,
+    "released_events": 386,
+    "pending_events": 331,
     "upcoming_with_forecast": 2,
-    "historical_events": 715,
+    "historical_events": 717,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
@@ -732,9 +732,9 @@
       "unit": "%",
       "status": "released",
       "notes": "",
-      "actual": "0",
+      "actual": "0.2",
       "forecast": "0.2",
-      "previous": ""
+      "previous": "0.1"
     },
     {
       "id": "CN_INDUSTRIAL_20260115",
@@ -1193,7 +1193,7 @@
       "source_url": "",
       "unit": "万人",
       "actual": 14.3,
-      "forecast": "7",
+      "forecast": "6.4",
       "previous": "5",
       "status": "released",
       "notes": ""
@@ -3669,8 +3669,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.4",
-      "previous": "0.2",
+      "actual": "0.6",
+      "forecast": "0.6",
+      "previous": "0.9",
       "status": "released",
       "notes": ""
     },
@@ -3689,8 +3690,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.4",
-      "previous": "0.2",
+      "actual": "0.6",
+      "forecast": "0.6",
+      "previous": "0.9",
       "status": "released",
       "notes": ""
     },
@@ -5269,9 +5271,9 @@
       "release_time": "5:00pm",
       "timezone": "CET",
       "importance": 2,
-      "actual": "3.2",
-      "forecast": "3.2",
-      "previous": "3.2",
+      "actual": "3.1",
+      "forecast": "",
+      "previous": "3",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -5287,9 +5289,9 @@
       "release_time": "",
       "timezone": "CET",
       "importance": 2,
-      "actual": "3.2",
-      "forecast": "3.2",
-      "previous": "3.2",
+      "actual": "3.1",
+      "forecast": "",
+      "previous": "3",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -8420,7 +8422,7 @@
       "importance": 3,
       "actual": "2.8",
       "forecast": "",
-      "previous": "0.3",
+      "previous": "2.6",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -9417,7 +9419,7 @@
       "timezone": "CET",
       "importance": 2,
       "actual": "5.9",
-      "forecast": "5.7",
+      "forecast": "",
       "previous": "4.9",
       "unit": "",
       "source": "WeStock-MCP",
@@ -11039,9 +11041,9 @@
       "release_time": "",
       "timezone": "EST",
       "importance": 4,
-      "actual": "0.2",
-      "forecast": "0.4",
-      "previous": "0.4",
+      "actual": "-0.3",
+      "forecast": "0",
+      "previous": "1.1",
       "unit": "",
       "source": "WeStock-MCP",
       "source_url": "https://www.forexfactory.com/calendar",
@@ -12312,8 +12314,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.3",
-      "previous": "0.2",
+      "actual": "0.2",
+      "forecast": "0.2",
+      "previous": "0",
       "status": "released",
       "notes": ""
     },
@@ -12332,8 +12335,9 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.3",
-      "previous": "0.2",
+      "actual": "0.2",
+      "forecast": "0.2",
+      "previous": "0",
       "status": "released",
       "notes": ""
     },
@@ -13466,10 +13470,10 @@
       "timezone": "BJS",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "actual": null,
+      "status": "released",
+      "actual": "3.6",
       "forecast": "",
-      "previous": "3.579437",
+      "previous": "3.6",
       "notes": "8月纽约联储1年通胀预期 23:00 BJS; 9/16 FOMC 前通胀观察项",
       "id": "US_NYFED_1Y_INFLATION_20260908",
       "country": "US",
@@ -13556,8 +13560,10 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "forecast": "20.5",
+      "previous": "20.6",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| fc多源✅: Longbridge/Finobird/myfxbook均20.5万; Econoday偏20.8万(区间20.2-21.0), 存在分歧 | fc多源✅: Longbridge/Finobird/myfxbook均20.5万; Econoday偏20.8万(区间20.2-21.0), 存在分歧"
     },
     {
       "id": "EU_ECB_20260910",
@@ -13574,11 +13580,11 @@
       "unit": "%",
       "source": "欧洲央行 ECB",
       "source_url": "",
-      "forecast": null,
-      "previous": null,
+      "forecast": "2.50%",
+      "previous": "2.25%",
       "actual": null,
       "status": "upcoming",
-      "notes": "9/6核实：9/10决议(20:15 BJS)+拉加德记者会(20:45 BJS)，市场加息25bp预期；利率水平待发布核实"
+      "notes": "9/6核实：9/10决议(20:15 BJS)+拉加德记者会(20:45 BJS)，市场加息25bp预期；利率水平待发布核实 | 多源✅(中国金融新闻网/经济参考报/Morningstar/SEB/TradingNews): 路透调查65位经济学家全数预期存款利率+25bp至2.50%, 利率期货定价95-99%; 现行: 存款2.25%/再融资2.40%/边际借贷2.65%; 背景: 欧元区8月通胀3.3%(能源+14.3%), 核心2.4%回落 | 多源✅(中国金融新闻网/经济参考报/Morningstar/SEB/TradingNews): 路透调查65位经济学家全数预期存款利率+25bp至2.50%, 利率期货定价95-99%; 现行: 存款2.25%/再融资2.40%/边际借贷2.65%; 背景: 欧元区8月通胀3.3%(能源+14.3%), 核心2.4%回落"
     },
     {
       "id": "CN_M2_20260914",
@@ -13642,15 +13648,16 @@
       "indicator_en": "CPI YoY",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-09-14",
+      "release_date": "2026-09-11",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-08",
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
+      "previous": "0.3",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| BLS官方日历✅: 8月CPI于2026-09-11 08:30 ET(20:30 BJS)发布, 为9/16 FOMC决议前最后一份CPI(FRED双源✅) | BLS官方日历✅: 8月CPI于2026-09-11 08:30 ET(20:30 BJS)发布, 为9/16 FOMC决议前最后一份CPI(FRED双源✅)"
     },
     {
       "id": "US_CORE_CPI_20260914",
@@ -13660,15 +13667,16 @@
       "indicator_en": "Core CPI YoY",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-09-14",
+      "release_date": "2026-09-11",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-08",
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
+      "previous": "0.3",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| BLS官方日历✅: 与CPI同日2026-09-11发布 | BLS官方日历✅: 与CPI同日2026-09-11发布"
     },
     {
       "id": "US_PPI_20260914",
@@ -13678,7 +13686,7 @@
       "indicator_en": "PPI YoY",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-09-14",
+      "release_date": "2026-09-10",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-08",
@@ -13686,7 +13694,7 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| BLS官方日历✅: 8月PPI于2026-09-10 08:30 ET(20:30 BJS)发布(FRED双源✅); 7月PPI实际值仍未回填(US_PPI_20260814 pending), previous暂缺 | BLS官方日历✅: 8月PPI于2026-09-10 08:30 ET(20:30 BJS)发布(FRED双源✅); 7月PPI实际值仍未回填(US_PPI_20260814 pending), previous暂缺"
     },
     {
       "id": "UK_GDP_20260914",
@@ -13696,15 +13704,15 @@
       "indicator_en": "GDP MoM",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-09-14",
+      "release_date": "2026-09-11",
       "release_time": "07:00",
       "timezone": "BST",
-      "period": "2026-08",
+      "period": "2026-07",
       "source": "Office for National Statistics",
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| 国际金融要情✅: 英国7月GDP于2026-09-11 07:00 BJS发布; period由2026-08修正为2026-07 | 国际金融要情✅: 英国7月GDP于2026-09-11 07:00 BJS发布; period由2026-08修正为2026-07"
     },
     {
       "id": "CN_INDUSTRIAL_20260915",
@@ -14416,7 +14424,7 @@
       "indicator_en": "CPI YoY",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-10-12",
+      "release_date": "2026-10-14",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-09",
@@ -14424,7 +14432,7 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| BLS官方日历✅: 9月CPI于2026-10-14 08:30 ET发布 | BLS官方日历✅: 9月CPI于2026-10-14 08:30 ET发布"
     },
     {
       "id": "US_CORE_CPI_20261012",
@@ -14470,7 +14478,7 @@
       "indicator_en": "PPI YoY",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-10-14",
+      "release_date": "2026-10-15",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-09",
@@ -14478,7 +14486,7 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "| BLS官方日历✅: 9月PPI于2026-10-15 08:30 ET发布 | BLS官方日历✅: 9月PPI于2026-10-15 08:30 ET发布"
     },
     {
       "id": "CN_INDUSTRIAL_20261015",
