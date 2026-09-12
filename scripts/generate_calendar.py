@@ -517,8 +517,30 @@ INDICATORS = {
         "release_time": "07:00", "timezone": "BST",
         "source": "Office for National Statistics",
         "unit": "%",
-        "calc": lambda y, m: around_day(y, m, 13, 3)
+        "calc": lambda y, m: around_day(y, m, 13, 3),
+        # ONS 月度 GDP 滞后约 6 周：9/11 发布 7 月数据（period = 发布月 - 2）
+        "period_extra_offset": -1,
     },
+}
+
+
+# ============================================================
+# 官方日历日期覆盖（根治模式日期偏差回滚 · 2026-09-12 落地）
+# 依据：BLS 官方日历 bls.gov/schedule/2026/ + FRED 双源核实（2026-09-10）、
+#       ONS 月度 GDP 实际发布（2026-09-11 发布 2026-07 数据）。
+# 背景：around_day 模式推算与真实发布日有偏差（如 9 月 CPI 实际 9/11 而非 9/14），
+#       此前靠事后补丁修改 release_date，但 run_daily 重生成时按模式日期回滚（踩坑 3 次）。
+#       现改为生成期直接产出正确日期（id 含日期也随之正确），merge 按 id 合并不再回滚。
+# key: (INDICATORS key, "YYYY-MM") -> 真实发布日 ISO
+# ============================================================
+DATE_OVERRIDES = {
+    ("US_CPI", "2026-09"): "2026-09-11",
+    ("US_CORE_CPI", "2026-09"): "2026-09-11",
+    ("US_PPI", "2026-09"): "2026-09-10",
+    ("UK_GDP", "2026-09"): "2026-09-11",
+    ("US_CPI", "2026-10"): "2026-10-14",
+    ("US_CORE_CPI", "2026-10"): "2026-10-14",
+    ("US_PPI", "2026-10"): "2026-10-15",
 }
 
 
@@ -610,6 +632,10 @@ def generate_calendar(num_months=3, lookback_months=6):
                 continue
             if release_date is None:
                 continue
+            # 官方日历覆盖：模式推算日期与真实发布日偏差时，以官方核实日期为准
+            _override = DATE_OVERRIDES.get((key, f"{year}-{month:02d}"))
+            if _override:
+                release_date = datetime.strptime(_override, "%Y-%m-%d").date()
             # 只保留从今天起的事件（以及过去30天内的历史事件）
             cutoff = today - timedelta(days=180)
             if release_date < cutoff:
@@ -619,8 +645,12 @@ def generate_calendar(num_months=3, lookback_months=6):
 
             # 计算数据期间
             if info["frequency"] == "月度":
-                data_month = month - 1 if month > 1 else 12
-                data_year = year if month > 1 else year - 1
+                # period_extra_offset：部分指标真实数据期比"发布月-1"更早
+                # （如英国月度 GDP：9/11 发布的是 7 月数据，滞后约 6 周）
+                extra = info.get("period_extra_offset", 0)
+                _total = year * 12 + (month - 1) - 1 + extra
+                data_year, data_month = divmod(_total, 12)
+                data_month += 1
                 period = f"{data_year}-{data_month:02d}"
             elif info["frequency"] == "季度":
                 quarter = (month - 1) // 3
