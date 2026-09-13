@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-09-12 (fixed)",
+    "generated_at": "2026-09-13 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 814,
     "upcoming_events": 91,
-    "released_events": 393,
-    "pending_events": 330,
+    "released_events": 401,
+    "pending_events": 322,
     "upcoming_with_forecast": 0,
     "historical_events": 723,
     "data_from": "2025-12-15",
@@ -1419,10 +1419,10 @@
       "source": "WeStock-MCP",
       "source_url": "",
       "unit": "%",
-      "actual": 2.6,
-      "previous": "0.3",
+      "actual": 2.4,
+      "previous": null,
       "status": "released",
-      "notes": "",
+      "notes": "2026-09-13审计修正: actual原2.6误录→2.4(JEC 2.39+新华财经'与前月一致'双源)",
       "forecast": ""
     },
     {
@@ -1440,10 +1440,10 @@
       "source": "WeStock-MCP",
       "source_url": "",
       "unit": "%",
-      "actual": 3.1,
-      "previous": "0.3",
+      "actual": 2.5,
+      "previous": null,
       "status": "released",
-      "notes": "",
+      "notes": "2026-09-13审计修正: actual原3.1误录→2.5(JEC 2.50)",
       "forecast": ""
     },
     {
@@ -2061,6 +2061,48 @@
       "notes": ""
     },
     {
+      "id": "US_CPI_20260311",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "CPI 消费者物价指数（同比）",
+      "indicator_en": "CPI YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-03-11",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-02",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "actual": 2.4,
+      "forecast": 2.6,
+      "previous": 2.4,
+      "status": "released",
+      "notes": "2026-09-13审计修正: 日期3/12→3/11(央广网/新华财经3源)、actual原2.6误录→2.4(5源)"
+    },
+    {
+      "id": "US_CORE_CPI_20260311",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "核心CPI（同比）",
+      "indicator_en": "Core CPI YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-03-11",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-02",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "actual": 2.5,
+      "forecast": 3.1,
+      "previous": 2.5,
+      "status": "released",
+      "notes": "2026-09-13审计修正: actual原3.0误录→2.5(5源)"
+    },
+    {
       "id": "CN_M2_20260312",
       "country": "CN",
       "country_name": "中国",
@@ -2118,48 +2160,6 @@
       "source_url": "",
       "unit": "亿元",
       "status": "pending",
-      "notes": ""
-    },
-    {
-      "id": "US_CPI_20260312",
-      "country": "US",
-      "country_name": "美国",
-      "indicator": "CPI 消费者物价指数（同比）",
-      "indicator_en": "CPI YoY",
-      "frequency": "月度",
-      "importance": 3,
-      "release_date": "2026-03-12",
-      "release_time": "08:30",
-      "timezone": "EST",
-      "period": "2026-02",
-      "source": "Bureau of Labor Statistics",
-      "source_url": "",
-      "unit": "%",
-      "actual": 2.6,
-      "forecast": 2.6,
-      "previous": 2.6,
-      "status": "released",
-      "notes": ""
-    },
-    {
-      "id": "US_CORE_CPI_20260312",
-      "country": "US",
-      "country_name": "美国",
-      "indicator": "核心CPI（同比）",
-      "indicator_en": "Core CPI YoY",
-      "frequency": "月度",
-      "importance": 3,
-      "release_date": "2026-03-12",
-      "release_time": "08:30",
-      "timezone": "EST",
-      "period": "2026-02",
-      "source": "Bureau of Labor Statistics",
-      "source_url": "",
-      "unit": "%",
-      "actual": 3.0,
-      "forecast": 3.1,
-      "previous": 3.1,
-      "status": "released",
       "notes": ""
     },
     {
@@ -2886,11 +2886,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": 2.5,
+      "actual": 3.3,
       "forecast": 2.5,
-      "previous": 2.6,
+      "previous": 2.4,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: actual原2.5误录→3.3(国联民生研报3.3+东方证券,能源+12.5%拉动)"
     },
     {
       "id": "US_CORE_CPI_20260413",
@@ -2907,11 +2907,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": 3.0,
+      "actual": 2.6,
       "forecast": 3.0,
-      "previous": 3.0,
+      "previous": 2.5,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: actual原3.0误录→2.6(国联民生+东方证券双源)"
     },
     {
       "id": "UK_GDP_20260413",
@@ -3669,11 +3669,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.6",
-      "forecast": "0.6",
-      "previous": "0.9",
+      "actual": 3.8,
+      "forecast": 3.7,
+      "previous": 3.3,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: 原0.6/0.9系环比污染→同比3.8(证券时报:预期3.7,环比0.6,能源+17.9%)"
     },
     {
       "id": "US_CORE_CPI_20260512",
@@ -3690,11 +3690,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": "0.6",
-      "forecast": "0.6",
-      "previous": "0.9",
+      "actual": 2.8,
+      "forecast": 2.7,
+      "previous": 2.6,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: 原0.6系环比污染→同比2.8(证券时报:预期2.7,创2025-09来新高)"
     },
     {
       "id": "UK_GDP_20260513",
@@ -4416,11 +4416,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": 2.7,
+      "actual": 4.2,
       "forecast": 2.6,
-      "previous": 2.5,
+      "previous": 3.8,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: actual原2.7误录→4.2(东方证券+国联民生双源,能源+23.5%见顶)"
     },
     {
       "id": "US_CORE_CPI_20260612",
@@ -4437,11 +4437,11 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "actual": 3.2,
+      "actual": 2.9,
       "forecast": 3.1,
-      "previous": 3.0,
+      "previous": 2.8,
       "status": "released",
-      "notes": ""
+      "notes": "2026-09-13审计修正: actual原3.2误录→2.9(双源)"
     },
     {
       "id": "CN_INDUSTRIAL_20260615",
@@ -10315,10 +10315,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "forecast": "8.5%",
-      "previous": "8.6%",
-      "status": "pending",
-      "notes": ""
+      "actual": 8.0,
+      "forecast": 8.5,
+      "previous": 7.2,
+      "status": "released",
+      "notes": "2026-09-13回填: 6月末M2同比8.0%(央行上半年报告,中新网/金融新闻网/人民网多源;prev/fc原'8.6%'/'8.5%'格式污染已清理)"
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260713",
@@ -10335,8 +10336,9 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "status": "pending",
-      "notes": ""
+      "actual": 33645,
+      "status": "released",
+      "notes": "2026-09-13回填: 6月新增社融33645亿(北大国民经济研究中心+腾讯证券双源,与H1累计20.84万亿自洽;1-5月日历链23.05万亿≠官方17.48万亿,历史链审计待办)"
     },
     {
       "id": "CN_NEW_LOANS_20260713",
@@ -10353,10 +10355,11 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
-      "forecast": "1950B",
-      "previous": "520B",
-      "status": "pending",
-      "notes": ""
+      "actual": 16100,
+      "forecast": 19500,
+      "previous": 14800,
+      "status": "released",
+      "notes": "2026-09-13回填: 6月新增贷款1.61万亿(双源,'逊于预期';prev原'520B'污染已清理)"
     },
     {
       "id": "US_CPI_20260713",
@@ -10373,8 +10376,10 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": 3.5,
+      "previous": 4.2,
+      "status": "released",
+      "notes": "2026-09-13审计回填: 6月CPI 3.5%(东方证券+国联民生双源,油价回落后回落)"
     },
     {
       "id": "US_CORE_CPI_20260713",
@@ -10391,8 +10396,10 @@
       "source": "Bureau of Labor Statistics",
       "source_url": "",
       "unit": "%",
-      "status": "pending",
-      "notes": ""
+      "actual": 2.6,
+      "previous": 2.9,
+      "status": "released",
+      "notes": "2026-09-13审计回填: 核心2.6%(双源)"
     },
     {
       "id": "UK_GDP_20260713",
@@ -12229,60 +12236,6 @@
       "notes": ""
     },
     {
-      "id": "CN_M2_20260812",
-      "country": "CN",
-      "country_name": "中国",
-      "indicator": "M2 货币供应量（同比）",
-      "indicator_en": "M2 Money Supply YoY",
-      "frequency": "月度",
-      "importance": 3,
-      "release_date": "2026-08-12",
-      "release_time": "16:00",
-      "timezone": "BJS",
-      "period": "2026-07",
-      "source": "中国人民银行",
-      "source_url": "",
-      "unit": "%",
-      "status": "pending",
-      "notes": ""
-    },
-    {
-      "id": "CN_SOCIAL_FINANCING_20260812",
-      "country": "CN",
-      "country_name": "中国",
-      "indicator": "社会融资规模",
-      "indicator_en": "Aggregate Financing",
-      "frequency": "月度",
-      "importance": 3,
-      "release_date": "2026-08-12",
-      "release_time": "16:00",
-      "timezone": "BJS",
-      "period": "2026-07",
-      "source": "中国人民银行",
-      "source_url": "",
-      "unit": "亿元",
-      "status": "pending",
-      "notes": ""
-    },
-    {
-      "id": "CN_NEW_LOANS_20260812",
-      "country": "CN",
-      "country_name": "中国",
-      "indicator": "新增人民币贷款",
-      "indicator_en": "New Yuan Loans",
-      "frequency": "月度",
-      "importance": 2,
-      "release_date": "2026-08-12",
-      "release_time": "16:00",
-      "timezone": "BJS",
-      "period": "2026-07",
-      "source": "中国人民银行",
-      "source_url": "",
-      "unit": "亿元",
-      "status": "pending",
-      "notes": ""
-    },
-    {
       "id": "US_CPI_20260812",
       "country": "US",
       "country_name": "美国",
@@ -12298,9 +12251,9 @@
       "source_url": "",
       "unit": "%",
       "actual": 3.4,
-      "previous": "0.2",
+      "previous": 3.5,
       "status": "released",
-      "notes": "| 2026-09-12补丁✅: 修正误录——7月CPI同比3.4%(9/11五源报道\"8月同比3.4%与7月持平\"直接证实), 原actual=0.3系口径误录; 7月环比0.1%; 4-6月历史链审计仍待做"
+      "notes": "2026-09-12补丁✅: 修正误录——7月CPI同比3.4%(9/11五源报道\"8月同比3.4%与7月持平\"直接证实), 原actual=0.3系口径误录; 7月环比0.1%; 4-6月历史链审计仍待做 | 2026-09-13审计: prev原0.2污染→3.5(6月)"
     },
     {
       "id": "US_CORE_CPI_20260812",
@@ -12318,9 +12271,9 @@
       "source_url": "",
       "unit": "%",
       "actual": 2.5,
-      "previous": "0.2",
+      "previous": 2.6,
       "status": "released",
-      "notes": "| 2026-09-12补丁✅: 修正误录——7月核心CPI同比2.5%(9/11多源报道证实\"8月核心2.4%较7月2.5%回落\"), 原actual=0.3系口径误录"
+      "notes": "2026-09-12补丁✅: 修正误录——7月核心CPI同比2.5%(9/11多源报道证实\"8月核心2.4%较7月2.5%回落\"), 原actual=0.3系口径误录 | 2026-09-13审计: prev原0.2污染→2.6(6月)"
     },
     {
       "id": "UK_GDP_20260813",
@@ -12360,6 +12313,66 @@
       "actual": "20.9",
       "forecast": "20.2",
       "previous": "19.9"
+    },
+    {
+      "id": "CN_M2_20260814",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "M2 货币供应量（同比）",
+      "indicator_en": "M2 Money Supply YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-14",
+      "release_time": "16:00",
+      "timezone": "BJS",
+      "period": "2026-07",
+      "source": "中国人民银行",
+      "source_url": "",
+      "unit": "%",
+      "actual": 7.7,
+      "previous": 8.0,
+      "status": "released",
+      "notes": "2026-09-13回填: 7月末M2同比7.7%(金融时报8/14+广发9/1研报双源;发布日8/12→8/14已修正)"
+    },
+    {
+      "id": "CN_SOCIAL_FINANCING_20260814",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "社会融资规模",
+      "indicator_en": "Aggregate Financing",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-08-14",
+      "release_time": "16:00",
+      "timezone": "BJS",
+      "period": "2026-07",
+      "source": "中国人民银行",
+      "source_url": "",
+      "unit": "亿元",
+      "actual": 14017,
+      "previous": 33645,
+      "status": "released",
+      "notes": "2026-09-13回填: 7月新增社融14017亿(智汇研Wind表+金融时报前7月累计自洽)"
+    },
+    {
+      "id": "CN_NEW_LOANS_20260814",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "新增人民币贷款",
+      "indicator_en": "New Yuan Loans",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-08-14",
+      "release_time": "16:00",
+      "timezone": "BJS",
+      "period": "2026-07",
+      "source": "中国人民银行",
+      "source_url": "",
+      "unit": "亿元",
+      "actual": -3400,
+      "previous": 16100,
+      "status": "released",
+      "notes": "2026-09-13回填: 7月金融机构新增贷款-3400亿(罕见负增,智汇研Wind表;票据冲量退潮+需求弱)"
     },
     {
       "id": "US_PPI_20260814",
@@ -13668,8 +13681,9 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
+      "previous": 7.7,
       "status": "upcoming",
-      "notes": "| 2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正"
+      "notes": "2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正 | 2026-09-13: 9/12-13周末未发布(FXStreet预告9/12落空),窗口顺延9/14-9/15;prev=7月7.7%已预填"
     },
     {
       "id": "CN_SOCIAL_FINANCING_20260914",
@@ -13686,8 +13700,9 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
+      "previous": 14017,
       "status": "upcoming",
-      "notes": "| 2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正"
+      "notes": "2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正 | 2026-09-13: 窗口顺延9/14-9/15;市场预期:社融~1.94-2.36万亿/C50中值1.94万亿,已预填prev=7月14017亿"
     },
     {
       "id": "CN_NEW_LOANS_20260914",
@@ -13704,8 +13719,9 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿元",
+      "previous": -3400,
       "status": "upcoming",
-      "notes": "| 2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正"
+      "notes": "2026-09-12补丁✅: 发布窗口9/12(周六,FXStreet预告)~9/15; PBOC惯常下午发布, 9/12晨未出; 2025年同期(8月数据)于9/12发布; 发布后按真实日期修正 | 2026-09-13: 窗口顺延9/14-9/15;市场预期:新增信贷~0.41-0.75万亿/C50中值0.11万亿,prev=7月-3400亿已预填"
     },
     {
       "id": "CN_INDUSTRIAL_20260915",
