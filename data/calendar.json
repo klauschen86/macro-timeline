@@ -5,8 +5,8 @@
     "timezone": "BJS (UTC+8)",
     "total_events": 831,
     "upcoming_events": 90,
-    "released_events": 417,
-    "pending_events": 324,
+    "released_events": 419,
+    "pending_events": 322,
     "upcoming_with_forecast": 0,
     "historical_events": 741,
     "data_from": "2025-12-15",
@@ -15578,7 +15578,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "CN_LPR_5Y_20261120",
@@ -15595,7 +15596,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "JP_CPI_20261120",
@@ -15612,7 +15614,8 @@
       "source": "Statistics Bureau of Japan",
       "source_url": "",
       "unit": "%",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_FOMC_2026-12-17",
