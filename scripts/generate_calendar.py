@@ -393,7 +393,9 @@ INDICATORS = {
         "release_time": "10:00", "timezone": "EST",
         "source": "National Association of Realtors",
         "unit": "万套",
-        "calc": lambda y, m: around_day(y, m, 21, 3)
+        # 2026-09-20 根治：NAR 惯例于次月 10 日左右 10:00 ET（22:00 BJS）发布上月数据
+        # （实测：8月数据 9/10 发布、7月数据 8/11、5月数据 6/9），原 21 日系模式错误
+        "calc": lambda y, m: around_day(y, m, 10, 3)
     },
     "US_JOBLESS_CLAIMS": {
         "country": "US", "country_name": "美国",
@@ -552,6 +554,14 @@ DATE_OVERRIDES = {
     ("UK_CPI", "2026-09"): "2026-09-16",
     # 2026-09-17 补充（MoneyDJ 2026-09-16：日本 8 月全国 CPI 于 9/18 07:30 BJS 发布）：
     ("JP_CPI", "2026-09"): "2026-09-18",
+    # 2026-09-20 补充（US_EXISTING_HOME 全系列日期错位根治，FRED/TE/NAR官方 3源核实）：
+    # 8月数据 9/10 发布（FRED Updated Sep 10 + TE 2026-09-10 14:00 GMT）、
+    # 7月数据 8/11（TE）、5月数据 6/9（NAR 官方新闻稿 WASHINGTON June 9, 2026）、
+    # 10月发布日 10/13（FRED Next Release Date: Oct 13, 2026）：
+    ("US_EXISTING_HOME", "2026-06"): "2026-06-09",
+    ("US_EXISTING_HOME", "2026-08"): "2026-08-11",
+    ("US_EXISTING_HOME", "2026-09"): "2026-09-10",
+    ("US_EXISTING_HOME", "2026-10"): "2026-10-13",
 }
 
 
