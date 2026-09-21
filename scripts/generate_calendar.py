@@ -215,7 +215,7 @@ INDICATORS = {
         "country": "CN", "country_name": "中国",
         "indicator": "贷款市场报价利率 LPR（1年期）", "indicator_en": "Loan Prime Rate 1Y",
         "frequency": "月度", "importance": 3,
-        "release_time": "09:15", "timezone": "BJS",
+        "release_time": "09:00", "timezone": "BJS",
         "source": "中国人民银行",
         "unit": "%",
         "calc": lambda y, m: around_day(y, m, 20, 2)
@@ -224,7 +224,7 @@ INDICATORS = {
         "country": "CN", "country_name": "中国",
         "indicator": "LPR（5年期以上）", "indicator_en": "Loan Prime Rate 5Y",
         "frequency": "月度", "importance": 3,
-        "release_time": "09:15", "timezone": "BJS",
+        "release_time": "09:00", "timezone": "BJS",
         "source": "中国人民银行",
         "unit": "%",
         "calc": lambda y, m: around_day(y, m, 20, 2)
@@ -562,6 +562,14 @@ DATE_OVERRIDES = {
     ("US_EXISTING_HOME", "2026-08"): "2026-08-11",
     ("US_EXISTING_HOME", "2026-09"): "2026-09-10",
     ("US_EXISTING_HOME", "2026-10"): "2026-10-13",
+    # 2026-09-21 补充（LPR 发布规则：每月20日 09:00，遇法定节假日顺延、周末不顺延
+    # —— PBOC 官网 2024-07-22 公告"发布时间由每月20日上午9:15调整为9:00"；
+    # 9月LPR 5源（央广网/中国经济网/新浪/东财债市早参/forexhsn，均引全国银行间同业拆借中心）
+    # 确认 9/20 周日照常发布；先例：2024-01-20 周六照发。12/20 为周日，同规则预置）：
+    ("CN_LPR_1Y", "2026-09"): "2026-09-20",
+    ("CN_LPR_5Y", "2026-09"): "2026-09-20",
+    ("CN_LPR_1Y", "2026-12"): "2026-12-20",
+    ("CN_LPR_5Y", "2026-12"): "2026-12-20",
 }
 
 
