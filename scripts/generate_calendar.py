@@ -91,7 +91,11 @@ INDICATORS = {
         "release_time": "09:30", "timezone": "BJS",
         "source": "国家统计局", "source_url": "https://www.stats.gov.cn/",
         "unit": "",
-        "calc": lambda y, m: last_weekday(y, m, 0) if last_weekday(y, m, 0).day >= 28 else date(y, m+1 if m<12 else 1, 1) if m < 12 else date(y+1, 1, 1)
+        # NBS 官方发布日程：每月最后一日 9:30 发布当月 PMI（含周末，先例 2024-08-31 周六、2026-08-31 周一）。
+        # 2026-09-22 根治：原"最后一个周一"算式致 6/29、9/28、11/1 等日期错位 + 7月整月缺事件
+        "calc": lambda y, m: date(y, m, monthrange(y, m)[1]),
+        # PMI 为当月调查当月发布：period = 发布月（+1 相对默认"发布月-1"）
+        "period_extra_offset": 1,
     },
     "CN_PMI_NONMFG": {
         "country": "CN", "country_name": "中国",
@@ -100,7 +104,9 @@ INDICATORS = {
         "release_time": "09:30", "timezone": "BJS",
         "source": "国家统计局",
         "unit": "",
-        "calc": lambda y, m: last_weekday(y, m, 0) if last_weekday(y, m, 0).day >= 28 else date(y, m+1 if m<12 else 1, 1) if m < 12 else date(y+1, 1, 1)
+        # 同 CN_PMI_MFG：每月最后一日 9:30 发布当月值（2026-09-22 根治）
+        "calc": lambda y, m: date(y, m, monthrange(y, m)[1]),
+        "period_extra_offset": 1,
     },
     "CN_CAIXIN_PMI": {
         "country": "CN", "country_name": "中国",
@@ -570,6 +576,18 @@ DATE_OVERRIDES = {
     ("CN_LPR_5Y", "2026-09"): "2026-09-20",
     ("CN_LPR_1Y", "2026-12"): "2026-12-20",
     ("CN_LPR_5Y", "2026-12"): "2026-12-20",
+    # 2026-09-22 补充（NY Fed 官方日历 i-sep26print：Census 新屋销售 9/24、耐用品订单初值 9/25；
+    # Eurostat 官方 euro-indicators 日历：8月 flash 于 9/1 11:00 CEST 发布——注意欧元区 flash
+    # 并非"发布月最后一日"而是次月初：9月 flash 10/2（Eurostat 日历 + 英国下议院图书馆双源）、
+    # 10月 flash 11/4、11月 flash 12/1（financecalendar.com 全表交叉核实）；
+    # 2026-09 无任何 flash 发布 → 用 "SKIP" 抑制模式误生成）：
+    ("US_NEW_HOME_SALES", "2026-09"): "2026-09-24",
+    ("US_DURABLE_GOODS", "2026-09"): "2026-09-25",
+    ("EU_CPI_FLASH", "2026-08"): "2026-09-01",
+    ("EU_CPI_FLASH", "2026-09"): "SKIP",
+    ("EU_CPI_FLASH", "2026-10"): "2026-10-02",
+    ("EU_CPI_FLASH", "2026-11"): "2026-11-04",
+    ("EU_CPI_FLASH", "2026-12"): "2026-12-01",
 }
 
 
@@ -661,8 +679,11 @@ def generate_calendar(num_months=3, lookback_months=6):
                 continue
             if release_date is None:
                 continue
-            # 官方日历覆盖：模式推算日期与真实发布日偏差时，以官方核实日期为准
+            # 官方日历覆盖：模式推算日期与真实发布日偏差时，以官方核实日期为准；
+            # "SKIP" = 该月无真实发布，抑制模式误生成（2026-09-22 新增）
             _override = DATE_OVERRIDES.get((key, f"{year}-{month:02d}"))
+            if _override == "SKIP":
+                continue
             if _override:
                 release_date = datetime.strptime(_override, "%Y-%m-%d").date()
             # 只保留从今天起的事件（以及过去30天内的历史事件）
