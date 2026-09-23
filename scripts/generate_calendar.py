@@ -441,6 +441,25 @@ INDICATORS = {
         "unit": "",
         "calc": lambda y, m: around_day(y, m, 23, 2)
     },
+    # 2026-09-23 新增：S&P Global/HCOB 每月同日同刻发布服务业+综合初值（此前只有制造业）
+    "EU_PMI_SVC_FLASH": {
+        "country": "EU", "country_name": "欧元区",
+        "indicator": "服务业PMI 初值", "indicator_en": "Services PMI Flash",
+        "frequency": "月度", "importance": 2,
+        "release_time": "10:00", "timezone": "CET",
+        "source": "S&P Global / HCOB",
+        "unit": "",
+        "calc": lambda y, m: around_day(y, m, 23, 2)
+    },
+    "EU_PMI_COMPOSITE_FLASH": {
+        "country": "EU", "country_name": "欧元区",
+        "indicator": "综合PMI 初值", "indicator_en": "Composite PMI Flash",
+        "frequency": "月度", "importance": 2,
+        "release_time": "10:00", "timezone": "CET",
+        "source": "S&P Global / HCOB",
+        "unit": "",
+        "calc": lambda y, m: around_day(y, m, 23, 2)
+    },
     "EU_ECB": {
         "country": "EU", "country_name": "欧元区",
         "indicator": "欧洲央行利率决议", "indicator_en": "ECB Rate Decision",
@@ -583,6 +602,16 @@ DATE_OVERRIDES = {
     # 2026-09 无任何 flash 发布 → 用 "SKIP" 抑制模式误生成）：
     ("US_NEW_HOME_SALES", "2026-09"): "2026-09-24",
     ("US_DURABLE_GOODS", "2026-09"): "2026-09-25",
+    # 2026-09-23 补充（欧元区 PMI 初值真实发布日多源核实：wealthbranch 日历 +
+    # investing.com HK 双源一致——7月 flash 7/24 16:00 HKT、8月 flash 8/21 16:00 HKT，
+    # 9月 9/23 与模式日期吻合；发布时点 10:00 CEST=16:00 BJS=4:00 AM ET 三源交叉✅。
+    # EU_PMI_SVC_FLASH / EU_PMI_COMPOSITE_FLASH 与制造业初值同日同刻发布）：
+    ("EU_PMI_MFG_FLASH", "2026-07"): "2026-07-24",
+    ("EU_PMI_MFG_FLASH", "2026-08"): "2026-08-21",
+    ("EU_PMI_SVC_FLASH", "2026-07"): "2026-07-24",
+    ("EU_PMI_SVC_FLASH", "2026-08"): "2026-08-21",
+    ("EU_PMI_COMPOSITE_FLASH", "2026-07"): "2026-07-24",
+    ("EU_PMI_COMPOSITE_FLASH", "2026-08"): "2026-08-21",
     ("EU_CPI_FLASH", "2026-08"): "2026-09-01",
     ("EU_CPI_FLASH", "2026-09"): "SKIP",
     ("EU_CPI_FLASH", "2026-10"): "2026-10-02",
