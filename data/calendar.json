@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-09-26 10:51:16",
+    "generated_at": "2026-09-26 06:18:19",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 858,
     "upcoming_events": 93,
-    "released_events": 458,
-    "pending_events": 307,
+    "released_events": 460,
+    "pending_events": 305,
     "upcoming_with_forecast": 0,
     "historical_events": 765,
     "data_from": "2025-12-15",
@@ -14508,11 +14508,11 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
+      "actual": 0.0,
       "forecast": -0.4,
       "previous": 0.9,
       "status": "released",
-      "notes": "8月耐用品订单环比 0.0% 基本持平（Census官方\"virtually unchanged $338.6B\"+Econoday 双源✅），高于预期 -0.4%；⚠️7月由+1.1%上修至+0.9%（previous已同步）。扣除运输 +0.3%（预期+0.5%，略低）；扣除国防 +0.1%；核心资本品订单 +1.6% 大超预期 +0.8%（前值上修+0.6%）——企业资本开支亮眼；运输设备 -0.6%（四个月内三月下降）为唯一拖累。制造动能整体停滞但内生需求稳健。来源：Census.gov 9/25 + Econoday（fefundinfo）✅",
-      "actual": 0.0
+      "notes": "8月耐用品订单环比 0.0% 基本持平（Census官方\"virtually unchanged $338.6B\"+Econoday 双源✅），高于预期 -0.4%；⚠️7月由+1.1%上修至+0.9%（previous已同步）。扣除运输 +0.3%（预期+0.5%，略低）；扣除国防 +0.1%；核心资本品订单 +1.6% 大超预期 +0.8%（前值上修+0.6%）——企业资本开支亮眼；运输设备 -0.6%（四个月内三月下降）为唯一拖累。制造动能整体停滞但内生需求稳健。来源：Census.gov 9/25 + Econoday（fefundinfo）✅"
     },
     {
       "id": "US_MICHIGAN_SENTIMENT_20260925",
@@ -15322,9 +15322,9 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
+      "previous": 0.0,
       "status": "upcoming",
-      "notes": "",
-      "previous": 0.0
+      "notes": ""
     },
     {
       "id": "US_NEW_HOME_SALES_20261026",
@@ -16173,9 +16173,9 @@
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
+      "previous": 0.0,
       "status": "upcoming",
-      "notes": "",
-      "previous": 0.0
+      "notes": ""
     },
     {
       "id": "US_JOBLESS_CLAIMS_20261126",
