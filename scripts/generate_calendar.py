@@ -55,6 +55,17 @@ def nth_business_day(year, month, n):
     return None
 
 
+def last_business_day(year, month):
+    """月末最后一个工作日（仅跳过周末；日本年末休市等节假日靠 DATE_OVERRIDES 处理）"""
+    if month == 12:
+        d = date(year, 12, 31)
+    else:
+        d = date(year, month + 1, 1) - timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d
+
+
 def around_day(year, month, day, max_adjust=2):
     """返回某月大致第day天，自动调整到工作日"""
     last = monthrange(year, month)[1]
@@ -479,6 +490,34 @@ INDICATORS = {
         "calc": lambda y, m: around_day(y, m, 6, 2)
     },
 
+    # ---- 美国·地方联储调查（当月数据当月发布，period=发布月 → period_extra_offset=1）----
+    "US_DALLAS_FED": {
+        "country": "US", "country_name": "美国",
+        "indicator": "达拉斯联储制造业指数", "indicator_en": "Dallas Fed Manufacturing Business Index",
+        "frequency": "月度", "importance": 3,
+        "release_time": "22:30", "timezone": "BJS",
+        "source": "Dallas Fed",
+        "source_url": "https://www.dallasfed.org/research/survey/tmos",
+        "unit": "",
+        # 当月最后周一 10:30 ET=22:30 BJS 发布（TE/investing：2026 Jun 6/29、Jul 7/27、Aug 8/31、Sep 9/28 吻合）；
+        # Memorial Day 周一休市顺延周二（2026-05 实为 5/26，investing 确认）；数据期=发布月
+        "period_extra_offset": 1,
+        "calc": lambda y, m: last_weekday(y, m, 0)
+    },
+    "US_DALLAS_FED_SERVICES": {
+        "country": "US", "country_name": "美国",
+        "indicator": "达拉斯联储服务业活动指数", "indicator_en": "Dallas Fed Services Business Activity Index",
+        "frequency": "月度", "importance": 2,
+        "release_time": "22:30", "timezone": "BJS",
+        "source": "Dallas Fed",
+        "source_url": "https://www.dallasfed.org/research/survey/tsos",
+        "unit": "",
+        # 发布日=制造业版次日（TE：2026 Jul 7/28、Aug 9/1[8/31+1 跨月]、Sep 9/29 三点吻合）；
+        # ⚠️ 5月 Memorial Day 特例：mfg 顺延周二 → svc 实际或为周三，未核实，模式仍按"末周一+1"
+        "period_extra_offset": 1,
+        "calc": lambda y, m: last_weekday(y, m, 0) + timedelta(days=1)
+    },
+
     # ---- 日本 ----
     "JP_CPI": {
         "country": "JP", "country_name": "日本",
@@ -515,7 +554,9 @@ INDICATORS = {
         "release_time": "08:50", "timezone": "JST",
         "source": "METI",
         "unit": "%",
-        "calc": lambda y, m: last_weekday(y, m, 0)
+        # METI 速报真实规律=次月最后营业日 08:50 JST（X月数据于X+1月末发布），
+        # 原模式"最后周一"系统性错位（2026-09-28 investing 全表+FXBlue+Econoday 三源根治）：
+        "calc": lambda y, m: last_business_day(y, m)
     },
 
     # ---- 英国 ----
@@ -623,6 +664,25 @@ DATE_OVERRIDES = {
     # override 改写为真实发布日 9/30；11月（11/4）与 12月（12/2）模式日期
     # 恰与非农前周三吻合，无需处理。US_ADP_20261007 生成后 id 随日期同步改为 20260930）：
     ("US_ADP", "2026-10"): "2026-09-30",
+    # 2026-09-28 补充（JP_INDUSTRIAL 全系列日期根治：METI 速报=次月最后营业日 08:50 JST，
+    # 原模式"最后周一"系统性错位——investing.com 历史全表 + FXBlue + Econoday 三源核实：
+    # 6月数据 7/31、7月数据 8/31、8月数据 9/30（Econoday 9/29 19:50 ET=9/30 08:50 JST）、
+    # 9月数据 10/30；2025-12 因日本年末休市（12/29-31）提前至 12/26。
+    # calc 已改 last_business_day，override 为防回滚双保险；2026-08 模式日期 8/31 本就正确）：
+    ("JP_INDUSTRIAL", "2025-12"): "2025-12-26",
+    ("JP_INDUSTRIAL", "2026-01"): "2026-01-30",
+    ("JP_INDUSTRIAL", "2026-02"): "2026-02-27",
+    ("JP_INDUSTRIAL", "2026-03"): "2026-03-31",
+    ("JP_INDUSTRIAL", "2026-04"): "2026-04-30",
+    ("JP_INDUSTRIAL", "2026-05"): "2026-05-29",
+    ("JP_INDUSTRIAL", "2026-06"): "2026-06-30",
+    ("JP_INDUSTRIAL", "2026-07"): "2026-07-31",
+    ("JP_INDUSTRIAL", "2026-09"): "2026-09-30",
+    ("JP_INDUSTRIAL", "2026-10"): "2026-10-30",
+    # 2026-09-28 补充（达拉斯联储 Memorial Day 特例：2026-05 最后周一 5/25 为联邦假日，
+    # 制造业版实际 5/26 周二发布（investing 确认）、服务业版按 mfg+1 规律推算 5/27）：
+    ("US_DALLAS_FED", "2026-05"): "2026-05-26",
+    ("US_DALLAS_FED_SERVICES", "2026-05"): "2026-05-27",
 }
 
 
