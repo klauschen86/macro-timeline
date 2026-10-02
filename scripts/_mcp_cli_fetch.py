@@ -34,7 +34,8 @@ CALLS = [
 ]
 
 def run_cli(short_names, args):
-    npx_bin = "npx.cmd" if os.name == "nt" else "npx"
+    # 2026-10-02: managed node 的 npx 是 shell 脚本（WinError 193），改用系统 nodejs npx.cmd
+    npx_bin = r"C:\Program Files\nodejs\npx.cmd"
     cmd = [npx_bin, "-y", "westock-data-skillhub@1.0.5", "macro", "indicator", short_names, "--raw"] + args
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=240, shell=False)
     if r.returncode != 0:
