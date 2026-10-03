@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-02 13:32:31",
+    "generated_at": "2026-10-03 06:45:21",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 904,
-    "upcoming_events": 105,
+    "total_events": 906,
+    "upcoming_events": 104,
     "released_events": 493,
-    "pending_events": 306,
-    "upcoming_with_forecast": 3,
-    "historical_events": 799,
+    "pending_events": 309,
+    "upcoming_with_forecast": 0,
+    "historical_events": 802,
     "data_from": "2025-12-15",
     "data_to": "2026-12-17",
     "by_country": {
       "中国": 239,
       "英国": 96,
-      "美国": 351,
+      "美国": 353,
       "日本": 77,
       "欧元区": 132,
       "澳大利亚": 1,
@@ -15240,7 +15240,7 @@
       "unit": "万人",
       "forecast": 9.0,
       "previous": 16.2,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "今晚20:30 BJS发布（8:30 AM ET，9月报告）；共识9.0万（东财援引经济学家调查+金十预期9万；⚠️10/1早间共识曾为8.4万，走弱）；前值16.2万（8月）；失业率预期4.1%连续第3个月（风险偏上行）；背景：9月ADP+9.0万大超、初请19.7万近57年低位但Challenger招聘计划同比-23%（不裁也不招）；初请不在统计窗口内"
     },
     {
@@ -15260,7 +15260,7 @@
       "unit": "%",
       "forecast": 4.1,
       "previous": 4.1,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "今晚20:30 BJS发布；预期4.1%连续第3个月持平（风险偏上行，东财调查+金十）；前值4.1%"
     },
     {
@@ -15280,7 +15280,7 @@
       "unit": "%",
       "forecast": 3.7,
       "previous": 3.2,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "今晚17:00 BJS发布（11:00 CET）；共识3.6~3.7（investing/SG 3.7、BigGo 3.6，部分预期3.7创三年新高）；前值8月终值3.2%（⚠️flash 3.3下修0.1，previous已按终值口径）；核心预期2.5~2.6（8月2.4）；能源主推——四大国9月HICP初值全超预期：德3.3（前2.9）/法3.4（前2.6）/意4.1（前3.2）/西5.0（前4.6），法国服务+食品同升、德国核心持平2.4%（二轮效应未现）；ECB 9/10已加息25bp至存款利率2.50%，10/29会议加息概率约1/3（市场降温中）；8月分项：能源14.3%/服务3.0%/核心2.4%"
     },
     {
@@ -17108,6 +17108,42 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_NFP_20261204",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "非农就业人数",
+      "indicator_en": "Non-Farm Payrolls",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-12-04",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-11",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "万人",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_UNEMPLOYMENT_20261204",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "失业率",
+      "indicator_en": "Unemployment Rate",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-12-04",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-11",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
       "status": "upcoming",
       "notes": ""
     },
