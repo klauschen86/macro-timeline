@@ -16537,14 +16537,14 @@
       "notes": ""
     },
     {
-      "id": "US_CPI_20261112",
+      "id": "US_CPI_20261110",
       "country": "US",
       "country_name": "美国",
       "indicator": "CPI 消费者物价指数（同比）",
       "indicator_en": "CPI YoY",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-10",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-10",
@@ -16552,17 +16552,17 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "；BLS官方日历✅(2026-10-06核实): 10月CPI 11/10、10月PPI 11/13 08:30 ET发布，原日期2026-11-12未经官方核实有误，id US_CPI_20261112->US_CPI_20261110 [_fix_20261006c]"
     },
     {
-      "id": "US_CORE_CPI_20261112",
+      "id": "US_CORE_CPI_20261110",
       "country": "US",
       "country_name": "美国",
       "indicator": "核心CPI（同比）",
       "indicator_en": "Core CPI YoY",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-10",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-10",
@@ -16570,7 +16570,7 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "；BLS官方日历✅(2026-10-06核实): 10月CPI 11/10、10月PPI 11/13 08:30 ET发布，原日期2026-11-12未经官方核实有误，id US_CORE_CPI_20261112->US_CORE_CPI_20261110 [_fix_20261006c]"
     },
     {
       "id": "US_JOBLESS_CLAIMS_20261112",
@@ -16681,14 +16681,14 @@
       "notes": ""
     },
     {
-      "id": "US_PPI_20261116",
+      "id": "US_PPI_20261113",
       "country": "US",
       "country_name": "美国",
       "indicator": "PPI 生产者物价指数（同比）",
       "indicator_en": "PPI YoY",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-11-16",
+      "release_date": "2026-11-13",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-10",
@@ -16696,7 +16696,7 @@
       "source_url": "",
       "unit": "%",
       "status": "upcoming",
-      "notes": ""
+      "notes": "；BLS官方日历✅(2026-10-06核实): 10月CPI 11/10、10月PPI 11/13 08:30 ET发布，原日期2026-11-16未经官方核实有误，id US_PPI_20261116->US_PPI_20261113 [_fix_20261006c]"
     },
     {
       "id": "US_RETAIL_20261116",
@@ -17205,6 +17205,60 @@
       "unit": "%",
       "status": "upcoming",
       "notes": ""
+    },
+    {
+      "id": "US_CPI_20261210",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "CPI 消费者物价指数（同比）",
+      "indicator_en": "CPI YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-12-10",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-11",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": "BLS官方日历✅(2026-10-06核实): 11月CPI 2026-12-10、11月PPI 2026-12-15 08:30 ET发布；prev=10月值（11/10、11/13发布后回填） [_fix_20261006c]"
+    },
+    {
+      "id": "US_CORE_CPI_20261210",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "核心CPI（同比）",
+      "indicator_en": "Core CPI YoY",
+      "frequency": "月度",
+      "importance": 3,
+      "release_date": "2026-12-10",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-11",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": "BLS官方日历✅(2026-10-06核实): 11月CPI 2026-12-10、11月PPI 2026-12-15 08:30 ET发布；prev=10月值（11/10、11/13发布后回填） [_fix_20261006c]"
+    },
+    {
+      "id": "US_PPI_20261215",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "PPI 生产者物价指数（同比）",
+      "indicator_en": "PPI YoY",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-12-15",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2026-11",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "",
+      "unit": "%",
+      "status": "upcoming",
+      "notes": "BLS官方日历✅(2026-10-06核实): 11月CPI 2026-12-10、11月PPI 2026-12-15 08:30 ET发布；prev=10月值（11/10、11/13发布后回填） [_fix_20261006c]"
     }
   ]
 }
