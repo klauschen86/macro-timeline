@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-05 15:31:55",
+    "generated_at": "2026-10-05 09:48:44",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 906,
@@ -13630,11 +13630,11 @@
       "source": "财新/S&P Global",
       "source_url": "",
       "unit": "",
-      "actual": 50.7,
+      "actual": 51.4,
       "forecast": 50.6,
       "previous": 50.4,
       "status": "released",
-      "notes": "8月财新服务业PMI 50.7（预期50.6/前值50.4，连续扩张且略超预期；与官方非制造业49.0弱于荣枯线形成分化；9/3 09:45 BJS发布；双源✅ forexcalendar.app actual=50.7 与网易日历前值50.40一致）"
+      "notes": "8月财新服务业PMI 50.7（预期50.6/前值50.4，连续扩张且略超预期；与官方非制造业49.0弱于荣枯线形成分化；9/3 09:45 BJS发布；双源✅ forexcalendar.app actual=50.7 与网易日历前值50.40一致）；⚠️2026-10-06 纠错：8月actual 50.7系误录，Investing/AAstocks/新浪/联合早报/tdx 5源一致为51.4（fc50.6/7月50.4），已修正"
     },
     {
       "id": "US_ISM_SERVICES_20260903",
@@ -15158,6 +15158,48 @@
       "notes": "8月核心PCE同比 9/30 20:30 BJS 发布（与PCE/GDP终值同刻）。prev=7月3.3%（连续2月持平：6月3.3/7月3.3，BEA官方PDF；环比+0.2%）。通胀距2%目标仍远：1-7月链=3.1/3.0/3.3/3.4/3.5/3.3/3.3（BEA月表）。8月核心CPI 2.4%为前瞻参考；美联储官方通胀目标口径，10/28-29 FOMC 关键输入（若粘性≥3.3%强化按兵不动）；2026-10-01 回填 actual=3.0%（金十+cnfin+JEC官方表3.01% 3源✅）：低于预期3.3，创2月来新低；⚠️7月前值随修订由3.3下修至3.0（previous已同步）；环比+0.2%（预期0.3，7月下修0.2→0.1）；⚠️BEA同日调整投资组合管理/计算机软件及配件/法律服务三项统计方法并回溯修订2021年以来数据——GS事前预估修订后同比约3.17%，实际3.0%低于该预估；市场反应：CME 10月维持利率不变概率52.9%、加息押注降至约9bp（前12bp）、2Y收益率跌至4.843%、金上4210美元——通胀降温+需求韧性并存，10/28-29 FOMC 前关键输入"
     },
     {
+      "id": "CN_CAIXIN_SERVICES_PMI_20260930",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "财新服务业PMI",
+      "indicator_en": "Caixin Services PMI",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-30",
+      "release_time": "09:45",
+      "timezone": "BJS",
+      "period": "2026-09",
+      "source": "财新/S&P Global",
+      "source_url": "",
+      "unit": "",
+      "previous": 51.4,
+      "status": "released",
+      "notes": "财新服务业PMI 9/30 09:45 提前发布（国庆假期惯例，2025年同例9/30发布9月值52.9）；9月51.6高于共识51.3/前值51.4，3个月最快但仍温和；新订单增速6月来最快、新出口订单3个月首次加速（连续5个月增长，2024年后最长）；销售价格4个月来首次下降且降幅为2022年4月来最快（价格战信号）；就业连续5个月增长；综合产出52.4（前52.1）；AAstocks/橙新闻/信报/Lloyds/dailydigest 5源✅；⚠️10-05补丁曾误记8月值50.7，实为51.4已修正",
+      "actual": 51.6,
+      "forecast": 51.3
+    },
+    {
+      "id": "CN_CAIXIN_PMI_20260930",
+      "country": "CN",
+      "country_name": "中国",
+      "indicator": "财新制造业PMI",
+      "indicator_en": "Caixin Manufacturing PMI",
+      "frequency": "月度",
+      "importance": 2,
+      "release_date": "2026-09-30",
+      "release_time": "09:45",
+      "timezone": "BJS",
+      "period": "2026-09",
+      "source": "财新/S&P Global",
+      "source_url": "",
+      "unit": "",
+      "status": "released",
+      "actual": 52.1,
+      "forecast": 51.7,
+      "previous": 51.5,
+      "notes": "财新制造业PMI 9/30 09:45 与服务业同日提前发布（国庆惯例）；52.1高于共识51.7/前值51.5，5个月新高、连续10个月扩张；新订单连续16个月增长（部分企业积累安全库存）、产出连续10个月增长；就业4个月内第三次增长；供应商交付连续7个月延长；出厂价格重新上调；AAstocks/橙新闻/信报 3源✅（2026-10-06 补建，此前库内缺失该事件）"
+    },
+    {
       "id": "CN_CAIXIN_PMI_20261001",
       "country": "CN",
       "country_name": "中国",
@@ -15284,25 +15326,6 @@
       "notes": "今晚17:00 BJS发布（11:00 CET）；共识3.6~3.7（investing/SG 3.7、BigGo 3.6，部分预期3.7创三年新高）；前值8月终值3.2%（⚠️flash 3.3下修0.1，previous已按终值口径）；核心预期2.5~2.6（8月2.4）；能源主推——四大国9月HICP初值全超预期：德3.3（前2.9）/法3.4（前2.6）/意4.1（前3.2）/西5.0（前4.6），法国服务+食品同升、德国核心持平2.4%（二轮效应未现）；ECB 9/10已加息25bp至存款利率2.50%，10/29会议加息概率约1/3（市场降温中）；8月分项：能源14.3%/服务3.0%/核心2.4%；欧元区9月flash CPI 3.8%（高于共识3.6/前值3.2，2023年9月来最高、连续3月加速；核心2.5%符合预期/前2.4%；能源18.8%（前14.3）主拉动、服务3.2%、食品烟酒1.4%、非能源工业品1.1%放缓；环比+0.6%（前0.4）；四大国：德3.3/法3.4/意4.1/西5.0；ECB 12月再加息概率~65%（money.it），ING主张12月保险式加息；Eurostat官方+新华+FXStreet+AMarkets 4源✅"
     },
     {
-      "id": "CN_CAIXIN_SERVICES_PMI_20261005",
-      "country": "CN",
-      "country_name": "中国",
-      "indicator": "财新服务业PMI",
-      "indicator_en": "Caixin Services PMI",
-      "frequency": "月度",
-      "importance": 2,
-      "release_date": "2026-10-05",
-      "release_time": "09:45",
-      "timezone": "BJS",
-      "period": "2026-09",
-      "source": "财新/S&P Global",
-      "source_url": "",
-      "unit": "",
-      "previous": 50.7,
-      "status": "upcoming",
-      "notes": "9月财新服务业PMI原定今晨09:45发布，执行时（09:45+）未见报道；国庆月惯例常推迟至假期后（9/3记录：约10/9），日期需核对；无共识预填"
-    },
-    {
       "id": "US_ISM_SERVICES_20261005",
       "country": "US",
       "country_name": "美国",
@@ -15319,8 +15342,9 @@
       "unit": "",
       "forecast": 55.7,
       "previous": 55.4,
-      "status": "upcoming",
-      "notes": "ISM 9月非制造业PMI共识55.7（FXEM+CMC+helious 3源一致；investingLive偏55.1已标注分歧；OneRoyal 55.0且8月值54.4错误弃用）；今晚22:00发布，关注物价支付分项（制造业9月77.9四个月高位的传导）"
+      "status": "released",
+      "notes": "ISM 9月非制造业PMI共识55.7（FXEM+CMC+helious 3源一致；investingLive偏55.1已标注分歧；OneRoyal 55.0且8月值54.4错误弃用）；今晚22:00发布，关注物价支付分项（制造业9月77.9四个月高位的传导）；10/5 22:00 BJS 发布：54.9低于预期55（TE/媒体口径，预填共识55.7亦未达）/前值55.4，27个月连续扩张；分项：商业活动56.5（前61.7）明显放缓、新订单59.8、就业50.1两月收缩后重返扩张、物价支付74为2022年7月来最高（预期73.3，投入成本继续攀升）、积压56.6为2022年7月来最高、供应商交付53.2、出口订单8个月首次跌破50；证券之星金吾财讯+TradingEconomics 2源✅",
+      "actual": 54.9
     },
     {
       "id": "EU_RETAIL_20261006",
@@ -16215,7 +16239,8 @@
       "source_url": "",
       "unit": "",
       "status": "upcoming",
-      "notes": ""
+      "notes": "",
+      "previous": 54.9
     },
     {
       "id": "CN_CAIXIN_SERVICES_PMI_20261104",
@@ -17170,24 +17195,6 @@
       "frequency": "每年8次",
       "importance": 3,
       "release_date": "2026-12-10",
-      "release_time": "14:00",
-      "timezone": "EST",
-      "period": "2026-12",
-      "source": "Federal Reserve",
-      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "unit": "%",
-      "status": "upcoming",
-      "notes": ""
-    },
-    {
-      "id": "US_FOMC_2026-12-17",
-      "country": "US",
-      "country_name": "美国",
-      "indicator": "美联储利率决议（FOMC）",
-      "indicator_en": "FOMC Rate Decision",
-      "frequency": "每年8次",
-      "importance": 3,
-      "release_date": "2026-12-17",
       "release_time": "14:00",
       "timezone": "EST",
       "period": "2026-12",

@@ -6,26 +6,30 @@ from ctypes import wintypes
 REPO = "klauschen86/macro-timeline"
 BRANCH = "main"
 
-# 变更文件（相对仓库根路径）— 2026-08-31 批次（18 文件，与本地 commit b17e359 一致）
+# 变更文件（相对仓库根路径）— 2026-10-02 批次（22 文件，与本地 commit a71a2ee 一致）
 CHANGED = [
     "data/calendar.json",
     "data/calendar_data.js",
     "data/mcp/macro_calendar_future.json",
-    "data/mcp/macro_us_inflation,macro_us_employment.json",
-    "data/mcp/macro_eu_inflation,macro_eu_employment,macro_eu_eco_growth.json",
-    "data/mcp/macro_jp_inflation,macro_jp_employment.json",
-    "data/mcp/macro_cpi_ppi,macro_pmi,macro_gdp,macro_forecast.json",
-    "data/mcp/macro_us_employment.json",
     "data/mcp/macro_us_inflation.json",
-    "data/mcp/macro_eu_eco_growth.json",
-    "data/mcp/macro_eu_employment.json",
+    "data/mcp/macro_us_employment.json",
     "data/mcp/macro_eu_inflation.json",
-    "data/mcp/macro_jp_employment.json",
+    "data/mcp/macro_eu_employment.json",
+    "data/mcp/macro_eu_eco_growth.json",
     "data/mcp/macro_jp_inflation.json",
+    "data/mcp/macro_jp_employment.json",
     "data/mcp/macro_cpi_ppi.json",
     "data/mcp/macro_pmi.json",
     "data/mcp/macro_gdp.json",
     "data/mcp/macro_forecast.json",
+    "scripts/generate_calendar.py",
+    "scripts/_mcp_cli_fetch.py",
+    "scripts/_fix_20261002.py",
+    "scripts/_fix_20261002b.py",
+    "scripts/_fix_20261002c.py",
+    "scripts/_fix_20261002d.py",
+    "scripts/_mcp_cli_shim_20261002.py",
+    "scripts/_verify_push_20260929.py",
 ]
 
 BASE_DIR = r"D:\WorkBuddy\2026-06-12-13-25-25\macro-timeline"
@@ -101,7 +105,7 @@ new_tree_sha = new_tree["sha"]
 print(f"新 tree: {new_tree_sha}")
 
 # 4. 创建 commit
-msg = "数据更新: 2026-08-31 (中国8月官方PMI 49.8/49.0 + 日本7月工业产出+0.1% MCP采集+双源验证)"
+msg = "数据更新: 2026-10-02 回填ISM制造业54.5+初请19.7(前值上修19.8·DOL一手4源) · 非农9.0/失业率4.1/欧元区CPI3.7预填 · FOMC日期修正10/29(官方日程)+4月决议数据迁移 · 新建Q3 GDP初值+9月PCE(10/29 BEA双事件) · westock采集966items注入21事件"
 new_commit = api("POST", f"https://api.github.com/repos/{REPO}/git/commits",
                  {"message": msg, "tree": new_tree_sha, "parents": [old_commit_sha]})
 new_commit_sha = new_commit["sha"]
