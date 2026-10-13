@@ -609,6 +609,12 @@ DATE_OVERRIDES = {
     ("US_CPI", "2026-10"): "2026-10-14",
     ("US_CORE_CPI", "2026-10"): "2026-10-14",
     ("US_PPI", "2026-10"): "2026-10-15",
+    # 2026-10-13 补充（ONS 官方 release 页 ons.gov.uk/releases/gdpmonthlyestimateukaugust2026timeseries：
+    # 8月 GDP 于 15 October 2026 7:00am（伦敦时间 BST）发布、页面明示"not yet published"，
+    # marketbusinessnews+siften 双源佐证（10/15 随 Blue Book 2026 年度国民账户修订重开全时间序列）；
+    # 9月数据 Gate.io 日历 11/12 15:00 BJS（07:00 GMT，单源，届时以 ONS 官方核实）：
+    ("UK_GDP", "2026-10"): "2026-10-15",
+    ("UK_GDP", "2026-11"): "2026-11-12",
     # 2026-09-13 补充（多源核实：央广网/新华财经/JEC 3源确认2月CPI于3/11发布；
     # 金融时报+智汇研Wind确认7月金融数据于8/14发布）：
     ("US_CPI", "2026-03"): "2026-03-11",
