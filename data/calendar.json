@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-31 (fixed)",
+    "generated_at": "2026-11-01 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 962,
-    "upcoming_events": 107,
+    "upcoming_events": 105,
     "released_events": 550,
     "pending_events": 307,
-    "upcoming_with_forecast": 1,
-    "historical_events": 855,
+    "upcoming_with_forecast": 0,
+    "historical_events": 857,
     "data_from": "2025-12-15",
     "data_to": "2027-01-01",
     "by_country": {
