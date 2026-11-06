@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-11-06 09:50:11",
+    "generated_at": "2026-11-06 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 969,
     "upcoming_events": 105,
-    "released_events": 555,
-    "pending_events": 309,
+    "released_events": 556,
+    "pending_events": 308,
     "upcoming_with_forecast": 0,
     "historical_events": 864,
     "data_from": "2025-12-15",
@@ -16155,7 +16155,7 @@
       "indicator_en": "Durable Goods Orders MoM",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-10-27",
+      "release_date": "2026-10-26",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-09",
@@ -16176,7 +16176,7 @@
       "indicator_en": "New Home Sales",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-10-27",
+      "release_date": "2026-10-26",
       "release_time": "10:00",
       "timezone": "EST",
       "period": "2026-09",
@@ -16469,8 +16469,8 @@
       "indicator_en": "ISM Services PMI",
       "frequency": "月度",
       "importance": 3,
-      "release_date": "2026-11-04",
-      "release_time": "23:00",
+      "release_date": "2026-11-03",
+      "release_time": "10:00",
       "timezone": "EST",
       "period": "2026-10",
       "source": "Institute for Supply Management",
@@ -16511,7 +16511,7 @@
       "frequency": "月度",
       "importance": 3,
       "release_date": "2026-11-04",
-      "release_time": "21:15",
+      "release_time": "20:15",
       "timezone": "BJS",
       "period": "2026-10",
       "source": "ADP",
@@ -16532,7 +16532,7 @@
       "frequency": "月度",
       "importance": 3,
       "release_date": "2026-11-04",
-      "release_time": "18:00",
+      "release_time": "11:00",
       "timezone": "CET",
       "period": "2026-10",
       "source": "Eurostat",
@@ -18428,7 +18428,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "亿美元",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "CN_GOLD_RESERVES_20270107",
@@ -18445,7 +18446,8 @@
       "source": "中国人民银行",
       "source_url": "",
       "unit": "万盎司",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     },
     {
       "id": "US_JOBLESS_CLAIMS_20270107",
@@ -18462,7 +18464,8 @@
       "source": "Department of Labor",
       "source_url": "https://www.dol.gov/",
       "unit": "万人",
-      "status": "upcoming"
+      "status": "upcoming",
+      "notes": ""
     }
   ]
 }
