@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-17 (fixed)",
+    "generated_at": "2026-11-18 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 1074,
-    "upcoming_events": 100,
-    "released_events": 585,
+    "upcoming_events": 99,
+    "released_events": 586,
     "pending_events": 389,
-    "upcoming_with_forecast": 1,
-    "historical_events": 974,
+    "upcoming_with_forecast": 0,
+    "historical_events": 975,
     "data_from": "2025-12-15",
     "data_to": "2027-01-18",
     "by_country": {
@@ -18620,17 +18620,18 @@
       "indicator_en": "Retail Sales MoM",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-11-16",
+      "release_date": "2026-11-17",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-10",
       "source": "Census Bureau",
       "source_url": "",
       "unit": "%",
+      "actual": 0.2,
       "forecast": 0.0,
       "previous": 0.8,
-      "status": "pending",
-      "notes": "【日期纠正】美10月零售销售11-17(周二)08:30 ET/21:30 BJS发布(21经济网一周前瞻+财联社下周大事提醒双源✅;原11-16系模式日期偏差,DATE_OVERRIDES 待加)。共识:环比0.0%持平(中金在线,明显弱于9月),除汽车+0.4%,前值0.8%(9月)。参考(口径不同):NRF 10月零售额5617亿美元环比+0.15%/同比+3.57%连续13个月增长(11-11发布,不含汽车经销商及加油站)"
+      "status": "released",
+      "notes": "【日期纠正】美10月零售销售11-17(周二)08:30 ET/21:30 BJS发布(21经济网一周前瞻+财联社下周大事提醒双源✅;原11-16系模式日期偏差,DATE_OVERRIDES 待加)。共识:环比0.0%持平(中金在线,明显弱于9月),除汽车+0.4%,前值0.8%(9月)。参考(口径不同):NRF 10月零售额5617亿美元环比+0.15%/同比+3.57%连续13个月增长(11-11发布,不含汽车经销商及加油站) | 【11-18回填】美10月零售销售环比+0.2%(7482亿美元,同比+6.8%),较9月0.8%明显放缓;剔除汽车+0.6%/剔除汽车和汽油+0.5%/控制组+0.6%(8月来最大,均高于预期0.3);汽车及零部件-1.6%/家具-2.3%(大件耐用品拖累)/非店铺零售+1.2%(同比+11.8%)。fc0.0系11-16预填共识,实际预期口径0.1-0.2(财联社0.1/东财0.2),偏差<0.2pct。来源:财联社11-17 + 新华财经 + 东方财富 3源✅"
     },
     {
       "id": "UK_CPI_20261117",
@@ -18640,7 +18641,7 @@
       "indicator_en": "CPI YoY",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-11-17",
+      "release_date": "2026-11-18",
       "release_time": "07:00",
       "timezone": "BST",
       "period": "2026-10",
@@ -18649,8 +18650,9 @@
       "unit": "%",
       "forecast": "3.7",
       "previous": "3.5",
-      "status": "upcoming",
-      "notes": "【11-17日期根治待办·ONS官方确证】英国10月CPI实际发布日期为2026-11-18(周三)07:00伦敦=15:00 BJS(ONS官网releasecalendar状态Confirmed+westock expect_uk同日15:00+financecalendar三源✅),本事件11-17系模式日期偏差(第5次同型,9月CPI亦曾10-19错标后根治至10-21);DATE_OVERRIDES根治疗建议下批执行。预填:同比fc 3.7%(westock expect_uk单源⚠️)/prev 3.5%(9月actual,10-22 ONS官方回填);CPI月率fc 0.5%/prev 0.4%;核心CPI年率prev 2.8%;服务业CPI年率prev 3.7%。11-18发布后以ONS官方+多源回填actual"
+      "status": "pending",
+      "notes": "【11-17日期根治待办·ONS官方确证】英国10月CPI实际发布日期为2026-11-18(周三)07:00伦敦=15:00 BJS(ONS官网releasecalendar状态Confirmed+westock expect_uk同日15:00+financecalendar三源✅),本事件11-17系模式日期偏差(第5次同型,9月CPI亦曾10-19错标后根治至10-21);DATE_OVERRIDES根治疗建议下批执行。预填:同比fc 3.7%(westock expect_uk单源⚠️)/prev 3.5%(9月actual,10-22 ONS官方回填);CPI月率fc 0.5%/prev 0.4%;核心CPI年率prev 2.8%;服务业CPI年率prev 3.7%。11-18发布后以ONS官方+多源回填actual | 【11-18日期纠正】ONS 2026年10月CPI实际于11-18 07:00 GMT=15:00 BJS发布(日历原误标11-17);来源:Econoday 2026年发布日程表(11/18,For Oct 2026)+FXStreet/TIOmarkets 07:00 GMT 双源✅;本批次(11-18上午)留pending,待11-19回填actual;fc3.7/prev3.5维持",
+      "time": "15:00"
     },
     {
       "id": "US_FOMC_MINUTES_20261118",
