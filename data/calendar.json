@@ -18620,7 +18620,7 @@
       "indicator_en": "Retail Sales MoM",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-11-17",
+      "release_date": "2026-11-16",
       "release_time": "08:30",
       "timezone": "EST",
       "period": "2026-10",
@@ -18641,7 +18641,7 @@
       "indicator_en": "CPI YoY",
       "frequency": "月度",
       "importance": 2,
-      "release_date": "2026-11-18",
+      "release_date": "2026-11-17",
       "release_time": "07:00",
       "timezone": "BST",
       "period": "2026-10",
@@ -18651,8 +18651,7 @@
       "forecast": "3.7",
       "previous": "3.5",
       "status": "pending",
-      "notes": "【11-17日期根治待办·ONS官方确证】英国10月CPI实际发布日期为2026-11-18(周三)07:00伦敦=15:00 BJS(ONS官网releasecalendar状态Confirmed+westock expect_uk同日15:00+financecalendar三源✅),本事件11-17系模式日期偏差(第5次同型,9月CPI亦曾10-19错标后根治至10-21);DATE_OVERRIDES根治疗建议下批执行。预填:同比fc 3.7%(westock expect_uk单源⚠️)/prev 3.5%(9月actual,10-22 ONS官方回填);CPI月率fc 0.5%/prev 0.4%;核心CPI年率prev 2.8%;服务业CPI年率prev 3.7%。11-18发布后以ONS官方+多源回填actual | 【11-18日期纠正】ONS 2026年10月CPI实际于11-18 07:00 GMT=15:00 BJS发布(日历原误标11-17);来源:Econoday 2026年发布日程表(11/18,For Oct 2026)+FXStreet/TIOmarkets 07:00 GMT 双源✅;本批次(11-18上午)留pending,待11-19回填actual;fc3.7/prev3.5维持",
-      "time": "15:00"
+      "notes": "【11-17日期根治待办·ONS官方确证】英国10月CPI实际发布日期为2026-11-18(周三)07:00伦敦=15:00 BJS(ONS官网releasecalendar状态Confirmed+westock expect_uk同日15:00+financecalendar三源✅),本事件11-17系模式日期偏差(第5次同型,9月CPI亦曾10-19错标后根治至10-21);DATE_OVERRIDES根治疗建议下批执行。预填:同比fc 3.7%(westock expect_uk单源⚠️)/prev 3.5%(9月actual,10-22 ONS官方回填);CPI月率fc 0.5%/prev 0.4%;核心CPI年率prev 2.8%;服务业CPI年率prev 3.7%。11-18发布后以ONS官方+多源回填actual | 【11-18日期纠正】ONS 2026年10月CPI实际于11-18 07:00 GMT=15:00 BJS发布(日历原误标11-17);来源:Econoday 2026年发布日程表(11/18,For Oct 2026)+FXStreet/TIOmarkets 07:00 GMT 双源✅;本批次(11-18上午)留pending,待11-19回填actual;fc3.7/prev3.5维持"
     },
     {
       "id": "US_FOMC_MINUTES_20261118",
