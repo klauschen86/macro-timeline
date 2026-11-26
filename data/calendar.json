@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-25 (fixed)",
+    "generated_at": "2026-11-26 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
     "total_events": 1091,
-    "upcoming_events": 107,
+    "upcoming_events": 103,
     "released_events": 598,
-    "pending_events": 386,
-    "upcoming_with_forecast": 5,
-    "historical_events": 984,
+    "pending_events": 390,
+    "upcoming_with_forecast": 2,
+    "historical_events": 988,
     "data_from": "2025-12-15",
     "data_to": "2027-01-26",
     "by_country": {
@@ -18862,7 +18862,7 @@
       "source_url": "",
       "unit": "万套",
       "previous": 68.4,
-      "status": "upcoming",
+      "status": "pending",
       "notes": ""
     },
     {
@@ -18882,7 +18882,7 @@
       "unit": "%",
       "forecast": 3.6,
       "previous": 3.6,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-24补建】10月PCE同比 11-25 21:30 BJS（8:30 ET，BEA与GDP二估同刻组合）发布；fc 3.6%（与9月持平，cmelitegroup+trade2spike双源）/prev 3.6%（9月实际，10-29批回填）。感恩节周数据集中于周三"
     },
     {
@@ -18902,7 +18902,7 @@
       "unit": "%",
       "forecast": 3.2,
       "previous": 3.1,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-24补建】10月核心PCE同比 11-25 21:30 BJS 发布（美联储首选通胀指标）；fc 3.2%/环比+0.3%（trade2spike+heygotrade+Globe&Mail 3源）/prev 3.1%（9月实际）。市场焦点：>3.2% 强化沃勒(Waller)12-09会议50bp加息阵营，低于则缓解债市压力；威廉姆斯11-23讲话+鲍威尔定调下12月加息25bp已基本消化"
     },
     {
@@ -18922,7 +18922,7 @@
       "unit": "%",
       "forecast": 3.5,
       "previous": 3.4,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-24补建】Q3 GDP二估 11-25 21:30 BJS 发布；fc 3.5%（trade2spike+heygotrade+Globe&Mail 3源；cmelitegroup共识3.4%，分歧3.4-3.5记录在案）/prev 3.4%（Q3初值，10-30批回填：个人消费+3.8%+AI投资非住宅固投+12.7%拉动）"
     },
     {
