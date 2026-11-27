@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-11-26 (fixed)",
+    "generated_at": "2026-11-27 (fixed)",
     "generated_by": "run_daily.py",
     "timezone": "BJS (UTC+8)",
-    "total_events": 1091,
-    "upcoming_events": 103,
+    "total_events": 1092,
+    "upcoming_events": 101,
     "released_events": 598,
-    "pending_events": 390,
-    "upcoming_with_forecast": 2,
-    "historical_events": 988,
+    "pending_events": 393,
+    "upcoming_with_forecast": 0,
+    "historical_events": 991,
     "data_from": "2025-12-15",
-    "data_to": "2027-01-26",
+    "data_to": "2027-01-28",
     "by_country": {
       "中国": 312,
       "英国": 105,
-      "美国": 426,
+      "美国": 427,
       "日本": 91,
       "欧元区": 146,
       "澳大利亚": 1,
@@ -18942,7 +18942,7 @@
       "unit": "%",
       "forecast": 0.5,
       "previous": 0.0,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-24日期纠正】感恩节顺延：耐用品订单10月随初请/PCE/GDP二估移至11-25 21:30 BJS（8:30 ET）发布（原排期11-26感恩节休市）；共识fc环比+0.5%/核心+0.7%（Globe&Mail+heygotrade双源）；cmelitegroup+trade2spike+财联社 5源✅ | 【2026-11-25日期复修】run_daily合并再次回滚11-24顺延修正（复发第2次），重新落地11-25 21:30 BJS发布；共识fc环比+0.5%/核心+0.7%不变"
     },
     {
@@ -18962,7 +18962,7 @@
       "unit": "万人",
       "forecast": 20.1,
       "previous": 20.3,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-19日期标注】感恩节(11-26周四)假期,该期数据实际于11-25(周三)21:30 BJS发布(劳工部日程,cmelitegroup发布日程表);模式日期11-26待后续根治。 | 【2026-11-24日期纠正】初请感恩节顺延至周三11-25 21:30 BJS（week to 11-21，fc 20.1万/prev 20.3万系11-19发布值）；cmelitegroup（\"moved from Thursday for the holiday\"）+trade2spike+heygotrade+财联社 多源✅ | 【2026-11-25日期复修】run_daily合并再次回滚11-24顺延修正（复发第2次），重新落地11-25 21:30 BJS发布；fc 20.1万/prev 20.3万不变"
     },
     {
@@ -18982,7 +18982,7 @@
       "unit": "",
       "forecast": null,
       "previous": null,
-      "status": "upcoming",
+      "status": "pending",
       "notes": "【2026-11-24补建】褐皮书 11-25 14:00 ET = 11-26 03:00 BJS 发布（12-08/09 FOMC 前最后一次；Globe&Mail+cmelitegroup+trade2spike 3源一致，财联社按BJS记于周四=同一时刻口径自洽）。事件型按FOMC纪要先例不回填数值"
     },
     {
@@ -20786,6 +20786,24 @@
       "source": "Dallas Fed",
       "source_url": "https://www.dallasfed.org/research/survey/tsos",
       "unit": "",
+      "status": "upcoming",
+      "notes": ""
+    },
+    {
+      "id": "US_JOBLESS_CLAIMS_20270128",
+      "country": "US",
+      "country_name": "美国",
+      "indicator": "初请失业金人数",
+      "indicator_en": "Initial Jobless Claims",
+      "frequency": "周度",
+      "importance": 2,
+      "release_date": "2027-01-28",
+      "release_time": "08:30",
+      "timezone": "EST",
+      "period": "2027-01-21",
+      "source": "Department of Labor",
+      "source_url": "https://www.dol.gov/",
+      "unit": "万人",
       "status": "upcoming",
       "notes": ""
     }
